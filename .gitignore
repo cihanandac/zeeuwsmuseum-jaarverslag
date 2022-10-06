@@ -4,6 +4,7 @@ etc/
 include/
 lib/
 lib64/
+frontend/node_modules
 # excludes
 !.editorconfig
 !.gitattributes
