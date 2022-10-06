@@ -1,0 +1,1974 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.43.0",
+  "hash": "0ceedb351dff915cdaa0",
+  "publicPath": "/",
+  "outputPath": "/Users/cihanandac/Documents/Code files/zeeuwsmuseumproject/frontend/build/public",
+  "assetsByChunkName": {
+    "moment": [
+      "static/js/moment.a20e5aed.chunk.js",
+      "static/js/moment.a20e5aed.chunk.js.map"
+    ],
+    "client": [
+      "static/js/client.38611ec4.chunk.js",
+      "static/js/client.38611ec4.chunk.js.map"
+    ],
+    "draft-js-lib-isSoftNewlineEvent": [
+      "static/js/draft-js-lib-isSoftNewlineEvent.861a0310.chunk.js",
+      "static/js/draft-js-lib-isSoftNewlineEvent.861a0310.chunk.js.map"
+    ],
+    "plone-volto-components-manage-Widgets-DatetimeWidget": [
+      "static/css/plone-volto-components-manage-Widgets-DatetimeWidget.ebad9ee9.chunk.css",
+      "static/js/plone-volto-components-manage-Widgets-DatetimeWidget.ebad9ee9.chunk.js",
+      "static/js/plone-volto-components-manage-Widgets-DatetimeWidget.ebad9ee9.chunk.js.map"
+    ],
+    "plone-volto-components-theme-View-EventView": [
+      "static/js/plone-volto-components-theme-View-EventView.35be08e3.chunk.js",
+      "static/js/plone-volto-components-theme-View-EventView.35be08e3.chunk.js.map"
+    ],
+    "react-dates": [
+      "static/js/react-dates.a84cbce4.chunk.js",
+      "static/js/react-dates.a84cbce4.chunk.js.map"
+    ],
+    "react-simple-code-editor": [
+      "static/js/react-simple-code-editor.c6a547f8.chunk.js",
+      "static/js/react-simple-code-editor.c6a547f8.chunk.js.map"
+    ],
+    "runtime~client": [
+      "static/js/runtime~client.887137a4.js",
+      "static/js/runtime~client.887137a4.js.map"
+    ]
+  },
+  "assets": [
+    {
+      "name": "android-chrome-192x192.png",
+      "size": 8295,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "android-chrome-512x512.png",
+      "size": 23153,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "apple-touch-icon.png",
+      "size": 7973,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "favicon-16x16.png",
+      "size": 1012,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "favicon-32x32.png",
+      "size": 1618,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "favicon.ico",
+      "size": 15086,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "icon.svg",
+      "size": 1401,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "index.html.spa",
+      "size": 1316,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "robots.txt",
+      "size": 15,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "site.webmanifest",
+      "size": 426,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/css/13.61bed7c4.chunk.css",
+      "size": 716772,
+      "chunks": [
+        13
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/css/13.61bed7c4.chunk.css.map",
+      "size": 3601304,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/css/2.95e73923.chunk.css",
+      "size": 2717,
+      "chunks": [
+        2,
+        8
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/css/2.95e73923.chunk.css.map",
+      "size": 4909,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/css/plone-volto-components-manage-Widgets-DatetimeWidget.ebad9ee9.chunk.css",
+      "size": 2768,
+      "chunks": [
+        8
+      ],
+      "chunkNames": [
+        "plone-volto-components-manage-Widgets-DatetimeWidget"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/css/plone-volto-components-manage-Widgets-DatetimeWidget.ebad9ee9.chunk.css.map",
+      "size": 4960,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/js/0.6592cd5a.chunk.js",
+      "size": 56966,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/0.6592cd5a.chunk.js.map",
+      "size": 236222,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/1.fece2b93.chunk.js",
+      "size": 202268,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/1.fece2b93.chunk.js.LICENSE.txt",
+      "size": 232,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/js/1.fece2b93.chunk.js.map",
+      "size": 916609,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/13.61bed7c4.chunk.js",
+      "size": 2028427,
+      "chunks": [
+        13
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/13.61bed7c4.chunk.js.LICENSE.txt",
+      "size": 4250,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/js/13.61bed7c4.chunk.js.map",
+      "size": 7357222,
+      "chunks": [
+        13
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/14.396b9975.chunk.js",
+      "size": 213954,
+      "chunks": [
+        14
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/14.396b9975.chunk.js.LICENSE.txt",
+      "size": 246,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/js/14.396b9975.chunk.js.map",
+      "size": 782797,
+      "chunks": [
+        14
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/15.4444ea7e.chunk.js",
+      "size": 42921,
+      "chunks": [
+        15
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/15.4444ea7e.chunk.js.map",
+      "size": 157030,
+      "chunks": [
+        15
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/16.56015993.chunk.js",
+      "size": 18539,
+      "chunks": [
+        16
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/16.56015993.chunk.js.map",
+      "size": 66513,
+      "chunks": [
+        16
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/17.d5bef9a9.chunk.js",
+      "size": 101454,
+      "chunks": [
+        17
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/17.d5bef9a9.chunk.js.LICENSE.txt",
+      "size": 246,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/js/17.d5bef9a9.chunk.js.map",
+      "size": 456223,
+      "chunks": [
+        17
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/18.92da8d61.chunk.js",
+      "size": 15368,
+      "chunks": [
+        18
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/18.92da8d61.chunk.js.map",
+      "size": 82441,
+      "chunks": [
+        18
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/19.e6ddd357.chunk.js",
+      "size": 27953,
+      "chunks": [
+        19
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/19.e6ddd357.chunk.js.map",
+      "size": 106037,
+      "chunks": [
+        19
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/2.95e73923.chunk.js",
+      "size": 150735,
+      "chunks": [
+        2,
+        8
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/2.95e73923.chunk.js.map",
+      "size": 584081,
+      "chunks": [
+        2,
+        8
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/20.35c48c1c.chunk.js",
+      "size": 36771,
+      "chunks": [
+        20
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/20.35c48c1c.chunk.js.map",
+      "size": 107,
+      "chunks": [
+        20
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/21.3b11c7e3.chunk.js",
+      "size": 34556,
+      "chunks": [
+        21
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/21.3b11c7e3.chunk.js.map",
+      "size": 107,
+      "chunks": [
+        21
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/22.e0652d73.chunk.js",
+      "size": 36761,
+      "chunks": [
+        22
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/22.e0652d73.chunk.js.map",
+      "size": 107,
+      "chunks": [
+        22
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/23.921b5669.chunk.js",
+      "size": 34616,
+      "chunks": [
+        23
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/23.921b5669.chunk.js.map",
+      "size": 107,
+      "chunks": [
+        23
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/24.f5978dce.chunk.js",
+      "size": 30365,
+      "chunks": [
+        24
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/24.f5978dce.chunk.js.map",
+      "size": 107,
+      "chunks": [
+        24
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/25.ed1abb7c.chunk.js",
+      "size": 36060,
+      "chunks": [
+        25
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/25.ed1abb7c.chunk.js.map",
+      "size": 107,
+      "chunks": [
+        25
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/26.7ab10926.chunk.js",
+      "size": 49581,
+      "chunks": [
+        26
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/26.7ab10926.chunk.js.map",
+      "size": 107,
+      "chunks": [
+        26
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/27.13d2a989.chunk.js",
+      "size": 22678,
+      "chunks": [
+        27
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/27.13d2a989.chunk.js.map",
+      "size": 107,
+      "chunks": [
+        27
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/28.5eef6ba7.chunk.js",
+      "size": 26298,
+      "chunks": [
+        28
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/28.5eef6ba7.chunk.js.map",
+      "size": 107,
+      "chunks": [
+        28
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/29.a126e81e.chunk.js",
+      "size": 34722,
+      "chunks": [
+        29
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/29.a126e81e.chunk.js.map",
+      "size": 107,
+      "chunks": [
+        29
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/3.c284a25a.chunk.js",
+      "size": 87321,
+      "chunks": [
+        3
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/3.c284a25a.chunk.js.map",
+      "size": 323807,
+      "chunks": [
+        3
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/30.7d4dcddc.chunk.js",
+      "size": 39554,
+      "chunks": [
+        30
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/30.7d4dcddc.chunk.js.map",
+      "size": 107,
+      "chunks": [
+        30
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/31.488f022d.chunk.js",
+      "size": 18507,
+      "chunks": [
+        31
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/31.488f022d.chunk.js.LICENSE.txt",
+      "size": 1604,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/js/31.488f022d.chunk.js.map",
+      "size": 217793,
+      "chunks": [
+        31
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/32.c03ae238.chunk.js",
+      "size": 109416,
+      "chunks": [
+        32
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/32.c03ae238.chunk.js.LICENSE.txt",
+      "size": 221,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/js/32.c03ae238.chunk.js.map",
+      "size": 243987,
+      "chunks": [
+        32
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/33.3ac52a32.chunk.js",
+      "size": 459985,
+      "chunks": [
+        33
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/33.3ac52a32.chunk.js.LICENSE.txt",
+      "size": 833,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/js/33.3ac52a32.chunk.js.map",
+      "size": 1718934,
+      "chunks": [
+        33
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/34.a2646f26.chunk.js",
+      "size": 7633,
+      "chunks": [
+        34
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/34.a2646f26.chunk.js.LICENSE.txt",
+      "size": 193,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/js/34.a2646f26.chunk.js.map",
+      "size": 54989,
+      "chunks": [
+        34
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/35.9cd8303b.chunk.js",
+      "size": 2980,
+      "chunks": [
+        35
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/35.9cd8303b.chunk.js.map",
+      "size": 7908,
+      "chunks": [
+        35
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/36.d889678a.chunk.js",
+      "size": 49215,
+      "chunks": [
+        36
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/36.d889678a.chunk.js.map",
+      "size": 107975,
+      "chunks": [
+        36
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/37.7d34f297.chunk.js",
+      "size": 24536,
+      "chunks": [
+        37
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/37.7d34f297.chunk.js.map",
+      "size": 120888,
+      "chunks": [
+        37
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/5.4fb1ba84.chunk.js",
+      "size": 81760,
+      "chunks": [
+        5
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/5.4fb1ba84.chunk.js.map",
+      "size": 307935,
+      "chunks": [
+        5
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/client.38611ec4.chunk.js",
+      "size": 2346,
+      "chunks": [
+        6
+      ],
+      "chunkNames": [
+        "client"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/client.38611ec4.chunk.js.map",
+      "size": 5945,
+      "chunks": [
+        6
+      ],
+      "chunkNames": [
+        "client"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/draft-js-lib-isSoftNewlineEvent.861a0310.chunk.js",
+      "size": 596,
+      "chunks": [
+        7
+      ],
+      "chunkNames": [
+        "draft-js-lib-isSoftNewlineEvent"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/draft-js-lib-isSoftNewlineEvent.861a0310.chunk.js.map",
+      "size": 2077,
+      "chunks": [
+        7
+      ],
+      "chunkNames": [
+        "draft-js-lib-isSoftNewlineEvent"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/moment.a20e5aed.chunk.js",
+      "size": 1214,
+      "chunks": [
+        4,
+        10
+      ],
+      "chunkNames": [
+        "moment"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/moment.a20e5aed.chunk.js.map",
+      "size": 2912,
+      "chunks": [
+        4,
+        10
+      ],
+      "chunkNames": [
+        "moment"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/plone-volto-components-manage-Widgets-DatetimeWidget.ebad9ee9.chunk.js",
+      "size": 5081,
+      "chunks": [
+        8
+      ],
+      "chunkNames": [
+        "plone-volto-components-manage-Widgets-DatetimeWidget"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/plone-volto-components-manage-Widgets-DatetimeWidget.ebad9ee9.chunk.js.map",
+      "size": 12455,
+      "chunks": [
+        8
+      ],
+      "chunkNames": [
+        "plone-volto-components-manage-Widgets-DatetimeWidget"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/plone-volto-components-theme-View-EventView.35be08e3.chunk.js",
+      "size": 2200,
+      "chunks": [
+        9
+      ],
+      "chunkNames": [
+        "plone-volto-components-theme-View-EventView"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/plone-volto-components-theme-View-EventView.35be08e3.chunk.js.map",
+      "size": 4955,
+      "chunks": [
+        9
+      ],
+      "chunkNames": [
+        "plone-volto-components-theme-View-EventView"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/react-dates.a84cbce4.chunk.js",
+      "size": 1219,
+      "chunks": [
+        10,
+        4
+      ],
+      "chunkNames": [
+        "react-dates"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/react-dates.a84cbce4.chunk.js.map",
+      "size": 2917,
+      "chunks": [
+        10,
+        4
+      ],
+      "chunkNames": [
+        "react-dates"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/react-simple-code-editor.c6a547f8.chunk.js",
+      "size": 8912,
+      "chunks": [
+        11
+      ],
+      "chunkNames": [
+        "react-simple-code-editor"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/react-simple-code-editor.c6a547f8.chunk.js.map",
+      "size": 32982,
+      "chunks": [
+        11
+      ],
+      "chunkNames": [
+        "react-simple-code-editor"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/runtime~client.887137a4.js",
+      "size": 4579,
+      "chunks": [
+        12
+      ],
+      "chunkNames": [
+        "runtime~client"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/runtime~client.887137a4.js.map",
+      "size": 18562,
+      "chunks": [
+        12
+      ],
+      "chunkNames": [
+        "runtime~client"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/media/Logo.16e25cdf.svg",
+      "size": 3754,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/media/block-image.8a4a14d5.svg",
+      "size": 428,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/media/block-maps.731e84f6.svg",
+      "size": 3848,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/media/block-video.832fa3ff.svg",
+      "size": 718,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/media/default-image.9451b251.svg",
+      "size": 614,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/media/flags.9c74e172.png",
+      "size": 28123,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/media/icons.022583c4.svg",
+      "size": 199380,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/media/icons.06400145.ttf",
+      "size": 54728,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/media/icons.dbc1ef8b.eot",
+      "size": 54884,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/media/icons.df45b7de.woff",
+      "size": 54804,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "client": {
+      "chunks": [
+        12,
+        13,
+        6
+      ],
+      "assets": [
+        "static/js/runtime~client.887137a4.js",
+        "static/js/runtime~client.887137a4.js.map",
+        "static/css/13.61bed7c4.chunk.css",
+        "static/js/13.61bed7c4.chunk.js",
+        "static/js/13.61bed7c4.chunk.js.map",
+        "static/js/client.38611ec4.chunk.js",
+        "static/js/client.38611ec4.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "client": {
+      "chunks": [
+        12,
+        13,
+        6
+      ],
+      "assets": [
+        "static/js/runtime~client.887137a4.js",
+        "static/js/runtime~client.887137a4.js.map",
+        "static/css/13.61bed7c4.chunk.css",
+        "static/js/13.61bed7c4.chunk.js",
+        "static/js/13.61bed7c4.chunk.js.map",
+        "static/js/client.38611ec4.chunk.js",
+        "static/js/client.38611ec4.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "plone-volto-components-manage-Widgets-DatetimeWidget": {
+      "chunks": [
+        8
+      ],
+      "assets": [
+        "static/css/plone-volto-components-manage-Widgets-DatetimeWidget.ebad9ee9.chunk.css",
+        "static/js/plone-volto-components-manage-Widgets-DatetimeWidget.ebad9ee9.chunk.js",
+        "static/js/plone-volto-components-manage-Widgets-DatetimeWidget.ebad9ee9.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget": {
+      "chunks": [
+        2
+      ],
+      "assets": [
+        "static/css/2.95e73923.chunk.css",
+        "static/js/2.95e73923.chunk.js",
+        "static/js/2.95e73923.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "plone-volto-components-theme-View-EventView": {
+      "chunks": [
+        9
+      ],
+      "assets": [
+        "static/js/plone-volto-components-theme-View-EventView.35be08e3.chunk.js",
+        "static/js/plone-volto-components-theme-View-EventView.35be08e3.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "react-dropzone": {
+      "chunks": [
+        18
+      ],
+      "assets": [
+        "static/js/18.92da8d61.chunk.js",
+        "static/js/18.92da8d61.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "draft-js-plugins-editor": {
+      "chunks": [
+        0,
+        1
+      ],
+      "assets": [
+        "static/js/0.6592cd5a.chunk.js",
+        "static/js/0.6592cd5a.chunk.js.map",
+        "static/js/1.fece2b93.chunk.js",
+        "static/js/1.fece2b93.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "react-simple-code-editor": {
+      "chunks": [
+        11
+      ],
+      "assets": [
+        "static/js/react-simple-code-editor.c6a547f8.chunk.js",
+        "static/js/react-simple-code-editor.c6a547f8.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "react-image-gallery": {
+      "chunks": [
+        36
+      ],
+      "assets": [
+        "static/js/36.d889678a.chunk.js",
+        "static/js/36.d889678a.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "prettier-standalone": {
+      "chunks": [
+        33
+      ],
+      "assets": [
+        "static/js/33.3ac52a32.chunk.js",
+        "static/js/33.3ac52a32.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "prettier-parser-html": {
+      "chunks": [
+        32
+      ],
+      "assets": [
+        "static/js/32.c03ae238.chunk.js",
+        "static/js/32.c03ae238.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "prismjs-components-prism-core": {
+      "chunks": [
+        34
+      ],
+      "assets": [
+        "static/js/34.a2646f26.chunk.js",
+        "static/js/34.a2646f26.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "react-toastify": {
+      "chunks": [],
+      "assets": [],
+      "children": {},
+      "childAssets": {}
+    },
+    "react-select": {
+      "chunks": [
+        2
+      ],
+      "assets": [
+        "static/css/2.95e73923.chunk.css",
+        "static/js/2.95e73923.chunk.js",
+        "static/js/2.95e73923.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "react-window": {
+      "chunks": [
+        37
+      ],
+      "assets": [
+        "static/js/37.7d34f297.chunk.js",
+        "static/js/37.7d34f297.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "react-sortable-hoc": {
+      "chunks": [
+        19
+      ],
+      "assets": [
+        "static/js/19.e6ddd357.chunk.js",
+        "static/js/19.e6ddd357.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "react-select-async-paginate": {
+      "chunks": [
+        2
+      ],
+      "assets": [
+        "static/css/2.95e73923.chunk.css",
+        "static/js/2.95e73923.chunk.js",
+        "static/js/2.95e73923.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "react-select-async": {
+      "chunks": [
+        2
+      ],
+      "assets": [
+        "static/css/2.95e73923.chunk.css",
+        "static/js/2.95e73923.chunk.js",
+        "static/js/2.95e73923.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "react-select-creatable": {
+      "chunks": [
+        2
+      ],
+      "assets": [
+        "static/css/2.95e73923.chunk.css",
+        "static/js/2.95e73923.chunk.js",
+        "static/js/2.95e73923.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "react-select-async-creatable": {
+      "chunks": [
+        2
+      ],
+      "assets": [
+        "static/css/2.95e73923.chunk.css",
+        "static/js/2.95e73923.chunk.js",
+        "static/js/2.95e73923.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "diff": {
+      "chunks": [
+        31
+      ],
+      "assets": [
+        "static/js/31.488f022d.chunk.js",
+        "static/js/31.488f022d.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "moment": {
+      "chunks": [
+        3,
+        5,
+        4
+      ],
+      "assets": [
+        "static/js/3.c284a25a.chunk.js",
+        "static/js/3.c284a25a.chunk.js.map",
+        "static/js/5.4fb1ba84.chunk.js",
+        "static/js/5.4fb1ba84.chunk.js.map",
+        "static/js/moment.a20e5aed.chunk.js",
+        "static/js/moment.a20e5aed.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "react-dates": {
+      "chunks": [
+        3,
+        14,
+        10
+      ],
+      "assets": [
+        "static/js/3.c284a25a.chunk.js",
+        "static/js/3.c284a25a.chunk.js.map",
+        "static/js/14.396b9975.chunk.js",
+        "static/js/14.396b9975.chunk.js.map",
+        "static/js/react-dates.a84cbce4.chunk.js",
+        "static/js/react-dates.a84cbce4.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "react-dnd": {
+      "chunks": [
+        15
+      ],
+      "assets": [
+        "static/js/15.4444ea7e.chunk.js",
+        "static/js/15.4444ea7e.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "react-dnd-html5-backend": {
+      "chunks": [
+        16
+      ],
+      "assets": [
+        "static/js/16.56015993.chunk.js",
+        "static/js/16.56015993.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "react-beautiful-dnd": {
+      "chunks": [
+        17
+      ],
+      "assets": [
+        "static/js/17.d5bef9a9.chunk.js",
+        "static/js/17.d5bef9a9.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "immutable": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "static/js/0.6592cd5a.chunk.js",
+        "static/js/0.6592cd5a.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "draft-js": {
+      "chunks": [
+        0,
+        1
+      ],
+      "assets": [
+        "static/js/0.6592cd5a.chunk.js",
+        "static/js/0.6592cd5a.chunk.js.map",
+        "static/js/1.fece2b93.chunk.js",
+        "static/js/1.fece2b93.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "draft-js-lib-isSoftNewlineEvent": {
+      "chunks": [
+        7
+      ],
+      "assets": [
+        "static/js/draft-js-lib-isSoftNewlineEvent.861a0310.chunk.js",
+        "static/js/draft-js-lib-isSoftNewlineEvent.861a0310.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "draftjs-filters": {
+      "chunks": [
+        0,
+        1
+      ],
+      "assets": [
+        "static/js/0.6592cd5a.chunk.js",
+        "static/js/0.6592cd5a.chunk.js.map",
+        "static/js/1.fece2b93.chunk.js",
+        "static/js/1.fece2b93.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "draft-js-inline-toolbar-plugin": {
+      "chunks": [
+        0,
+        1
+      ],
+      "assets": [
+        "static/js/0.6592cd5a.chunk.js",
+        "static/js/0.6592cd5a.chunk.js.map",
+        "static/js/1.fece2b93.chunk.js",
+        "static/js/1.fece2b93.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "draft-js-import-html": {
+      "chunks": [
+        0,
+        1
+      ],
+      "assets": [
+        "static/js/0.6592cd5a.chunk.js",
+        "static/js/0.6592cd5a.chunk.js.map",
+        "static/js/1.fece2b93.chunk.js",
+        "static/js/1.fece2b93.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "draft-js-block-breakout-plugin": {
+      "chunks": [
+        0,
+        1
+      ],
+      "assets": [
+        "static/js/0.6592cd5a.chunk.js",
+        "static/js/0.6592cd5a.chunk.js.map",
+        "static/js/1.fece2b93.chunk.js",
+        "static/js/1.fece2b93.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "draft-js-buttons-lib-utils-createInlineStyleButton": {
+      "chunks": [
+        0,
+        1
+      ],
+      "assets": [
+        "static/js/0.6592cd5a.chunk.js",
+        "static/js/0.6592cd5a.chunk.js.map",
+        "static/js/1.fece2b93.chunk.js",
+        "static/js/1.fece2b93.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "draft-js-buttons-lib-utils-createBlockStyleButton": {
+      "chunks": [
+        0,
+        1
+      ],
+      "assets": [
+        "static/js/0.6592cd5a.chunk.js",
+        "static/js/0.6592cd5a.chunk.js.map",
+        "static/js/1.fece2b93.chunk.js",
+        "static/js/1.fece2b93.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "draft-js-plugins-utils": {
+      "chunks": [
+        0,
+        1
+      ],
+      "assets": [
+        "static/js/0.6592cd5a.chunk.js",
+        "static/js/0.6592cd5a.chunk.js.map",
+        "static/js/1.fece2b93.chunk.js",
+        "static/js/1.fece2b93.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "rc-time-picker": {
+      "chunks": [
+        3,
+        5,
+        4
+      ],
+      "assets": [
+        "static/js/3.c284a25a.chunk.js",
+        "static/js/3.c284a25a.chunk.js.map",
+        "static/js/5.4fb1ba84.chunk.js",
+        "static/js/5.4fb1ba84.chunk.js.map",
+        "static/js/moment.a20e5aed.chunk.js",
+        "static/js/moment.a20e5aed.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 8,
+      "debug": false
+    }
+  },
+  "children": [
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/",
+      "outputPath": "/Users/cihanandac/Documents/Code files/zeeuwsmuseumproject/frontend/build/public",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../../../Code files/zeeuwsmuseumproject/frontend/node_modules/css-loader/dist/cjs.js??ref--8-1!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/postcss-loader/src/index.js??postcss!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/less-loader/dist/cjs.js??ref--8-3!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/@plone/volto/theme/themes/pastanaga/extras/extras.less"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/",
+      "outputPath": "/Users/cihanandac/Documents/Code files/zeeuwsmuseumproject/frontend/build/public",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../../../Code files/zeeuwsmuseumproject/frontend/node_modules/css-loader/dist/cjs.js??ref--8-1!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/postcss-loader/src/index.js??postcss!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/less-loader/dist/cjs.js??ref--8-3!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/semantic-ui-less/semantic.less"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/",
+      "outputPath": "/Users/cihanandac/Documents/Code files/zeeuwsmuseumproject/frontend/build/public",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../../../Code files/zeeuwsmuseumproject/frontend/node_modules/razzle/node_modules/css-loader/dist/cjs.js??ref--7-1!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/postcss-loader/src/index.js??postcss!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/rc-time-picker/assets/index.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/",
+      "outputPath": "/Users/cihanandac/Documents/Code files/zeeuwsmuseumproject/frontend/build/public",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../../../Code files/zeeuwsmuseumproject/frontend/node_modules/razzle/node_modules/css-loader/dist/cjs.js??ref--7-1!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/postcss-loader/src/index.js??postcss!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/react-dates/lib/css/_datepicker.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/",
+      "outputPath": "/Users/cihanandac/Documents/Code files/zeeuwsmuseumproject/frontend/build/public",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../../../Code files/zeeuwsmuseumproject/frontend/node_modules/razzle/node_modules/css-loader/dist/cjs.js??ref--7-1!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/postcss-loader/src/index.js??postcss!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/react-image-gallery/styles/css/image-gallery.css"
+    }
+  ]
+}

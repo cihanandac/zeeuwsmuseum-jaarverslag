@@ -17,7 +17,6 @@ dist
 junit.xml
 eslint.xml
 yarn-error.log
-build
 
 # Other
 .DS_Store
