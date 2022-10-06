@@ -1,6 +1,5 @@
 *.py?
 bin/
-etc/
 include/
 lib/
 lib64/
