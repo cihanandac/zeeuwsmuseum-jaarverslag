@@ -147,13 +147,15 @@
     "node": "^14 || ^16"
   },
   "dependencies": {
-    "@plone/volto": "15.15.0",
-    "volto-slate": "*",
-    "@kitconcept/volto-slider-block": "*",
-    "@kitconcept/volto-text-with-background-color-block": "*",
     "@eeacms/volto-accordion-block": "^3.0.0",
     "@eeacms/volto-columns-block": "^4.0.0",
-    "@eeacms/volto-pdf-block": "^1.0.0"
+    "@eeacms/volto-pdf-block": "^1.0.0",
+    "@kitconcept/volto-slider-block": "*",
+    "@kitconcept/volto-text-with-background-color-block": "*",
+    "@plone/volto": "15.15.0",
+    "react-slick": "0.29.0",
+    "slick-carousel": "1.8.1",
+    "volto-slate": "*"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^6.3.0",
