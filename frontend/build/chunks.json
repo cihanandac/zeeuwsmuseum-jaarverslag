@@ -1,49 +1,9 @@
 {
-  "19": {
-    "css": [],
-    "js": [
-      "/static/js/19.49f89397.chunk.js",
-      "/static/js/19.49f89397.chunk.js.map"
-    ],
-    "chunks": [
-      19
-    ]
-  },
-  "20": {
-    "css": [],
-    "js": [
-      "/static/js/20.82ca03d9.chunk.js",
-      "/static/js/20.82ca03d9.chunk.js.map"
-    ],
-    "chunks": [
-      20
-    ]
-  },
-  "21": {
-    "css": [],
-    "js": [
-      "/static/js/21.35b9eaa9.chunk.js",
-      "/static/js/21.35b9eaa9.chunk.js.map"
-    ],
-    "chunks": [
-      21
-    ]
-  },
-  "22": {
-    "css": [],
-    "js": [
-      "/static/js/22.e9cdbbcb.chunk.js",
-      "/static/js/22.e9cdbbcb.chunk.js.map"
-    ],
-    "chunks": [
-      22
-    ]
-  },
   "23": {
     "css": [],
     "js": [
-      "/static/js/23.e9fe612a.chunk.js",
-      "/static/js/23.e9fe612a.chunk.js.map"
+      "/static/js/23.40b65f94.chunk.js",
+      "/static/js/23.40b65f94.chunk.js.map"
     ],
     "chunks": [
       23
@@ -52,8 +12,8 @@
   "24": {
     "css": [],
     "js": [
-      "/static/js/24.baeee404.chunk.js",
-      "/static/js/24.baeee404.chunk.js.map"
+      "/static/js/24.25813c9b.chunk.js",
+      "/static/js/24.25813c9b.chunk.js.map"
     ],
     "chunks": [
       24
@@ -62,8 +22,8 @@
   "25": {
     "css": [],
     "js": [
-      "/static/js/25.c337c180.chunk.js",
-      "/static/js/25.c337c180.chunk.js.map"
+      "/static/js/25.431bf943.chunk.js",
+      "/static/js/25.431bf943.chunk.js.map"
     ],
     "chunks": [
       25
@@ -72,8 +32,8 @@
   "26": {
     "css": [],
     "js": [
-      "/static/js/26.ee16d7dd.chunk.js",
-      "/static/js/26.ee16d7dd.chunk.js.map"
+      "/static/js/26.48aea337.chunk.js",
+      "/static/js/26.48aea337.chunk.js.map"
     ],
     "chunks": [
       26
@@ -82,8 +42,8 @@
   "27": {
     "css": [],
     "js": [
-      "/static/js/27.8d911907.chunk.js",
-      "/static/js/27.8d911907.chunk.js.map"
+      "/static/js/27.98ea48a7.chunk.js",
+      "/static/js/27.98ea48a7.chunk.js.map"
     ],
     "chunks": [
       27
@@ -92,8 +52,8 @@
   "28": {
     "css": [],
     "js": [
-      "/static/js/28.82838f69.chunk.js",
-      "/static/js/28.82838f69.chunk.js.map"
+      "/static/js/28.e69894af.chunk.js",
+      "/static/js/28.e69894af.chunk.js.map"
     ],
     "chunks": [
       28
@@ -102,21 +62,61 @@
   "29": {
     "css": [],
     "js": [
-      "/static/js/29.a6eef20c.chunk.js",
-      "/static/js/29.a6eef20c.chunk.js.map"
+      "/static/js/29.60451a9c.chunk.js",
+      "/static/js/29.60451a9c.chunk.js.map"
     ],
     "chunks": [
       29
     ]
   },
-  "34": {
+  "30": {
     "css": [],
     "js": [
-      "/static/js/34.788318e7.chunk.js",
-      "/static/js/34.788318e7.chunk.js.map"
+      "/static/js/30.c72dec89.chunk.js",
+      "/static/js/30.c72dec89.chunk.js.map"
     ],
     "chunks": [
-      34
+      30
+    ]
+  },
+  "31": {
+    "css": [],
+    "js": [
+      "/static/js/31.a8656a18.chunk.js",
+      "/static/js/31.a8656a18.chunk.js.map"
+    ],
+    "chunks": [
+      31
+    ]
+  },
+  "32": {
+    "css": [],
+    "js": [
+      "/static/js/32.63277ab3.chunk.js",
+      "/static/js/32.63277ab3.chunk.js.map"
+    ],
+    "chunks": [
+      32
+    ]
+  },
+  "33": {
+    "css": [],
+    "js": [
+      "/static/js/33.808cd9bf.chunk.js",
+      "/static/js/33.808cd9bf.chunk.js.map"
+    ],
+    "chunks": [
+      33
+    ]
+  },
+  "38": {
+    "css": [],
+    "js": [
+      "/static/js/38.701a2e85.chunk.js",
+      "/static/js/38.701a2e85.chunk.js.map"
+    ],
+    "chunks": [
+      38
     ]
   },
   "draft-js-plugins-editor": {
@@ -248,80 +248,80 @@
   },
   "plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget": {
     "css": [
-      "/static/css/2.83385107.chunk.css"
+      "/static/css/2.179872b7.chunk.css"
     ],
     "js": [
-      "/static/js/2.83385107.chunk.js",
-      "/static/js/2.83385107.chunk.js.map"
+      "/static/js/2.179872b7.chunk.js",
+      "/static/js/2.179872b7.chunk.js.map"
     ],
     "chunks": [
       2,
-      8
+      9
     ]
   },
   "react-select": {
     "css": [
-      "/static/css/2.83385107.chunk.css"
+      "/static/css/2.179872b7.chunk.css"
     ],
     "js": [
-      "/static/js/2.83385107.chunk.js",
-      "/static/js/2.83385107.chunk.js.map"
+      "/static/js/2.179872b7.chunk.js",
+      "/static/js/2.179872b7.chunk.js.map"
     ],
     "chunks": [
       2,
-      8
+      9
     ]
   },
   "react-select-async": {
     "css": [
-      "/static/css/2.83385107.chunk.css"
+      "/static/css/2.179872b7.chunk.css"
     ],
     "js": [
-      "/static/js/2.83385107.chunk.js",
-      "/static/js/2.83385107.chunk.js.map"
+      "/static/js/2.179872b7.chunk.js",
+      "/static/js/2.179872b7.chunk.js.map"
     ],
     "chunks": [
       2,
-      8
+      9
     ]
   },
   "react-select-async-creatable": {
     "css": [
-      "/static/css/2.83385107.chunk.css"
+      "/static/css/2.179872b7.chunk.css"
     ],
     "js": [
-      "/static/js/2.83385107.chunk.js",
-      "/static/js/2.83385107.chunk.js.map"
+      "/static/js/2.179872b7.chunk.js",
+      "/static/js/2.179872b7.chunk.js.map"
     ],
     "chunks": [
       2,
-      8
+      9
     ]
   },
   "react-select-creatable": {
     "css": [
-      "/static/css/2.83385107.chunk.css"
+      "/static/css/2.179872b7.chunk.css"
     ],
     "js": [
-      "/static/js/2.83385107.chunk.js",
-      "/static/js/2.83385107.chunk.js.map"
+      "/static/js/2.179872b7.chunk.js",
+      "/static/js/2.179872b7.chunk.js.map"
     ],
     "chunks": [
       2,
-      8
+      9
     ]
   },
   "react-select-async-paginate": {
     "css": [
-      "/static/css/2.83385107.chunk.css"
+      "/static/css/2.179872b7.chunk.css"
     ],
     "js": [
-      "/static/js/2.83385107.chunk.js",
-      "/static/js/2.83385107.chunk.js.map"
+      "/static/js/2.179872b7.chunk.js",
+      "/static/js/2.179872b7.chunk.js.map"
     ],
     "chunks": [
       2,
-      8
+      9
     ]
   },
   "moment": {
@@ -329,16 +329,16 @@
     "js": [
       "/static/js/3.c284a25a.chunk.js",
       "/static/js/3.c284a25a.chunk.js.map",
-      "/static/js/5.4fb1ba84.chunk.js",
-      "/static/js/5.4fb1ba84.chunk.js.map",
-      "/static/js/moment.a20e5aed.chunk.js",
-      "/static/js/moment.a20e5aed.chunk.js.map"
+      "/static/js/6.69ba4792.chunk.js",
+      "/static/js/6.69ba4792.chunk.js.map",
+      "/static/js/moment.a8354eb6.chunk.js",
+      "/static/js/moment.a8354eb6.chunk.js.map"
     ],
     "chunks": [
       3,
-      5,
+      6,
       4,
-      10
+      11
     ]
   },
   "rc-time-picker": {
@@ -346,16 +346,16 @@
     "js": [
       "/static/js/3.c284a25a.chunk.js",
       "/static/js/3.c284a25a.chunk.js.map",
-      "/static/js/5.4fb1ba84.chunk.js",
-      "/static/js/5.4fb1ba84.chunk.js.map",
-      "/static/js/moment.a20e5aed.chunk.js",
-      "/static/js/moment.a20e5aed.chunk.js.map"
+      "/static/js/6.69ba4792.chunk.js",
+      "/static/js/6.69ba4792.chunk.js.map",
+      "/static/js/moment.a8354eb6.chunk.js",
+      "/static/js/moment.a8354eb6.chunk.js.map"
     ],
     "chunks": [
       3,
-      5,
+      6,
       4,
-      10
+      11
     ]
   },
   "react-dates": {
@@ -363,176 +363,212 @@
     "js": [
       "/static/js/3.c284a25a.chunk.js",
       "/static/js/3.c284a25a.chunk.js.map",
-      "/static/js/14.35dbd6db.chunk.js",
-      "/static/js/14.35dbd6db.chunk.js.map",
-      "/static/js/react-dates.a84cbce4.chunk.js",
-      "/static/js/react-dates.a84cbce4.chunk.js.map"
+      "/static/js/15.5f54fc19.chunk.js",
+      "/static/js/15.5f54fc19.chunk.js.map",
+      "/static/js/react-dates.81863f85.chunk.js",
+      "/static/js/react-dates.81863f85.chunk.js.map"
     ],
     "chunks": [
       3,
-      14,
-      10,
+      15,
+      11,
       4
+    ]
+  },
+  "react-color-lib-Github": {
+    "css": [],
+    "js": [
+      "/static/js/5.5b29ff98.chunk.js",
+      "/static/js/5.5b29ff98.chunk.js.map",
+      "/static/js/17.773da65e.chunk.js",
+      "/static/js/17.773da65e.chunk.js.map"
+    ],
+    "chunks": [
+      5,
+      17
+    ]
+  },
+  "react-color": {
+    "css": [],
+    "js": [
+      "/static/js/5.5b29ff98.chunk.js",
+      "/static/js/5.5b29ff98.chunk.js.map",
+      "/static/js/20.ad36a259.chunk.js",
+      "/static/js/20.ad36a259.chunk.js.map"
+    ],
+    "chunks": [
+      5,
+      20
     ]
   },
   "client": {
     "css": [
-      "/static/css/13.6da434d7.chunk.css"
+      "/static/css/14.e662a9bd.chunk.css"
     ],
     "js": [
-      "/static/js/runtime~client.963cc5e7.js",
-      "/static/js/runtime~client.963cc5e7.js.map",
-      "/static/js/13.6da434d7.chunk.js",
-      "/static/js/13.6da434d7.chunk.js.map",
-      "/static/js/client.d5aaab07.chunk.js",
-      "/static/js/client.d5aaab07.chunk.js.map"
+      "/static/js/runtime~client.766df1a3.js",
+      "/static/js/runtime~client.766df1a3.js.map",
+      "/static/js/14.e662a9bd.chunk.js",
+      "/static/js/14.e662a9bd.chunk.js.map",
+      "/static/js/client.7de84fe0.chunk.js",
+      "/static/js/client.7de84fe0.chunk.js.map"
     ],
     "chunks": [
-      12,
       13,
-      6
+      14,
+      7
     ]
   },
   "draft-js-lib-isSoftNewlineEvent": {
     "css": [],
     "js": [
-      "/static/js/draft-js-lib-isSoftNewlineEvent.861a0310.chunk.js",
-      "/static/js/draft-js-lib-isSoftNewlineEvent.861a0310.chunk.js.map"
-    ],
-    "chunks": [
-      7
-    ]
-  },
-  "plone-volto-components-manage-Widgets-DatetimeWidget": {
-    "css": [
-      "/static/css/plone-volto-components-manage-Widgets-DatetimeWidget.9a913d71.chunk.css"
-    ],
-    "js": [
-      "/static/js/plone-volto-components-manage-Widgets-DatetimeWidget.9a913d71.chunk.js",
-      "/static/js/plone-volto-components-manage-Widgets-DatetimeWidget.9a913d71.chunk.js.map"
+      "/static/js/draft-js-lib-isSoftNewlineEvent.ad4b1307.chunk.js",
+      "/static/js/draft-js-lib-isSoftNewlineEvent.ad4b1307.chunk.js.map"
     ],
     "chunks": [
       8
     ]
   },
-  "plone-volto-components-theme-View-EventView": {
-    "css": [],
+  "plone-volto-components-manage-Widgets-DatetimeWidget": {
+    "css": [
+      "/static/css/plone-volto-components-manage-Widgets-DatetimeWidget.afecdee4.chunk.css"
+    ],
     "js": [
-      "/static/js/plone-volto-components-theme-View-EventView.4ec6cc44.chunk.js",
-      "/static/js/plone-volto-components-theme-View-EventView.4ec6cc44.chunk.js.map"
+      "/static/js/plone-volto-components-manage-Widgets-DatetimeWidget.afecdee4.chunk.js",
+      "/static/js/plone-volto-components-manage-Widgets-DatetimeWidget.afecdee4.chunk.js.map"
     ],
     "chunks": [
       9
     ]
   },
+  "plone-volto-components-theme-View-EventView": {
+    "css": [],
+    "js": [
+      "/static/js/plone-volto-components-theme-View-EventView.13e99291.chunk.js",
+      "/static/js/plone-volto-components-theme-View-EventView.13e99291.chunk.js.map"
+    ],
+    "chunks": [
+      10
+    ]
+  },
   "react-simple-code-editor": {
     "css": [],
     "js": [
-      "/static/js/react-simple-code-editor.c6a547f8.chunk.js",
-      "/static/js/react-simple-code-editor.c6a547f8.chunk.js.map"
+      "/static/js/react-simple-code-editor.484ec69f.chunk.js",
+      "/static/js/react-simple-code-editor.484ec69f.chunk.js.map"
     ],
     "chunks": [
-      11
+      12
     ]
   },
   "react-dnd": {
     "css": [],
     "js": [
-      "/static/js/15.4444ea7e.chunk.js",
-      "/static/js/15.4444ea7e.chunk.js.map"
-    ],
-    "chunks": [
-      15
-    ]
-  },
-  "react-dnd-html5-backend": {
-    "css": [],
-    "js": [
-      "/static/js/16.56015993.chunk.js",
-      "/static/js/16.56015993.chunk.js.map"
+      "/static/js/16.03b2ce08.chunk.js",
+      "/static/js/16.03b2ce08.chunk.js.map"
     ],
     "chunks": [
       16
     ]
   },
-  "react-beautiful-dnd": {
+  "react-dnd-html5-backend": {
     "css": [],
     "js": [
-      "/static/js/17.d5bef9a9.chunk.js",
-      "/static/js/17.d5bef9a9.chunk.js.map"
-    ],
-    "chunks": [
-      17
-    ]
-  },
-  "react-sortable-hoc": {
-    "css": [],
-    "js": [
-      "/static/js/18.37162078.chunk.js",
-      "/static/js/18.37162078.chunk.js.map"
+      "/static/js/18.388e65d0.chunk.js",
+      "/static/js/18.388e65d0.chunk.js.map"
     ],
     "chunks": [
       18
     ]
   },
+  "react-beautiful-dnd": {
+    "css": [],
+    "js": [
+      "/static/js/19.20d2b581.chunk.js",
+      "/static/js/19.20d2b581.chunk.js.map"
+    ],
+    "chunks": [
+      19
+    ]
+  },
+  "PDFViewer": {
+    "css": [],
+    "js": [
+      "/static/js/21.efc3e8aa.chunk.js",
+      "/static/js/21.efc3e8aa.chunk.js.map"
+    ],
+    "chunks": [
+      21
+    ]
+  },
+  "react-sortable-hoc": {
+    "css": [],
+    "js": [
+      "/static/js/22.ecefb8f2.chunk.js",
+      "/static/js/22.ecefb8f2.chunk.js.map"
+    ],
+    "chunks": [
+      22
+    ]
+  },
   "diff": {
     "css": [],
     "js": [
-      "/static/js/30.9804e569.chunk.js",
-      "/static/js/30.9804e569.chunk.js.map"
+      "/static/js/34.aec37d56.chunk.js",
+      "/static/js/34.aec37d56.chunk.js.map"
     ],
     "chunks": [
-      30
+      34
     ]
   },
   "prettier-parser-html": {
     "css": [],
     "js": [
-      "/static/js/31.610729fd.chunk.js",
-      "/static/js/31.610729fd.chunk.js.map"
-    ],
-    "chunks": [
-      31
-    ]
-  },
-  "prettier-standalone": {
-    "css": [],
-    "js": [
-      "/static/js/32.98c4a194.chunk.js",
-      "/static/js/32.98c4a194.chunk.js.map"
-    ],
-    "chunks": [
-      32
-    ]
-  },
-  "prismjs-components-prism-core": {
-    "css": [],
-    "js": [
-      "/static/js/33.4f202b8c.chunk.js",
-      "/static/js/33.4f202b8c.chunk.js.map"
-    ],
-    "chunks": [
-      33
-    ]
-  },
-  "react-image-gallery": {
-    "css": [],
-    "js": [
-      "/static/js/35.a47f4d52.chunk.js",
-      "/static/js/35.a47f4d52.chunk.js.map"
+      "/static/js/35.73887e02.chunk.js",
+      "/static/js/35.73887e02.chunk.js.map"
     ],
     "chunks": [
       35
     ]
   },
-  "react-window": {
+  "prettier-standalone": {
     "css": [],
     "js": [
-      "/static/js/36.45a34d98.chunk.js",
-      "/static/js/36.45a34d98.chunk.js.map"
+      "/static/js/36.19d2e05a.chunk.js",
+      "/static/js/36.19d2e05a.chunk.js.map"
     ],
     "chunks": [
       36
+    ]
+  },
+  "prismjs-components-prism-core": {
+    "css": [],
+    "js": [
+      "/static/js/37.96925a5f.chunk.js",
+      "/static/js/37.96925a5f.chunk.js.map"
+    ],
+    "chunks": [
+      37
+    ]
+  },
+  "react-image-gallery": {
+    "css": [],
+    "js": [
+      "/static/js/39.f11f0f95.chunk.js",
+      "/static/js/39.f11f0f95.chunk.js.map"
+    ],
+    "chunks": [
+      39
+    ]
+  },
+  "react-window": {
+    "css": [],
+    "js": [
+      "/static/js/40.90de6e4a.chunk.js",
+      "/static/js/40.90de6e4a.chunk.js.map"
+    ],
+    "chunks": [
+      40
     ]
   }
 }

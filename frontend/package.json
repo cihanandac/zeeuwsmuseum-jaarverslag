@@ -38,7 +38,14 @@
   },
   "private": false,
   "workspaces": [],
-  "addons": ["volto-slate:asDefault"],
+  "addons": [
+    "volto-slate:asDefault",
+    "@kitconcept/volto-slider-block",
+    "@kitconcept/volto-text-with-background-color-block",
+    "@eeacms/volto-accordion-block",
+    "@eeacms/volto-columns-block",
+    "@eeacms/volto-pdf-block"
+  ],
   "jest": {
     "modulePathIgnorePatterns": [
       "api"
@@ -141,7 +148,12 @@
   },
   "dependencies": {
     "@plone/volto": "15.15.0",
-    "volto-slate": "*"
+    "volto-slate": "*",
+    "@kitconcept/volto-slider-block": "*",
+    "@kitconcept/volto-text-with-background-color-block": "*",
+    "@eeacms/volto-accordion-block": "^3.0.0",
+    "@eeacms/volto-columns-block": "^4.0.0",
+    "@eeacms/volto-pdf-block": "^1.0.0"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^6.3.0",
