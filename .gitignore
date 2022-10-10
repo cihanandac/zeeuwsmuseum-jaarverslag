@@ -16,3 +16,6 @@ logs
 *.log
 npm-debug.log*
 .DS_Store
+
+zope.ini
+zope.conf

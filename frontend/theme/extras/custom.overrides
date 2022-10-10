@@ -3,34 +3,7 @@
 
 
 /* GENERAL STUFF */
-h1, h2, h3, h4, h5{
-  font-family: 'UniversLight', 'Helvetica Neue', Helvetica, sans-serif;
-}
 
-h2{
-  font-size: 4em;
-  font-family: 'UniversCn', Arial, sans-serif;
-  font-weight: 300;
-  letter-spacing: 0.05em;
-}
-h3{
-  font-size:2em;
-  font-family: 'UniversLightCn', Arial, sans-serif;
-  font-size: 1.375em;
-  color: #000000;
-  letter-spacing: 0.075em;
-  line-height: 35px;
-  font-weight: 400;
-}
-
-p{
-  font-family: 'UniversLight', 'Helvetica Neue', Helvetica, sans-serif;
-  line-height: 40px;
-  letter-spacing:0.05em;
-  color: #000000;
-  font-size: 17px;
-  font-weight: 300;
-  }
 
 /* END OF GENERAL STUFF */
 
@@ -132,9 +105,80 @@ p{
       /* max-width: 50% !important; */
     }
   }
+
+  p#phoneNumber{
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    /* border: 1px solid; */
+  }
+  a.text-button{
+      font-family: 'UniversCn', Arial, sans-serif;
+      margin: 0 auto;
+      /* margin-top: 0px; */
+      display: block;
+      padding: 17px;
+      /* padding-right: 17px; */
+      padding-bottom: 17px;
+      padding-left: 17px;
+      border: 1px solid #7bb0e7;
+      border-radius: 0px;
+      text-transform: uppercase;
+      /* height: auto; */
+      color: #7bb0e7;
+      letter-spacing: 0.1em;
+      width: auto;
+      font-size: 17px;
+      background-color: transparent;
+      letter-spacing: 0.05em;
+      text-shadow: 0px 0px 0px #ffffff;
+      font-weight: 400;
+      /* padding-left: 28px; */
+      /* padding-right: 28px; */
+      /* padding-bottom: 12px; */
+      text-align: center;
+      margin-bottom: 30px;
+    }
 }
 /* FOOTER END */
 
 
 
 
+/* For the Block Area */
+#page-document{
+  h1, h2, h3, h4, h5{
+    font-family: 'UniversLight', 'Helvetica Neue', Helvetica, sans-serif;
+  }
+
+  h2{
+    font-size: 4em;
+    font-family: 'UniversCn', Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+  }
+  h3{
+    font-size:2em;
+    font-family: 'UniversLightCn', Arial, sans-serif;
+    font-size: 1.375em;
+    color: #000000;
+    letter-spacing: 0.075em;
+    line-height: 35px;
+    font-weight: 400;
+  }
+
+  p{
+  font-family: 'UniversLight', 'Helvetica Neue', Helvetica, sans-serif;
+  line-height: 40px;
+  letter-spacing:0.05em;
+  color: #000000;
+  font-size: 17px;
+  font-weight: 300;
+  }
+
+  #photo-credit{
+    font-size:12px;
+    text-align: center;
+    /* letter-spacing:0.03em; */      
+    line-height: 20px;
+  }
+}

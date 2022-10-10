@@ -13,12 +13,17 @@
  * }
  */
 
-import { MainSliderViewBlock, MainSliderEditBlock } from '@package/components';
+import {
+  MainSliderViewBlock,
+  MainSliderEditBlock,
+  EmptylineEditBlock,
+  EmptylineViewBlock,
+} from '@package/components';
 import sliderSVG from '@plone/volto/icons/slider.svg';
+import dotsSVG from '@plone/volto/icons/dots.svg';
 // import { defineMessages } from 'react-intl';
 // All your imports required for the config here BEFORE this line
 import '@plone/volto/config';
-
 
 // defineMessages({
 //   mainslider: {
@@ -28,7 +33,7 @@ import '@plone/volto/config';
 // });
 
 export default function applyConfig(config) {
-  config.blocks.blocksConfig.mainslider = {
+  (config.blocks.blocksConfig.mainslider = {
     id: 'mainslider',
     title: 'Main Slider',
     icon: sliderSVG,
@@ -41,7 +46,21 @@ export default function applyConfig(config) {
       addPermission: [],
       view: [],
     },
-  };
+  }),
+    (config.blocks.blocksConfig.emptyline = {
+      id: 'emptyline',
+      title: 'Empty Line',
+      icon: dotsSVG,
+      group: 'text',
+      view: EmptylineViewBlock,
+      edit: EmptylineEditBlock,
+      restricted: false,
+      mostUsed: true,
+      security: {
+        addPermission: [],
+        view: [],
+      },
+    });
 
   // Add here your project's configuration here by modifying `config` accordingly
   return config;

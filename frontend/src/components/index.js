@@ -11,5 +11,7 @@
  */
 import MainSliderViewBlock from './Blocks/Mainslider/View';
 import MainSliderEditBlock from './Blocks/Mainslider/Edit';
+import EmptylineViewBlock from './Blocks/Emptyline/View';
+import EmptylineEditBlock from './Blocks/Emptyline/Edit';
 
-export {MainSliderViewBlock, MainSliderEditBlock};
+export {MainSliderViewBlock, MainSliderEditBlock, EmptylineViewBlock, EmptylineEditBlock};
