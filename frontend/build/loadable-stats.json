@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.46.0",
-  "hash": "2229ae39fedeb7ff4751",
+  "hash": "afc31897cae8cdad6490",
   "publicPath": "http://localhost:3001/",
   "outputPath": "/Users/cihanandac/Documents/Code files/zeeuwsmuseumproject/frontend/build/public",
   "assetsByChunkName": {
@@ -450,7 +450,7 @@
     },
     {
       "name": "static/js/client.chunk.js",
-      "size": 81990,
+      "size": 79807,
       "chunks": [
         "client"
       ],
@@ -462,7 +462,7 @@
     },
     {
       "name": "static/js/client.chunk.js.map",
-      "size": 35105,
+      "size": 34336,
       "chunks": [
         "client"
       ],
@@ -840,7 +840,7 @@
     },
     {
       "name": "static/js/vendors~client.chunk.js",
-      "size": 19826631,
+      "size": 19828568,
       "chunks": [
         "vendors~client"
       ],
@@ -848,11 +848,12 @@
         "vendors~client"
       ],
       "info": {},
-      "emitted": false
+      "emitted": false,
+      "isOverSizeLimit": true
     },
     {
       "name": "static/js/vendors~client.chunk.js.map",
-      "size": 17262328,
+      "size": 17264350,
       "chunks": [
         "vendors~client"
       ],
@@ -1707,30 +1708,6 @@
     {
       "name": "static/media/slick.f97e3bbf.svg",
       "size": 2152,
-      "chunks": [],
-      "chunkNames": [],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/media/slide1.316218d0.jpeg",
-      "size": 280498,
-      "chunks": [],
-      "chunkNames": [],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/media/slide2.3dc62288.jpeg",
-      "size": 1343246,
-      "chunks": [],
-      "chunkNames": [],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/media/slide3.32e842af.jpg",
-      "size": 1437606,
       "chunks": [],
       "chunkNames": [],
       "info": {},

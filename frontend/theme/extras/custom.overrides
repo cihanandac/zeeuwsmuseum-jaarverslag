@@ -241,3 +241,40 @@ a.logo-written{
     line-height: 20px;
   }
 }
+
+
+
+
+/* TERUGBLIK PAGE */
+.view-viewview.contenttype-document.section-terugblik{
+  img{
+    display: inline;
+    float:none;
+    max-height: 850px;
+  }
+}
+
+
+
+/* HOME PAGE */
+
+.view-viewview.contenttype-plone-site.siteroot{
+  a{
+      color: inherit;
+      text-decoration: none;
+      /* padding-top: 0;
+      margin-top: 0; */
+      /* border: 1px solid; */
+    }
+    img{
+      max-height: 250px;
+      /* padding-bottom: 0;
+      margin-bottom: 0; */
+    }
+    p{
+      padding:0;
+      margin:0;
+    }
+}
+
+/* ENDOF HOME PAGE */
