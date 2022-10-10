@@ -1,1 +1,0 @@
-{"version":3,"file":"server.a27e89ac5aba101628a3.hot-update.js","sources":["webpack:///./src/components/Blocks/Emptyline/View.jsx"],"sourcesContent":["import React from 'react';\n\nconst View=()=>{\n  return ('/n');\n}\n\nexport default View;"],"mappings":";;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AACA;AACA;AACA;AACA;AACA;AACA;;;;A","sourceRoot":""}

@@ -9,13 +9,16 @@
 
 
 /* HEADER BEGIN */
-.logo-written{
+a.logo-written{
   navbar name css
   font-family: 'UniversCn', Arial, sans-serif;
+  /* font-size: 35px; */
   color: #7bb0e7;
   font-size: 30px;
   padding-top: 22px;
   padding-bottom: 35px;
+  /* line-height: 40px; */
+  letter-spacing:0.01em;
 }
 
 .ui.basic.segment .header .logo-nav-wrapper {
@@ -47,53 +50,102 @@
     font-size: 16px;
   }
   a{
-    font-size: 18px;
+    font-size: 16px;
+    color: inherit;
+    text-decoration: none;
   }
 
+  
   background-color: white;
   align-items: center;
+  /* justify-content:center; */
   font-family: 'UniversLight', 'Helvetica Neue', Helvetica, sans-serif;
   line-height: 40px;
   letter-spacing:0.05em;
-  color: #000000;
+  /* color: #000000; */
   font-size: 17px;
   font-weight: 300;
 
   padding-top: 40px;
-  border-top: 1px solid;
+  border-top: 0.3px solid #c3c3c3;
   
   #top-footer{
-
-    margin-left: 10%;
-    margin-bottom: 70px;
-    height: 150px;
-    width: 80%;
+    /* margin-left: 10%; */
+    margin-bottom: 40px;
+    height: auto;
+    /* width: 80%; */
     /* border: 1px black solid; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
+    align-items: top;
+    padding-top: 90px;
+    padding-bottom: 90px;
 
     /* background-color: blue; */
 
     .footerInfoBox{
-      text-align: center;
+      /* text-align: center; */
       /* margin-top: 5%; */   
-      width: 25%; 
+      /* width: 350px;  */
+      flex: 1 1 350px;
+      width: 250px;
+      padding: 25px 70px;
+      p#address{
+          padding-bottom: 2px;
+      }
+
+
+
     }
-    #footermail{
-      padding-left: 10px;
-      border-left: 1px solid;
+    #footermail{ 
+      /* padding-left: 10px; */
+      border-left: 0.3px solid #c3c3c3;
+
+      dd.portletItem.odd{
+        display:flex;
+        justify-items:center;
+        margin-left:0;
+
+        form{
+          width: 100%;
+        }
+      }
+
+      div.input-group{
+        /* margin-top: 35px; */
+        /* border: 1px solid; */
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+
+
+
+        input{
+          border:1px solid;
+          width:  80%;
+        }
+
+        span.input-group-btn{
+          width: 15%;
+        }
+        button.submit-button{
+          width: 100%;
+          background-color: #ffffff;
+          color: #7bb0e7
+        }
+
+      }
     }
   }  
 
   #bottom-footer{
     display: flex;
-    align-items: center;
+    align-content: center;
     justify-content: center;
 
-    border-top: 0.5px solid;
+    border-top: 0.3px solid #c3c3c3;
 
     align-items: center;
     /* margin-left: 10%; */
@@ -106,28 +158,24 @@
     }
   }
 
-  p#phoneNumber{
-    padding-bottom: 10px;
-    margin-bottom: 0;
-    /* border: 1px solid; */
-  }
+
   a.text-button{
       font-family: 'UniversCn', Arial, sans-serif;
       margin: 0 auto;
       /* margin-top: 0px; */
       display: block;
-      padding: 17px;
+      /* padding: 8px; */
       /* padding-right: 17px; */
-      padding-bottom: 17px;
-      padding-left: 17px;
-      border: 1px solid #7bb0e7;
+      /* padding-bottom: 17px; */
+      /* padding-left: 17px; */
+      border: 0.5px solid #7bb0e7;
       border-radius: 0px;
       text-transform: uppercase;
-      /* height: auto; */
       color: #7bb0e7;
       letter-spacing: 0.1em;
       width: auto;
-      font-size: 17px;
+      height: 50px;
+      font-size: 16px;
       background-color: transparent;
       letter-spacing: 0.05em;
       text-shadow: 0px 0px 0px #ffffff;
@@ -136,8 +184,14 @@
       /* padding-right: 28px; */
       /* padding-bottom: 12px; */
       text-align: center;
-      margin-bottom: 30px;
+      padding-top: 5px;
+      /* margin-bottom: 30px; */
     }
+    input, button{
+      margin-top: 30px;
+      height: 40px;
+    }
+
 }
 /* FOOTER END */
 
@@ -147,16 +201,20 @@
 /* For the Block Area */
 #page-document{
   h1, h2, h3, h4, h5{
-    font-family: 'UniversLight', 'Helvetica Neue', Helvetica, sans-serif;
+    /* font-family: 'UniversLight', 'Helvetica Neue', Helvetica, sans-serif; */
+    
   }
 
   h2{
-    font-size: 4em;
+    color: #000000;
+    margin-bottom: 12px;
     font-family: 'UniversCn', Arial, sans-serif;
-    font-weight: 300;
-    letter-spacing: 0.05em;
+    font-size: 4.50em;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
   }
-  h3{
+  /* h3{
     font-size:2em;
     font-family: 'UniversLightCn', Arial, sans-serif;
     font-size: 1.375em;
@@ -164,16 +222,17 @@
     letter-spacing: 0.075em;
     line-height: 35px;
     font-weight: 400;
-  }
+  } */
 
   p{
   font-family: 'UniversLight', 'Helvetica Neue', Helvetica, sans-serif;
   line-height: 40px;
-  letter-spacing:0.05em;
+  letter-spacing:0.07em;
   color: #000000;
-  font-size: 17px;
+  font-size: 19px;
   font-weight: 300;
   }
+
 
   #photo-credit{
     font-size:12px;

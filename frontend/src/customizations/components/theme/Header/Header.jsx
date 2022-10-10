@@ -53,7 +53,7 @@ class Header extends Component {
           <div className="header">
             <div className="logo-nav-wrapper">
               <div className="logo">
-                <a className="logo-written" href="/">ZEEUWS MUSEUM</a>
+                <a className="logo-written" id="writtenlogo" href="/">ZEEUWS MUSEUM</a>
               </div>
               <Navigation pathname={this.props.pathname} />
             </div>

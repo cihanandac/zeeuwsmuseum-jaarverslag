@@ -1,8 +1,8 @@
 {
   "errors": [],
   "warnings": [],
-  "version": "4.43.0",
-  "hash": "4ac0683ba63c6f075b77",
+  "version": "4.46.0",
+  "hash": "2229ae39fedeb7ff4751",
   "publicPath": "http://localhost:3001/",
   "outputPath": "/Users/cihanandac/Documents/Code files/zeeuwsmuseumproject/frontend/build/public",
   "assetsByChunkName": {
@@ -45,6 +45,10 @@
     "react-dates": [
       "static/js/react-dates.chunk.js",
       "static/js/react-dates.chunk.js.map"
+    ],
+    "react-select": [
+      "static/js/react-select.chunk.js",
+      "static/js/react-select.chunk.js.map"
     ],
     "react-select-async": [
       "static/js/react-select-async.chunk.js",
@@ -109,10 +113,6 @@
     "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314": [
       "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314.chunk.js",
       "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314.chunk.js.map"
-    ],
-    "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~a090ca15": [
-      "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~a090ca15.chunk.js",
-      "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~a090ca15.chunk.js.map"
     ],
     "vendors~prettier-parser-html": [
       "static/js/vendors~prettier-parser-html.chunk.js",
@@ -450,7 +450,7 @@
     },
     {
       "name": "static/js/client.chunk.js",
-      "size": 80595,
+      "size": 81990,
       "chunks": [
         "client"
       ],
@@ -462,7 +462,7 @@
     },
     {
       "name": "static/js/client.chunk.js.map",
-      "size": 33814,
+      "size": 35105,
       "chunks": [
         "client"
       ],
@@ -761,8 +761,34 @@
       "emitted": false
     },
     {
+      "name": "static/js/react-select.chunk.js",
+      "size": 13390,
+      "chunks": [
+        "react-select"
+      ],
+      "chunkNames": [
+        "react-select"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/js/react-select.chunk.js.map",
+      "size": 6324,
+      "chunks": [
+        "react-select"
+      ],
+      "chunkNames": [
+        "react-select"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
       "name": "static/js/runtime~client.js",
-      "size": 41349,
+      "size": 41155,
       "chunks": [
         "runtime~client"
       ],
@@ -774,7 +800,7 @@
     },
     {
       "name": "static/js/runtime~client.js.map",
-      "size": 42937,
+      "size": 42743,
       "chunks": [
         "runtime~client"
       ],
@@ -788,7 +814,7 @@
     },
     {
       "name": "static/js/vendors~PDFViewer.chunk.js",
-      "size": 849840,
+      "size": 849800,
       "chunks": [
         "vendors~PDFViewer"
       ],
@@ -814,7 +840,7 @@
     },
     {
       "name": "static/js/vendors~client.chunk.js",
-      "size": 18279929,
+      "size": 19826631,
       "chunks": [
         "vendors~client"
       ],
@@ -826,7 +852,7 @@
     },
     {
       "name": "static/js/vendors~client.chunk.js.map",
-      "size": 15932863,
+      "size": 17262328,
       "chunks": [
         "vendors~client"
       ],
@@ -944,7 +970,7 @@
     },
     {
       "name": "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js",
-      "size": 571978,
+      "size": 571658,
       "chunks": [
         "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46"
       ],
@@ -1022,7 +1048,7 @@
     },
     {
       "name": "static/js/vendors~moment~rc-time-picker~react-dates.chunk.js",
-      "size": 217479,
+      "size": 217439,
       "chunks": [
         "vendors~moment~rc-time-picker~react-dates"
       ],
@@ -1048,7 +1074,7 @@
     },
     {
       "name": "static/js/vendors~plone-volto-components-manage-Widgets-DatetimeWidget~plone-volto-components-manage-Widgets-R~a875f490.chunk.js",
-      "size": 25977,
+      "size": 26178,
       "chunks": [
         "vendors~plone-volto-components-manage-Widgets-DatetimeWidget~plone-volto-components-manage-Widgets-R~a875f490"
       ],
@@ -1060,7 +1086,7 @@
     },
     {
       "name": "static/js/vendors~plone-volto-components-manage-Widgets-DatetimeWidget~plone-volto-components-manage-Widgets-R~a875f490.chunk.js.map",
-      "size": 16449,
+      "size": 16730,
       "chunks": [
         "vendors~plone-volto-components-manage-Widgets-DatetimeWidget~plone-volto-components-manage-Widgets-R~a875f490"
       ],
@@ -1074,7 +1100,7 @@
     },
     {
       "name": "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget.chunk.js",
-      "size": 130663,
+      "size": 143893,
       "chunks": [
         "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget"
       ],
@@ -1086,7 +1112,7 @@
     },
     {
       "name": "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget.chunk.js.map",
-      "size": 78888,
+      "size": 85095,
       "chunks": [
         "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget"
       ],
@@ -1100,7 +1126,7 @@
     },
     {
       "name": "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314.chunk.js",
-      "size": 291139,
+      "size": 294806,
       "chunks": [
         "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314"
       ],
@@ -1112,38 +1138,12 @@
     },
     {
       "name": "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314.chunk.js.map",
-      "size": 279997,
+      "size": 283724,
       "chunks": [
         "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314"
       ],
       "chunkNames": [
         "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314"
-      ],
-      "info": {
-        "development": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~a090ca15.chunk.js",
-      "size": 26546,
-      "chunks": [
-        "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~a090ca15"
-      ],
-      "chunkNames": [
-        "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~a090ca15"
-      ],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~a090ca15.chunk.js.map",
-      "size": 19508,
-      "chunks": [
-        "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~a090ca15"
-      ],
-      "chunkNames": [
-        "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~a090ca15"
       ],
       "info": {
         "development": true
@@ -1152,7 +1152,7 @@
     },
     {
       "name": "static/js/vendors~prettier-parser-html.chunk.js",
-      "size": 105746,
+      "size": 105706,
       "chunks": [
         "vendors~prettier-parser-html"
       ],
@@ -1178,7 +1178,7 @@
     },
     {
       "name": "static/js/vendors~prettier-standalone.chunk.js",
-      "size": 1069016,
+      "size": 1068976,
       "chunks": [
         "vendors~prettier-standalone"
       ],
@@ -1204,7 +1204,7 @@
     },
     {
       "name": "static/js/vendors~prismjs-components-prism-core.chunk.js",
-      "size": 39168,
+      "size": 39128,
       "chunks": [
         "vendors~prismjs-components-prism-core"
       ],
@@ -1230,7 +1230,7 @@
     },
     {
       "name": "static/js/vendors~rc-time-picker.chunk.js",
-      "size": 260493,
+      "size": 260453,
       "chunks": [
         "vendors~rc-time-picker"
       ],
@@ -1256,7 +1256,7 @@
     },
     {
       "name": "static/js/vendors~react-beautiful-dnd.chunk.js",
-      "size": 357090,
+      "size": 261633,
       "chunks": [
         "vendors~react-beautiful-dnd"
       ],
@@ -1268,7 +1268,7 @@
     },
     {
       "name": "static/js/vendors~react-beautiful-dnd.chunk.js.map",
-      "size": 375789,
+      "size": 301942,
       "chunks": [
         "vendors~react-beautiful-dnd"
       ],
@@ -1360,7 +1360,7 @@
     },
     {
       "name": "static/js/vendors~react-dates.chunk.js",
-      "size": 951117,
+      "size": 878606,
       "chunks": [
         "vendors~react-dates"
       ],
@@ -1372,7 +1372,7 @@
     },
     {
       "name": "static/js/vendors~react-dates.chunk.js.map",
-      "size": 887018,
+      "size": 846061,
       "chunks": [
         "vendors~react-dates"
       ],
@@ -1412,7 +1412,7 @@
     },
     {
       "name": "static/js/vendors~react-dnd.chunk.js",
-      "size": 128498,
+      "size": 128458,
       "chunks": [
         "vendors~react-dnd"
       ],
@@ -1438,7 +1438,7 @@
     },
     {
       "name": "static/js/vendors~react-image-gallery.chunk.js",
-      "size": 50135,
+      "size": 50095,
       "chunks": [
         "vendors~react-image-gallery"
       ],
@@ -1490,7 +1490,7 @@
     },
     {
       "name": "static/js/vendors~react-select-async-paginate.chunk.js",
-      "size": 77821,
+      "size": 91051,
       "chunks": [
         "vendors~react-select-async-paginate"
       ],
@@ -1502,7 +1502,7 @@
     },
     {
       "name": "static/js/vendors~react-select-async-paginate.chunk.js.map",
-      "size": 63524,
+      "size": 69731,
       "chunks": [
         "vendors~react-select-async-paginate"
       ],
@@ -1516,7 +1516,7 @@
     },
     {
       "name": "static/js/vendors~react-simple-code-editor.chunk.js",
-      "size": 21088,
+      "size": 21048,
       "chunks": [
         "vendors~react-simple-code-editor"
       ],
@@ -1789,15 +1789,12 @@
     "plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget": {
       "chunks": [
         "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314",
-        "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~a090ca15",
         "vendors~plone-volto-components-manage-Widgets-DatetimeWidget~plone-volto-components-manage-Widgets-R~a875f490",
         "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget"
       ],
       "assets": [
         "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314.chunk.js",
         "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314.chunk.js.map",
-        "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~a090ca15.chunk.js",
-        "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~a090ca15.chunk.js.map",
         "static/js/vendors~plone-volto-components-manage-Widgets-DatetimeWidget~plone-volto-components-manage-Widgets-R~a875f490.chunk.js",
         "static/js/vendors~plone-volto-components-manage-Widgets-DatetimeWidget~plone-volto-components-manage-Widgets-R~a875f490.chunk.js.map",
         "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget.chunk.js",
@@ -1904,13 +1901,13 @@
     "react-select": {
       "chunks": [
         "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314",
-        "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~a090ca15"
+        "react-select"
       ],
       "assets": [
         "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314.chunk.js",
         "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314.chunk.js.map",
-        "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~a090ca15.chunk.js",
-        "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~a090ca15.chunk.js.map"
+        "static/js/react-select.chunk.js",
+        "static/js/react-select.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
@@ -1940,14 +1937,11 @@
     "react-select-async-paginate": {
       "chunks": [
         "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314",
-        "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~a090ca15",
         "vendors~react-select-async-paginate"
       ],
       "assets": [
         "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314.chunk.js",
         "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314.chunk.js.map",
-        "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~a090ca15.chunk.js",
-        "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~a090ca15.chunk.js.map",
         "static/js/vendors~react-select-async-paginate.chunk.js",
         "static/js/vendors~react-select-async-paginate.chunk.js.map"
       ],
