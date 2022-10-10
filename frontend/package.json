@@ -44,7 +44,8 @@
     "@kitconcept/volto-text-with-background-color-block",
     "@eeacms/volto-accordion-block",
     "@eeacms/volto-columns-block",
-    "@eeacms/volto-pdf-block"
+    "@eeacms/volto-pdf-block",
+    "@codesyntax/volto-featured-block"
   ],
   "jest": {
     "modulePathIgnorePatterns": [
@@ -155,7 +156,8 @@
     "@plone/volto": "15.15.0",
     "react-slick": "0.29.0",
     "slick-carousel": "1.8.1",
-    "volto-slate": "*"
+    "volto-slate": "*",
+    "@codesyntax/volto-featured-block": "^1.0.0"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^6.3.0",

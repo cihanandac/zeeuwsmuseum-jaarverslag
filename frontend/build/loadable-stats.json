@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.43.0",
-  "hash": "0f9c613cbed559b0aff8",
+  "hash": "a3bf6b5c39b400f0bb5b",
   "publicPath": "http://localhost:3001/",
   "outputPath": "/Users/cihanandac/Documents/Code files/zeeuwsmuseumproject/frontend/build/public",
   "assetsByChunkName": {
@@ -450,7 +450,7 @@
     },
     {
       "name": "static/js/client.chunk.js",
-      "size": 58944,
+      "size": 73515,
       "chunks": [
         "client"
       ],
@@ -462,7 +462,7 @@
     },
     {
       "name": "static/js/client.chunk.js.map",
-      "size": 27995,
+      "size": 31716,
       "chunks": [
         "client"
       ],
@@ -814,7 +814,7 @@
     },
     {
       "name": "static/js/vendors~client.chunk.js",
-      "size": 18220400,
+      "size": 18304040,
       "chunks": [
         "vendors~client"
       ],
@@ -827,7 +827,7 @@
     },
     {
       "name": "static/js/vendors~client.chunk.js.map",
-      "size": 15893586,
+      "size": 15951878,
       "chunks": [
         "vendors~client"
       ],
@@ -1361,7 +1361,7 @@
     },
     {
       "name": "static/js/vendors~react-dates.chunk.js",
-      "size": 951117,
+      "size": 951339,
       "chunks": [
         "vendors~react-dates"
       ],
@@ -1373,7 +1373,7 @@
     },
     {
       "name": "static/js/vendors~react-dates.chunk.js.map",
-      "size": 887018,
+      "size": 887055,
       "chunks": [
         "vendors~react-dates"
       ],
@@ -1708,6 +1708,30 @@
     {
       "name": "static/media/slick.f97e3bbf.svg",
       "size": 2152,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/media/slide1.316218d0.jpeg",
+      "size": 280498,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/media/slide2.3dc62288.jpeg",
+      "size": 1343246,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/media/slide3.32e842af.jpg",
+      "size": 1437606,
       "chunks": [],
       "chunkNames": [],
       "info": {},
