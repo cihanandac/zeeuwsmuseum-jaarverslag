@@ -1,1 +1,0 @@
-{"version":3,"file":"server.384d84a1bad1e2152e79.hot-update.js","sources":["webpack:///./src/components/Blocks/Mainslider/View.jsx"],"sourcesContent":["import Slider from \"react-slick\";\n\nconst View=()=>{\n\n}"],"mappings":";;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AACA;AACA;;;;A","sourceRoot":""}
