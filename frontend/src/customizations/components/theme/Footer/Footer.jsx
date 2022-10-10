@@ -31,7 +31,7 @@ const Footer = ({ intl }) => {
     <container id="footer">
       <div id="top-footer">
         <div className="footerInfoBox">
-          <a href="#">BEZOKADRES</a>
+          <a className='footerHeader' href="#">BEZOKADRES</a>
           <p>Abdij (Plein)</p>
           <p>4331 BK, Middleburg</p>
         </div>

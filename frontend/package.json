@@ -45,7 +45,7 @@
     "@eeacms/volto-accordion-block",
     "@eeacms/volto-columns-block",
     "@eeacms/volto-pdf-block",
-    "@codesyntax/volto-featured-block"
+    "@kitconcept/volto-button-block"
   ],
   "jest": {
     "modulePathIgnorePatterns": [
@@ -157,7 +157,7 @@
     "react-slick": "0.29.0",
     "slick-carousel": "1.8.1",
     "volto-slate": "*",
-    "@codesyntax/volto-featured-block": "^1.0.0"
+    "@kitconcept/volto-button-block": "*"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^6.3.0",
