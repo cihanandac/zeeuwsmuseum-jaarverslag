@@ -45,7 +45,8 @@
     "@eeacms/volto-accordion-block",
     "@eeacms/volto-columns-block",
     "@eeacms/volto-pdf-block",
-    "@kitconcept/volto-button-block"
+    "@kitconcept/volto-button-block",
+    "@eeacms/volto-block-divider"
   ],
   "jest": {
     "modulePathIgnorePatterns": [
@@ -155,10 +156,12 @@
     "@kitconcept/volto-slider-block": "*",
     "@kitconcept/volto-text-with-background-color-block": "*",
     "@plone/volto": "15.15.0",
+    "react-dropdown": "1.11.0",
     "react-icons": "4.4.0",
     "react-slick": "0.29.0",
     "slick-carousel": "1.8.1",
-    "volto-slate": "*"
+    "volto-slate": "*",
+    "@eeacms/volto-block-divider": "^2.0.0"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^6.3.0",

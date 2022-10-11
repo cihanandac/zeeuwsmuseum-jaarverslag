@@ -1520,6 +1520,13 @@
   resolved "https://registry.npmjs.org/@eeacms/volto-accordion-block/-/volto-accordion-block-3.5.0.tgz"
   integrity sha512-n+bFhG0EiQ89cz+W5oSYfFOxESI0VNwNkoAIqshWz7Y7ZObC/jlMCn+KOWHetj2kYTuSmLWMEADxDlhHRo/qSw==
 
+"@eeacms/volto-block-divider@^2.0.0":
+  version "2.1.6"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-divider/-/volto-block-divider-2.1.6.tgz#2549eaa6f0716036db16b7936d9d8ed59f57924f"
+  integrity sha512-P8fvDzBj7HAVh6iE6qTMZvP8wZjJwH0dpeYhS8p4BpKGaPvtHAXNQp8jWpU8TFiVMytAGpSdW4eu6PESBPXoDA==
+  dependencies:
+    react-color "~2.18.1"
+
 "@eeacms/volto-columns-block@^4.0.0":
   version "4.5.3"
   resolved "https://registry.npmjs.org/@eeacms/volto-columns-block/-/volto-columns-block-4.5.3.tgz"
@@ -6049,6 +6056,11 @@ classnames@2.2.6, classnames@2.x, classnames@^2.2.5, classnames@^2.2.6:
   version "2.2.6"
   resolved "https://registry.npmjs.org/classnames/-/classnames-2.2.6.tgz"
   integrity sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
+
+classnames@^2.2.3:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.2.tgz#351d813bf0137fcc6a76a16b88208d2560a0d924"
+  integrity sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw==
 
 clean-css@^4.2.3:
   version "4.2.3"
@@ -15865,6 +15877,18 @@ react-color@2.19.3, react-color@~2.19.3:
     reactcss "^1.2.0"
     tinycolor2 "^1.4.1"
 
+react-color@~2.18.1:
+  version "2.18.1"
+  resolved "https://registry.yarnpkg.com/react-color/-/react-color-2.18.1.tgz#2cda8cc8e06a9e2c52ad391a30ddad31972472f4"
+  integrity sha512-X5XpyJS6ncplZs74ak0JJoqPi+33Nzpv5RYWWxn17bslih+X7OlgmfpmGC1fNvdkK7/SGWYf1JJdn7D2n5gSuQ==
+  dependencies:
+    "@icons/material" "^0.2.4"
+    lodash "^4.17.11"
+    material-colors "^1.2.1"
+    prop-types "^15.5.10"
+    reactcss "^1.2.0"
+    tinycolor2 "^1.4.1"
+
 react-colorful@^5.1.2:
   version "5.2.2"
   resolved "https://registry.npmjs.org/react-colorful/-/react-colorful-5.2.2.tgz"
@@ -16022,6 +16046,13 @@ react-draggable@^4.4.3:
   dependencies:
     classnames "^2.2.5"
     prop-types "^15.6.0"
+
+react-dropdown@1.11.0:
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/react-dropdown/-/react-dropdown-1.11.0.tgz#b9576de17efd28e5684d101b3f58dfe784af242c"
+  integrity sha512-E2UWetRPxNdIhQahXw6b984ME7WmcgDj9AEAjrtS/oyLCFVo+2qkCfcS06C22JR0Zj+YLnygwv0Ozf6VKKDq7g==
+  dependencies:
+    classnames "^2.2.3"
 
 react-dropzone@11.1.0:
   version "11.1.0"

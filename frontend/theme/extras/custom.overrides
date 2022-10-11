@@ -1,9 +1,9 @@
-@import (less) "~slick-carousel/slick/slick.css";
-@import (less) "~slick-carousel/slick/slick-theme.css";
+/* @import (less) "~slick-carousel/slick/slick.css";
+@import (less) "~slick-carousel/slick/slick-theme.css"; */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
 
 
 /* GENERAL STUFF */
-
 
 /* END OF GENERAL STUFF */
 
@@ -11,8 +11,9 @@
 /* HEADER BEGIN */
 a.logo-written{
   navbar name css
-  font-family: 'UniversCn', Arial, sans-serif;
+  /* font-family: 'UniversCn', Arial, sans-serif; */
   /* font-size: 35px; */
+  font-family: 'Quicksand', sans-serif;
   color: #7bb0e7;
   font-size: 30px;
   padding-top: 22px;
@@ -59,7 +60,8 @@ a.logo-written{
   background-color: white;
   align-items: center;
   /* justify-content:center; */
-  font-family: 'UniversLight', 'Helvetica Neue', Helvetica, sans-serif;
+  /* font-family: 'UniversLight', 'Helvetica Neue', Helvetica, sans-serif; */
+  font-family: 'Quicksand', sans-serif;
   line-height: 40px;
   letter-spacing:0.05em;
   /* color: #000000; */
@@ -160,7 +162,8 @@ a.logo-written{
 
 
   a.text-button{
-      font-family: 'UniversCn', Arial, sans-serif;
+      /* font-family: 'UniversCn', Arial, sans-serif; */
+      font-family: 'Quicksand', sans-serif;
       margin: 0 auto;
       /* margin-top: 0px; */
       display: block;
@@ -208,11 +211,12 @@ a.logo-written{
   h2{
     color: #000000;
     margin-bottom: 12px;
-    font-family: 'UniversCn', Arial, sans-serif;
-    font-size: 4.50em;
-    font-weight: 400;
+    /* font-family: 'UniversCn', Arial, sans-serif; */
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3.5em;
+    font-weight: 300;
     text-transform: uppercase;
-    letter-spacing: 0.07em;
+    letter-spacing: 0.01em;
   }
   /* h3{
     font-size:2em;
@@ -225,7 +229,8 @@ a.logo-written{
   } */
 
   p{
-  font-family: 'UniversLight', 'Helvetica Neue', Helvetica, sans-serif;
+  /* font-family: 'UniversLight', 'Helvetica Neue', Helvetica, sans-serif; */
+  font-family: 'Quicksand', sans-serif;
   line-height: 40px;
   letter-spacing:0.07em;
   color: #000000;
@@ -275,3 +280,98 @@ a.logo-written{
 }
 
 /* ENDOF HOME PAGE */
+
+/* ***DROPDOWN MENU*** */
+
+div#dropdownmenu{
+  a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+    text-transform: uppercase;
+    /* font-family: 'UniversCn',Roboto, Arial, sans-serif; */
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+  }
+  svg{
+    padding-top: 5px;
+  }
+
+  width: 800px;
+  color: #000000;
+
+
+  li.nav__submenu-item{
+    display: none;
+    width: 200px;
+    a{
+      font-size: 10px;
+    }
+  }
+  ul.nav__submenu{
+    a{
+      /* font-family: 'UniversCn', 'Helvetica Neue', Helvetica, sans-serif; */
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 200;
+      font-size:14;
+      letter-spacing: 0.1em;
+    }
+    display: none;
+    /* height: 30px; */
+    text-align: center;
+    width:210px;
+    /* margin-top:5px; */
+    padding:0;
+    background-color: rgba(255, 250, 250, 0.7);
+    line-height: 20px;
+    border: 0.3px solid #c3c3c3 ;
+    
+
+  }
+
+  li.nav__menu-item:hover{
+    li.nav__submenu-item{
+      display: inline-block;
+      position:relative;
+      text-align:left;
+    }
+    ul.nav__submenu{
+      display: block;
+    }
+  }
+
+
+
+  li.nav__menu-item{
+
+      z-index: 999;
+      color:#000000;
+      /* border: 1px solid rgba(10, 10, 10, 0.267); */
+      padding-right: 15px;
+
+  }
+
+  ul.nav__menu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+
+  }
+
+  .nav__submenu-item {
+  &:hover {
+    /* color: #c3c3c3; */
+  }
+}
+.nav__submenu {
+  font-weight: 300;
+  text-transform: none;
+  position: absolute;
+  width: 180px;
+  
+}
+
+}
+/* ***END OF DROPDOWN MENU*** */

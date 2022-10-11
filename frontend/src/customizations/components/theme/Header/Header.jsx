@@ -7,7 +7,6 @@ import React, { Component } from 'react';
 import { Container, Segment } from 'semantic-ui-react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-
 import {
   Anontools,
   LanguageSelector,
@@ -15,6 +14,8 @@ import {
   Navigation,
   SearchWidget,
 } from '@plone/volto/components';
+import Menu from './Menu';
+
 
 /**
  * Header component class.
@@ -53,9 +54,18 @@ class Header extends Component {
           <div className="header">
             <div className="logo-nav-wrapper">
               <div className="logo">
-                <a className="logo-written" id="writtenlogo" href="/">ZEEUWS MUSEUM</a>
+                <a className="logo-written" id="writtenlogo" href="/">
+                  ZEEUWS MUSEUM
+                </a>
               </div>
-              <Navigation pathname={this.props.pathname} />
+
+              <div id='dropdownmenu'>
+                <Menu />
+                
+              </div>
+
+              {/* This section is for the rest of the menu */}
+              {/* <Navigation pathname={this.props.pathname} /> */}
             </div>
             {/* <div className="tools-search-wrapper">
               <LanguageSelector />
