@@ -84,13 +84,13 @@ export class BreadcrumbsComponent extends Component {
         vertical
       >
         <Container>
-          {/* <Breadcrumb>
+          <Breadcrumb>
             <Link
               to={this.props.root || '/'}
               className="section"
               title={this.props.intl.formatMessage(messages.home)}
             >
-              <Icon name={homeSVG} size="18px" />
+              {/* <Icon name={homeSVG} size="25px" /> */}
             </Link>
             {this.props.items.map((item, index, items) => [
               <Breadcrumb.Divider key={`divider-${item.url}`} />,
@@ -104,7 +104,7 @@ export class BreadcrumbsComponent extends Component {
                 </Breadcrumb.Section>
               ),
             ])}
-          </Breadcrumb> */}
+          </Breadcrumb>
         </Container>
       </Segment>
     );
