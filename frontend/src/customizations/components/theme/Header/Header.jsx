@@ -14,7 +14,7 @@ import {
   Navigation,
   SearchWidget,
 } from '@plone/volto/components';
-import Menu from './Menu';
+import Menudropdown from './Menudropdown';
 
 
 /**
@@ -59,13 +59,12 @@ class Header extends Component {
                 </a>
               </div>
 
-              <div id='dropdownmenu'>
-                <Menu />
-                
-              </div>
+              {/* <div id="dropdownmenu">
+                <Menudropdown />
+              </div> */}
 
               {/* This section is for the rest of the menu */}
-              {/* <Navigation pathname={this.props.pathname} /> */}
+              <Navigation pathname={this.props.pathname} />
             </div>
             {/* <div className="tools-search-wrapper">
               <LanguageSelector />
