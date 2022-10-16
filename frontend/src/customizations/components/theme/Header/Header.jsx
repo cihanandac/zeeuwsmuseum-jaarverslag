@@ -3,7 +3,7 @@
  * @module components/theme/Header/Header
  */
 
-import React, { Component } from 'react';
+import React, { Component, useState, useEffect } from 'react';
 import { Container, Segment } from 'semantic-ui-react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
@@ -14,76 +14,99 @@ import {
   Navigation,
   SearchWidget,
 } from '@plone/volto/components';
-import Menudropdown from './Menudropdown';
 
+function useScrollDirection() {
+  const [scrollDirection, setScrollDirection] = useState(null);
+
+  useEffect(() => {
+    let lastScrollY = window.pageYOffset;
+
+    const updateScrollDirection = () => {
+      const scrollY = window.pageYOffset;
+      const direction = scrollY > lastScrollY ? "down" : "up";
+      if (direction !== scrollDirection && (scrollY - lastScrollY > 10 || scrollY - lastScrollY < -10)) {
+        setScrollDirection(direction);
+      }
+      lastScrollY = scrollY > 0 ? scrollY : 0;
+    };
+    window.addEventListener("scroll", updateScrollDirection); // add event listener
+    return () => {
+      window.removeEventListener("scroll", updateScrollDirection); // clean up
+    }
+  }, [scrollDirection]);
+
+  return scrollDirection;
+};
 
 /**
  * Header component class.
  * @class Header
  * @extends Component
  */
-class Header extends Component {
+const Header = (props) => {
   /**
-   * Property types.
-   * @property {Object} propTypes Property types.
-   * @static
-   */
-  static propTypes = {
-    token: PropTypes.string,
-    pathname: PropTypes.string.isRequired,
-  };
-
-  /**
-   * Default properties.
-   * @property {Object} defaultProps Default properties.
-   * @static
-   */
-  static defaultProps = {
-    token: null,
-  };
-
   /**
    * Render method.
    * @method render
    * @returns {string} Markup for the component.
    */
-  render() {
-    return (
-      <Segment basic className="header-wrapper" role="banner">
-        <Container>
-          <div className="header">
-            <div className="logo-nav-wrapper">
-              <div className="logo">
-                <a className="logo-written" id="writtenlogo" href="/">
-                  ZEEUWS MUSEUM
-                </a>
-              </div>
 
-              {/* <div id="dropdownmenu">
-                <Menudropdown />
-              </div> */}
+  const scrollDirection = useScrollDirection();
 
-              {/* This section is for the rest of the menu */}
-              <Navigation pathname={this.props.pathname} />
+
+  return (
+    <Segment basic className={`header-wrapper ${ scrollDirection === "down" ? "hide" : "show"}`} role="banner">
+      <Container className="">
+        <div className="header">
+          <div className="logo-nav-wrapper">
+            <div className="logo">
+              <a className="logo-written" id="writtenlogo" href="/">
+                ZEEUWS MUSEUM
+              </a>
             </div>
-            {/* <div className="tools-search-wrapper">
-              <LanguageSelector />
-              {!this.props.token && (
-                <div className="tools">
-                  <Anontools />
-                </div>
-              )}
-              <div className="search">
-                <SearchWidget />
-              </div>
-            </div> */}
+
+            {/* This section is for the rest of the menu */}
+            <Navigation pathname={props.pathname} />
           </div>
-        </Container>
-      </Segment>
-    );
-  }
+          {/* <div className="tools-search-wrapper">
+            <LanguageSelector />
+            {!this.props.token && (
+              <div className="tools">
+                <Anontools />
+              </div>
+            )}
+            <div className="search">
+              <SearchWidget />
+            </div>
+          </div> */}
+        </div>
+      </Container>
+    </Segment>
+  );
+  
 }
 
 export default connect((state) => ({
   token: state.userSession.token,
 }))(Header);
+
+
+// details.propTypes = {
+//      * Property types.
+//    * @property {Object} propTypes Property types.
+//    * @static
+//    */
+//   static propTypes = {
+//     token: PropTypes.string,
+//     pathname: PropTypes.string.isRequired,
+//   };
+
+//   /**
+//    * Default properties.
+//    * @property {Object} defaultProps Default properties.
+//    * @static
+//    */
+//   static defaultProps = {
+//     token: null,
+//   };
+// }

@@ -2,19 +2,21 @@
  * Navigation components.
  * @module components/theme/Navigation/Navigation
  */
-import { BsChevronDown } from 'react-icons/bs';
+// import { BsChevronDown } from 'react-icons/bs';
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { compose } from 'redux';
 import { defineMessages, injectIntl } from 'react-intl';
-import { Dropdown, Menu } from 'semantic-ui-react';
+import { Dropdown, Menu, Accordion, Form } from 'semantic-ui-react';
 import cx from 'classnames';
 import { BodyClass, getBaseUrl, hasApiExpander } from '@plone/volto/helpers';
 import config from '@plone/volto/registry';
 import { getNavigation } from '@plone/volto/actions';
 import { CSSTransition } from 'react-transition-group';
 import NavItems from '@plone/volto/components/theme/Navigation/NavItems';
+import { FaChevronDown} from 'react-icons/fa';
+import AccordionMenu from './Accordion';
 
 const messages = defineMessages({
   closeMobileMenu: {
@@ -26,9 +28,6 @@ const messages = defineMessages({
     defaultMessage: 'Open menu',
   },
 });
-
-
-
 
 
 /**
@@ -130,6 +129,7 @@ class Navigation extends Component {
 
 
   render() {
+    const { activeIndex } = this.state;
     return (
       <nav className="navigation" id="navigation" aria-label="navigation">
         <div className="hamburger-wrapper mobile tablet only">
@@ -163,6 +163,7 @@ class Navigation extends Component {
             </span>
           </button>
         </div>
+
         <Menu
           stackable
           pointing
@@ -177,7 +178,7 @@ class Navigation extends Component {
           >
             JAARVERSLAG
           </Menu.Item>
-          <Dropdown item text="PLAN JE BEZOEK">
+          <Dropdown item icon={<FaChevronDown />} simple text="PLAN JE BEZOEK">
             <Dropdown.Menu>
               <Dropdown.Item>
                 <a href="https://www.zeeuwsmuseum.nl/nl/plan-je-bezoek/praktische-info">
@@ -207,7 +208,7 @@ class Navigation extends Component {
             </Dropdown.Menu>
           </Dropdown>
 
-          <Dropdown item text="ONTDEK">
+          <Dropdown item icon={<FaChevronDown />} simple text="ONTDEK">
             <Dropdown.Menu>
               <Dropdown.Item>
                 <a href="https://www.zeeuwsmuseum.nl/nl/videotheek">
@@ -247,7 +248,7 @@ class Navigation extends Component {
             </Dropdown.Menu>
           </Dropdown>
 
-          <Dropdown item text="OVER HET MUSEUM">
+          <Dropdown item icon={<FaChevronDown />} simple text="OVER HET MUSEUM">
             <Dropdown.Menu>
               <Dropdown.Item>
                 <a href="https://www.zeeuwsmuseum.nl/nl/over-het-museum/steun-het-museum">
@@ -303,7 +304,11 @@ class Navigation extends Component {
                   JAARVERSLAG
                 </Menu.Item>
 
-                <Dropdown item text="PLAN JE BEZOEK">
+                <Dropdown
+                  item
+                  icon={<FaChevronDown />}
+                  text="PLAN JE BEZOEK"
+                >
                   <Dropdown.Menu>
                     <Dropdown.Item>
                       <a href="https://www.zeeuwsmuseum.nl/nl/plan-je-bezoek/praktische-info">
@@ -333,7 +338,7 @@ class Navigation extends Component {
                   </Dropdown.Menu>
                 </Dropdown>
 
-                <Dropdown item text="ONTDEK">
+                <Dropdown item icon={<FaChevronDown />} text="ONTDEK">
                   <Dropdown.Menu>
                     <Dropdown.Item>
                       <a href="https://www.zeeuwsmuseum.nl/nl/videotheek">
@@ -373,7 +378,11 @@ class Navigation extends Component {
                   </Dropdown.Menu>
                 </Dropdown>
 
-                <Dropdown item text="OVER HET MUSEUM">
+                <Dropdown
+                  item
+                  icon={<FaChevronDown />}
+                  text="OVER HET MUSEUM"
+                >
                   <Dropdown.Menu>
                     <Dropdown.Item>
                       <a href="https://www.zeeuwsmuseum.nl/nl/over-het-museum/steun-het-museum">
