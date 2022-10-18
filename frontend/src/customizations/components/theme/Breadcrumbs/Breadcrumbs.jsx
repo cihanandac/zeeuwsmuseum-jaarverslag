@@ -2,7 +2,6 @@
  * Breadcrumbs components.
  * @module components/theme/Breadcrumbs/Breadcrumbs
  */
-
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
@@ -10,10 +9,10 @@ import { compose } from 'redux';
 import { Link } from 'react-router-dom';
 import { Breadcrumb, Container, Segment } from 'semantic-ui-react';
 import { defineMessages, injectIntl } from 'react-intl';
-
 import { Icon } from '@plone/volto/components';
 import { getBreadcrumbs } from '@plone/volto/actions';
 import { getBaseUrl, hasApiExpander } from '@plone/volto/helpers';
+import { FaChevronRight } from 'react-icons/fa';
 
 import homeSVG from '@plone/volto/icons/home.svg';
 
@@ -84,7 +83,7 @@ export class BreadcrumbsComponent extends Component {
         vertical
       >
         <Container>
-          <Breadcrumb>
+          <Breadcrumb icon="right chevron">
             <Link
               to={this.props.root || '/'}
               className="section"
@@ -93,7 +92,7 @@ export class BreadcrumbsComponent extends Component {
               {/* <Icon name={homeSVG} size="25px" /> */}
             </Link>
             {this.props.items.map((item, index, items) => [
-              <Breadcrumb.Divider key={`divider-${item.url}`} />,
+              <Breadcrumb.Divider > <FaChevronRight/> </Breadcrumb.Divider>,
               index < items.length - 1 ? (
                 <Link key={item.url} to={item.url} className="section">
                   {item.title}

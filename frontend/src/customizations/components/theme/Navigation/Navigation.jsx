@@ -15,7 +15,7 @@ import config from '@plone/volto/registry';
 import { getNavigation } from '@plone/volto/actions';
 import { CSSTransition } from 'react-transition-group';
 import NavItems from '@plone/volto/components/theme/Navigation/NavItems';
-import { FaChevronDown} from 'react-icons/fa';
+import { FaChevronDown } from 'react-icons/fa';
 import AccordionMenu from './Accordion';
 
 const messages = defineMessages({
@@ -28,7 +28,6 @@ const messages = defineMessages({
     defaultMessage: 'Open menu',
   },
 });
-
 
 /**
  * Navigation container class.
@@ -119,7 +118,6 @@ class Navigation extends Component {
     }
     this.setState({ isMobileMenuOpen: false });
   }
-  
 
   /**
    * Render method.
@@ -127,9 +125,109 @@ class Navigation extends Component {
    * @returns {string} Markup for the component.
    */
 
-
   render() {
     const { activeIndex } = this.state;
+
+    const PlanContent = (
+      <div>
+        <div>
+          <a href="https://www.zeeuwsmuseum.nl/nl/plan-je-bezoek/praktische-info">
+            Praktische informatie
+          </a>
+        </div>
+        <div>
+          <a href="https://www.zeeuwsmuseum.nl/nl/plan-je-bezoek/nu-in-het-museum">
+            Zien en doen
+          </a>
+        </div>
+        <div>
+          <a href="https://www.zeeuwsmuseum.nl/nl/plan-je-bezoek/kinderen-klas-of-groep">
+            Families, groupen en scholen
+          </a>
+        </div>
+        <div>
+          <a href="https://www.zeeuwsmuseum.nl/nl/plan-je-bezoek/leukdagjeuit">
+            Dagje uit Middelburg
+          </a>
+        </div>
+        <div>
+          <a href="https://www.zeeuwsmuseum.nl/nl/plan-je-bezoek/boek-je-bezoek">
+            Boek je bezoek
+          </a>
+        </div>
+      </div>
+    );
+
+    const OntdekContent = (
+      <div>
+        <div>
+          <a href="https://www.zeeuwsmuseum.nl/nl/plan-je-bezoek/praktische-info">
+            Praktische informatie
+          </a>
+        </div>
+        <div>
+          <a href="https://www.zeeuwsmuseum.nl/nl/plan-je-bezoek/nu-in-het-museum">
+            Zien en doen
+          </a>
+        </div>
+        <div>
+          <a href="https://www.zeeuwsmuseum.nl/nl/plan-je-bezoek/kinderen-klas-of-groep">
+            Families, groupen en scholen
+          </a>
+        </div>
+        <div>
+          <a href="https://www.zeeuwsmuseum.nl/nl/plan-je-bezoek/leukdagjeuit">
+            Dagje uit Middelburg
+          </a>
+        </div>
+        <div>
+          <a href="https://www.zeeuwsmuseum.nl/nl/plan-je-bezoek/boek-je-bezoek">
+            Boek je bezoek
+          </a>
+        </div>
+      </div>
+    );
+    const OverContent = (
+      <div>
+        <div>
+          <a href="https://www.zeeuwsmuseum.nl/nl/over-het-museum/steun-het-museum">
+            Steun het museum
+          </a>
+        </div>
+        <div>
+          <a href="https://www.zeeuwsmuseum.nl/nl/over-het-museum/pers">Pers</a>
+        </div>
+        <div>
+          <a href="https://www.zeeuwsmuseum.nl/nl/over-het-museum/organisatie">
+            Organisatie
+          </a>
+          <div>
+            <a href="https://www.zeeuwsmuseum.nl/nl/over-het-museum/publicaties">
+              Publicaties
+            </a>
+          </div>
+        </div>
+        <div>
+          <a href="https://www.zeeuwsmuseum.nl/nl/over-het-museum/voorwaarden">
+            Voorwaarden
+          </a>
+        </div>
+      </div>
+    );
+
+    const rootPanels = [
+      {
+        key: 'panel-1',
+        title: 'PLAN JE BEZOEK',
+        content: { content: PlanContent },
+      },
+      { key: 'panel-2', title: 'ONTDEK', content: { content: OntdekContent } },
+      {
+        key: 'panel-2',
+        title: 'OVER HET MUSEUM',
+        content: { content: OverContent },
+      },
+    ];
     return (
       <nav className="navigation" id="navigation" aria-label="navigation">
         <div className="hamburger-wrapper mobile tablet only">
@@ -178,6 +276,7 @@ class Navigation extends Component {
           >
             JAARVERSLAG
           </Menu.Item>
+
           <Dropdown item icon={<FaChevronDown />} simple text="PLAN JE BEZOEK">
             <Dropdown.Menu>
               <Dropdown.Item>
@@ -207,7 +306,6 @@ class Navigation extends Component {
               </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
-
           <Dropdown item icon={<FaChevronDown />} simple text="ONTDEK">
             <Dropdown.Menu>
               <Dropdown.Item>
@@ -295,7 +393,7 @@ class Navigation extends Component {
           <div key="mobile-menu-key" className="mobile-menu">
             <BodyClass className="has-mobile-menu-open" />
             <div className="mobile-menu-nav">
-              <Menu secondary vertical onClick={this.closeMobileMenu}>
+              <div>
                 <Menu.Item
                   name="editorials"
                   onClick={this.handleItemClick}
@@ -303,12 +401,20 @@ class Navigation extends Component {
                 >
                   JAARVERSLAG
                 </Menu.Item>
+              </div>
+              <div>
+                <Accordion className='accordion' panels={rootPanels}  />
+              </div>
 
-                <Dropdown
-                  item
-                  icon={<FaChevronDown />}
-                  text="PLAN JE BEZOEK"
+              {/* <Menu secondary vertical onClick={this.closeMobileMenu}>
+                <Menu.Item
+                  name="editorials"
+                  onClick={this.handleItemClick}
+                  href="http://volto.cihanandac.net"
                 >
+                  JAARVERSLAG
+                </Menu.Item>
+                <Dropdown item icon={<FaChevronDown />} text="PLAN JE BEZOEK">
                   <Dropdown.Menu>
                     <Dropdown.Item>
                       <a href="https://www.zeeuwsmuseum.nl/nl/plan-je-bezoek/praktische-info">
@@ -378,11 +484,7 @@ class Navigation extends Component {
                   </Dropdown.Menu>
                 </Dropdown>
 
-                <Dropdown
-                  item
-                  icon={<FaChevronDown />}
-                  text="OVER HET MUSEUM"
-                >
+                <Dropdown item icon={<FaChevronDown />} text="OVER HET MUSEUM">
                   <Dropdown.Menu>
                     <Dropdown.Item>
                       <a href="https://www.zeeuwsmuseum.nl/nl/over-het-museum/steun-het-museum">
@@ -419,7 +521,7 @@ class Navigation extends Component {
                 >
                   TICKETS
                 </Menu.Item>
-              </Menu>
+              </Menu> */}
             </div>
           </div>
         </CSSTransition>

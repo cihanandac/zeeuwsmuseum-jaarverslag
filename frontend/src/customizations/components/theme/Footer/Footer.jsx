@@ -33,6 +33,7 @@ const Footer = ({ intl }) => {
     <container id="footer">
       <div id="top-footer">
         <div className="top-wrapper" id='top-wrap'>
+
           <div className="footerInfoBox">
             <a href="https://www.zeeuwsmuseum.nl/nl/zeeuws-museum-v4/#">
               BEZOKADRES
