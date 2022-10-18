@@ -32,8 +32,7 @@ const Footer = ({ intl }) => {
   return (
     <container id="footer">
       <div id="top-footer">
-        <div className="top-wrapper" id='top-wrap'>
-
+        <div className="top-wrapper" id="top-wrap">
           <div className="footerInfoBox">
             <a href="https://www.zeeuwsmuseum.nl/nl/zeeuws-museum-v4/#">
               BEZOKADRES
@@ -53,8 +52,16 @@ const Footer = ({ intl }) => {
               CONTACT ALGEMEEN
             </a>
             <p id="phoneNumber">+31 (0) 118 653000</p>
-            <a id="mailadress">info@zeeuwsmuseum.nl</a>
-            <br />
+            <a id="mailadress"
+              data-linktype="email"
+              href="mailto:info@zeeuwsmuseum.nl?subject=Contact%20via Zeeuws Museum website"
+              data-val="info@zeeuwsmuseum.nl"
+              data-subject="Contact via Zeeuws Museum website"
+            >
+              info@zeeuwsmuseum.nl
+            </a>
+
+            {/* <br /> */}
             <a
               href="https://www.zeeuwsmuseum.nl/nl/contact"
               className="text-button"
@@ -86,7 +93,7 @@ const Footer = ({ intl }) => {
                   <input
                     type="text"
                     className="text-widget required form-control input-lg textline-field"
-                    placeholder="Email"
+                    placeholder="    Email"
                     id="form-widgets-email"
                     name="EMAIL"
                     aria-label="mailchimp-email"

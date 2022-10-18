@@ -1,27 +1,7 @@
 import React, { Component } from 'react';
 import { Accordion, Form, Menu } from 'semantic-ui-react';
+import { FaChevronDown } from 'react-icons/fa';
 
-const ColorForm = (
-  <Form>
-    <Form.Group grouped>
-      <Form.Checkbox label="Red" name="color" value="red" />
-      <Form.Checkbox label="Orange" name="color" value="orange" />
-      <Form.Checkbox label="Green" name="color" value="green" />
-      <Form.Checkbox label="Blue" name="color" value="blue" />
-    </Form.Group>
-  </Form>
-);
-
-const SizeForm = (
-  <Form>
-    <Form.Group grouped>
-      <Form.Radio label="Small" name="size" type="radio" value="small" />
-      <Form.Radio label="Medium" name="size" type="radio" value="medium" />
-      <Form.Radio label="Large" name="size" type="radio" value="large" />
-      <Form.Radio label="X-Large" name="size" type="radio" value="x-large" />
-    </Form.Group>
-  </Form>
-);
 
 export default class AccordionMenu extends Component {
   state = { activeIndex: 0 };
@@ -39,7 +19,7 @@ export default class AccordionMenu extends Component {
 
     return (
       <Accordion as={Menu} vertical>
-        <Menu.Item>
+        <Menu.Item icon={<FaChevronDown />}>
           <Accordion.Title
             active={activeIndex === 0}
             content="Size"
@@ -49,7 +29,7 @@ export default class AccordionMenu extends Component {
           <Accordion.Content active={activeIndex === 0} content={SizeForm} />
         </Menu.Item>
 
-        <Menu.Item>
+        <Menu.Item icon={<FaChevronDown />}>
           <Accordion.Title
             active={activeIndex === 1}
             content="Colors"

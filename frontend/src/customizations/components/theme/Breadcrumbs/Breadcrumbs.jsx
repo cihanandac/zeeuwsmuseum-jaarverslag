@@ -12,7 +12,7 @@ import { defineMessages, injectIntl } from 'react-intl';
 import { Icon } from '@plone/volto/components';
 import { getBreadcrumbs } from '@plone/volto/actions';
 import { getBaseUrl, hasApiExpander } from '@plone/volto/helpers';
-import { FaChevronRight } from 'react-icons/fa';
+import { BsChevronCompactRight } from 'react-icons/bs';
 
 import homeSVG from '@plone/volto/icons/home.svg';
 
@@ -83,7 +83,7 @@ export class BreadcrumbsComponent extends Component {
         vertical
       >
         <Container>
-          <Breadcrumb icon="right chevron">
+          <Breadcrumb>
             <Link
               to={this.props.root || '/'}
               className="section"
@@ -92,7 +92,9 @@ export class BreadcrumbsComponent extends Component {
               {/* <Icon name={homeSVG} size="25px" /> */}
             </Link>
             {this.props.items.map((item, index, items) => [
-              <Breadcrumb.Divider > <FaChevronRight/> </Breadcrumb.Divider>,
+              <Breadcrumb.Divider>
+                <BsChevronCompactRight />
+              </Breadcrumb.Divider>,
               index < items.length - 1 ? (
                 <Link key={item.url} to={item.url} className="section">
                   {item.title}

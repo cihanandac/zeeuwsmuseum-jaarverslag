@@ -47,9 +47,9 @@ div.logo{
   align-items: center;
 }
 a.logo-written{
-  font-family: 'UniversCn', Arial, sans-serif;
+  font-family: 'UniversLightCn', Arial, sans-serif;
   color: #7bb0e7;
-  font-size: 2.15em;
+  font-size: 2.10em;
   padding-left: 9px;
   padding-top: 6px;
   letter-spacing:0.01em;
@@ -96,10 +96,14 @@ div.ui.pointing.secondary.stackable{
   font-family: 'UniversCn',Arial, sans-serif;
 }
 
-.menu.transition{
-  line-height: 0%;
-  font-size: 3px;
+div.menu.transition{
   font-family: 'UniversLight', Arial, sans-serif;
+  padding-top: 10px !important;
+  line-height: 0.01em !important;
+  div.item{
+    padding-bottom: 0% !important;
+    margin-bottom: 0% !important;
+  }
 }
 
 nav#navigation.navigation{
@@ -108,7 +112,7 @@ nav#navigation.navigation{
 
     :hover{
       color: #7bb0e7;
-      
+      background-color: #ffffff !important;
     }
   }
 }
@@ -123,7 +127,7 @@ nav#navigation.navigation{
 
 .mobile-menu{
   top: 59px;
-  height: 400px;
+  height: 500px;
   position: absolute;
 }
 
@@ -169,9 +173,28 @@ nav#navigation.navigation{
   padding: 0% !important;
 }
 
+.hamburger-inner,
+.hamburger-inner::before,
+.hamburger-inner::after{
+  height: 2px;
+  width: 23px;
+  background-color: #808080;
+}  
+
+.hamburger-inner::before{
+  top:5px;
+}
+
 .accordion.ui{
   width: 300px;
   text-align: left;
+  padding-top: 5px;
+  letter-spacing: 0.1em;
+  line-height: 1.5em;
+}
+
+i.dropdown.icon,i.dropdown.icon::before{
+  display: none;
 }
 
 /* HEADER END */
@@ -191,13 +214,37 @@ nav#navigation.navigation{
 }
 div.ui.breadcrumb{
   display: none;
-  font-family: 'UniversCn', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'UniversLightCn', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #808080 !important;
   font-size: 17px;
   padding-left: 300px;
+  letter-spacing: 0.1em;
   padding-top: 20px;
   padding-bottom: 0%;
   height: 58px;
+
+  .section:hover{
+    color: #7bb0e7 !important;
+  }
+  .divider{
+    font-size: 15px;
+    font-weight: 100;
+  }
+  svg path{
+    color: #808080;
+    height: 30px !important;
+    width: 20px;
+  }
 }
+.ui.breadcrumb .section.active{
+  color: #808080 !important;
+}
+.ui.breadcrumb .section {
+  color: #000000 !important;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
 
 .view-viewview.contenttype-document.section-terugblik{
   div.ui.breadcrumb{
@@ -318,6 +365,14 @@ div#view {
           p#address {
             padding-bottom: 2px;
           }
+          p#phoneNumber{
+            padding-bottom: 0%;
+            margin-bottom: 7px;
+          }
+          a#mailadress{
+            margin-bottom: 9px;
+            display: block;
+          }
         }
       
 
@@ -348,6 +403,7 @@ div#view {
         font-size: 17px;
         font-weight: 300;
         padding-top: 10px;
+        height: 55px !important;
       }
       svg{
         padding-top: 5px;
@@ -369,7 +425,8 @@ div#view {
           width: 15%;
         }
         button.submit-button{
-          width: 50px;
+          width: 59px;
+          height: 55px;
           background-color: #ffffff;
           color: #7bb0e7;
           border:0.5px solid #7bb0e7;
@@ -416,7 +473,16 @@ div#view {
 
   .social{
     color: #7bb0e7;
-    width: 30px;
+    width: 40px;
+    height: 20px;
+    margin-top: 25px;
+  }
+}
+
+#mailadress{
+  text-decoration: underline !important;
+  :hover{
+    color: #7bb0e7 !important;
   }
 }
 /* FOOTER END */
@@ -427,7 +493,7 @@ div#view {
 // ***PAGE SPESIFIC CSS***********
   
   // EDIT PAGE's header stops moving once we are in edit mode
-.view-editview.contenttype-plone-site, .view-contentsview{
+.view-editview.contenttype-plone-site, .view-contentsview, .view-addview{
       .ui.basic.segment.header-wrapper{
         position: relative !important;
       }
@@ -451,6 +517,14 @@ div#view {
 p.block.image.align.full {
   margin-top: 0% !important;
 }
+img.large {
+  margin-left: -50vw !important;
+  margin-right: -50vw !important;
+  max-width: 55vw !important;
+  position: relative !important;
+  // width: 100vw !important;
+}
+
   /* END OF TERUGBLIK PAGE */
 
   /* HOME PAGE */
@@ -559,12 +633,21 @@ p.block.image.align.full {
     }
   }
 }
-@media only screen and (max-width: 993px) {
+@media only screen and (max-width: 768px) {
   .view-viewview.contenttype-document.section-terugblik {
     img {
       display: inline;
       float: none;
     }
+    img.large {
+
+      margin-left: -50vw !important;
+      margin-right: -50vw !important;
+      max-width: 90vw !important;
+      position: relative !important; // width: 100vw !important;
+    }
+
+    
 
     #page-document {
       padding: 0px 10px;

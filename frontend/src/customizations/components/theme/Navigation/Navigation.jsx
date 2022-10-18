@@ -16,7 +16,6 @@ import { getNavigation } from '@plone/volto/actions';
 import { CSSTransition } from 'react-transition-group';
 import NavItems from '@plone/volto/components/theme/Navigation/NavItems';
 import { FaChevronDown } from 'react-icons/fa';
-import AccordionMenu from './Accordion';
 
 const messages = defineMessages({
   closeMobileMenu: {
@@ -403,9 +402,17 @@ class Navigation extends Component {
                 </Menu.Item>
               </div>
               <div>
-                <Accordion className='accordion' panels={rootPanels}  />
+                <Accordion className="accordion" panels={rootPanels} />
               </div>
-
+              <div>
+                <Menu.Item
+                  name="editorials"
+                  onClick={this.handleItemClick}
+                  href="https://www.zeeuwsmuseum.nl/nl/plan-je-bezoek/boek-je-bezoek"
+                >
+                  TICKETS
+                </Menu.Item>
+              </div>
               {/* <Menu secondary vertical onClick={this.closeMobileMenu}>
                 <Menu.Item
                   name="editorials"

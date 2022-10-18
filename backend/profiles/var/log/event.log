@@ -11426,3 +11426,207 @@ NotImplementedError
 2022-10-18 15:48:40 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
 2022-10-18 15:48:40 WARNING [waitress.queue:114][MainThread] Task queue depth is 3
 2022-10-18 15:48:40 WARNING [waitress.queue:114][MainThread] Task queue depth is 4
+2022-10-18 18:59:37 INFO [chameleon.config:38][MainThread] directory cache: /Users/cihanandac/Documents/Code files/zeeuwsmuseumproject/backend/profiles/var/cache.
+2022-10-18 18:59:38 INFO [plone.volto:22][MainThread] Aliasing collective.folderish classes to plone.volto classes.
+2022-10-18 18:59:38 INFO [Zope:42][MainThread] Ready to handle requests
+2022-10-18 18:59:38 INFO [waitress:486][MainThread] Serving on http://127.0.0.1:8080
+2022-10-18 18:59:38 INFO [waitress:486][MainThread] Serving on http://127.0.0.1:8080
+2022-10-18 19:00:27 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 19:00:27 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 19:00:27 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 19:00:27 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
+2022-10-18 19:00:27 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 19:00:27 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
+2022-10-18 19:00:27 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 19:12:17 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 19:12:17 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 19:12:17 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 19:12:17 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 20:10:31 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 20:10:31 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 20:10:31 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
+2022-10-18 20:42:31 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 20:42:31 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 21:24:21 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 21:27:45 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 22:05:28 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 22:25:14 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 22:53:52 INFO [plone.protect:38][waitress-2] auto rotating keyring _forms
+2022-10-18 22:53:52 INFO [plone.protect:38][waitress-2] auto rotating keyring _anon
+2022-10-18 22:53:52 INFO [plone.protect:38][waitress-2] auto rotating keyring _forms
+2022-10-18 22:53:52 INFO [plone.protect:38][waitress-2] auto rotating keyring _anon
+2022-10-18 22:53:52 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 22:53:52 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 22:54:00 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 22:54:00 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
+2022-10-18 22:58:14 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 22:58:15 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 22:58:15 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
+2022-10-18 22:58:15 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 22:58:15 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
+2022-10-18 22:58:15 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
+2022-10-18 22:58:19 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 22:58:20 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 23:00:52 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 23:00:52 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
+2022-10-18 23:23:57 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 23:23:57 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 23:23:57 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
+2022-10-18 23:23:57 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 23:23:57 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
+2022-10-18 23:23:58 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 23:24:02 ERROR [Zope.SiteErrorLog:35][waitress-2] NotImplementedError: http://localhost:3000/@types/Collection
+Traceback (innermost last):
+  Module ZPublisher.WSGIPublisher, line 167, in transaction_pubevents
+  Module ZPublisher.WSGIPublisher, line 376, in publish_module
+  Module ZPublisher.WSGIPublisher, line 271, in publish
+  Module ZPublisher.mapply, line 85, in mapply
+  Module ZPublisher.WSGIPublisher, line 68, in call_object
+  Module plone.rest.service, line 22, in __call__
+  Module plone.restapi.services, line 19, in render
+  Module plone.restapi.services.types.get, line 114, in reply
+  Module plone.restapi.services.types.get, line 136, in reply_for_type
+  Module plone.restapi.types.utils, line 326, in get_info_for_type
+  Module plone.restapi.types.utils, line 269, in get_jsonschema_for_portal_type
+  Module plone.restapi.types.utils, line 233, in get_jsonschema_for_fti
+  Module plone.restapi.types.utils, line 179, in get_jsonschema_properties
+  Module plone.restapi.types.adapters, line 94, in get_schema
+  Module plone.restapi.types.adapters, line 296, in additional
+  Module plone.restapi.types.adapters, line 287, in additional
+  Module plone.restapi.types.adapters, line 276, in get_items
+  Module plone.restapi.types.adapters, line 94, in get_schema
+  Module plone.restapi.types.adapters, line 447, in additional
+  Module plone.restapi.types.adapters, line 70, in get_schema
+  Module plone.restapi.types.adapters, line 98, in get_type
+NotImplementedError
+2022-10-18 23:25:29 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 23:25:34 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 23:25:36 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 23:25:36 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 23:25:36 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 23:25:36 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 23:25:36 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
+2022-10-18 23:25:39 ERROR [Zope.SiteErrorLog:35][waitress-2] NotImplementedError: http://localhost:3000/@types/Collection
+Traceback (innermost last):
+  Module ZPublisher.WSGIPublisher, line 167, in transaction_pubevents
+  Module ZPublisher.WSGIPublisher, line 376, in publish_module
+  Module ZPublisher.WSGIPublisher, line 271, in publish
+  Module ZPublisher.mapply, line 85, in mapply
+  Module ZPublisher.WSGIPublisher, line 68, in call_object
+  Module plone.rest.service, line 22, in __call__
+  Module plone.restapi.services, line 19, in render
+  Module plone.restapi.services.types.get, line 114, in reply
+  Module plone.restapi.services.types.get, line 136, in reply_for_type
+  Module plone.restapi.types.utils, line 326, in get_info_for_type
+  Module plone.restapi.types.utils, line 269, in get_jsonschema_for_portal_type
+  Module plone.restapi.types.utils, line 233, in get_jsonschema_for_fti
+  Module plone.restapi.types.utils, line 179, in get_jsonschema_properties
+  Module plone.restapi.types.adapters, line 94, in get_schema
+  Module plone.restapi.types.adapters, line 296, in additional
+  Module plone.restapi.types.adapters, line 287, in additional
+  Module plone.restapi.types.adapters, line 276, in get_items
+  Module plone.restapi.types.adapters, line 94, in get_schema
+  Module plone.restapi.types.adapters, line 447, in additional
+  Module plone.restapi.types.adapters, line 70, in get_schema
+  Module plone.restapi.types.adapters, line 98, in get_type
+NotImplementedError
+2022-10-18 23:26:26 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 23:26:29 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 23:26:32 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 23:26:33 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 23:26:33 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
+2022-10-18 23:26:33 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 23:26:35 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 23:26:50 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 23:26:50 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
+2022-10-18 23:26:50 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 23:26:50 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
+2022-10-18 23:26:51 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 23:26:51 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
+2022-10-18 23:26:51 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 23:26:52 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
+2022-10-18 23:28:00 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 23:28:08 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 23:28:08 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 23:52:09 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 23:52:11 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 23:52:11 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 23:53:59 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 23:53:59 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 23:53:59 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
+2022-10-18 23:53:59 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 23:53:59 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
+2022-10-18 23:53:59 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
+2022-10-18 23:53:59 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
+2022-10-18 23:53:59 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
+2022-10-18 23:54:00 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-18 23:54:05 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:01:31 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:01:33 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:02:02 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:02:06 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:02:34 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:02:35 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:06:08 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:06:16 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:06:16 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
+2022-10-19 00:06:16 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:06:16 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
+2022-10-19 00:06:16 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
+2022-10-19 00:06:17 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:08:26 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:08:27 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:08:27 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
+2022-10-19 00:08:28 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:08:54 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:08:55 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:08:55 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
+2022-10-19 00:08:55 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:08:55 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:08:55 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:08:55 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:09:40 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:09:40 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:09:40 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
+2022-10-19 00:12:04 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:12:10 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:12:10 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:12:10 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
+2022-10-19 00:12:10 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
+2022-10-19 00:12:10 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
+2022-10-19 00:12:10 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:12:10 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
+2022-10-19 00:12:12 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:14:20 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:14:21 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:14:21 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
+2022-10-19 00:14:21 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:14:21 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
+2022-10-19 00:14:21 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:14:22 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:17:15 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:38:41 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:38:42 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:38:42 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:38:44 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:45:38 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:45:38 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:45:38 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
+2022-10-19 00:45:38 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:45:38 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:45:38 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
+2022-10-19 00:56:13 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:56:14 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:56:14 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
+2022-10-19 00:56:14 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:56:14 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:56:14 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
+2022-10-19 00:56:14 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 00:56:16 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 01:00:21 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 01:00:22 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 01:00:22 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
+2022-10-19 01:03:38 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 01:03:38 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 01:03:39 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 01:03:59 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
