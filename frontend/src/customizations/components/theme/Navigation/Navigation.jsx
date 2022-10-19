@@ -276,7 +276,12 @@ class Navigation extends Component {
             JAARVERSLAG
           </Menu.Item>
 
-          <Dropdown item icon={<FaChevronDown />} simple text="PLAN JE BEZOEK">
+          <Dropdown
+            item
+            icon={<FaChevronDown color="#808080" />}
+            simple
+            text="PLAN JE BEZOEK"
+          >
             <Dropdown.Menu>
               <Dropdown.Item>
                 <a href="https://www.zeeuwsmuseum.nl/nl/plan-je-bezoek/praktische-info">
@@ -305,7 +310,12 @@ class Navigation extends Component {
               </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
-          <Dropdown item icon={<FaChevronDown />} simple text="ONTDEK">
+          <Dropdown
+            item
+            icon={<FaChevronDown color="#808080" />}
+            simple
+            text="ONTDEK"
+          >
             <Dropdown.Menu>
               <Dropdown.Item>
                 <a href="https://www.zeeuwsmuseum.nl/nl/videotheek">
@@ -345,7 +355,12 @@ class Navigation extends Component {
             </Dropdown.Menu>
           </Dropdown>
 
-          <Dropdown item icon={<FaChevronDown />} simple text="OVER HET MUSEUM">
+          <Dropdown
+            item
+            icon={<FaChevronDown color="#808080" />}
+            simple
+            text="OVER HET MUSEUM"
+          >
             <Dropdown.Menu>
               <Dropdown.Item>
                 <a href="https://www.zeeuwsmuseum.nl/nl/over-het-museum/steun-het-museum">
@@ -413,122 +428,6 @@ class Navigation extends Component {
                   TICKETS
                 </Menu.Item>
               </div>
-              {/* <Menu secondary vertical onClick={this.closeMobileMenu}>
-                <Menu.Item
-                  name="editorials"
-                  onClick={this.handleItemClick}
-                  href="http://volto.cihanandac.net"
-                >
-                  JAARVERSLAG
-                </Menu.Item>
-                <Dropdown item icon={<FaChevronDown />} text="PLAN JE BEZOEK">
-                  <Dropdown.Menu>
-                    <Dropdown.Item>
-                      <a href="https://www.zeeuwsmuseum.nl/nl/plan-je-bezoek/praktische-info">
-                        Praktische informatie
-                      </a>
-                    </Dropdown.Item>
-                    <Dropdown.Item>
-                      <a href="https://www.zeeuwsmuseum.nl/nl/plan-je-bezoek/nu-in-het-museum">
-                        Zien en doen
-                      </a>
-                    </Dropdown.Item>
-                    <Dropdown.Item>
-                      <a href="https://www.zeeuwsmuseum.nl/nl/plan-je-bezoek/kinderen-klas-of-groep">
-                        Families, groupen en scholen
-                      </a>
-                    </Dropdown.Item>
-                    <Dropdown.Item>
-                      <a href="https://www.zeeuwsmuseum.nl/nl/plan-je-bezoek/leukdagjeuit">
-                        Dagje uit Middelburg
-                      </a>
-                    </Dropdown.Item>
-                    <Dropdown.Item>
-                      <a href="https://www.zeeuwsmuseum.nl/nl/plan-je-bezoek/boek-je-bezoek">
-                        Boek je bezoek
-                      </a>
-                    </Dropdown.Item>
-                  </Dropdown.Menu>
-                </Dropdown>
-
-                <Dropdown item icon={<FaChevronDown />} text="ONTDEK">
-                  <Dropdown.Menu>
-                    <Dropdown.Item>
-                      <a href="https://www.zeeuwsmuseum.nl/nl/videotheek">
-                        Videotheek
-                      </a>
-                    </Dropdown.Item>
-                    <Dropdown.Item>
-                      <a href="https://www.zeeuwsmuseum.nl/nl/collectie/mode-en-streekdracht">
-                        Mode en streekdracht
-                      </a>
-                    </Dropdown.Item>
-                    <Dropdown.Item>
-                      <a href="https://www.zeeuwsmuseum.nl/nl/collectie/wandtapijten">
-                        Wandtapijten
-                      </a>
-                    </Dropdown.Item>
-                    <Dropdown.Item>
-                      <a href="https://www.zeeuwsmuseum.nl/nl/collectie/geschiedenis-en-archeologie">
-                        Geschiedenis en archeologie
-                      </a>
-                    </Dropdown.Item>
-                    <Dropdown.Item>
-                      <a href="https://www.zeeuwsmuseum.nl/nl/collectie/kunst">
-                        Kunst
-                      </a>
-                    </Dropdown.Item>
-                    <Dropdown.Item>
-                      <a href="https://www.zeeuwsmuseum.nl/nl/collectie/kunstnijverheid">
-                        Kunstnijverheid
-                      </a>
-                    </Dropdown.Item>
-                    <Dropdown.Item>
-                      <a href="https://www.zeeuwsmuseum.nl/nl/collectie/natuurhistorie">
-                        Natuurhistorie
-                      </a>
-                    </Dropdown.Item>
-                  </Dropdown.Menu>
-                </Dropdown>
-
-                <Dropdown item icon={<FaChevronDown />} text="OVER HET MUSEUM">
-                  <Dropdown.Menu>
-                    <Dropdown.Item>
-                      <a href="https://www.zeeuwsmuseum.nl/nl/over-het-museum/steun-het-museum">
-                        Steun het museum
-                      </a>
-                    </Dropdown.Item>
-                    <Dropdown.Item>
-                      <a href="https://www.zeeuwsmuseum.nl/nl/over-het-museum/pers">
-                        Pers
-                      </a>
-                    </Dropdown.Item>
-                    <Dropdown.Item>
-                      <a href="https://www.zeeuwsmuseum.nl/nl/over-het-museum/organisatie">
-                        Organisatie
-                      </a>
-                    </Dropdown.Item>
-                    <Dropdown.Item>
-                      <a href="https://www.zeeuwsmuseum.nl/nl/over-het-museum/publicaties">
-                        Publicaties
-                      </a>
-                    </Dropdown.Item>
-                    <Dropdown.Item>
-                      <a href="https://www.zeeuwsmuseum.nl/nl/over-het-museum/voorwaarden">
-                        Voorwaarden
-                      </a>
-                    </Dropdown.Item>
-                  </Dropdown.Menu>
-                </Dropdown>
-
-                <Menu.Item
-                  name="editorials"
-                  onClick={this.handleItemClick}
-                  href="https://www.zeeuwsmuseum.nl/nl/plan-je-bezoek/boek-je-bezoek"
-                >
-                  TICKETS
-                </Menu.Item>
-              </Menu> */}
             </div>
           </div>
         </CSSTransition>
