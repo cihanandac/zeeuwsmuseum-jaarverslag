@@ -672,7 +672,7 @@ img.large {
   }
 }
 
-@media only screen and (min-width: 991px) {
+@media only screen and (min-width: 1049px) {
   div.mobile-menu-enter-done{
     display: none;
   }

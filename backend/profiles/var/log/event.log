@@ -11674,3 +11674,14 @@ NotImplementedError
 2022-10-19 10:45:13 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
 2022-10-19 10:51:44 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
 2022-10-19 10:51:44 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
+2022-10-19 11:13:10 INFO [chameleon.config:38][MainThread] directory cache: /Users/cihanandac/Documents/Code files/zeeuwsmuseumproject/backend/profiles/var/cache.
+2022-10-19 11:13:11 INFO [plone.volto:22][MainThread] Aliasing collective.folderish classes to plone.volto classes.
+2022-10-19 11:13:12 INFO [Zope:42][MainThread] Ready to handle requests
+2022-10-19 11:13:12 INFO [waitress:486][MainThread] Serving on http://127.0.0.1:8080
+2022-10-19 11:13:12 INFO [waitress:486][MainThread] Serving on http://127.0.0.1:8080
+2022-10-19 11:14:17 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 11:14:17 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 11:14:17 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
+2022-10-19 11:14:17 WARNING [waitress.queue:114][MainThread] Task queue depth is 1
+2022-10-19 11:14:17 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
+2022-10-19 11:14:17 WARNING [waitress.queue:114][MainThread] Task queue depth is 2
