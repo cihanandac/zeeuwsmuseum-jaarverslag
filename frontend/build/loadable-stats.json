@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.46.0",
-  "hash": "2bb7913bddf9913cbed2",
+  "hash": "59a7887e437c26acac75",
   "publicPath": "http://localhost:3002/",
   "outputPath": "/Users/cihanandac/Documents/Code files/zeeuwsmuseumproject/frontend/build/public",
   "assetsByChunkName": {
@@ -458,7 +458,7 @@
         "client"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/client.chunk.js.map",
@@ -472,7 +472,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/draft-js-block-breakout-plugin.chunk.js",
@@ -796,7 +796,7 @@
         "runtime~client"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/runtime~client.js.map",
@@ -810,7 +810,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~PDFViewer.chunk.js",
@@ -840,7 +840,7 @@
     },
     {
       "name": "static/js/vendors~client.chunk.js",
-      "size": 24020810,
+      "size": 24026397,
       "chunks": [
         "vendors~client"
       ],
@@ -848,12 +848,11 @@
         "vendors~client"
       ],
       "info": {},
-      "emitted": true,
-      "isOverSizeLimit": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~client.chunk.js.map",
-      "size": 20454336,
+      "size": 20460071,
       "chunks": [
         "vendors~client"
       ],
@@ -863,7 +862,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~diff.chunk.js",
@@ -1719,7 +1718,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-bold-webfont.aded6b78.woff",
@@ -1727,7 +1726,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-boldoblique-webfont.babc8d10.woff",
@@ -1735,7 +1734,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-boldoblique-webfont.fc4f24b1.woff2",
@@ -1743,7 +1742,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-condensed-webfont.0640dde4.woff2",
@@ -1751,7 +1750,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-condensed-webfont.d4697b55.woff",
@@ -1759,7 +1758,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-condensedbold-webfont.2e325c9a.woff2",
@@ -1767,7 +1766,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-condensedbold-webfont.bfb73a05.woff",
@@ -1775,7 +1774,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-condensedlight-webfont.7bd94775.woff",
@@ -1783,7 +1782,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-condensedlight-webfont.da2a6147.woff2",
@@ -1791,7 +1790,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-light-webfont.534ef18d.woff2",
@@ -1799,7 +1798,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-light-webfont.76820e74.woff",
@@ -1807,7 +1806,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-lightoblique-webfont.001c0bfb.woff2",
@@ -1815,7 +1814,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-lightoblique-webfont.71222668.woff",
@@ -1823,7 +1822,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-lightultracondensed-webfont.206dda91.woff",
@@ -1831,7 +1830,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-lightultracondensed-webfont.fdafd4a3.woff2",
@@ -1839,7 +1838,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-thinultracondensed-webfont.187d32e0.woff2",
@@ -1847,7 +1846,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-thinultracondensed-webfont.5d4631f5.woff",
@@ -1855,7 +1854,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-ultracondensed-webfont.3049f45d.woff2",
@@ -1863,7 +1862,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-ultracondensed-webfont.ec60e0d1.woff",
@@ -1871,7 +1870,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-webfont.180db8a4.woff2",
@@ -1879,7 +1878,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-webfont.2594e742.woff",
@@ -1887,7 +1886,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     }
   ],
   "filteredAssets": 0,
