@@ -1,6 +1,4 @@
 /* GENERAL STUFF */
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
-
 @font-face {
   font-family: 'UniversCn';
   src: url('../assets/fonts/univers-condensed-webfont.woff2') format('woff2'),
@@ -122,7 +120,7 @@
 /* //GENERAL WIDTH OF BODY-BLOCK AREA */
 div.four.wide {
   padding-right: 30px !important;
-  // margin: 0% !important;
+  /* margin: 0% !important; */
 }
 
 /* //************************* */
@@ -364,7 +362,7 @@ div.ui.breadcrumb {
 
 div#view {
   padding-top: 0%;
-  // margin-top: 30px;
+  margin-top: 30px;
 
   /* For the Block Area */
   #page-document {
@@ -373,7 +371,17 @@ div#view {
     h3,
     h4,
     h5 {
-      font-family: 'UniversCn', 'Helvetica Neue', Helvetica, sans-serif;
+      font-family: 'UniversCn', Arial, sans-serif;
+      font-size: 60px;
+      margin: 20px 0px 12px;
+      box-sizing: border-box;
+      font-weight: 400;
+      line-height: 66px;
+      color: rgb(0, 0, 0);
+      margin-top: 20px;
+      margin-bottom: 12px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
       -webkit-font-smoothing: antialiased;
     }
 
@@ -386,16 +394,26 @@ div#view {
     }
 
     p {
-      font-family: 'UniversLight', Arial, sans-serif;
-      font-size: 1.358em;
+      box-sizing: border-box;
+      margin: 20px 0px 35px;
       line-height: 37px;
-      letter-spacing: 0.05em;
-      color: #000000;
-      margin: 20px 0;
-      margin-bottom: 35px;
-      font-weight: 100;
+      font-family: UniversLight, Arial, sans-serif;
+      font-size: 19.008px;
+      letter-spacing: 0.9504px;
+      color: rgb(0, 0, 0);
       -webkit-font-smoothing: antialiased;
+
+      a {
+        border-bottom: 1px solid #7bb0e7;
+        text-decoration: none !important;
+        color: #000000;
+      }
+      a:hover{
+          color: #7bb0e7 !important;
+          border-bottom: #ffffff;
+        }
     }
+
     h3 {
       box-sizing: border-box;
       font-family: 'UniversLightCn', Arial, sans-serif;
@@ -410,9 +428,12 @@ div#view {
     }
 
     #photo-credit {
-      font-size: 12px;
+      font-size: 13px;
+      color: rgb(102, 102, 102);
+      margin-top: -5px;
+      display: block;
+      line-height: 25px;
       text-align: center;
-      line-height: 20px;
     }
 
     blockquote.callout {
@@ -600,10 +621,10 @@ div#view {
 }
 /* FOOTER END */
 
-// ************************************
-// ***PAGE SPESIFIC CSS***********
+/* ************************************
+***PAGE SPESIFIC CSS***********
 
-// EDIT PAGE's header stops moving once we are in edit mode
+EDIT PAGE's header stops moving once we are in edit mode */
 .view-editview.contenttype-plone-site,
 .view-contentsview,
 .view-addview {
@@ -611,7 +632,7 @@ div#view {
     position: relative !important;
   }
 }
-// END OF EDIT PAGE
+/* END OF EDIT PAGE */
 
 /* TERUGBLIK PAGE */
 .view-viewview.contenttype-document.section-terugblik {
@@ -620,7 +641,15 @@ div#view {
     float: none;
   }
   #page-document {
-    padding: 0px 190px;
+    /* padding: 0px 198.5px; */
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  p {
+    margin-left: 198.5px !important;
+    margin-right: 198.5px !important;
   }
   .ui.secondary.vertical {
     margin-top: 60px;
@@ -629,12 +658,25 @@ div#view {
 p.block.image.align.full {
   margin-top: 0% !important;
 }
-img.large {
-  margin-left: -50vw !important;
+p.block.image.align.center {
+  /* margin-left: -50vw !important;
   margin-right: -50vw !important;
   max-width: 50vw !important;
-  position: relative !important;
-  // width: 100vw !important;
+  position: relative !important; */
+  /* height: 664.758px; */
+  margin-left: 98.5px !important;
+  margin-right: 98.5px !important;
+  float: none;
+  border: 0px none rgb(0, 0, 0);
+  box-sizing: border-box;
+  vertical-align: middle;
+  display: block;
+  max-width: 100%;
+  height: 664.758px;
+  padding-top: 45px;
+}
+h2 {
+  padding-top: 38px;
 }
 
 /* END OF TERUGBLIK PAGE */
@@ -644,25 +686,21 @@ img.large {
   #page-document.ui.container {
     width: 100% !important;
   }
-  // #page-document p {
-  //     margin-bottom: 0%;
-  //     margin-top: 2%;
-  // }
-  div#view {
-    a {
+  /* div#view { */
+  /* a {
       color: #000000;
       font-size: 1.1em;
       font-family: 'UniversLightCn', Arial, sans-serif;
-    }
+    } */
 
-    h1 {
+  /* h1 {
       padding-left: 0%;
       padding-right: 0%;
       padding-bottom: 30px;
       padding-top: 35px;
       font-size: 60px;
     }
-  }
+  } */
 
   .documentFirstHeading {
     border: none;
