@@ -630,12 +630,15 @@ div#view {
 ***PAGE SPESIFIC CSS***********
 
 EDIT PAGE's header stops moving once we are in edit mode */
-.view-editview.contenttype-plone-site,
+.view-editview,
 .view-contentsview,
 .view-addview {
   .ui.basic.segment.header-wrapper {
     position: relative !important;
   }
+  .ui.basic.segment.content-area {
+    padding-top: 120px !important;
+  } 
 }
 /* END OF EDIT PAGE */
 
