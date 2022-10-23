@@ -372,7 +372,7 @@ div#view {
     h5 {
       font-family: 'UniversCn', Arial, sans-serif;
       font-size: 60px;
-      margin: 20px 0px 12px;
+      /* margin: 20px 0px 12px; */
       box-sizing: border-box;
       font-weight: 400;
       line-height: 66px;
@@ -659,7 +659,10 @@ EDIT PAGE's header stops moving once we are in edit mode */
 p.block.image.align.full {
   margin-top: 0% !important;
   margin-bottom: 0% !important;
-  img{
+  margin-left: auto !important;
+  margin-right: auto !important;
+
+  img {
     height: 56.4vw !important;
     width: 100vw !important;
     object-fit: cover;
@@ -696,21 +699,6 @@ h2 {
   #page-document.ui.container {
     width: 100% !important;
   }
-  /* div#view { */
-  /* a {
-      color: #000000;
-      font-size: 1.1em;
-      font-family: 'UniversLightCn', Arial, sans-serif;
-    } */
-
-  /* h1 {
-      padding-left: 0%;
-      padding-right: 0%;
-      padding-bottom: 30px;
-      padding-top: 35px;
-      font-size: 60px;
-    }
-  } */
 
   .documentFirstHeading {
     border: none;
@@ -779,11 +767,10 @@ h2 {
 
 @media only screen and (max-width: 1200px) {
   .view-viewview.contenttype-document.section-terugblik {
-    img {
+    /* img {
       display: inline;
       float: none;
-    }
-
+    } */
   }
 }
 @media only screen and (max-width: 768px) {
@@ -810,7 +797,7 @@ h2 {
         word-wrap: break-word;
       }
 
-      padding: 0px 15px !important;
+      /* padding: 0px 15px !important; */
 
       p {
         font-size: 16px !important;
@@ -854,9 +841,6 @@ h2 {
   div.mobile-menu-enter-done {
     display: none;
   }
-  div.ui.container{
-    margin-left: 0% !important;
-  } 
 }
 
 // **************************************
