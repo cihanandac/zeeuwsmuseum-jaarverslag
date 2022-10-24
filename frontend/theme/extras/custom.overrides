@@ -127,8 +127,58 @@ div.four.wide {
   width: 100vw !important;
   margin-left: 0em !important;
   margin-right: 0em !important;
+  position: relative;
 }
 
+.SocialbuttonsTop {
+  position: absolute;
+  width: 55px;
+  height: 136px;
+  /* top: 1150px; */
+  top: calc(59.9vw);
+  left: calc(100vw - 55px);
+  list-style-type: none;
+  border: 0.5px solid #ececec;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.SocialbuttonsBottom {
+  /* position: relative; */
+  /* width: 150px; */
+  height: 50px;
+  /* left: 50px; */
+  padding-top: 80px !important;
+  align-self: center;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 15px;
+  padding-bottom: 65px;
+  vertical-align: middle;
+  /* padding-top: 20px;
+  padding-bottom: 20px; */
+  .rrssb-icon {
+    padding-right: 13px;
+    padding-left: 13px;
+  }
+}
+.rrssb-icon svg {
+  fill: #929292;
+}
+.rrssb-icon:hover {
+  fill: #7bb0e7 !important;
+}
+
+a {
+  text-decoration: none;
+}
 /* //************************* */
 
 /*************************
@@ -377,11 +427,7 @@ div#view {
     h4,
     h5 {
       font-family: 'UniversCn', Arial, sans-serif;
-      font-size: 60px;
-      /* margin: 20px 0px 12px; */
       box-sizing: border-box;
-      font-weight: 400;
-      line-height: 66px;
       color: rgb(0, 0, 0);
       margin-top: 20px;
       margin-bottom: 12px;
@@ -393,9 +439,10 @@ div#view {
     h2 {
       color: #000000;
       margin-bottom: 35px;
-      font-size: 4.35em;
+      font-size: 60px;
       text-transform: uppercase;
-      letter-spacing: 0.04em;
+      letter-spacing: 3px;
+      line-height: 66px;
     }
 
     p {
@@ -437,7 +484,7 @@ div#view {
       color: rgb(102, 102, 102);
       margin-top: -5px !important;
       display: block;
-      line-height: 25px !important;
+      line-height: 23px !important;
       text-align: center;
     }
 
@@ -495,9 +542,11 @@ div#view {
         flex: 1 1 0;
         padding-right: 45px;
         min-width: 260px;
+        margin-top: 8px;
+        margin-bottom: 8px;
 
         p#address {
-          padding-bottom: 2px;
+          padding-bottom: 3px;
         }
         p#phoneNumber {
           padding-bottom: 0%;
@@ -516,11 +565,16 @@ div#view {
         flex: 1.3 1.3 0;
         padding-left: 50px;
         margin-right: 0px;
+        p {
+          width: 100% !important;
+          word-break: break-word;
+        }
 
         dd.portletItem.odd {
           display: flex;
           justify-items: center;
           margin-left: 0;
+          padding-top: 32px;
 
           form {
             width: 100%;
@@ -601,7 +655,7 @@ div#view {
   }
   input,
   button {
-    margin-top: 30px;
+    /* margin-top: 30px; */
     height: 44px;
   }
 
@@ -638,7 +692,11 @@ EDIT PAGE's header stops moving once we are in edit mode */
   }
   .ui.basic.segment.content-area {
     padding-top: 120px !important;
-  } 
+  }
+  .SocialbuttonsTop {
+    left: 50%;
+    top: 0px;
+  }
 }
 /* END OF EDIT PAGE */
 
@@ -664,6 +722,44 @@ EDIT PAGE's header stops moving once we are in edit mode */
   .ui.secondary.vertical {
     margin-top: 60px;
   }
+
+  .nutezienTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'UniversLightCn';
+    font-size: 25.2px;
+    padding-top: 50px;
+    margin-bottom: 0%;
+    a {
+      text-decoration: none !important;
+      color: #000000;
+      -webkit-font-smoothing: antialiased;
+    }
+  }
+
+  .columns-view {
+    margin: 0% auto;
+    width: 100vw;
+    padding: 0% 20px;
+  }
+  .ui.twelve {
+    padding: 0% 15px;
+  }
+
+  .column-blocks-wrapper {
+    a {
+      text-decoration: none !important;
+      color: #000000;
+      -webkit-font-smoothing: antialiased;
+    }
+    h3,
+    p {
+      width: 100%;
+      margin-top: 0px !important;
+      margin-bottom: 0px !important;
+    }
+  }
 }
 p.block.image.align.full {
   margin-top: 0% !important;
@@ -677,6 +773,7 @@ p.block.image.align.full {
     object-fit: cover;
   }
 }
+
 p.block.image.align.center {
   /* margin-left: -50vw !important;
   margin-right: -50vw !important;
@@ -697,8 +794,49 @@ p.block.image.align.center {
   margin-bottom: 22px !important;
 }
 h2 {
-  padding-top: 38px;
+  padding-top: 60px;
   margin-bottom: 43px !important;
+}
+
+.teaser-item.top {
+  position: relative;
+  a {
+    pointer-events: none;
+    cursor: default;
+  }
+}
+.teaser-item-title {
+  height: 80px;
+  width: 100vw;
+  background-color: #00000099;
+  color: #ffffff99;
+  position: absolute;
+  bottom: 7px;
+  box-sizing: border-box;
+  padding-left: 40px;
+  font-family: 'UniversCn', Arial, sans-serif;
+  font-size: 19.008px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow-wrap: break-word;
+  line-height: 33px;
+  letter-spacing: 0.9504px;
+
+  .title {
+    padding-top: 25px;
+  }
+}
+
+.block.slider {
+  padding-bottom: 0% !important;
+}
+.highlight-image-wrapper.gradient {
+  img {
+    height: 56.26vw !important;
+    width: 100vw !important;
+    object-fit: cover !important;
+    object-position: inherit !important;
+  }
 }
 
 /* END OF TERUGBLIK PAGE */
@@ -733,6 +871,12 @@ h2 {
     width: 730px !important;
   }
 }
+@media only screen and (min-width: 993px) {
+  .SocialbuttonsBottom {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 993px) {
   #bottom-footer {
     height: 297.33px;
@@ -750,6 +894,8 @@ h2 {
       min-width: 450px !important;
       width: 100% !important;
       padding-right: 45px;
+      padding-top: 65px;
+      padding-bottom: 65px;
     }
   }
   .footerInfoBox {
@@ -763,8 +909,12 @@ h2 {
     width: 50px !important;
   }
   div.input-group {
-    // margin-right: 0% !important;
     width: 100% !important;
+    padding-top: 0% !important;
+  }
+
+  .SocialbuttonsTop {
+    display: none;
   }
 }
 
@@ -801,9 +951,10 @@ h2 {
       p {
         width: 100%;
         word-wrap: break-word;
+        padding: 0px 25px !important;
       }
 
-      padding: 0px 30px !important;
+      /* padding: 0px 30px !important; */
 
       p {
         font-size: 16px !important;
@@ -846,6 +997,11 @@ h2 {
 @media only screen and (min-width: 1049px) {
   div.mobile-menu-enter-done {
     display: none;
+  }
+}
+@media only screen and (max-width: 1584px) {
+  dd.portletItem.odd {
+    padding-top: 8px !important;
   }
 }
 

@@ -14,10 +14,14 @@
  */
 
 import {
-  MainSliderViewBlock,
-  MainSliderEditBlock,
+  SocialTopViewBlock,
+  SocialTopEditBlock,
   EmptylineEditBlock,
   EmptylineViewBlock,
+  SocialBottomViewBlock,
+  SocialBottomEditBlock,
+  NutezienViewBlock,
+  NutezienEditBlock,
 } from '@package/components';
 import sliderSVG from '@plone/volto/icons/slider.svg';
 import dotsSVG from '@plone/volto/icons/dots.svg';
@@ -33,13 +37,13 @@ import '@plone/volto/config';
 // });
 
 export default function applyConfig(config) {
-  (config.blocks.blocksConfig.mainslider = {
-    id: 'mainslider',
-    title: 'Main Slider',
+  (config.blocks.blocksConfig.socialtop = {
+    id: 'socialtop',
+    title: 'Socialtop',
     icon: sliderSVG,
     group: 'common',
-    view: MainSliderViewBlock,
-    edit: MainSliderEditBlock,
+    view: SocialTopViewBlock,
+    edit: SocialTopEditBlock,
     restricted: false,
     mostUsed: true,
     security: {
@@ -47,6 +51,20 @@ export default function applyConfig(config) {
       view: [],
     },
   }),
+    (config.blocks.blocksConfig.socialbottom = {
+      id: 'socialbottom',
+      title: 'Socialbottom',
+      icon: sliderSVG,
+      group: 'common',
+      view: SocialBottomViewBlock,
+      edit: SocialBottomEditBlock,
+      restricted: false,
+      mostUsed: true,
+      security: {
+        addPermission: [],
+        view: [],
+      },
+    }),
     (config.blocks.blocksConfig.emptyline = {
       id: 'emptyline',
       title: 'Empty Line',
@@ -54,6 +72,20 @@ export default function applyConfig(config) {
       group: 'text',
       view: EmptylineViewBlock,
       edit: EmptylineEditBlock,
+      restricted: false,
+      mostUsed: true,
+      security: {
+        addPermission: [],
+        view: [],
+      },
+    }),
+    (config.blocks.blocksConfig.nutezien = {
+      id: 'nutezien',
+      title: 'Nutezien',
+      icon: sliderSVG,
+      group: 'common',
+      view: NutezienViewBlock,
+      edit: NutezienEditBlock,
       restricted: false,
       mostUsed: true,
       security: {
