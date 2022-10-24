@@ -546,7 +546,7 @@ div#view {
         margin-bottom: 8px;
 
         p#address {
-          padding-bottom: 3px;
+          padding-bottom: 2px;
         }
         p#phoneNumber {
           padding-bottom: 0%;
@@ -599,6 +599,7 @@ div#view {
         div.input-group {
           display: flex;
           align-items: center;
+          padding-top: 10px;
 
           input {
             border: 1px solid;
@@ -629,8 +630,8 @@ div#view {
     justify-content: center;
     border-top: 0.3px solid #c3c3c3;
     align-items: center;
-    padding-top: 110px;
-    padding-bottom: 110px;
+    padding-top: 125px;
+    padding-bottom: 125px;
     width: 100%;
   }
 
@@ -644,7 +645,7 @@ div#view {
     color: #7bb0e7;
     letter-spacing: 0.1em;
     width: auto;
-    height: 50px;
+    height: 55px;
     font-size: 16px;
     background-color: transparent;
     letter-spacing: 0.05em;
@@ -880,6 +881,11 @@ h2 {
 @media only screen and (max-width: 993px) {
   #bottom-footer {
     height: 297.33px;
+    padding-bottom: 160px !important;
+    padding-top: 160px !important;
+    img.ui.image {
+      width: 300px !important;
+    }
   }
   div#view h1 {
     font-size: 35px;
@@ -898,12 +904,17 @@ h2 {
       padding-bottom: 65px;
     }
   }
-  .footerInfoBox {
+  #top-footer {
+    padding-top: 0% !important;
+  }
+  div.footerInfoBox {
     min-width: 334px !important;
     width: 100% !important;
     margin-right: 60px;
-    // padding: 0% !important;
-    // margin: 0% !important;
+    /* padding: 0% !important;
+    margin: 0% !important; */
+    padding-bottom: 55px !important;
+    padding-top: 55px !important;
   }
   span.input-group-btn {
     width: 50px !important;
@@ -918,14 +929,41 @@ h2 {
   }
 }
 
+@media only screen and (max-width: 809px) {
+  /* .top-wrapper {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .footerInfoBox{
+    padding-left: 56.555px !important;
+    padding-right: 56.555px !important;
+  } */
+  .footerInfoBox {
+    p {
+      max-width: 100% !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      text-align: center !important;
+      vertical-align: middle !important;
+    }
+    a {
+      max-width: 100% !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      text-align: center !important;
+      vertical-align: middle !important;
+    }
+    .titleWrapper {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
 @media only screen and (max-width: 764px) {
   .footerInfoBox {
     padding: 0% !important;
     margin: 0% !important;
-  }
-
-  img.ui.image {
-    width: 300px !important;
   }
 }
 

@@ -34,9 +34,11 @@ const Footer = ({ intl }) => {
       <div id="top-footer">
         <div className="top-wrapper" id="top-wrap">
           <div className="footerInfoBox">
-            <a href="https://www.zeeuwsmuseum.nl/nl/zeeuws-museum-v4/#">
-              BEZOKADRES
-            </a>
+            <div className="titleWrapper">
+              <a href="https://www.zeeuwsmuseum.nl/nl/zeeuws-museum-v4/#">
+                BEZOKADRES
+              </a>
+            </div>
             <p>Abdij (Plein)</p>
             <p id="address">4331 BK, Middleburg</p>
             <a
@@ -48,11 +50,14 @@ const Footer = ({ intl }) => {
           </div>
 
           <div className="footerInfoBox">
-            <a href="https://www.zeeuwsmuseum.nl/nl/contact">
-              CONTACT ALGEMEEN
-            </a>
+            <div className="titleWrapper">
+              <a href="https://www.zeeuwsmuseum.nl/nl/contact">
+                CONTACT ALGEMEEN
+              </a>
+            </div>
             <p id="phoneNumber">+31 (0) 118 653000</p>
-            <a id="mailadress"
+            <a
+              id="mailadress"
               data-linktype="email"
               href="mailto:info@zeeuwsmuseum.nl?subject=Contact%20via Zeeuws Museum website"
               data-val="info@zeeuwsmuseum.nl"
@@ -80,7 +85,11 @@ const Footer = ({ intl }) => {
           </div>
 
           <div id="footermail" className="footerInfoBox">
-            <a href="">NIEUWSBRIEF</a>
+            <div className="titleWrapper">
+              <a id="footerTitle3" href="">
+                NIEUWSBRIEF
+              </a>
+            </div>
             <p> Schrijf je in voor onze nieuwsbrief en blijf op de hoogte. </p>
 
             <dd className="portletItem odd">
