@@ -56,7 +56,7 @@ const Header = (props) => {
 
   return (
     <Segment basic className={`header-wrapper ${ scrollDirection === "down" ? "hide" : "show"}`} role="banner">
-      <Container className="">
+      <Container className="header-container">
         <div className="header">
           <div className="logo-nav-wrapper">
             <div className="logo">

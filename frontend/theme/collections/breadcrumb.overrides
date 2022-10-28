@@ -1,0 +1,85 @@
+/*******************************
+        Theme Overrides
+*******************************/
+
+/* .ui.breadcrumb {
+  display: flex;
+  align-items: center;
+  padding-right: 1rem;
+  padding-left: 1rem;
+
+  a.section {
+    color: #0074a3;
+  }
+
+  .section.active {
+    color: #4e7372;
+  }
+
+  .home.icon {
+    margin-right: 0;
+  }
+
+  @media only screen and (min-width: @tabletBreakpoint) {
+    padding-right: 0;
+    padding-left: 0;
+  }
+} */
+
+
+/* SECONDARY HEADER */
+// ********BREADCRUMB***********
+
+.ui.secondary.vertical {
+  background-color: #ffffff;
+  border: 0px;
+}
+
+.ui.secondary.vertical.segment.breadcrumbs {
+  padding: 0%;
+  height: 54px;
+}
+div.ui.breadcrumb {
+  display: none;
+  font-family: 'UniversLightCn', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #808080 !important;
+  font-size: 17px;
+  padding-left: 300px;
+  letter-spacing: 0.1em;
+  padding-top: 20px;
+  padding-bottom: 0%;
+  height: 54px;
+
+  .section:hover {
+    color: #7bb0e7 !important;
+  }
+  .divider {
+    font-size: 15px;
+    font-weight: 100;
+  }
+  svg path {
+    color: #808080;
+    height: 30px !important;
+    width: 20px;
+  }
+}
+.ui.breadcrumb .section.active {
+  color: #808080 !important;
+}
+.ui.breadcrumb .section {
+  color: #000000 !important;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.view-viewview.contenttype-document.section-terugblik {
+  div.ui.breadcrumb {
+    display: block;
+  }
+}
+.ui.segment.content-area {
+  padding-top: 0%;
+  margin-top: 0%;
+}
+
+/* END OF SECONDARY HEADER */
