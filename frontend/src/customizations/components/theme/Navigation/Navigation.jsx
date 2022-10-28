@@ -268,13 +268,14 @@ class Navigation extends Component {
           className="computer large screen widescreen only"
           onClick={this.closeMobileMenu}
         >
-          <Menu.Item
+          {/* <Menu.Item
+            className="simple"
             name="editorials"
             onClick={this.handleItemClick}
             href="http://volto.cihanandac.net"
           >
             JAARVERSLAG
-          </Menu.Item>
+          </Menu.Item> */}
 
           <Dropdown
             item
@@ -283,27 +284,27 @@ class Navigation extends Component {
             text="PLAN JE BEZOEK"
           >
             <Dropdown.Menu>
-              <Dropdown.Item>
+              <Dropdown.Item id="dropdownItemA">
                 <a href="https://www.zeeuwsmuseum.nl/nl/plan-je-bezoek/praktische-info">
                   Praktische informatie
                 </a>
               </Dropdown.Item>
-              <Dropdown.Item>
+              <Dropdown.Item id="dropdownItemA">
                 <a href="https://www.zeeuwsmuseum.nl/nl/plan-je-bezoek/nu-in-het-museum">
                   Zien en doen
                 </a>
               </Dropdown.Item>
-              <Dropdown.Item>
+              <Dropdown.Item id="dropdownItemA">
                 <a href="https://www.zeeuwsmuseum.nl/nl/plan-je-bezoek/kinderen-klas-of-groep">
                   Families, groupen en scholen
                 </a>
               </Dropdown.Item>
-              <Dropdown.Item>
+              <Dropdown.Item id="dropdownItemA">
                 <a href="https://www.zeeuwsmuseum.nl/nl/plan-je-bezoek/leukdagjeuit">
                   Dagje uit Middelburg
                 </a>
               </Dropdown.Item>
-              <Dropdown.Item>
+              <Dropdown.Item id="dropdownItemA">
                 <a href="https://www.zeeuwsmuseum.nl/nl/plan-je-bezoek/boek-je-bezoek">
                   Boek je bezoek
                 </a>
@@ -317,37 +318,37 @@ class Navigation extends Component {
             text="ONTDEK"
           >
             <Dropdown.Menu>
-              <Dropdown.Item>
+              <Dropdown.Item id="dropdownItemA">
                 <a href="https://www.zeeuwsmuseum.nl/nl/videotheek">
                   Videotheek
                 </a>
               </Dropdown.Item>
-              <Dropdown.Item>
+              <Dropdown.Item id="dropdownItemA">
                 <a href="https://www.zeeuwsmuseum.nl/nl/collectie/mode-en-streekdracht">
                   Mode en streekdracht
                 </a>
               </Dropdown.Item>
-              <Dropdown.Item>
+              <Dropdown.Item id="dropdownItemA">
                 <a href="https://www.zeeuwsmuseum.nl/nl/collectie/wandtapijten">
                   Wandtapijten
                 </a>
               </Dropdown.Item>
-              <Dropdown.Item>
+              <Dropdown.Item id="dropdownItemA">
                 <a href="https://www.zeeuwsmuseum.nl/nl/collectie/geschiedenis-en-archeologie">
                   Geschiedenis en archeologie
                 </a>
               </Dropdown.Item>
-              <Dropdown.Item>
+              <Dropdown.Item id="dropdownItemA">
                 <a href="https://www.zeeuwsmuseum.nl/nl/collectie/kunst">
                   Kunst
                 </a>
               </Dropdown.Item>
-              <Dropdown.Item>
+              <Dropdown.Item id="dropdownItemA">
                 <a href="https://www.zeeuwsmuseum.nl/nl/collectie/kunstnijverheid">
                   Kunstnijverheid
                 </a>
               </Dropdown.Item>
-              <Dropdown.Item>
+              <Dropdown.Item id="dropdownItemA">
                 <a href="https://www.zeeuwsmuseum.nl/nl/collectie/natuurhistorie">
                   Natuurhistorie
                 </a>
@@ -362,27 +363,27 @@ class Navigation extends Component {
             text="OVER HET MUSEUM"
           >
             <Dropdown.Menu>
-              <Dropdown.Item>
+              <Dropdown.Item id="dropdownItemA">
                 <a href="https://www.zeeuwsmuseum.nl/nl/over-het-museum/steun-het-museum">
                   Steun het museum
                 </a>
               </Dropdown.Item>
-              <Dropdown.Item>
+              <Dropdown.Item id="dropdownItemA">
                 <a href="https://www.zeeuwsmuseum.nl/nl/over-het-museum/pers">
                   Pers
                 </a>
               </Dropdown.Item>
-              <Dropdown.Item>
+              <Dropdown.Item id="dropdownItemA">
                 <a href="https://www.zeeuwsmuseum.nl/nl/over-het-museum/organisatie">
                   Organisatie
                 </a>
               </Dropdown.Item>
-              <Dropdown.Item>
+              <Dropdown.Item id="dropdownItemA">
                 <a href="https://www.zeeuwsmuseum.nl/nl/over-het-museum/publicaties">
                   Publicaties
                 </a>
               </Dropdown.Item>
-              <Dropdown.Item>
+              <Dropdown.Item id="dropdownItemA">
                 <a href="https://www.zeeuwsmuseum.nl/nl/over-het-museum/voorwaarden">
                   Voorwaarden
                 </a>
@@ -391,6 +392,7 @@ class Navigation extends Component {
           </Dropdown>
 
           <Menu.Item
+            className="simple"
             name="editorials"
             onClick={this.handleItemClick}
             href="https://www.zeeuwsmuseum.nl/nl/plan-je-bezoek/boek-je-bezoek"
@@ -408,19 +410,20 @@ class Navigation extends Component {
             <BodyClass className="has-mobile-menu-open" />
             <div className="mobile-menu-nav">
               <div>
-                <Menu.Item
+                {/* <Menu.Item
                   name="editorials"
                   onClick={this.handleItemClick}
                   href="http://volto.cihanandac.net"
                 >
                   JAARVERSLAG
-                </Menu.Item>
+                </Menu.Item> */}
               </div>
               <div>
                 <Accordion className="accordion" panels={rootPanels} />
               </div>
               <div>
                 <Menu.Item
+                  className="simple"
                   name="editorials"
                   onClick={this.handleItemClick}
                   href="https://www.zeeuwsmuseum.nl/nl/plan-je-bezoek/boek-je-bezoek"
