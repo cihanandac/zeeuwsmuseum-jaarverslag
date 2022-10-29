@@ -160,28 +160,34 @@ class Navigation extends Component {
     const OntdekContent = (
       <div>
         <div>
-          <a href="https://www.zeeuwsmuseum.nl/nl/plan-je-bezoek/praktische-info">
-            Praktische informatie
+          <a href="https://www.zeeuwsmuseum.nl/nl/videotheek">Videotheek</a>
+        </div>
+        <div>
+          <a href="https://www.zeeuwsmuseum.nl/nl/collectie/mode-en-streekdracht">
+            Mode en streekdracht
           </a>
         </div>
         <div>
-          <a href="https://www.zeeuwsmuseum.nl/nl/plan-je-bezoek/nu-in-het-museum">
-            Zien en doen
+          <a href="https://www.zeeuwsmuseum.nl/nl/collectie/wandtapijten">
+            Wandtapijten
           </a>
         </div>
         <div>
-          <a href="https://www.zeeuwsmuseum.nl/nl/plan-je-bezoek/kinderen-klas-of-groep">
-            Families, groupen en scholen
+          <a href="https://www.zeeuwsmuseum.nl/nl/collectie/geschiedenis-en-archeologie">
+            Geschiedenis en archeologie
           </a>
         </div>
         <div>
-          <a href="https://www.zeeuwsmuseum.nl/nl/plan-je-bezoek/leukdagjeuit">
-            Dagje uit Middelburg
+          <a href="https://www.zeeuwsmuseum.nl/nl/collectie/kunst">Kunst</a>
+        </div>
+        <div>
+          <a href="https://www.zeeuwsmuseum.nl/nl/collectie/kunstnijverheid">
+            Kunstnijverheid
           </a>
         </div>
         <div>
-          <a href="https://www.zeeuwsmuseum.nl/nl/plan-je-bezoek/boek-je-bezoek">
-            Boek je bezoek
+          <a href="https://www.zeeuwsmuseum.nl/nl/collectie/natuurhistorie">
+            Natuurhistorie
           </a>
         </div>
       </div>
@@ -217,13 +223,35 @@ class Navigation extends Component {
     const rootPanels = [
       {
         key: 'panel-1',
-        title: 'PLAN JE BEZOEK',
+        title: (
+          <Accordion.Title>
+            <p>
+              PLAN JE BEZOEK <FaChevronDown color="#808080" />
+            </p>
+          </Accordion.Title>
+        ),
         content: { content: PlanContent },
       },
-      { key: 'panel-2', title: 'ONTDEK', content: { content: OntdekContent } },
       {
         key: 'panel-2',
-        title: 'OVER HET MUSEUM',
+        title: (
+          <Accordion.Title>
+            <p>
+              ONTDEK <FaChevronDown color="#808080" />
+            </p>
+          </Accordion.Title>
+        ),
+        content: { content: OntdekContent },
+      },
+      {
+        key: 'panel-2',
+        title: (
+          <Accordion.Title>
+            <p>
+              OVER HET MUSEUM <FaChevronDown color="#808080" />
+            </p>
+          </Accordion.Title>
+        ),
         content: { content: OverContent },
       },
     ];
@@ -419,7 +447,10 @@ class Navigation extends Component {
                 </Menu.Item> */}
               </div>
               <div>
-                <Accordion className="accordion" panels={rootPanels} />
+                <Accordion
+                  className="accordion"
+                  panels={rootPanels}
+                ></Accordion>
               </div>
               <div>
                 <Menu.Item

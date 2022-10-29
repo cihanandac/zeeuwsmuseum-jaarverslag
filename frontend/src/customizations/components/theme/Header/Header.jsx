@@ -55,7 +55,13 @@ const Header = (props) => {
 
 
   return (
-    <Segment basic className={`header-wrapper ${ scrollDirection === "down" ? "hide" : "show"}`} role="banner">
+    <Segment
+      basic
+      className={`header-wrapper ${
+        scrollDirection === 'down' ? 'hide' : 'show'
+      }`}
+      role="banner"
+    >
       <Container className="header-container">
         <div className="header">
           <div className="logo-nav-wrapper">
@@ -67,18 +73,10 @@ const Header = (props) => {
 
             {/* This section is for the rest of the menu */}
             <Navigation pathname={props.pathname} />
-          </div>
-          {/* <div className="tools-search-wrapper">
-            <LanguageSelector />
-            {!this.props.token && (
-              <div className="tools">
-                <Anontools />
-              </div>
-            )}
-            <div className="search">
+            {/* <div className="search">
               <SearchWidget />
-            </div>
-          </div> */}
+            </div> */}
+          </div>
         </div>
       </Container>
     </Segment>

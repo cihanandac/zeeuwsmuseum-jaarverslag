@@ -93,12 +93,9 @@ nav#navigation.navigation {
   border-bottom: 0px !important; */
 }
 .item.simple {
-  /* box-sizing: border-box; */
   width: auto;
   outline-offset: -2px;
-  padding: 22px 22px 16px !important;
-  font-size: 17px;
-  line-height: 20px;
+  padding: 22px 22px 20px !important;
   cursor: pointer;
   text-transform: uppercase;
   letter-spacing: 1.7px;
@@ -113,25 +110,32 @@ nav#navigation.navigation {
   padding-right: 2px !important;
 }
 
+.title svg{
+  padding-left: 6px !important;
+  padding-right: 2px !important;
+  padding-top: 3px !important;
+}
+
 .dropdown.item > .menu {
   margin-top: 0% !important;
 }
 
 div#dropdownItemA {
-  border: 1px solid greenyellow !important;
-  /* padding: 22px 0px 18px !important; */
   margin-bottom: 0px !important;
   margin-top: 0px !important;
   margin-right: 0px !important;
-  line-height: 20px;
-  min-width: 238px;
+  min-width: 288px !important;
   padding: 6px 29px !important;
   letter-spacing: 1.7px !important;
   font-size: 17px !important;
+  border: none;
+
+  a {
+    line-height: 20px !important;
+  }
 }
 
 .menu.transition {
-
 }
 
 .ui.menu .ui.dropdown .menu > .item {
@@ -140,31 +144,39 @@ div#dropdownItemA {
 }
 
 .mobile-menu {
-  top: 59px;
-  height: 500px;
-  position: absolute;
+  top: 59px !important;
+  height: auto !important;
+  position: absolute !important;
 }
 
 .mobile-menu-nav {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  padding-left: 22px;
-  padding-top: 50px;
-  justify-content: flex-start;
-  align-items: flex-start;
+  display: flex !important;
+  flex-direction: column !important;
+  width: 100% !important;
+  padding-left: 22px !important;
+  padding-top: 20px !important;
+  padding-bottom: 15px;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
   font-family: 'UniversCn', Arial, sans-serif !important;
   letter-spacing: 0.1em;
 
   div {
     padding-bottom: 5px;
     font-size: 17px !important;
+
+    a.item.simple {
+      padding-left: 0% !important;
+    }
+
     .title {
       font-family: 'UniversCn', Arial, sans-serif !important;
     }
     .content {
       font-family: 'UniversLight', Arial, sans-serif !important;
-      margin-left: 50px;
+      margin-left: 31px;
+      padding-bottom: 0px !important;
+      padding-top: 0px !important;
     }
   }
 
@@ -189,13 +201,29 @@ div#dropdownItemA {
 .hamburger-inner,
 .hamburger-inner::before,
 .hamburger-inner::after {
-  height: 2px;
-  width: 23px;
-  background-color: #808080;
+  height: 2px !important;
+  width: 23px !important;
+  background-color: #808080 !important;
+}
+
+span.hamburger-box {
+  height: 45px;
 }
 
 .hamburger-inner::before {
-  top: 5px;
+  top: -6px !important;
+}
+.hamburger-inner::after {
+  bottom: -6px !important;
+}
+
+.hamburger.hamburger--spin.is-active {
+  .hamburger-inner::before {
+    top: 0px !important;
+  }
+  .hamburger-inner::after {
+    bottom: 0px !important;
+  }
 }
 
 .accordion.ui {
