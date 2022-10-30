@@ -307,9 +307,9 @@ class Navigation extends Component {
 
 
           {/* test for the navigation */}
-          {/* {console.log(
-            <NavItems items={this.props.items[0].title} />,
-          )} */}
+          {console.log(
+            <NavItems items={this.props.items} />,
+          )}
 
           <Dropdown
             item

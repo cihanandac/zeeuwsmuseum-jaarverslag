@@ -15,7 +15,8 @@ import { getBaseUrl, hasApiExpander } from '@plone/volto/helpers';
 import { BsChevronCompactRight } from 'react-icons/bs';
 import NavItems from '@plone/volto/components/theme/Navigation/NavItems';
 import { getNavigation } from '@plone/volto/actions';
-
+import { Dropdown, Menu, Accordion, Form } from 'semantic-ui-react';
+import { FaChevronDown } from 'react-icons/fa';
 
 import homeSVG from '@plone/volto/icons/home.svg';
 
@@ -95,9 +96,9 @@ export class BreadcrumbsComponent extends Component {
         )} */}
 
         {/* {console.log(<NavItems items={this.props.items} />)} */}
+        {/* {console.log(<NavItems items={this.props.items} />)} */}
 
-
-        <Container>
+        <Container id="crumbcontainer">
           <Breadcrumb>
             <Link
               to={this.props.root || '/'}
@@ -107,12 +108,13 @@ export class BreadcrumbsComponent extends Component {
               {/* <Icon name={homeSVG} size="25px" /> */}
             </Link>
             {this.props.items.map((item, index, items) => [
-              <Breadcrumb.Divider>
-                <BsChevronCompactRight />
-              </Breadcrumb.Divider>,
+              ,
               index < items.length - 1 ? (
                 <Link key={item.url} to={item.url} className="section">
                   {item.title}
+                  <Breadcrumb.Divider>
+                    <BsChevronCompactRight />
+                  </Breadcrumb.Divider>
                 </Link>
               ) : (
                 <Breadcrumb.Section key={item.url} active>
@@ -121,6 +123,46 @@ export class BreadcrumbsComponent extends Component {
               ),
             ])}
           </Breadcrumb>
+          <div id="inhoud">
+            <Dropdown
+              item
+              simple
+              text="INHOUD"
+              icon={<FaChevronDown color="#808080" />}
+            >
+              <Dropdown.Menu>
+                <Dropdown.Item id="InhoudDropdown">
+                  <a href="../">Beeldimpressie </a>
+                </Dropdown.Item>
+                <Dropdown.Item id="InhoudDropdown">
+                  <a href="../Terugblik">Terugblik</a>
+                </Dropdown.Item>
+                <Dropdown.Item id="InhoudDropdown">
+                  <a href="../bewaren-verzamelen">Bewaren & Verzamelen</a>
+                </Dropdown.Item>
+                <Dropdown.Item id="InhoudDropdown">
+                  <a href="../Leren-Verbinden">Leren & Verbinden</a>
+                </Dropdown.Item>
+                <Dropdown.Item id="InhoudDropdown">
+                  <a href="../eenZM">eenZM</a>
+                </Dropdown.Item>
+                <Dropdown.Item id="InhoudDropdown">
+                  <a href="../Financieel-verslag">Financieel verslag</a>
+                </Dropdown.Item>
+                <Dropdown.Item id="InhoudDropdown">
+                  <a href="../Cultureel-Ondernemerschap">
+                    Cultureel Ondernemerschap
+                  </a>
+                </Dropdown.Item>
+                <Dropdown.Item id="InhoudDropdown">
+                  <a href="../Met-dank-aan">Met dank aan</a>
+                </Dropdown.Item>
+                <Dropdown.Item id="InhoudDropdown">
+                  <a href="../Colofon">Colofon</a>
+                </Dropdown.Item>
+              </Dropdown.Menu>
+            </Dropdown>
+          </div>
         </Container>
       </Segment>
     );
