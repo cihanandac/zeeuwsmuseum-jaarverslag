@@ -13,6 +13,9 @@ import { Icon } from '@plone/volto/components';
 import { getBreadcrumbs } from '@plone/volto/actions';
 import { getBaseUrl, hasApiExpander } from '@plone/volto/helpers';
 import { BsChevronCompactRight } from 'react-icons/bs';
+import NavItems from '@plone/volto/components/theme/Navigation/NavItems';
+import { getNavigation } from '@plone/volto/actions';
+
 
 import homeSVG from '@plone/volto/icons/home.svg';
 
@@ -36,6 +39,7 @@ export class BreadcrumbsComponent extends Component {
    * @property {Object} propTypes Property types.
    * @static
    */
+
   static propTypes = {
     getBreadcrumbs: PropTypes.func.isRequired,
     pathname: PropTypes.string.isRequired,
@@ -82,6 +86,17 @@ export class BreadcrumbsComponent extends Component {
         secondary
         vertical
       >
+        {/* {console.log(
+          this.props.items.map((item, index, items) => [item.title]),
+        )} */}
+
+        {/* {console.log(
+          this.props.items[2]
+        )} */}
+
+        {/* {console.log(<NavItems items={this.props.items} />)} */}
+
+
         <Container>
           <Breadcrumb>
             <Link

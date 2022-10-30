@@ -305,6 +305,12 @@ class Navigation extends Component {
             JAARVERSLAG
           </Menu.Item> */}
 
+
+          {/* test for the navigation */}
+          {/* {console.log(
+            <NavItems items={this.props.items[0].title} />,
+          )} */}
+
           <Dropdown
             item
             icon={<FaChevronDown color="#808080" />}
