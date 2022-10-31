@@ -72,6 +72,10 @@ div.menu.transition {
   }
 }
 
+div.menu.transition{
+    border-top: 1px solid #7bb0e7 !important;
+  }
+
 nav#navigation.navigation {
   height: 60px;
   div,
@@ -81,6 +85,9 @@ nav#navigation.navigation {
     :hover {
       color: #7bb0e7;
       background-color: #ffffff !important;
+    }
+    .item.simple:hover{
+      background-color: transparent !important;
     }
   }
 }
@@ -102,6 +109,7 @@ nav#navigation.navigation {
 }
 .divider.text {
   padding-right: 9px;
+  font-size: 16px !important;
 }
 
 .ui.item.simple.dropdown svg {
