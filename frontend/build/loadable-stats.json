@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.46.0",
-  "hash": "78cd5d651e4ab80730b1",
+  "hash": "591baee0e59e10e947e9",
   "publicPath": "http://localhost:3001/",
   "outputPath": "/Users/cihanandac/Documents/Code files/zeeuwsmuseumproject/frontend/build/public",
   "assetsByChunkName": {
@@ -450,7 +450,7 @@
     },
     {
       "name": "static/js/client.chunk.js",
-      "size": 155975,
+      "size": 155745,
       "chunks": [
         "client"
       ],
@@ -462,7 +462,7 @@
     },
     {
       "name": "static/js/client.chunk.js.map",
-      "size": 73440,
+      "size": 73292,
       "chunks": [
         "client"
       ],
@@ -796,7 +796,7 @@
         "runtime~client"
       ],
       "info": {},
-      "emitted": false
+      "emitted": true
     },
     {
       "name": "static/js/runtime~client.js.map",
@@ -810,7 +810,7 @@
       "info": {
         "development": true
       },
-      "emitted": false
+      "emitted": true
     },
     {
       "name": "static/js/vendors~PDFViewer.chunk.js",
@@ -840,7 +840,7 @@
     },
     {
       "name": "static/js/vendors~client.chunk.js",
-      "size": 24835601,
+      "size": 24835350,
       "chunks": [
         "vendors~client"
       ],
@@ -848,11 +848,12 @@
         "vendors~client"
       ],
       "info": {},
-      "emitted": false
+      "emitted": true,
+      "isOverSizeLimit": true
     },
     {
       "name": "static/js/vendors~client.chunk.js.map",
-      "size": 21284762,
+      "size": 21284508,
       "chunks": [
         "vendors~client"
       ],
@@ -862,7 +863,7 @@
       "info": {
         "development": true
       },
-      "emitted": false
+      "emitted": true
     },
     {
       "name": "static/js/vendors~diff.chunk.js",
