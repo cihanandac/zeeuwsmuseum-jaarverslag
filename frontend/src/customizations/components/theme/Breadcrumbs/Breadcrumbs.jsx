@@ -123,46 +123,48 @@ export class BreadcrumbsComponent extends Component {
               ),
             ])}
           </Breadcrumb>
-          <div id="inhoud">
-            <Dropdown
-              item
-              simple
-              text="INHOUD"
-              icon={<FaChevronDown color="#808080" />}
-            >
-              <Dropdown.Menu>
-                <Dropdown.Item id="InhoudDropdown">
-                  <a href="../">Beeldimpressie </a>
-                </Dropdown.Item>
-                <Dropdown.Item id="InhoudDropdown">
-                  <a href="../Terugblik">Terugblik</a>
-                </Dropdown.Item>
-                <Dropdown.Item id="InhoudDropdown">
-                  <a href="../bewaren-verzamelen">Bewaren & Verzamelen</a>
-                </Dropdown.Item>
-                <Dropdown.Item id="InhoudDropdown">
-                  <a href="../Leren-Verbinden">Leren & Verbinden</a>
-                </Dropdown.Item>
-                <Dropdown.Item id="InhoudDropdown">
-                  <a href="../eenZM">eenZM</a>
-                </Dropdown.Item>
-                <Dropdown.Item id="InhoudDropdown">
-                  <a href="../Financieel-verslag">Financieel verslag</a>
-                </Dropdown.Item>
-                <Dropdown.Item id="InhoudDropdown">
-                  <a href="../Cultureel-Ondernemerschap">
-                    Cultureel Ondernemerschap
-                  </a>
-                </Dropdown.Item>
-                <Dropdown.Item id="InhoudDropdown">
-                  <a href="../Met-dank-aan">Met dank aan</a>
-                </Dropdown.Item>
-                <Dropdown.Item id="InhoudDropdown">
-                  <a href="../Colofon">Colofon</a>
-                </Dropdown.Item>
-              </Dropdown.Menu>
-            </Dropdown>
-          </div>
+          <Container id="dropdowncontainer">
+            <div id="inhoud">
+              <Dropdown
+                item
+                simple
+                text="INHOUD"
+                icon={<FaChevronDown color="#808080" />}
+              >
+                <Dropdown.Menu>
+                  <Dropdown.Item id="InhoudDropdown">
+                    <a href="../">Beeldimpressie </a>
+                  </Dropdown.Item>
+                  <Dropdown.Item id="InhoudDropdown">
+                    <a href="../Terugblik">Terugblik</a>
+                  </Dropdown.Item>
+                  <Dropdown.Item id="InhoudDropdown">
+                    <a href="../bewaren-verzamelen">Bewaren & Verzamelen</a>
+                  </Dropdown.Item>
+                  <Dropdown.Item id="InhoudDropdown">
+                    <a href="../Leren-Verbinden">Leren & Verbinden</a>
+                  </Dropdown.Item>
+                  <Dropdown.Item id="InhoudDropdown">
+                    <a href="../eenZM">eenZM</a>
+                  </Dropdown.Item>
+                  <Dropdown.Item id="InhoudDropdown">
+                    <a href="../Financieel-verslag">Financieel verslag</a>
+                  </Dropdown.Item>
+                  <Dropdown.Item id="InhoudDropdown">
+                    <a href="../Cultureel-Ondernemerschap">
+                      Cultureel Ondernemerschap
+                    </a>
+                  </Dropdown.Item>
+                  <Dropdown.Item id="InhoudDropdown">
+                    <a href="../Met-dank-aan">Met dank aan</a>
+                  </Dropdown.Item>
+                  <Dropdown.Item id="InhoudDropdown">
+                    <a href="../Colofon">Colofon</a>
+                  </Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
+            </div>
+          </Container>
         </Container>
       </Segment>
     );

@@ -35,23 +35,28 @@
 }
 
 #crumbcontainer {
-  display: flex !important;
+  /* display: flex !important; */
   flex-direction: row;
   width: 100vw !important;
   position: relative;
   height: 60px !important;
+  display: none;
+  border-bottom: 1px solid #c3c3c3;
+}
+#dropdowncontainer {
+  width: 283px !important;
 }
 #inhoud {
   position: absolute;
   top: 0px;
   right: 0px;
   color: #000000;
-  
-  .ui.item{
+
+  .ui.item {
     padding-bottom: 15px !important;
   }
 }
-.divider.text{
+.divider.text {
   font-size: 17px;
 }
 
@@ -59,12 +64,12 @@
   padding: 0%;
   height: 60px !important;
 }
+
 div.ui.breadcrumb {
-  display: none;
   font-family: 'UniversLightCn', 'Helvetica Neue', Helvetica, sans-serif;
   color: #808080 !important;
   font-size: 17px;
-  padding-left: 300px;
+  /* padding-left: 300px; */
   letter-spacing: 0.1em;
   padding-top: 20px;
   padding-bottom: 0%;
@@ -92,9 +97,19 @@ div.ui.breadcrumb {
   margin-bottom: 10px;
 }
 
+.view-viewview.contenttype-jaarverslag,
+.view-viewview.contenttype-jaarverslag_singlecontent,
 .view-viewview.contenttype-document.section-terugblik {
+  #crumbcontainer {
+    display: flex !important;
+  }
+  #inhoud {
+    flex-grow: 0;
+  }
   div.ui.breadcrumb {
-    display: block;
+    flex-grow: 1;
+    justify-content: center;
+    /* width: 100% !important; */
   }
 }
 .ui.segment.content-area {
@@ -112,9 +127,15 @@ div#InhoudDropdown {
   font-size: 17px !important;
   border: none;
   color: #000000;
+  background-color: #ffffff !important;
 
   a {
     line-height: 20px !important;
+    color: #000000;
+  }
+  a:hover {
+    color: #7bb0e7;
+    background-color: #ffffff !important;
   }
 }
 
@@ -127,5 +148,8 @@ div#InhoudDropdown {
       right: auto !important;
       left: 0px !important;
     }
+  }
+  div.ui.breadcrumb {
+    display: none !important;
   }
 }

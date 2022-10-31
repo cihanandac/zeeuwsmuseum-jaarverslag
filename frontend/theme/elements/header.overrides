@@ -80,8 +80,7 @@ nav#navigation.navigation {
 
     :hover {
       color: #7bb0e7;
-
-      /* background-color: #ffffff !important; */
+      background-color: #ffffff !important;
     }
   }
 }
