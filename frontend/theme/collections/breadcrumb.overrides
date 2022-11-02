@@ -77,6 +77,11 @@
     color: #808080;
   }
 }
+
+.ui.breadcrumb .divider{
+  margin: 0px !important;
+}
+
 .ui.secondary.vertical.segment.breadcrumbs {
   padding: 0%;
   height: 60px !important;
@@ -126,6 +131,9 @@ div.ui.breadcrumb {
   div.ui.breadcrumb {
     flex-grow: 1;
     justify-content: center;
+    max-width: 1600px !important;
+    padding-left: 15px;
+    padding-right: 15px;
     /* width: 100% !important; */
   }
 }
@@ -138,7 +146,7 @@ div#InhoudDropdown {
   margin-bottom: 0px !important;
   margin-top: 0px !important;
   margin-right: 0px !important;
-  min-width: 288px !important;
+  /* min-width: 288px !important; */
   padding: 6px 29px !important;
   letter-spacing: 1.7px !important;
   font-size: 17px !important;
@@ -164,9 +172,50 @@ div#InhoudDropdown {
   }
 }
 
+#folderMap a,
+#folderMap div {
+  font-size: 16px;
+  font-family: 'UniversCn';
+  text-transform: uppercase !important;
+
+  svg {
+    height: 30px !important;
+    width: 30px !important;
+    path {
+      height: 30px !important;
+      width: 1px !important;
+      fill: #c3c3c3 !important;
+    }
+  }
+}
+
+.breadtitle {
+  display: flex;
+  align-items: center;
+  padding-left: 3px;
+  padding-right: 23px !important;
+  /* height: 30px; */
+  span {
+    /* height: 12px; */
+  }
+}
+.breaddivider{
+  padding-right: 9px;
+  padding-left: 5px;
+  height:30px !important;
+}
+
+.crumbcontainer {
+  display: flex !important;
+  /* flex-direction: row !important; */
+}
+
 /* END OF SECONDARY HEADER */
 
 @media only screen and (max-width: 1145px) {
+  .ui.secondary.vertical.segment.breadcrumbs {
+    height: 55px !important;
+  }
   div.ui.basic.segment.header-wrapper {
     height: 59px !important;
   }
@@ -185,11 +234,9 @@ div#InhoudDropdown {
     }
 
     .ui.item {
-      padding: 18px 22px 15px 42px !important;
+      padding: 18px 22px 15px 37px !important;
     }
   }
-
-
 
   div.ui.breadcrumb {
     display: none !important;
@@ -203,5 +250,20 @@ div#InhoudDropdown {
     a {
       padding-left: 47px !important;
     }
+  }
+  .menu.transition.dropdownContentPage {
+    width: 100vw !important;
+    border-top: white !important;
+    padding-top: 10px !important;
+    padding-bottom: 0px !important;
+    a {
+      padding-left: 47px !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #inhoud .ui.item {
+    padding: 18px 22px 15px 22px !important;
   }
 }

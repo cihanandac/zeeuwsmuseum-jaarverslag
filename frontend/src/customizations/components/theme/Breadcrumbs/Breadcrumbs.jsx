@@ -95,11 +95,11 @@ export class BreadcrumbsComponent extends Component {
           this.props.items[2]
         )} */}
 
-        {/* {console.log(<NavItems items={this.props.items} />)} */}
+        {/* {console.log(<NavItems items={this.props.intl} />)} */}
         {/* {console.log(<NavItems items={this.props.items} />)} */}
 
         <Container id="crumbcontainer">
-          <Breadcrumb>
+          <Breadcrumb id="folderMap">
             <Link
               to={this.props.root || '/'}
               className="section"
@@ -111,14 +111,24 @@ export class BreadcrumbsComponent extends Component {
               ,
               index < items.length - 1 ? (
                 <Link key={item.url} to={item.url} className="section">
-                  {item.title}
-                  <Breadcrumb.Divider>
-                    <BsChevronCompactRight />
-                  </Breadcrumb.Divider>
+                  {item.title}<span>&nbsp;</span>
                 </Link>
               ) : (
-                <Breadcrumb.Section key={item.url} active>
-                  {item.title}
+                <Breadcrumb.Section
+                  className="crumbcontainer"
+                  key={item.url}
+                  active
+                >
+                  <Breadcrumb.Divider className="breaddivider">
+                    <BsChevronCompactRight
+                      stroke='white'
+                      fill='currentColor'
+                      strokeWidth='0.5'
+                    />
+                  </Breadcrumb.Divider>
+                  <div className="breadtitle">
+                    <span>{item.title}</span>
+                  </div>
                 </Breadcrumb.Section>
               ),
             ])}
@@ -131,7 +141,7 @@ export class BreadcrumbsComponent extends Component {
                 text="INHOUD"
                 icon={<FaChevronDown color="#808080" />}
               >
-                <Dropdown.Menu id="dropdownContentPage">
+                <Dropdown.Menu className="dropdownContentPage">
                   <Dropdown.Item id="InhoudDropdown">
                     <a href="../">Beeldimpressie </a>
                   </Dropdown.Item>

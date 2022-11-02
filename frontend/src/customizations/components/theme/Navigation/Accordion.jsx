@@ -18,7 +18,7 @@ export default class AccordionMenu extends Component {
     const { activeIndex } = this.state;
 
     return (
-      <Accordion as={Menu} vertical>
+      <Accordion id="accordion" as={Menu} vertical>
         <Menu.Item icon={<FaChevronDown />}>
           <Accordion.Title
             active={activeIndex === 0}

@@ -101,6 +101,7 @@ div#view {
     h3,
     h4,
     h5 {
+      font-family: 'UniversCn';
       box-sizing: border-box;
       color: rgb(0, 0, 0);
       margin-top: 20px;
@@ -164,6 +165,9 @@ div#view {
     blockquote.callout {
       font-size: 1.2em;
     }
+  }
+  .supertitle {
+    color: #ffffff !important;
   }
 }
 /*** END OF BODY PART ***/
@@ -466,7 +470,7 @@ EDIT PAGE's header stops moving once we are in edit mode */
     }
     h3,
     p {
-      width: 100%;
+      width: 100% !important;
       margin-top: 0px !important;
       margin-bottom: 0px !important;
     }
@@ -490,8 +494,11 @@ p.block.image.align.left {
 p.block.image.align.right {
 }
 
-p.block.image.align.center {
+#page-document p.block.image.align.center {
   width: 930px !important;
+}
+p.block.image.align.center {
+  /* width: 930px !important; */
   float: none;
   border: 0px none rgb(0, 0, 0);
   box-sizing: border-box;
@@ -593,7 +600,7 @@ body.view-viewview.contenttype-plone-site.siteroot {
 // ************************************
 // ***RESPONSIVE AREA ACCORDING TO PAGE WIDTH*********** */
 @media only screen and (max-width: 1025px) {
-  p.block.image.align.center {
+  #page-document p.block.image.align.center {
     width: 730px !important;
   }
 }
@@ -749,6 +756,10 @@ body.view-viewview.contenttype-plone-site.siteroot {
     #footermail {
       min-width: none !important;
     }
+    .supertitle {
+      font-size: 16px;
+      color: #ffffff !important;
+    }
   }
 }
 
@@ -764,5 +775,10 @@ body.view-viewview.contenttype-plone-site.siteroot {
   }
 }
 
+@media only screen and (max-width: 350px) {
+  div.footerInfoBox {
+    min-width: 280px !important;
+  }
+}
 // **************************************
 // ***END OF RESPONSIVE AREA ACCORDING TO PAGE WIDTH***********
