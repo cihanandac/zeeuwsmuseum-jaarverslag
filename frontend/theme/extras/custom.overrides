@@ -752,7 +752,7 @@ body.view-viewview.contenttype-plone-site.siteroot {
   }
 }
 
-@media only screen and (min-width: 1049px) {
+@media only screen and (min-width: 1145px) {
   div.mobile-menu-enter-done {
     display: none;
   }

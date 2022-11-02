@@ -131,12 +131,17 @@ export class BreadcrumbsComponent extends Component {
                 text="INHOUD"
                 icon={<FaChevronDown color="#808080" />}
               >
-                <Dropdown.Menu>
+                <Dropdown.Menu id="dropdownContentPage">
                   <Dropdown.Item id="InhoudDropdown">
                     <a href="../">Beeldimpressie </a>
                   </Dropdown.Item>
                   <Dropdown.Item id="InhoudDropdown">
                     <a href="../Terugblik">Terugblik</a>
+                  </Dropdown.Item>
+                  <Dropdown.Item id="InhoudDropdown">
+                    <a href="../Inspireren-Verwonderen">
+                      Inspireren & Verwonderen
+                    </a>
                   </Dropdown.Item>
                   <Dropdown.Item id="InhoudDropdown">
                     <a href="../bewaren-verzamelen">Bewaren & Verzamelen</a>
