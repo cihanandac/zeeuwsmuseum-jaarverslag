@@ -22,6 +22,8 @@ import {
   SocialBottomEditBlock,
   NutezienViewBlock,
   NutezienEditBlock,
+  PhotoDescriptionViewBlock,
+  PhotoDescriptionEditBlock
 } from '@package/components';
 import sliderSVG from '@plone/volto/icons/slider.svg';
 import dotsSVG from '@plone/volto/icons/dots.svg';
@@ -88,6 +90,20 @@ export default function applyConfig(config) {
       group: 'common',
       view: NutezienViewBlock,
       edit: NutezienEditBlock,
+      restricted: false,
+      mostUsed: true,
+      security: {
+        addPermission: [],
+        view: [],
+      },
+    }),
+    (config.blocks.blocksConfig.photodescription = {
+      id: 'photodescription',
+      title: 'PhotoDescription',
+      icon: sliderSVG,
+      group: 'common',
+      view: PhotoDescriptionViewBlock,
+      edit: PhotoDescriptionEditBlock,
       restricted: false,
       mostUsed: true,
       security: {

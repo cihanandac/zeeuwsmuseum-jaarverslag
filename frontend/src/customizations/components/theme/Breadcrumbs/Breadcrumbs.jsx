@@ -111,7 +111,8 @@ export class BreadcrumbsComponent extends Component {
               ,
               index < items.length - 1 ? (
                 <Link key={item.url} to={item.url} className="section">
-                  {item.title}<span>&nbsp;</span>
+                  {item.title}
+                  <span>&nbsp;</span>
                 </Link>
               ) : (
                 <Breadcrumb.Section
@@ -121,9 +122,9 @@ export class BreadcrumbsComponent extends Component {
                 >
                   <Breadcrumb.Divider className="breaddivider">
                     <BsChevronCompactRight
-                      stroke='white'
-                      fill='currentColor'
-                      strokeWidth='0.5'
+                      stroke="white"
+                      fill="currentColor"
+                      strokeWidth="0.5"
                     />
                   </Breadcrumb.Divider>
                   <div className="breadtitle">
@@ -146,35 +147,35 @@ export class BreadcrumbsComponent extends Component {
                     <a href="../">Beeldimpressie </a>
                   </Dropdown.Item>
                   <Dropdown.Item id="InhoudDropdown">
-                    <a href="../Terugblik">Terugblik</a>
+                    <a href="./terugblik">Terugblik</a>
                   </Dropdown.Item>
                   <Dropdown.Item id="InhoudDropdown">
-                    <a href="../Inspireren-Verwonderen">
+                    <a href="./inspireren-verwonderen">
                       Inspireren & Verwonderen
                     </a>
                   </Dropdown.Item>
                   <Dropdown.Item id="InhoudDropdown">
-                    <a href="../bewaren-verzamelen">Bewaren & Verzamelen</a>
+                    <a href="./bewaren-verzamelen">Bewaren & Verzamelen</a>
                   </Dropdown.Item>
                   <Dropdown.Item id="InhoudDropdown">
-                    <a href="../Leren-Verbinden">Leren & Verbinden</a>
+                    <a href="./leren-verbinden">Leren & Verbinden</a>
                   </Dropdown.Item>
                   <Dropdown.Item id="InhoudDropdown">
-                    <a href="../eenZM">eenZM</a>
+                    <a href="./eenzm">eenZM</a>
                   </Dropdown.Item>
                   <Dropdown.Item id="InhoudDropdown">
-                    <a href="../Financieel-verslag">Financieel verslag</a>
+                    <a href="./financieel-verslag">Financieel verslag</a>
                   </Dropdown.Item>
                   <Dropdown.Item id="InhoudDropdown">
-                    <a href="../Cultureel-Ondernemerschap">
+                    <a href="./cultureel-ondernemerschap">
                       Cultureel Ondernemerschap
                     </a>
                   </Dropdown.Item>
                   <Dropdown.Item id="InhoudDropdown">
-                    <a href="../Met-dank-aan">Met dank aan</a>
+                    <a href="./met-dank-aan">Met dank aan</a>
                   </Dropdown.Item>
                   <Dropdown.Item id="InhoudDropdown">
-                    <a href="../Colofon">Colofon</a>
+                    <a href="./colofon">Colofon</a>
                   </Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>

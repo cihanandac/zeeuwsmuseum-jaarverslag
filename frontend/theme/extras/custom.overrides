@@ -1,24 +1,46 @@
-/* To prevent the toolbar to cover left part of the page */
-#toolbar {
-  position: absolute !important;
-  left: 0px;
-  top: 50px;
+.nutezien {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  justify-content: center;
+}
+.nutezienContainer {
+  display: flex;
+  flex-direction: row;
+  max-width: 800px;
+  flex-shrink: 1;
+  flex-grow: 1;
+  flex-basis: 300px;
+}
 
-  > * {
-    height: 90vh !important;
+/* ****************************************
+************GENERAL STUFF *************
+***************************************** */
+.block-editor-slate {
+  margin-right: 25px;
+}
+#toolbar {
+  z-index: 99991;
+  position: absolute;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'UniversCn', Arial, sans-serif;
+  a {
+    text-decoration: none;
   }
 }
-
-* {
-  -webkit-font-smoothing: antialiased;
+.ui.secondary.vertical {
+  margin-top: 60px;
 }
+/* -------END OF GENERAL STUFF--------------- */
 
-/* //GENERAL WIDTH OF BODY-BLOCK AREA */
-.view-viewview.contenttype-plone-site.siteroot,
-.view-viewview.contenttype-jaarverslag,
-.view-viewview.contenttype-jaarverslag_singlecontent,
-.view-viewview.contenttype-document.section-terugblik,
-.view-viewview.contenttype-document.section-acid-test {
+/* ****************************************
+************WIDTH OF THE PAGE *************
+***************************************** */
+.view-viewview {
   #page-document.ui.container {
     width: 100vw !important;
     margin-left: 0em !important;
@@ -26,25 +48,14 @@
     position: relative;
   }
 }
+/* ********END OF THE WITH*********
+-------------------------------------- */
 
-a {
-  text-decoration: none;
-}
+/* ****************************************
+*****************BLOCKS******************
+***************************************** */
 
-body {
-  font-family: 'UniversCn', Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-}
-
-.ui.secondary.vertical {
-  margin-top: 60px;
-}
-/* //************************* */
-/* END OF GENERAL STUFF */
-
-/* //BLOCKS */
-
-/* SOCIALBUTTON BLOCK */
+/* -------SOCIALBUTTON BLOCK---------- */
 .SocialbuttonsTop {
   position: absolute;
   width: 55px;
@@ -88,12 +99,14 @@ body {
 .rrssb-icon svg:hover {
   fill: #7bb0e7 !important;
 }
+/* -----------END OF SOCIAL BUTTONS----------- */
 
-/* END OF SOCIALBUTTON BLOCK */
+/* ********END OF BLOCKS***********
+-------------------------------------- */
 
-/* END OF BLOCKS */
-
-/*** MAIN BODY PART ***/
+/* ************************************
+*********MAIN BODY PART ***************
+*************************************** */
 div#view {
   #page-document {
     h1,
@@ -170,10 +183,12 @@ div#view {
     color: #ffffff !important;
   }
 }
-/*** END OF BODY PART ***/
+/* ********END OF BODY SECTION***********
+-------------------------------------- */
 
-// *************************
-/* FOOTER BEGINNING */
+/* ***************************************
+*********FOOTER BEGINNING ***************
+*************************************** */
 #footer {
   background-color: white;
   height: 400px;
@@ -351,46 +366,45 @@ div#view {
   color: #7bb0e7 !important;
   border-bottom: 1px solid #ffffff;
 }
-/* FOOTER END */
+/* ********END OF FOOTER SECTION***********
+-------------------------------------- */
 
-/* ************************************
-***PAGE SPESIFIC CSS***********
+/* ********************************************************
+********************PAGE SPESIFIC CSS**********************
+******************************************************** */
 
-EDIT PAGE's header stops moving once we are in edit mode */
-.view-editview,
-.view-contentsview,
-.view-addview {
-  .ui.basic.segment.header-wrapper {
+/* ------------------------
+-------EDIT VIEW ---------*/
+.view-editview {
+  div.ui.basic.segment.header-wrapper {
     position: relative !important;
   }
-  .ui.basic.segment.content-area {
-    /* padding-top: 120px !important; */
-    /* padding-left: 50px; */
-    width: 70vw !important;
-  }
-  .SocialbuttonsTop {
-    left: 50%;
-    top: 0px;
+}
+#page-edit {
+  margin-left: 95px;
+  margin-right: 30px;
+  p {
+    width: auto !important;
   }
 }
+/*--------- END OF EDIT VIEW----------*/
 
-.view-contentsview {
-  .content-area {
-    margin-left: 15vw;
-  }
-}
-/* END OF EDIT PAGE */
-
-/* JAARVERSLAG CONTENT TYPE */
+/* ------------------------------------
+-------JAARVERSLAG PAGE TYPE ---------*/
 .contenttype-jaarverslag {
   #footer {
     display: none !important;
   }
+  #page-document {
+    img {
+      height: calc(100vh - 120px) !important;
+    }
+  }
 }
+/*----------END OF JAARVERSLAG TYPE ----------*/
 
-/* END OF JAARVERSLAG CONTENT TYPE */
-
-/* TERUGBLIK PAGE */
+/* --------------------------------------------------
+-------JAARVERSLAG SINGLE CONTENT PAGE TYPE ---------*/
 .view-viewview.contenttype-document.section-terugblik,
 .view-viewview.contenttype-jaarverslag,
 .view-viewview.contenttype-jaarverslag_singlecontent,
@@ -452,7 +466,7 @@ EDIT PAGE's header stops moving once we are in edit mode */
 
   .columns-view {
     margin: 0% auto;
-    width: 100vw;
+    /* width: 100vw; */
     padding: 0% 20px;
     a {
       border: none !important;
@@ -475,6 +489,40 @@ EDIT PAGE's header stops moving once we are in edit mode */
       margin-bottom: 0px !important;
     }
   }
+  .textWithBackgroundColorWrapper {
+    h2 {
+      padding: 0px !important;
+      margin: 0px !important;
+    }
+  }
+
+  .columns-view {
+    width: 730px;
+    p {
+      width: auto !important;
+    }
+  }
+
+  /* ------Slider arrow appearance --------*/
+  .slick-next {
+    right: 0;
+    z-index: 999;
+  }
+  .slick-prev {
+    left: 0;
+    z-index: 999;
+  }
+  .slick-dots {
+    display: none !important;
+  }
+  .slick-arrow {
+    color: rgb(64, 64, 64);
+    background-color: rgb(0, 0, 0);
+    opacity: 0.6;
+    width: 80px;
+    height: 80px;
+  }
+  /* ------end of slider arrows-------- */
 }
 p.block.image.align.full {
   margin-top: 0% !important;
@@ -543,31 +591,13 @@ p.block.image.align.center {
 }
 .highlight-image-wrapper.gradient {
   img {
-    height: 56.26vw !important;
-    width: 100vw !important;
-    object-fit: cover !important;
+    /* height: 56.26vw !important; */
+    /* width: 100vw !important; */
+    /* object-fit: cover !important; */
     object-position: inherit !important;
   }
 }
-/* END OF TERUGBLIK PAGE */
-
-.view-viewview.contenttype-document.section-acid-test {
-  .textWithBackgroundColorWrapper {
-    h2 {
-      padding: 0px !important;
-      margin: 0px !important;
-    }
-  }
-  .columns-view {
-    width: 100% !important;
-  }
-  .columns-view {
-    width: 730px !important;
-    p {
-      width: auto !important;
-    }
-  }
-}
+/* END OF JAARVERSLAG SINGLE CONTENT PAGE */
 
 /* HOME PAGE */
 body.view-viewview.contenttype-plone-site.siteroot {
@@ -594,11 +624,13 @@ body.view-viewview.contenttype-plone-site.siteroot {
   }
 }
 
-/* ENDOF HOME PAGE */
-/* // ***END OF PAGE SPESIFIC CSS***********
+/* ----------END OF HOME PAGE------------ */
 
-// ************************************
-// ***RESPONSIVE AREA ACCORDING TO PAGE WIDTH*********** */
+/* ************END OF PAGE SPESIFIC CSS*********** */
+
+/* ***********************************************************
+**********RESPONSIVE AREA ACCORDING TO PAGE WIDTH*********** 
+************************************************************/
 @media only screen and (max-width: 1025px) {
   #page-document p.block.image.align.center {
     width: 730px !important;
@@ -780,5 +812,25 @@ body.view-viewview.contenttype-plone-site.siteroot {
     min-width: 280px !important;
   }
 }
-// **************************************
-// ***END OF RESPONSIVE AREA ACCORDING TO PAGE WIDTH***********
+
+@media only screen and (max-width: 767px) {
+  #page-edit {
+    margin-left: 50px;
+    margin-right: 370px;
+  }
+
+  .view-viewview {
+    .columns-view {
+      width: auto !important;
+      margin-right: 10px !important;
+      margin-left: 10px !important;
+    }
+    .accordion-block{
+      margin-right: 10px !important;
+      margin-left: 10px !important;
+    }
+  }
+}
+
+/* ********************************************************
+***END OF RESPONSIVE AREA ACCORDING TO PAGE WIDTH*********** */

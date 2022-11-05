@@ -1,6 +1,6 @@
 /**
  * Add your components here.
- * 
+ *
  * @module components
  * @example
  * import Footer from './Footer/Footer';
@@ -18,6 +18,8 @@ import SocialBottomViewBlock from './Blocks/SocialBottom/View';
 import SocialBottomEditBlock from './Blocks/SocialBottom/Edit';
 import NutezienViewBlock from './Blocks/Nutezien/View';
 import NutezienEditBlock from './Blocks/Nutezien/Edit';
+import PhotoDescriptionViewBlock from './Blocks/PhotoDescription/View';
+import PhotoDescriptionEditBlock from './Blocks/PhotoDescription/Edit';
 
 export {
   EmptylineViewBlock,
@@ -28,4 +30,6 @@ export {
   SocialBottomEditBlock,
   NutezienViewBlock,
   NutezienEditBlock,
+  PhotoDescriptionViewBlock,
+  PhotoDescriptionEditBlock,
 };
