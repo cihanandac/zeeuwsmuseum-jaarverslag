@@ -165,6 +165,7 @@
     "@kitconcept/volto-slider-block": "*",
     "@kitconcept/volto-text-with-background-color-block": "*",
     "@mui/material": "5.10.9",
+    "@mui/system": "5.10.12",
     "@plone/volto": "15.15.0",
     "bootstrap": "5.2.2",
     "react-dropdown": "1.11.0",
