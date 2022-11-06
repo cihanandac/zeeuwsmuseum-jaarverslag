@@ -27,6 +27,9 @@ import {
 } from '@package/components';
 import sliderSVG from '@plone/volto/icons/slider.svg';
 import dotsSVG from '@plone/volto/icons/dots.svg';
+import showSVG from '@plone/volto/icons/show.svg';
+import presentationSVG from '@plone/volto/icons/presentation.svg';
+import editingSVG from '@plone/volto/icons/editing.svg';
 // import { defineMessages } from 'react-intl';
 // All your imports required for the config here BEFORE this line
 import '@plone/volto/config';
@@ -44,12 +47,12 @@ export default function applyConfig(config) {
   (config.blocks.blocksConfig.socialtop = {
     id: 'socialtop',
     title: 'Socialtop',
-    icon: sliderSVG,
+    icon: showSVG,
     group: 'common',
     view: SocialTopViewBlock,
     edit: SocialTopEditBlock,
     restricted: false,
-    mostUsed: true,
+    mostUsed: false,
     security: {
       addPermission: [],
       view: [],
@@ -58,12 +61,12 @@ export default function applyConfig(config) {
     (config.blocks.blocksConfig.socialbottom = {
       id: 'socialbottom',
       title: 'Socialbottom',
-      icon: sliderSVG,
+      icon: showSVG,
       group: 'common',
       view: SocialBottomViewBlock,
       edit: SocialBottomEditBlock,
       restricted: false,
-      mostUsed: true,
+      mostUsed: false,
       security: {
         addPermission: [],
         view: [],
@@ -77,7 +80,7 @@ export default function applyConfig(config) {
       view: EmptylineViewBlock,
       edit: EmptylineEditBlock,
       restricted: false,
-      mostUsed: true,
+      mostUsed: false,
       security: {
         addPermission: [],
         view: [],
@@ -86,12 +89,12 @@ export default function applyConfig(config) {
     (config.blocks.blocksConfig.nutezien = {
       id: 'nutezien',
       title: 'Nutezien',
-      icon: sliderSVG,
+      icon: presentationSVG,
       group: 'common',
       view: NutezienViewBlock,
       edit: NutezienEditBlock,
       restricted: false,
-      mostUsed: true,
+      mostUsed: false,
       security: {
         addPermission: [],
         view: [],
@@ -99,13 +102,13 @@ export default function applyConfig(config) {
     }),
     (config.blocks.blocksConfig.photodescription = {
       id: 'photodescription',
-      title: 'PhotoDescription',
-      icon: sliderSVG,
-      group: 'common',
+      title: 'Photo Info',
+      icon: editingSVG,
+      group: 'media',
       view: PhotoDescriptionViewBlock,
       edit: PhotoDescriptionEditBlock,
       restricted: false,
-      mostUsed: true,
+      mostUsed: false,
       security: {
         addPermission: [],
         view: [],

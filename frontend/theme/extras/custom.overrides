@@ -542,7 +542,8 @@ p.block.image.align.left {
 p.block.image.align.right {
 }
 
-#page-document p.block.image.align.center {
+#page-document p.block.image.align.center,
+.block.video.align.center {
   width: 930px !important;
 }
 p.block.image.align.center {
@@ -632,7 +633,8 @@ body.view-viewview.contenttype-plone-site.siteroot {
 **********RESPONSIVE AREA ACCORDING TO PAGE WIDTH*********** 
 ************************************************************/
 @media only screen and (max-width: 1025px) {
-  #page-document p.block.image.align.center {
+  #page-document p.block.image.align.center,
+  .block.video.align.center {
     width: 730px !important;
   }
 }
@@ -744,7 +746,8 @@ body.view-viewview.contenttype-plone-site.siteroot {
       h2,
       h3,
       h4,
-      p {
+      p,
+      div {
         width: 100% !important;
         word-wrap: break-word;
         padding: 0px 25px !important;
@@ -793,6 +796,9 @@ body.view-viewview.contenttype-plone-site.siteroot {
       color: #ffffff !important;
     }
   }
+  .block.video.align.center div{
+    height:350px;
+  }
 }
 
 @media only screen and (min-width: 1145px) {
@@ -825,7 +831,7 @@ body.view-viewview.contenttype-plone-site.siteroot {
       margin-right: 10px !important;
       margin-left: 10px !important;
     }
-    .accordion-block{
+    .accordion-block {
       margin-right: 10px !important;
       margin-left: 10px !important;
     }
