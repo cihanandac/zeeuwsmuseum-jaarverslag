@@ -1,13 +1,9 @@
 import React from 'react';
 import Slider from 'react-slick';
-import { FaChevronRight, FaFacebookF } from 'react-icons/fa';
-import { IoLogoTwitter } from 'react-icons/io';
-import { ImInstagram } from 'react-icons/im';
+import { FaChevronRight } from 'react-icons/fa';
 import satin from './satin.jpeg';
 import diepte from './diepte.jpeg';
 import zee from './zee.jpeg';
-import { Container } from '@mui/system';
-import { FaChevronDown } from 'react-icons/fa';
 
 
 const View = (props) => {
@@ -15,7 +11,8 @@ const View = (props) => {
     <div className="nutezien">
       <a href="https://www.zeeuwsmuseum.nl/nl/plan-je-bezoek/nu-in-het-museum/tentoonstellingen/actueel-en-verwacht/aggregator">
         <h1>Nu te zien</h1>
-        <FaChevronDown />
+        <FaChevronRight 
+        />
       </a>
       <div className="nutezienContainer">
         <div className="nutezienItem">
