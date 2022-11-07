@@ -10,7 +10,7 @@ a.logo-written {
   font-family: 'UniversCn', Arial, sans-serif;
   color: #7bb0e7 !important;
   font-size: 30px;
-  padding: 22px 15px 35px;
+  padding: 22px 15px 42px;
   line-height: 20px;
   height: 57px;
   -webkit-font-smoothing: antialiased;
@@ -22,7 +22,6 @@ a.logo-written {
 }
 
 div.ui.basic.segment.header-wrapper {
-  border-bottom: 1px solid #c3c3c3;
   margin-bottom: 0px;
   background-color: #ffffff;
   position: fixed !important;
@@ -32,13 +31,16 @@ div.ui.basic.segment.header-wrapper {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 300ms;
-  padding-left: 9px !important;
-  padding-right: 15px !important;
-  height: 60px;
+  padding: 0px !important;
+  /* height: 60px; */
 
   .ui.container.header-container {
+    border-bottom: 1px solid #c3c3c3;
     width: 100% !important;
-    padding: 0% !important;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 9px;
+    padding-right: 15px;
     margin: 0% !important;
     background-color: #ffffff;
   }
@@ -86,9 +88,9 @@ nav#navigation.navigation {
     }
   }
 }
-  div#inhoudDropdown{
-    padding: 6px 35px !important;
-  }
+div#inhoudDropdown {
+  padding: 6px 35px !important;
+}
 .ui.pointing.secondary > * {
   /* height: 58px;
   padding-top: 10px !important;
@@ -155,7 +157,6 @@ div#dropdownItemA {
   position: absolute !important;
 }
 
-
 .mobile-menu-nav {
   display: flex !important;
   flex-direction: column !important;
@@ -187,9 +188,9 @@ div#dropdownItemA {
     }
   }
 
-.accordion.ui.accordion .title p{
-  width: 300px !important;  
-}
+  .accordion.ui.accordion .title p {
+    width: 300px !important;
+  }
 
   div.active.title {
     color: #7bb0e7 !important;
@@ -250,9 +251,12 @@ i.dropdown.icon::before {
   display: none;
 }
 
+.has-mobile-menu-open .ui.container.header-container {
+  height: 250px !important;
+}
 
 @media only screen and (max-width: 767px) {
-  #writtenlogo{
+  #writtenlogo {
     padding: 22px 15px 35px 6px !important;
   }
 }

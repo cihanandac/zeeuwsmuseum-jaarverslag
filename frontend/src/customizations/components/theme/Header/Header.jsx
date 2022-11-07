@@ -13,6 +13,7 @@ import {
   Logo,
   Navigation,
   SearchWidget,
+  Breadcrumbs
 } from '@plone/volto/components';
 
 function useScrollDirection() {
@@ -60,6 +61,7 @@ const Header = (props) => {
       className={`header-wrapper ${
         scrollDirection === 'down' ? 'hide' : 'show'
       }`}
+      id="header-wrapper"
       role="banner"
     >
       <Container className="header-container">
@@ -79,6 +81,7 @@ const Header = (props) => {
           </div>
         </div>
       </Container>
+      <Breadcrumbs pathname={props.pathname}/>
     </Segment>
   );
   

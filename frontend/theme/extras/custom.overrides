@@ -32,8 +32,8 @@ body {
     text-decoration: none;
   }
 }
-.ui.secondary.vertical {
-  margin-top: 60px;
+.ui.basic.segment.content-area {
+  margin-top: 115px !important;
 }
 /* -------END OF GENERAL STUFF--------------- */
 
@@ -291,6 +291,7 @@ div#view {
           input {
             border: 1px solid;
             flex-grow: 1;
+            padding-left: 20px;
             /* width: 80%; */
             /* flex: 1 1 700px; */
           }
@@ -392,13 +393,42 @@ div#view {
 /* ------------------------------------
 -------JAARVERSLAG PAGE TYPE ---------*/
 .contenttype-jaarverslag {
+  #main {
+    height: 100vh !important;
+  }
   #footer {
     display: none !important;
   }
-  #page-document {
+  #header-wrapper {
+    position: relative !important;
+    display: block !important;
+    height: 120px !important;
+  }
+  #page-document .block.slider,
+  .slick-slider,
+  .slick-list,
+  .slick-track {
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+    height: calc(100vh - 120px) !important;
     img {
       height: calc(100vh - 120px) !important;
     }
+  }
+  .ui.basic.segment.content-area {
+    margin-top: 0px !important;
+    height: calc(100vh - 120px) !important;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  .title h2 {
+    display: none !important;
+  }
+  .teaser-item-title {
+    bottom: 0px;
+  }
+  .ui.secondary.vertical.segment.breadcrumbs {
+    border-bottom: none;
   }
 }
 /*----------END OF JAARVERSLAG TYPE ----------*/
@@ -506,11 +536,13 @@ div#view {
   /* ------Slider arrow appearance --------*/
   .slick-next {
     right: 0;
-    z-index: 999;
+    z-index: 990;
+    top: 44% !important;
   }
   .slick-prev {
     left: 0;
-    z-index: 999;
+    z-index: 990;
+    top: 44% !important;
   }
   .slick-dots {
     display: none !important;
@@ -732,7 +764,6 @@ body.view-viewview.contenttype-plone-site.siteroot {
 
 @media only screen and (max-width: 768px) {
   .view-viewview.contenttype-document.section-terugblik,
-  .view-viewview.contenttype-jaarverslag,
   .view-viewview.contenttype-jaarverslag_singlecontent,
   .view-viewview.contenttype-document.section-acid-test {
     width: 100vw;
@@ -747,7 +778,7 @@ body.view-viewview.contenttype-plone-site.siteroot {
       h3,
       h4,
       p,
-      div {
+      .block.video.align.center {
         width: 100% !important;
         word-wrap: break-word;
         padding: 0px 25px !important;
@@ -796,8 +827,8 @@ body.view-viewview.contenttype-plone-site.siteroot {
       color: #ffffff !important;
     }
   }
-  .block.video.align.center div{
-    height:350px;
+  .block.video.align.center div {
+    height: 350px;
   }
 }
 
@@ -834,6 +865,17 @@ body.view-viewview.contenttype-plone-site.siteroot {
     .accordion-block {
       margin-right: 10px !important;
       margin-left: 10px !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 468px) {
+  .slick-arrow {
+    width: 40px !important;
+    height: 40px !important;
+    svg {
+      width: 40px !important;
+      height: 40px !important;
     }
   }
 }

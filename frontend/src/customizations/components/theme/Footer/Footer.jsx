@@ -102,7 +102,7 @@ const Footer = ({ intl }) => {
                   <input
                     type="text"
                     className="text-widget required form-control input-lg textline-field"
-                    placeholder="    Email"
+                    placeholder="Email"
                     id="form-widgets-email"
                     name="EMAIL"
                     aria-label="mailchimp-email"

@@ -12,8 +12,9 @@
   width: 100vw !important;
   position: relative;
   height: 60px !important;
-  display: none;
-  border-bottom: 1px solid #c3c3c3;
+  width: 100vw;
+  display: flex;
+  /* border-bottom: 1px solid #c3c3c3; */
 }
 #dropdowncontainer {
   width: 283px !important;
@@ -50,13 +51,16 @@
   }
 }
 
-.ui.breadcrumb .divider{
+.ui.breadcrumb .divider {
   margin: 0px !important;
 }
 
 .ui.secondary.vertical.segment.breadcrumbs {
   padding: 0%;
   height: 60px !important;
+  width: 100vw;
+  border-bottom: 1px solid #c3c3c3;
+  display: none;
 }
 
 div.ui.breadcrumb {
@@ -94,8 +98,8 @@ div.ui.breadcrumb {
 .view-viewview.contenttype-jaarverslag,
 .view-viewview.contenttype-jaarverslag_singlecontent,
 .view-viewview.contenttype-document.section-terugblik {
-  #crumbcontainer {
-    display: flex !important;
+  .ui.secondary.vertical.segment.breadcrumbs {
+    display: block !important;
   }
   #inhoud {
     flex-grow: 0;
@@ -171,10 +175,10 @@ div#InhoudDropdown {
     /* height: 12px; */
   }
 }
-.breaddivider{
+.breaddivider {
   padding-right: 9px;
   padding-left: 5px;
-  height:30px !important;
+  height: 30px !important;
 }
 
 .crumbcontainer {
@@ -186,10 +190,10 @@ div#InhoudDropdown {
 
 @media only screen and (max-width: 1145px) {
   .ui.secondary.vertical.segment.breadcrumbs {
-    height: 55px !important;
+    /* height: 55px !important; */
   }
   div.ui.basic.segment.header-wrapper {
-    height: 59px !important;
+    /* height: 59px !important; */
   }
   #crumbcontainer {
     height: 55px !important;

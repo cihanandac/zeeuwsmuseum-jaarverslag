@@ -27,6 +27,7 @@ const View = (props) => {
         <a
           className="popup"
           href="https://www.facebook.com/sharer/sharer.php?u=https://www.zeeuwsmuseum.nl/nl/jaarverslag/2021/terugblik"
+          target="_blank"
         >
           <span className="rrssb-icon">
             <svg
@@ -50,6 +51,7 @@ const View = (props) => {
         <a
           className="popup"
           href="https://twitter.com/intent/tweet?text=Terugblik: https://www.zeeuwsmuseum.nl/nl/jaarverslag/2021/terugblik"
+          target="_blank"
         >
           <span className="rrssb-icon">
             <svg
@@ -70,7 +72,12 @@ const View = (props) => {
         // style={{width: 33.3333%}}
         // data-initwidth="33.333333333333336"
       >
-        <a href="mailto:?subject=Terugblik&amp;body=https://www.zeeuwsmuseum.nl/nl/jaarverslag/2021/terugblik">
+        <a
+          href="mailto:?subject=Terugblik&amp;body=https://www.zeeuwsmuseum.nl/nl/jaarverslag/2021/terugblik"
+          target="_blank"
+          onclick="window.open('http://kanishkkunal.com','popup','width=600,height=600'); return false;"
+        
+          >
           <span className="rrssb-icon">
             <svg
               xmlns="http://www.w3.org/2000/svg"
