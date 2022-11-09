@@ -124,6 +124,8 @@ class Navigation extends Component {
    * @returns {string} Markup for the component.
    */
 
+
+
   render() {
     const { activeIndex } = this.state;
 

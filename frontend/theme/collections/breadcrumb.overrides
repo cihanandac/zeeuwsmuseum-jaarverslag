@@ -11,7 +11,7 @@
   flex-direction: row;
   width: 100vw !important;
   position: relative;
-  height: 60px !important;
+  height: 60px;
   width: 100vw;
   display: flex;
   /* border-bottom: 1px solid #c3c3c3; */
@@ -57,7 +57,7 @@
 
 .ui.secondary.vertical.segment.breadcrumbs {
   padding: 0%;
-  height: 60px !important;
+  height: 60px;
   width: 100vw;
   border-bottom: 1px solid #c3c3c3;
   display: none;
@@ -190,13 +190,16 @@ div#InhoudDropdown {
 
 @media only screen and (max-width: 1145px) {
   .ui.secondary.vertical.segment.breadcrumbs {
-    /* height: 55px !important; */
+    height: 56px !important;
   }
   div.ui.basic.segment.header-wrapper {
-    /* height: 59px !important; */
+    /* height: 59px !important !important; */
+  }
+  .ui.container.header-container {
+    height: 59px !important;
   }
   #crumbcontainer {
-    height: 55px !important;
+    height: 58px !important;
   }
   #inhoud .ui.item.simple.dropdown {
     height: 54px !important;
@@ -234,6 +237,20 @@ div#InhoudDropdown {
     padding-bottom: 0px !important;
     a {
       padding-left: 47px !important;
+    }
+  }
+
+  .contenttype-jaarverslag {
+    #page-document .block.slider,
+    .slick-slider,
+    .slick-list,
+    .slick-track {
+      margin-bottom: 0px !important;
+      padding-bottom: 0px !important;
+      height: calc(100vh - 115px) !important;
+      img {
+        height: calc(100vh - 115px) !important;
+      }
     }
   }
 }

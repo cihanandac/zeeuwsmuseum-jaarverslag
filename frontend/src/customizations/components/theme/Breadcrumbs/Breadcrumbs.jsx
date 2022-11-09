@@ -96,8 +96,8 @@ export class BreadcrumbsComponent extends Component {
         )} */}
 
         {/* {console.log(<NavItems items={this.props.intl} />)} */}
-        {console.log(<NavItems items={this.props.items} />)}
-
+        {/* {console.log(<NavItems items={this.props.items} />)} */}
+        {/* {console.log(this.props.items.length)} */}
         <Container id="crumbcontainer">
           <Breadcrumb id="folderMap">
             <Link
@@ -139,12 +139,18 @@ export class BreadcrumbsComponent extends Component {
               <Dropdown
                 item
                 simple
-                text={ this.props.items.length > 2 ? this.props.items[2].title : "INHOUD"}
+                text={
+                  this.props.items.length > 2
+                    ? this.props.items[2].title
+                    : 'INHOUD'
+                }
                 icon={<FaChevronDown color="#808080" />}
               >
                 <Dropdown.Menu className="dropdownContentPage">
                   <Dropdown.Item id="InhoudDropdown">
-                    <a href="../">Beeldimpressie </a>
+                    <a href={this.props.items.length <= 2 ? './.' : './'}>
+                      Beeldimpressie{' '}
+                    </a>
                   </Dropdown.Item>
                   <Dropdown.Item id="InhoudDropdown">
                     <a href="./terugblik">Terugblik</a>
