@@ -149,7 +149,7 @@ export class BreadcrumbsComponent extends Component {
                 <Dropdown.Menu className="dropdownContentPage">
                   <Dropdown.Item id="InhoudDropdown">
                     <a href={this.props.items.length <= 2 ? './.' : './'}>
-                      Beeldimpressie{' '}
+                      Beeldimpressie
                     </a>
                   </Dropdown.Item>
                   <Dropdown.Item id="InhoudDropdown">
