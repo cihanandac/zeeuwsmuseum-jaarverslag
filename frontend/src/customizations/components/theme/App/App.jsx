@@ -126,7 +126,7 @@ class App extends Component {
           <BodyClass
             className={`contenttype-${this.props.content['@type']
               .replace(' ', '-')
-              .toLowerCase()}`, this.props.content.["@type"]=="Document" ? this.props.content.footerinvisible.title : '' }
+              .toLowerCase()}`}
           />
         )}
         {/* Body class depending on sections */}
@@ -141,6 +141,8 @@ class App extends Component {
             'public-ui': !isCmsUI,
           })}
         />
+        <BodyClass className={this.props.content.["@type"]=="Document" ? this.props.content.footerinvisible != null ? this.props.content.footerinvisible.title : '' : '' }/>
+
         <SkipLinks />
         <Header pathname={path} />
         {/* <Breadcrumbs pathname={path} /> */}
@@ -166,7 +168,7 @@ class App extends Component {
             </main>
           </Segment>
         </MultilingualRedirector>
-        {this.props.content.footerinvisible === null ? <Footer /> : ''}
+        {this.props.content.["@type"]=="Document" ? this.props.content.footerinvisible === null ? <Footer />  : '' : '' }
         <LockingToastsFactory
           content={this.props.content}
           user={this.props.userId}

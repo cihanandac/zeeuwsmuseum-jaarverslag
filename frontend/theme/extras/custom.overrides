@@ -394,7 +394,7 @@ div#view {
 
 /* ------------------------------------
 -------JAARVERSLAG PAGE TYPE ---------*/
-.contenttype-jaarverslag {
+.view-viewview.invisible {
   #main {
     height: 100vh !important;
   }
