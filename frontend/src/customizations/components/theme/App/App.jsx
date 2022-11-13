@@ -168,7 +168,7 @@ class App extends Component {
             </main>
           </Segment>
         </MultilingualRedirector>
-        <Footer />
+        {this.props.content.["@type"] !=='jaarverslag' ? (<Footer/>) : ""}
         <LockingToastsFactory
           content={this.props.content}
           user={this.props.userId}
