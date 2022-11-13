@@ -126,7 +126,7 @@ class App extends Component {
           <BodyClass
             className={`contenttype-${this.props.content['@type']
               .replace(' ', '-')
-              .toLowerCase()}`}
+              .toLowerCase()}`, this.props.content.["@type"]=="Document" ? this.props.content.footerinvisible.title : '' }
           />
         )}
         {/* Body class depending on sections */}
@@ -142,10 +142,8 @@ class App extends Component {
           })}
         />
         <SkipLinks />
-
         <Header pathname={path} />
         {/* <Breadcrumbs pathname={path} /> */}
-
         <MultilingualRedirector
           pathname={this.props.pathname}
           contentLanguage={this.props.content?.language?.token}
@@ -168,7 +166,7 @@ class App extends Component {
             </main>
           </Segment>
         </MultilingualRedirector>
-        {this.props.content.["@type"] !=='jaarverslag' ? (<Footer/>) : ""}
+        {this.props.content.footerinvisible === null ? <Footer /> : ''}
         <LockingToastsFactory
           content={this.props.content}
           user={this.props.userId}

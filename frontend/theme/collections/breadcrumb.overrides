@@ -97,7 +97,7 @@ div.ui.breadcrumb {
 
 .view-viewview.contenttype-jaarverslag,
 .view-viewview.contenttype-jaarverslag_singlecontent,
-.view-viewview.contenttype-document.section-terugblik {
+.view-viewview.contenttype-document {
   .ui.secondary.vertical.segment.breadcrumbs {
     display: block !important;
   }

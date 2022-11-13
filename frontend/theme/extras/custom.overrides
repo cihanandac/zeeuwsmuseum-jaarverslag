@@ -20,7 +20,7 @@
   margin-right: 25px;
 }
 #toolbar {
-  z-index: 99991;
+  z-index: 999999;
   position: absolute;
 }
 
@@ -398,9 +398,6 @@ div#view {
   #main {
     height: 100vh !important;
   }
-  #footer {
-    display: none !important;
-  }
   #header-wrapper {
     position: relative !important;
     display: block !important;
@@ -441,7 +438,7 @@ div#view {
 .view-viewview.contenttype-jaarverslag,
 .view-viewview.contenttype-jaarverslag_singlecontent,
 .view-viewview.contenttype-document.section-terugblik,
-.view-viewview.contenttype-document.section-acid-test {
+.view-viewview.contenttype-document{
   img {
     display: inline;
     /* float: none; */
@@ -776,7 +773,7 @@ body.view-viewview.contenttype-plone-site.siteroot {
 @media only screen and (max-width: 768px) {
   .view-viewview.contenttype-document.section-terugblik,
   .view-viewview.contenttype-jaarverslag_singlecontent,
-  .view-viewview.contenttype-document.section-acid-test {
+  .view-viewview.contenttype-document {
     width: 100vw;
     img {
       display: inline;
