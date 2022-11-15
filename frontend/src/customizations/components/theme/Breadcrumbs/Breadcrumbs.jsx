@@ -114,7 +114,7 @@ export class BreadcrumbsComponent extends Component {
                   {item.title}
                   <span>&nbsp;</span>
                 </Link>
-              ) : (
+              ) : index > 2 ? (
                 <Breadcrumb.Section
                   className="crumbcontainer"
                   key={item.url}
@@ -131,6 +131,8 @@ export class BreadcrumbsComponent extends Component {
                     <span>{item.title}</span>
                   </div>
                 </Breadcrumb.Section>
+              ) : (
+                ''
               ),
             ])}
           </Breadcrumb>
@@ -140,7 +142,7 @@ export class BreadcrumbsComponent extends Component {
                 item
                 simple
                 text={
-                  this.props.items.length > 2
+                  this.props.items.length > 3
                     ? this.props.items[2].title
                     : 'INHOUD'
                 }

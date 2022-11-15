@@ -23,7 +23,8 @@
   z-index: 999999;
   position: absolute;
 }
-.documentFirstHeading, .documentFirstHeading::before{
+.documentFirstHeading,
+.documentFirstHeading::before {
   border-bottom: none !important;
 }
 
@@ -33,7 +34,7 @@ body {
 
   font-family: 'UniversCn', Arial, sans-serif;
   a {
-    text-decoration: none;
+    text-decoration: none !important;
   }
 }
 .ui.basic.segment.content-area {
@@ -56,6 +57,15 @@ body {
     position: relative;
     scrollbar-gutter: stable both-edges;
   }
+  .listing-item, .columns-view {
+    a {
+      text-decoration: none !important;
+      color: #000000;
+      font-family: 'UniversLightCn';
+      font-size: 22px;
+    }
+  }
+  
 }
 /* ********END OF THE WITH*********
 -------------------------------------- */
@@ -133,7 +143,8 @@ div#view {
       -webkit-font-smoothing: antialiased;
     }
 
-    h1, h2 {
+    h1,
+    h2 {
       color: #000000;
       margin-bottom: 35px;
       font-size: 60px;
@@ -434,7 +445,7 @@ div#view {
   .ui.secondary.vertical.segment.breadcrumbs {
     border-bottom: none;
   }
-  h1.documentFirstHeading{
+  h1.documentFirstHeading {
     display: none !important;
   }
 }
@@ -477,7 +488,8 @@ div#view {
     }
   }
 
-  h1, h2 {
+  h1,
+  h2 {
     padding-top: 60px;
     margin-bottom: 43px !important;
   }
@@ -563,12 +575,14 @@ div#view {
   }
   #page-document {
     .title h2 {
-      height: 60px;
+      height: 80px;
       padding: 0% !important;
       margin: 0% !important;
       font-size: 16px !important;
       color: #ffffff !important;
       width: auto !important;
+      padding-top: 5px !important;
+      text-transform: none !important;
     }
   }
 
@@ -684,6 +698,67 @@ body.view-viewview.contenttype-plone-site.siteroot {
 }
 
 /* ----------END OF HOME PAGE------------ */
+
+/* ***********************************************************
+**********LIST VIEW*********** 
+************************************************************/
+#page-home {
+  width: 100% !important;
+  padding-right: 25px !important;
+  padding-left: 25px !important;
+}
+#list-title {
+  /* padding-top: 47px; */
+  padding-bottom: 48px;
+}
+#list-title h1 {
+  font-size: 60px !important;
+  text-align: center;
+  margin-top: 25px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 12px;
+  font-family: 'UniversCn', Arial, sans-serif;
+}
+#content-core {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row !important;
+  justify-content: space-between;
+
+  .listing-item {
+    box-shadow: none;
+    border: none !important;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+    width: 33.3% !important;
+    flex-grow: 1 !important;
+    flex-shrink: 0 !important;
+    flex-basis: 300px !important;
+    max-width: 620px;
+    flex-direction: column;
+
+    img {
+      margin: 0% !important;
+    }
+
+    div {
+      padding-top: 15px;
+    }
+
+    * {
+      width: 100%;
+      align-items: center;
+      /* justify-content: center; */
+    }
+  }
+}
+
+/* ********************************************************
+***END OF LIST VIEW*********** */
 
 /* ************END OF PAGE SPESIFIC CSS*********** */
 
@@ -814,7 +889,8 @@ body.view-viewview.contenttype-plone-site.siteroot {
         font-size: 16px !important;
         margin-top: 5px !important;
       }
-      h1, h2 {
+      h1,
+      h2 {
         font-size: 32px !important;
         margin: 20px 0px 12px;
         box-sizing: border-box;
@@ -846,12 +922,13 @@ body.view-viewview.contenttype-plone-site.siteroot {
       }
       .title h2 {
         /* bottom: 0px; */
-        height: 60px;
+        height: 80px;
         padding: 0% !important;
         margin: 0% !important;
         font-size: 16px !important;
         color: #ffffff !important;
         width: auto !important;
+        text-transform: none !important;
       }
     }
     #footermail {

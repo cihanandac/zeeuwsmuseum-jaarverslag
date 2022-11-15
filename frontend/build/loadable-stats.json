@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.46.0",
-  "hash": "f3063b0eec9cd0a8c480",
+  "hash": "e73b96330a1b1530f801",
   "publicPath": "http://localhost:3001/",
   "outputPath": "/Users/cihanandac/Documents/Code files/zeeuwsmuseumproject/frontend/build/public",
   "assetsByChunkName": {
@@ -192,7 +192,7 @@
       ],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/0.chunk.js.map",
@@ -204,7 +204,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/1.chunk.js",
@@ -214,7 +214,7 @@
       ],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/1.chunk.js.map",
@@ -226,7 +226,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/10.chunk.js",
@@ -236,7 +236,7 @@
       ],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/10.chunk.js.map",
@@ -248,7 +248,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/11.chunk.js",
@@ -258,7 +258,7 @@
       ],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/11.chunk.js.map",
@@ -270,7 +270,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/2.chunk.js",
@@ -280,7 +280,7 @@
       ],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/2.chunk.js.map",
@@ -292,7 +292,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/3.chunk.js",
@@ -302,7 +302,7 @@
       ],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/3.chunk.js.map",
@@ -314,7 +314,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/4.chunk.js",
@@ -324,7 +324,7 @@
       ],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/4.chunk.js.map",
@@ -336,7 +336,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/5.chunk.js",
@@ -346,7 +346,7 @@
       ],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/5.chunk.js.map",
@@ -358,7 +358,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/6.chunk.js",
@@ -368,7 +368,7 @@
       ],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/6.chunk.js.map",
@@ -380,7 +380,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/7.chunk.js",
@@ -390,7 +390,7 @@
       ],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/7.chunk.js.map",
@@ -402,7 +402,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/8.chunk.js",
@@ -412,7 +412,7 @@
       ],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/8.chunk.js.map",
@@ -424,7 +424,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/9.chunk.js",
@@ -434,7 +434,7 @@
       ],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/9.chunk.js.map",
@@ -446,11 +446,11 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/client.chunk.js",
-      "size": 215092,
+      "size": 221547,
       "chunks": [
         "client"
       ],
@@ -458,11 +458,11 @@
         "client"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/client.chunk.js.map",
-      "size": 98005,
+      "size": 100683,
       "chunks": [
         "client"
       ],
@@ -472,7 +472,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/draft-js-block-breakout-plugin.chunk.js",
@@ -484,7 +484,7 @@
         "draft-js-block-breakout-plugin"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/draft-js-block-breakout-plugin.chunk.js.map",
@@ -498,7 +498,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/draft-js-buttons-lib-utils-createBlockStyleButton.chunk.js",
@@ -510,7 +510,7 @@
         "draft-js-buttons-lib-utils-createBlockStyleButton"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/draft-js-buttons-lib-utils-createBlockStyleButton.chunk.js.map",
@@ -524,7 +524,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/draft-js-buttons-lib-utils-createInlineStyleButton.chunk.js",
@@ -536,7 +536,7 @@
         "draft-js-buttons-lib-utils-createInlineStyleButton"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/draft-js-buttons-lib-utils-createInlineStyleButton.chunk.js.map",
@@ -550,7 +550,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/draft-js-lib-isSoftNewlineEvent.chunk.js",
@@ -562,7 +562,7 @@
         "draft-js-lib-isSoftNewlineEvent"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/draft-js-lib-isSoftNewlineEvent.chunk.js.map",
@@ -576,7 +576,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/draft-js-plugins-utils.chunk.js",
@@ -588,7 +588,7 @@
         "draft-js-plugins-utils"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/draft-js-plugins-utils.chunk.js.map",
@@ -602,7 +602,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/moment.chunk.js",
@@ -614,7 +614,7 @@
         "moment"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/moment.chunk.js.map",
@@ -628,7 +628,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/plone-volto-components-theme-View-EventView.chunk.js",
@@ -640,7 +640,7 @@
         "plone-volto-components-theme-View-EventView"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/plone-volto-components-theme-View-EventView.chunk.js.map",
@@ -654,7 +654,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/rc-time-picker.chunk.js",
@@ -666,7 +666,7 @@
         "rc-time-picker"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/rc-time-picker.chunk.js.map",
@@ -680,7 +680,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/react-dates.chunk.js",
@@ -692,7 +692,7 @@
         "react-dates"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/react-dates.chunk.js.map",
@@ -706,7 +706,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/react-select-async.chunk.js",
@@ -718,7 +718,7 @@
         "react-select-async"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/react-select-async.chunk.js.map",
@@ -732,7 +732,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/react-select-creatable.chunk.js",
@@ -744,7 +744,7 @@
         "react-select-creatable"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/react-select-creatable.chunk.js.map",
@@ -758,7 +758,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/react-select.chunk.js",
@@ -770,7 +770,7 @@
         "react-select"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/react-select.chunk.js.map",
@@ -784,7 +784,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/runtime~client.js",
@@ -796,7 +796,7 @@
         "runtime~client"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/runtime~client.js.map",
@@ -810,7 +810,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~PDFViewer.chunk.js",
@@ -822,7 +822,7 @@
         "vendors~PDFViewer"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~PDFViewer.chunk.js.map",
@@ -836,11 +836,11 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~client.chunk.js",
-      "size": 25019027,
+      "size": 25019958,
       "chunks": [
         "vendors~client"
       ],
@@ -848,12 +848,11 @@
         "vendors~client"
       ],
       "info": {},
-      "emitted": true,
-      "isOverSizeLimit": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~client.chunk.js.map",
-      "size": 21463383,
+      "size": 21467044,
       "chunks": [
         "vendors~client"
       ],
@@ -863,7 +862,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~diff.chunk.js",
@@ -875,7 +874,7 @@
         "vendors~diff"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~diff.chunk.js.map",
@@ -889,7 +888,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~draft-js-import-html.chunk.js",
@@ -901,7 +900,7 @@
         "vendors~draft-js-import-html"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~draft-js-import-html.chunk.js.map",
@@ -915,7 +914,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~draft-js-inline-toolbar-plugin.chunk.js",
@@ -927,7 +926,7 @@
         "vendors~draft-js-inline-toolbar-plugin"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~draft-js-inline-toolbar-plugin.chunk.js.map",
@@ -941,7 +940,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~draft-js-plugins-editor.chunk.js",
@@ -953,7 +952,7 @@
         "vendors~draft-js-plugins-editor"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~draft-js-plugins-editor.chunk.js.map",
@@ -967,7 +966,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js",
@@ -979,7 +978,7 @@
         "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js.map",
@@ -993,7 +992,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js",
@@ -1005,7 +1004,7 @@
         "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js.map",
@@ -1019,7 +1018,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~draftjs-filters.chunk.js",
@@ -1031,7 +1030,7 @@
         "vendors~draftjs-filters"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~draftjs-filters.chunk.js.map",
@@ -1045,7 +1044,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~moment~rc-time-picker~react-dates.chunk.js",
@@ -1057,7 +1056,7 @@
         "vendors~moment~rc-time-picker~react-dates"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~moment~rc-time-picker~react-dates.chunk.js.map",
@@ -1071,7 +1070,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~plone-volto-components-manage-Widgets-DatetimeWidget~plone-volto-components-manage-Widgets-R~a875f490.chunk.js",
@@ -1083,7 +1082,7 @@
         "vendors~plone-volto-components-manage-Widgets-DatetimeWidget~plone-volto-components-manage-Widgets-R~a875f490"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~plone-volto-components-manage-Widgets-DatetimeWidget~plone-volto-components-manage-Widgets-R~a875f490.chunk.js.map",
@@ -1097,7 +1096,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget.chunk.js",
@@ -1109,7 +1108,7 @@
         "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget.chunk.js.map",
@@ -1123,7 +1122,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314.chunk.js",
@@ -1135,7 +1134,7 @@
         "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314.chunk.js.map",
@@ -1149,7 +1148,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~prettier-parser-html.chunk.js",
@@ -1161,7 +1160,7 @@
         "vendors~prettier-parser-html"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~prettier-parser-html.chunk.js.map",
@@ -1175,7 +1174,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~prettier-standalone.chunk.js",
@@ -1187,7 +1186,7 @@
         "vendors~prettier-standalone"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~prettier-standalone.chunk.js.map",
@@ -1201,7 +1200,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~prismjs-components-prism-core.chunk.js",
@@ -1213,7 +1212,7 @@
         "vendors~prismjs-components-prism-core"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~prismjs-components-prism-core.chunk.js.map",
@@ -1227,7 +1226,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~rc-time-picker.chunk.js",
@@ -1239,7 +1238,7 @@
         "vendors~rc-time-picker"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~rc-time-picker.chunk.js.map",
@@ -1253,7 +1252,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~react-beautiful-dnd.chunk.js",
@@ -1265,7 +1264,7 @@
         "vendors~react-beautiful-dnd"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~react-beautiful-dnd.chunk.js.map",
@@ -1279,7 +1278,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~react-color-lib-Github.chunk.js",
@@ -1291,7 +1290,7 @@
         "vendors~react-color-lib-Github"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~react-color-lib-Github.chunk.js.map",
@@ -1305,7 +1304,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~react-color.chunk.js",
@@ -1317,7 +1316,7 @@
         "vendors~react-color"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~react-color.chunk.js.map",
@@ -1331,7 +1330,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~react-color~react-color-lib-Github.chunk.js",
@@ -1343,7 +1342,7 @@
         "vendors~react-color~react-color-lib-Github"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~react-color~react-color-lib-Github.chunk.js.map",
@@ -1357,7 +1356,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~react-dates.chunk.js",
@@ -1369,7 +1368,7 @@
         "vendors~react-dates"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~react-dates.chunk.js.map",
@@ -1383,7 +1382,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~react-dnd-html5-backend.chunk.js",
@@ -1395,7 +1394,7 @@
         "vendors~react-dnd-html5-backend"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~react-dnd-html5-backend.chunk.js.map",
@@ -1409,7 +1408,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~react-dnd.chunk.js",
@@ -1421,7 +1420,7 @@
         "vendors~react-dnd"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~react-dnd.chunk.js.map",
@@ -1435,7 +1434,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~react-image-gallery.chunk.js",
@@ -1447,7 +1446,7 @@
         "vendors~react-image-gallery"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~react-image-gallery.chunk.js.map",
@@ -1461,7 +1460,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~react-select-async-creatable.chunk.js",
@@ -1473,7 +1472,7 @@
         "vendors~react-select-async-creatable"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~react-select-async-creatable.chunk.js.map",
@@ -1487,7 +1486,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~react-select-async-paginate.chunk.js",
@@ -1499,7 +1498,7 @@
         "vendors~react-select-async-paginate"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~react-select-async-paginate.chunk.js.map",
@@ -1513,7 +1512,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~react-simple-code-editor.chunk.js",
@@ -1525,7 +1524,7 @@
         "vendors~react-simple-code-editor"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~react-simple-code-editor.chunk.js.map",
@@ -1539,7 +1538,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~react-sortable-hoc.chunk.js",
@@ -1551,7 +1550,7 @@
         "vendors~react-sortable-hoc"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~react-sortable-hoc.chunk.js.map",
@@ -1565,7 +1564,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~react-window.chunk.js",
@@ -1577,7 +1576,7 @@
         "vendors~react-window"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/js/vendors~react-window.chunk.js.map",
@@ -1591,7 +1590,7 @@
       "info": {
         "development": true
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/Logo.50b0ab85.svg",
@@ -1599,7 +1598,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/block-image.8a4a14d5.svg",
@@ -1607,7 +1606,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/block-maps.731e84f6.svg",
@@ -1615,7 +1614,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/block-video.832fa3ff.svg",
@@ -1623,7 +1622,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/default-image.9451b251.svg",
@@ -1631,7 +1630,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/diepte.b58aa5c3.jpeg",
@@ -1639,7 +1638,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/flags.9c74e172.png",
@@ -1647,7 +1646,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/icons.022583c4.svg",
@@ -1655,7 +1654,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/icons.06400145.ttf",
@@ -1663,7 +1662,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/icons.dbc1ef8b.eot",
@@ -1671,7 +1670,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/icons.df45b7de.woff",
@@ -1679,7 +1678,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/pdf-icon.1ee918e1.svg",
@@ -1687,7 +1686,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/satin.eca2162f.jpeg",
@@ -1695,7 +1694,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/slick.b7c9e1e4.woff",
@@ -1703,7 +1702,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/slick.ced611da.eot",
@@ -1711,7 +1710,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/slick.d41f55a7.ttf",
@@ -1719,7 +1718,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/slick.f97e3bbf.svg",
@@ -1727,7 +1726,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-bold-webfont.6726fe5a.woff2",
@@ -1735,7 +1734,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-bold-webfont.aded6b78.woff",
@@ -1743,7 +1742,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-boldoblique-webfont.babc8d10.woff",
@@ -1751,7 +1750,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-boldoblique-webfont.fc4f24b1.woff2",
@@ -1759,7 +1758,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-condensed-webfont.0640dde4.woff2",
@@ -1767,7 +1766,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-condensed-webfont.d4697b55.woff",
@@ -1775,7 +1774,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-condensedbdoblique-webfont.12d482ec.woff2",
@@ -1783,7 +1782,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-condensedbdoblique-webfont.6071b002.woff",
@@ -1791,7 +1790,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-condensedbold-webfont.2e325c9a.woff2",
@@ -1799,7 +1798,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-condensedbold-webfont.bfb73a05.woff",
@@ -1807,7 +1806,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-condensedlight-webfont.7bd94775.woff",
@@ -1815,7 +1814,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-condensedlight-webfont.da2a6147.woff2",
@@ -1823,7 +1822,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-condensedltoblique-webfont.15d74781.woff2",
@@ -1831,7 +1830,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-condensedltoblique-webfont.b05ae74d.woff",
@@ -1839,7 +1838,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-condensedoblique-webfont.bc95b5f5.woff",
@@ -1847,7 +1846,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-condensedoblique-webfont.fde6563b.woff2",
@@ -1855,7 +1854,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-light-webfont.534ef18d.woff2",
@@ -1863,7 +1862,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-light-webfont.76820e74.woff",
@@ -1871,7 +1870,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-lightoblique-webfont.001c0bfb.woff2",
@@ -1879,7 +1878,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-lightoblique-webfont.71222668.woff",
@@ -1887,7 +1886,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-lightultracondensed-webfont.206dda91.woff",
@@ -1895,7 +1894,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-lightultracondensed-webfont.fdafd4a3.woff2",
@@ -1903,7 +1902,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-thinultracondensed-webfont.187d32e0.woff2",
@@ -1911,7 +1910,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-thinultracondensed-webfont.5d4631f5.woff",
@@ -1919,7 +1918,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-ultracondensed-webfont.3049f45d.woff2",
@@ -1927,7 +1926,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-ultracondensed-webfont.ec60e0d1.woff",
@@ -1935,7 +1934,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-webfont.180db8a4.woff2",
@@ -1943,7 +1942,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/univers-webfont.2594e742.woff",
@@ -1951,7 +1950,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "static/media/zee.5b86e826.jpeg",
@@ -1959,7 +1958,7 @@
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     }
   ],
   "filteredAssets": 0,

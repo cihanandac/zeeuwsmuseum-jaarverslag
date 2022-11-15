@@ -47,6 +47,7 @@ import WorkingCopyToastsFactory from '@plone/volto/components/manage/WorkingCopy
 import LockingToastsFactory from '@plone/volto/components/manage/LockingToastsFactory/LockingToastsFactory';
 
 import * as Sentry from '@sentry/browser';
+import { BsNutFill } from 'react-icons/bs';
 
 /**
  * @export
@@ -178,15 +179,19 @@ class App extends Component {
             </main>
           </Segment>
         </MultilingualRedirector>
-        {this.props.content != null ? this.props.content['@type'] == 'Document' ? (
-          this.props.content.footerinvisible === undefined ? (
-            <Footer />
+        {this.props.content != undefined ? (
+          this.props.content.['@type'] == 'Document' ? (
+            this.props.content.footerinvisible === null || undefined ? (
+              <Footer />
+            ) : (
+              ''
+            )
           ) : (
             ''
           )
         ) : (
           ''
-        ) : ('') }
+        )}
         <LockingToastsFactory
           content={this.props.content}
           user={this.props.userId}

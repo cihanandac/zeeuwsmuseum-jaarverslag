@@ -240,7 +240,7 @@ div#InhoudDropdown {
     }
   }
 
-  .contenttype-jaarverslag {
+  .view-viewview.invisible {
     #page-document .block.slider,
     .slick-slider,
     .slick-list,
