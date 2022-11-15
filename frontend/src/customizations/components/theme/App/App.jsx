@@ -141,7 +141,17 @@ class App extends Component {
             'public-ui': !isCmsUI,
           })}
         />
-        <BodyClass className={this.props.content.["@type"]=="Document" ? this.props.content.footerinvisible != null ? this.props.content.footerinvisible.title : '' : '' }/>
+        <BodyClass
+          className={
+            this.props.content != null
+              ? this.props.content['@type'] == 'Document'
+                ? this.props.content.footerinvisible != undefined
+                  ? this.props.content.footerinvisible.title
+                  : ''
+                : ''
+              : ''
+          }
+        />
 
         <SkipLinks />
         <Header pathname={path} />
@@ -168,7 +178,15 @@ class App extends Component {
             </main>
           </Segment>
         </MultilingualRedirector>
-        {this.props.content.["@type"]=="Document" ? this.props.content.footerinvisible === null ? <Footer />  : '' : '' }
+        {this.props.content != null ? this.props.content['@type'] == 'Document' ? (
+          this.props.content.footerinvisible === undefined ? (
+            <Footer />
+          ) : (
+            ''
+          )
+        ) : (
+          ''
+        ) : ('') }
         <LockingToastsFactory
           content={this.props.content}
           user={this.props.userId}

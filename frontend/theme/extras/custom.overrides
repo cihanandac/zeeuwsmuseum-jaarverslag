@@ -23,6 +23,9 @@
   z-index: 999999;
   position: absolute;
 }
+.documentFirstHeading, .documentFirstHeading::before{
+  border-bottom: none !important;
+}
 
 body {
   -webkit-font-smoothing: antialiased;
@@ -35,6 +38,10 @@ body {
 }
 .ui.basic.segment.content-area {
   margin-top: 115px !important;
+}
+#sidebar,
+.sidebar-container {
+  margin-top: 60px !important;
 }
 /* -------END OF GENERAL STUFF--------------- */
 
@@ -126,7 +133,7 @@ div#view {
       -webkit-font-smoothing: antialiased;
     }
 
-    h2 {
+    h1, h2 {
       color: #000000;
       margin-bottom: 35px;
       font-size: 60px;
@@ -181,7 +188,8 @@ div#view {
       font-size: 1.2em;
     }
   }
-  .supertitle {
+  .supertitle,
+  .title {
     color: #ffffff !important;
   }
 }
@@ -393,7 +401,7 @@ div#view {
 /*--------- END OF EDIT VIEW----------*/
 
 /* ------------------------------------
--------JAARVERSLAG PAGE TYPE ---------*/
+-------INVISIBLE FOOTER PAGE TYPE ---------*/
 .view-viewview.invisible {
   #main {
     height: 100vh !important;
@@ -420,14 +428,14 @@ div#view {
     padding-bottom: 0px;
     margin-bottom: 0px;
   }
-  .title h2 {
-    display: none !important;
-  }
   .teaser-item-title {
     bottom: 0px;
   }
   .ui.secondary.vertical.segment.breadcrumbs {
     border-bottom: none;
+  }
+  h1.documentFirstHeading{
+    display: none !important;
   }
 }
 /*----------END OF JAARVERSLAG TYPE ----------*/
@@ -438,7 +446,7 @@ div#view {
 .view-viewview.contenttype-jaarverslag,
 .view-viewview.contenttype-jaarverslag_singlecontent,
 .view-viewview.contenttype-document.section-terugblik,
-.view-viewview.contenttype-document{
+.view-viewview.contenttype-document {
   img {
     display: inline;
     /* float: none; */
@@ -469,7 +477,7 @@ div#view {
     }
   }
 
-  h2 {
+  h1, h2 {
     padding-top: 60px;
     margin-bottom: 43px !important;
   }
@@ -553,6 +561,16 @@ div#view {
     width: 80px;
     height: 80px;
   }
+  #page-document {
+    .title h2 {
+      height: 60px;
+      padding: 0% !important;
+      margin: 0% !important;
+      font-size: 16px !important;
+      color: #ffffff !important;
+      width: auto !important;
+    }
+  }
 
   /* ------end of slider arrows-------- */
 }
@@ -623,7 +641,7 @@ p.block.image.align.center {
   letter-spacing: 0.9504px;
 
   .title {
-    padding-top: 25px;
+    /* padding-top: 25px; */
   }
 }
 
@@ -796,7 +814,7 @@ body.view-viewview.contenttype-plone-site.siteroot {
         font-size: 16px !important;
         margin-top: 5px !important;
       }
-      h2 {
+      h1, h2 {
         font-size: 32px !important;
         margin: 20px 0px 12px;
         box-sizing: border-box;
@@ -826,11 +844,21 @@ body.view-viewview.contenttype-plone-site.siteroot {
       p.block.image.align.full {
         margin-bottom: 18px !important;
       }
+      .title h2 {
+        /* bottom: 0px; */
+        height: 60px;
+        padding: 0% !important;
+        margin: 0% !important;
+        font-size: 16px !important;
+        color: #ffffff !important;
+        width: auto !important;
+      }
     }
     #footermail {
       min-width: none !important;
     }
-    .supertitle {
+    .supertitle,
+    .title {
       font-size: 16px;
       color: #ffffff !important;
     }
