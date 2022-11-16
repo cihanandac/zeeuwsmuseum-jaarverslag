@@ -112,8 +112,6 @@ body {
 div#view {
   #page-document {
     h1,
-    h2,
-    h3,
     h4,
     h5 {
       font-family: 'UniversCn';
@@ -126,14 +124,21 @@ div#view {
       -webkit-font-smoothing: antialiased;
     }
 
-    h1,
-    h2 {
+    h1 {
       color: #000000;
       margin-bottom: 35px;
       font-size: 60px;
       text-transform: uppercase;
       letter-spacing: 3px;
       line-height: 66px;
+    }
+    h2 {
+      font-family: 'UniversLightCn' !important;
+      font-size: 32px;
+      margin-top: 40px ;
+      margin-bottom: 10px ;
+      line-height: 40px !important;
+      letter-spacing: 2px !important;
     }
 
     p {
@@ -472,7 +477,7 @@ div#view {
   }
 
   h1,
-  h2 {
+  {
     padding-top: 60px;
     margin-bottom: 43px !important;
   }
@@ -561,11 +566,13 @@ div#view {
       height: 80px;
       padding: 0% !important;
       margin: 0% !important;
-      font-size: 16px !important;
+      margin-top: 15px !important;
+      font-size: 19px !important;
       color: #ffffff !important;
       width: auto !important;
       padding-top: 5px !important;
       text-transform: none !important;
+      letter-spacing: 0.05em !important;
     }
   }
 
@@ -692,7 +699,7 @@ body.view-viewview.contenttype-plone-site.siteroot {
 }
 #list-title {
   /* padding-top: 47px; */
-  padding-bottom: 36px;
+  padding-bottom: 50px;
 }
 #list-title h1 {
   font-size: 60px !important;
@@ -892,39 +899,50 @@ body.view-viewview.contenttype-plone-site.siteroot {
         font-size: 16px !important;
         margin-top: 5px !important;
       }
-      h1,
-      h2 {
+      h1 {
         font-size: 32px !important;
-        margin: 20px 0px 12px;
+        margin: 20px 0px 12px !important;
         box-sizing: border-box;
         font-family: UniversCn, Arial, sans-serif;
         font-weight: 400;
         line-height: 35.2px;
         color: rgb(0, 0, 0);
-        margin-top: 0px !important;
-        padding-top: 0% !important;
-        margin-bottom: 0px !important;
-        padding-bottom: 0px !important;
+        /* margin-top: 0px !important;
+        padding-top: 0% !important; */
+        /* margin-bottom: 0px !important;
+        padding-bottom: 0px !important; */
         text-transform: uppercase;
-        letter-spacing: 1.6px;
+        letter-spacing: 1.6px !important;
+      }
+      h1.documentFirstHeading {
+        padding-top: 20px !important;
+        padding-bottom: 7px !important;
+        line-height: 35px !important;
+      }
+      h2 {
+        font-family: 'UniversLightCn' !important;
+        font-size: 28px !important;
+        margin-top: 40px ;
+        margin-bottom: 10px ;
+        line-height: 40px !important;
+        letter-spacing: 2px !important;
       }
       h3 {
         box-sizing: border-box;
-        font-family: UniversLightCn, Arial, sans-serif;
-        font-weight: 400;
+        font-family: 'UniversLightCn', Arial, sans-serif;
         line-height: 35px;
         color: rgb(0, 0, 0);
         margin-top: 45px !important;
         margin-bottom: 20px !important;
-        font-size: 18.4px !important;
-        letter-spacing: 1.38px;
+        /* font-size: 22.4px !important; */
+        letter-spacing: 1.68px;
         text-transform: uppercase;
       }
       p.block.image.align.full {
         margin-bottom: 18px !important;
       }
       .title h2 {
-        /* bottom: 0px; */
+        bottom: 0px;
         height: 80px;
         padding: 0% !important;
         margin: 0% !important;
