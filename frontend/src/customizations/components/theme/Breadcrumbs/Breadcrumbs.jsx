@@ -108,29 +108,32 @@ export class BreadcrumbsComponent extends Component {
               {/* <Icon name={homeSVG} size="25px" /> */}
             </Link>
             {this.props.items.map((item, index, items) => [
-              ,
-              index < items.length - 1 ? (
-                <Link key={item.url} to={item.url} className="section">
-                  {item.title}
-                  <span>&nbsp;</span>
-                </Link>
-              ) : index > 2 ? (
-                <Breadcrumb.Section
-                  className="crumbcontainer"
-                  key={item.url}
-                  active
-                >
-                  <Breadcrumb.Divider className="breaddivider">
-                    <BsChevronCompactRight
-                      stroke="white"
-                      fill="currentColor"
-                      strokeWidth="0.5"
-                    />
-                  </Breadcrumb.Divider>
-                  <div className="breadtitle">
-                    <span>{item.title}</span>
-                  </div>
-                </Breadcrumb.Section>
+              index != 0 ? (
+                index <= 2 ? (
+                  <Link key={item.url} to={item.url} className="section">
+                    {item.title}
+                    <span>&nbsp;</span>
+                  </Link>
+                ) : index > 2 ? (
+                  <Breadcrumb.Section
+                    className="crumbcontainer"
+                    key={item.url}
+                    active
+                  >
+                    <Breadcrumb.Divider className="breaddivider">
+                      <BsChevronCompactRight
+                        stroke="white"
+                        fill="currentColor"
+                        strokeWidth="0.5"
+                      />
+                    </Breadcrumb.Divider>
+                    <div className="breadtitle">
+                      <span>{item.title}</span>
+                    </div>
+                  </Breadcrumb.Section>
+                ) : (
+                  ''
+                )
               ) : (
                 ''
               ),
@@ -142,7 +145,7 @@ export class BreadcrumbsComponent extends Component {
                 item
                 simple
                 text={
-                  this.props.items.length > 3
+                  this.props.items.length > 4
                     ? this.props.items[2].title
                     : 'INHOUD'
                 }
@@ -150,40 +153,115 @@ export class BreadcrumbsComponent extends Component {
               >
                 <Dropdown.Menu className="dropdownContentPage">
                   <Dropdown.Item id="InhoudDropdown">
-                    <a href={this.props.items.length <= 2 ? './.' : './'}>
+                    <a
+                      href={
+                        this.props.items[2] != null || undefined
+                          ? this.props.items[2].url
+                          : ''
+                      }
+                    >
                       Beeldimpressie
                     </a>
                   </Dropdown.Item>
                   <Dropdown.Item id="InhoudDropdown">
-                    <a href="./terugblik">Terugblik</a>
+                    <a
+                      href={
+                        this.props.items[2] != null || undefined
+                          ? this.props.items[2].url + '/terugblik'
+                          : ''
+                      }
+                    >
+                      Terugblik
+                    </a>
                   </Dropdown.Item>
                   <Dropdown.Item id="InhoudDropdown">
-                    <a href="./inspireren-verwonderen">
+                    <a
+                      href={
+                        this.props.items[2] != null || undefined
+                          ? this.props.items[2].url + '/inspireren-verwonderen'
+                          : ''
+                      }
+                    >
                       Inspireren & Verwonderen
                     </a>
                   </Dropdown.Item>
                   <Dropdown.Item id="InhoudDropdown">
-                    <a href="./bewaren-verzamelen">Bewaren & Verzamelen</a>
+                    <a
+                      href={
+                        this.props.items[2] != null || undefined
+                          ? this.props.items[2].url + '/bewaren-verzamelen'
+                          : ''
+                      }
+                    >
+                      Bewaren & Verzamelen
+                    </a>
                   </Dropdown.Item>
                   <Dropdown.Item id="InhoudDropdown">
-                    <a href="./leren-verbinden">Leren & Verbinden</a>
+                    <a
+                      href={
+                        this.props.items[2] != null || undefined
+                          ? this.props.items[2].url + '/leren-verbinden'
+                          : ''
+                      }
+                    >
+                      Leren & Verbinden
+                    </a>
                   </Dropdown.Item>
                   <Dropdown.Item id="InhoudDropdown">
-                    <a href="./eenzm">eenZM</a>
+                    <a
+                      href={
+                        this.props.items[2] != null || undefined
+                          ? this.props.items[2].url + '/eenzm'
+                          : ''
+                      }
+                    >
+                      eenZM
+                    </a>
                   </Dropdown.Item>
                   <Dropdown.Item id="InhoudDropdown">
-                    <a href="./financieel-verslag">Financieel verslag</a>
+                    <a
+                      href={
+                        this.props.items[2] != null || undefined
+                          ? this.props.items[2].url + '/financieel-verslag'
+                          : ''
+                      }
+                    >
+                      Financieel verslag
+                    </a>
                   </Dropdown.Item>
                   <Dropdown.Item id="InhoudDropdown">
-                    <a href="./cultureel-ondernemerschap">
+                    <a
+                      href={
+                        this.props.items[2] != null || undefined
+                          ? this.props.items[2].url +
+                            '/cultureel-ondernemerschap'
+                          : ''
+                      }
+                    >
                       Cultureel Ondernemerschap
                     </a>
                   </Dropdown.Item>
                   <Dropdown.Item id="InhoudDropdown">
-                    <a href="./met-dank-aan">Met dank aan</a>
+                    <a
+                      href={
+                        this.props.items[2] != null || undefined
+                          ? this.props.items[2].url + '/met-dank-aan'
+                          : ''
+                      }
+                    >
+                      Met dank aan
+                    </a>
                   </Dropdown.Item>
                   <Dropdown.Item id="InhoudDropdown">
-                    <a href="./colofon">Colofon</a>
+                    <a
+                      href={
+                        this.props.items[2] != null || undefined
+                          ? this.props.items[2].url + '/colofon'
+                          : ''
+                      }
+                    >
+                      Colofon
+                    </a>
                   </Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>

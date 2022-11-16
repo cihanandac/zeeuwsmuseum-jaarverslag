@@ -21,7 +21,7 @@ const ListingView = ({ content }) => (
     </div>
     <section id="content-core">
       {content.items.map((item) => (
-        <Segment key={item.url} className="listing-item">
+        <div key={item.url} className="listing-items">
           {item.image_field && (
             <UniversalLink item={item}>
               <PreviewImage
@@ -32,15 +32,15 @@ const ListingView = ({ content }) => (
               />
             </UniversalLink>
           )}
-          <Container>
+          <div id='jaarverslag-title'>
             <h2>
               <UniversalLink item={item}>
                 JAARVERSLAG {item.title}
               </UniversalLink>
             </h2>
             {item.description && <p>{item.description}</p>}
-          </Container>
-        </Segment>
+          </div>
+        </div>
       ))}
     </section>
   </Container>
