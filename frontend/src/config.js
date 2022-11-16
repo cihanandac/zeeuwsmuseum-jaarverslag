@@ -44,23 +44,9 @@ import '@plone/volto/config';
 export default function applyConfig(config) {
   config.blocks.requiredBlocks = [];
 
-  (config.blocks.blocksConfig.socialtop = {
-    id: 'socialtop',
-    title: 'Socialtop',
-    icon: showSVG,
-    group: 'common',
-    view: SocialTopViewBlock,
-    edit: SocialTopEditBlock,
-    restricted: false,
-    mostUsed: false,
-    security: {
-      addPermission: [],
-      view: [],
-    },
-  }),
     (config.blocks.blocksConfig.socialbottom = {
       id: 'socialbottom',
-      title: 'Socialbottom',
+      title: 'Socialbuttons',
       icon: showSVG,
       group: 'common',
       view: SocialBottomViewBlock,

@@ -75,23 +75,6 @@ body {
 ***************************************** */
 
 /* -------SOCIALBUTTON BLOCK---------- */
-.SocialbuttonsTop {
-  position: absolute;
-  width: 55px;
-  height: 136px;
-  /* top: 1150px; */
-  top: calc(59.9vw);
-  left: calc(100vw - 55px);
-  list-style-type: none;
-  border: 0.5px solid #ececec;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
 .SocialbuttonsBottom {
   /* position: relative; */
   /* width: 150px; */
@@ -775,7 +758,29 @@ body.view-viewview.contenttype-plone-site.siteroot {
 }
 @media only screen and (min-width: 993px) {
   .SocialbuttonsBottom {
-    display: none;
+    position: absolute;
+    width: 55px;
+    height: 136px !important;
+    top: calc(59.9vw);
+    left: calc(100vw - 55px);
+    list-style-type: none;
+    border: 0.5px solid #ececec;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    padding-top: 20px !important;
+    /* padding-bottom: 20px; */
+    align-self: none !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    .rrssb-icon {
+      padding-right: 0px !important;
+      padding-left: 0px !important;
+    }
+    svg {
+      width: 17.85px;
+      height: 17.85px;
+      margin-bottom: 15px;
+    }
   }
 }
 
@@ -828,10 +833,6 @@ body.view-viewview.contenttype-plone-site.siteroot {
   div.input-group {
     width: 100% !important;
     padding-top: 0% !important;
-  }
-
-  .SocialbuttonsTop {
-    display: none;
   }
 }
 
