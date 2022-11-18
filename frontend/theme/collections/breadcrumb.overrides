@@ -141,7 +141,7 @@ div#InhoudDropdown {
 }
 
 .dropdownContentPage {
-  height: 320px !important;
+  /* height: 320px !important; */
   box-sizing: content-box;
   a {
     padding: 6px 4px;

@@ -110,12 +110,16 @@ class App extends Component {
     const action = getView(this.props.pathname);
     const isCmsUI = isCmsUi(this.props.pathname);
     const ConnectionRefusedView = views.errorViews.ECONNREFUSED;
+    const menuItems =  this.props.content;
+ 
+
 
     // const language =
     //   this.props.content?.language?.token ?? this.props.intl?.locale;
 
     return (
       <PluggablesProvider>
+
         {/* {language && (
           <Helmet>
             <html lang={language} />
@@ -155,7 +159,7 @@ class App extends Component {
         />
 
         <SkipLinks />
-        <Header pathname={path} />
+        <Header pathname={path} menuItems={menuItems} />
         {/* <Breadcrumbs pathname={path} /> */}
         <MultilingualRedirector
           pathname={this.props.pathname}

@@ -17,6 +17,8 @@ import NavItems from '@plone/volto/components/theme/Navigation/NavItems';
 import { getNavigation } from '@plone/volto/actions';
 import { Dropdown, Menu, Accordion, Form } from 'semantic-ui-react';
 import { FaChevronDown } from 'react-icons/fa';
+import {Navigation} from '@plone/volto/components';
+
 
 import homeSVG from '@plone/volto/icons/home.svg';
 
@@ -96,7 +98,6 @@ export class BreadcrumbsComponent extends Component {
         )} */}
 
         {/* {console.log(<NavItems items={this.props.intl} />)} */}
-        {/* {console.log(<NavItems items={this.props.items} />)} */}
         {/* {console.log(this.props.items.length)} */}
         <Container id="crumbcontainer">
           <Breadcrumb id="folderMap">
@@ -151,6 +152,7 @@ export class BreadcrumbsComponent extends Component {
                 }
                 icon={<FaChevronDown color="#808080" />}
               >
+                
                 <Dropdown.Menu className="dropdownContentPage">
                   <Dropdown.Item id="InhoudDropdown">
                     <a
@@ -163,106 +165,24 @@ export class BreadcrumbsComponent extends Component {
                       Beeldimpressie
                     </a>
                   </Dropdown.Item>
-                  <Dropdown.Item id="InhoudDropdown">
-                    <a
-                      href={
-                        this.props.items[2] != null || undefined
-                          ? this.props.items[2].url + '/terugblik'
-                          : ''
-                      }
-                    >
-                      Terugblik
-                    </a>
-                  </Dropdown.Item>
-                  <Dropdown.Item id="InhoudDropdown">
-                    <a
-                      href={
-                        this.props.items[2] != null || undefined
-                          ? this.props.items[2].url + '/inspireren-verwonderen'
-                          : ''
-                      }
-                    >
-                      Inspireren & Verwonderen
-                    </a>
-                  </Dropdown.Item>
-                  <Dropdown.Item id="InhoudDropdown">
-                    <a
-                      href={
-                        this.props.items[2] != null || undefined
-                          ? this.props.items[2].url + '/bewaren-verzamelen'
-                          : ''
-                      }
-                    >
-                      Bewaren & Verzamelen
-                    </a>
-                  </Dropdown.Item>
-                  <Dropdown.Item id="InhoudDropdown">
-                    <a
-                      href={
-                        this.props.items[2] != null || undefined
-                          ? this.props.items[2].url + '/leren-verbinden'
-                          : ''
-                      }
-                    >
-                      Leren & Verbinden
-                    </a>
-                  </Dropdown.Item>
-                  <Dropdown.Item id="InhoudDropdown">
-                    <a
-                      href={
-                        this.props.items[2] != null || undefined
-                          ? this.props.items[2].url + '/eenzm'
-                          : ''
-                      }
-                    >
-                      eenZM
-                    </a>
-                  </Dropdown.Item>
-                  <Dropdown.Item id="InhoudDropdown">
-                    <a
-                      href={
-                        this.props.items[2] != null || undefined
-                          ? this.props.items[2].url + '/financieel-verslag'
-                          : ''
-                      }
-                    >
-                      Financieel verslag
-                    </a>
-                  </Dropdown.Item>
-                  <Dropdown.Item id="InhoudDropdown">
-                    <a
-                      href={
-                        this.props.items[2] != null || undefined
-                          ? this.props.items[2].url +
-                            '/cultureel-ondernemerschap'
-                          : ''
-                      }
-                    >
-                      Cultureel Ondernemerschap
-                    </a>
-                  </Dropdown.Item>
-                  <Dropdown.Item id="InhoudDropdown">
-                    <a
-                      href={
-                        this.props.items[2] != null || undefined
-                          ? this.props.items[2].url + '/met-dank-aan'
-                          : ''
-                      }
-                    >
-                      Met dank aan
-                    </a>
-                  </Dropdown.Item>
-                  <Dropdown.Item id="InhoudDropdown">
-                    <a
-                      href={
-                        this.props.items[2] != null || undefined
-                          ? this.props.items[2].url + '/colofon'
-                          : ''
-                      }
-                    >
-                      Colofon
-                    </a>
-                  </Dropdown.Item>
+
+                  {this.props.items[2] != null || undefined
+                          ? 
+                          [...this.props.menuItems.items].map((x, i) =>
+                       x.['@type'] == 'Document' ? 
+                      <Dropdown.Item id="InhoudDropdown">
+                        <a href={x.['@id']}>
+                          {x.title}
+                          
+                        </a>
+                      </Dropdown.Item> : ''
+                    ) : ''}
+
+
+                    {/* {console.log(this.props.menuItems.previous_item)} */}
+                    
+                    {/* {console.log(this.props.menuItems[2].['title'])} */}
+                  
                 </Dropdown.Menu>
               </Dropdown>
             </div>

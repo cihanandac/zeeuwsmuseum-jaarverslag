@@ -13,7 +13,8 @@ import {
   Logo,
   Navigation,
   SearchWidget,
-  Breadcrumbs
+  Breadcrumbs,
+  NavItems,
 } from '@plone/volto/components';
 
 function useScrollDirection() {
@@ -53,7 +54,7 @@ const Header = (props) => {
    */
 
   const scrollDirection = useScrollDirection();
-
+  const menuItems = props.menuItems;
 
   return (
     <Segment
@@ -75,13 +76,15 @@ const Header = (props) => {
 
             {/* This section is for the rest of the menu */}
             <Navigation pathname={props.pathname} />
+            {console.log(<Navigation pathname={props.pathname}/>)}
             {/* <div className="search">
               <SearchWidget />
             </div> */}
           </div>
         </div>
       </Container>
-      <Breadcrumbs pathname={props.pathname}/>
+      <Breadcrumbs pathname={props.pathname} menuItems={props.menuItems} />
+
     </Segment>
   );
   
