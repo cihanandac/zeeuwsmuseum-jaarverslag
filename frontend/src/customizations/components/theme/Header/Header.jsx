@@ -76,10 +76,6 @@ const Header = (props) => {
 
             {/* This section is for the rest of the menu */}
             <Navigation pathname={props.pathname} />
-            {console.log(<Navigation pathname={props.pathname}/>)}
-            {/* <div className="search">
-              <SearchWidget />
-            </div> */}
           </div>
         </div>
       </Container>
