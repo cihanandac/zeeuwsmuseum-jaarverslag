@@ -160,6 +160,7 @@ class App extends Component {
 
         <SkipLinks />
         <Header pathname={path} menuItems={menuItems} />
+
         {/* <Breadcrumbs pathname={path} /> */}
         <MultilingualRedirector
           pathname={this.props.pathname}

@@ -17,8 +17,7 @@ import NavItems from '@plone/volto/components/theme/Navigation/NavItems';
 import { getNavigation } from '@plone/volto/actions';
 import { Dropdown, Menu, Accordion, Form } from 'semantic-ui-react';
 import { FaChevronDown } from 'react-icons/fa';
-import {Navigation} from '@plone/volto/components';
-
+import { Navigation } from '@plone/volto/components';
 
 import homeSVG from '@plone/volto/icons/home.svg';
 
@@ -32,6 +31,8 @@ const messages = defineMessages({
     defaultMessage: 'Breadcrumbs',
   },
 });
+
+let menuArray=[];
 
 /**
  * Breadcrumbs container class.
@@ -48,6 +49,12 @@ export class BreadcrumbsComponent extends Component {
     pathname: PropTypes.string.isRequired,
     root: PropTypes.string,
     items: PropTypes.arrayOf(
+      PropTypes.shape({
+        title: PropTypes.string,
+        url: PropTypes.string,
+      }),
+    ).isRequired,
+    navItems: PropTypes.arrayOf(
       PropTypes.shape({
         title: PropTypes.string,
         url: PropTypes.string,
@@ -89,16 +96,6 @@ export class BreadcrumbsComponent extends Component {
         secondary
         vertical
       >
-        {/* {console.log(
-          this.props.items.map((item, index, items) => [item.title]),
-        )} */}
-
-        {/* {console.log(
-          this.props.items[2]
-        )} */}
-
-        {/* {console.log(<NavItems items={this.props.intl} />)} */}
-        {/* {console.log(this.props.items.length)} */}
         <Container id="crumbcontainer">
           <Breadcrumb id="folderMap">
             <Link
@@ -128,9 +125,7 @@ export class BreadcrumbsComponent extends Component {
                         strokeWidth="0.5"
                       />
                     </Breadcrumb.Divider>
-                    <div className="breadtitle">
-                      <span>{item.title}</span>
-                    </div>
+                    <div className="breadtitle"><span>{item.title}</span></div>
                   </Breadcrumb.Section>
                 ) : (
                   ''
@@ -152,37 +147,62 @@ export class BreadcrumbsComponent extends Component {
                 }
                 icon={<FaChevronDown color="#808080" />}
               >
-                
                 <Dropdown.Menu className="dropdownContentPage">
+
                   <Dropdown.Item id="InhoudDropdown">
                     <a
                       href={
-                        this.props.items[2] != null || undefined
-                          ? this.props.items[2].url
-                          : ''
+                        this.props.menuItems.length > 3 ?
+                        (this.props.menuItems.['@type'] == 'Folder' ?
+                           this.props.items[this.props.items.length - 1].url
+                          : this.props.items[this.props.items.length - 2].url ) : ''
                       }
                     >
                       Beeldimpressie
                     </a>
-                  </Dropdown.Item>
+                  </Dropdown.Item> 
 
-                  {this.props.items[2] != null || undefined
-                          ? 
-                          [...this.props.menuItems.items].map((x, i) =>
-                       x.['@type'] == 'Document' ? 
-                      <Dropdown.Item id="InhoudDropdown">
-                        <a href={x.['@id']}>
-                          {x.title}
-                          
-                        </a>
-                      </Dropdown.Item> : ''
-                    ) : ''}
-
-
-                    {/* {console.log(this.props.menuItems.previous_item)} */}
+                  {(() => {
+                    let steps = this.props.items;
+                    let nav = this.props.navItems;
+                    let depth = 0;
+                    let parentTitle = this.props.menuItems.parent.title;
                     
-                    {/* {console.log(this.props.menuItems[2].['title'])} */}
-                  
+
+                    for (let item1 of nav) {
+                      if (item1.title == parentTitle) {
+                        menuArray=item1.items;
+                        break;
+                      }
+                      for (let item2 of item1.items) {
+                        if (item2.title == parentTitle) {
+                          menuArray = item2.items;
+                          break;
+                        }
+                        for (let item3 of item2.items) {
+                          if (item3.title == parentTitle) {
+                            menuArray=item3.items;
+                            break;
+                          }
+                          for (let item4 of item3.items) {
+                            if (item4.title == parentTitle) {
+                              menuArray=item4.items;
+                              break;
+                            }
+                          }
+                        }
+                      }
+                    }
+                  })()}
+
+
+                  {[...menuArray].map((x, i) => (
+                  <Dropdown.Item key={i} id="InhoudDropdown">
+                    <a href={x.url}>{x.title}</a>
+                  </Dropdown.Item>
+                  ))}
+
+
                 </Dropdown.Menu>
               </Dropdown>
             </div>
@@ -197,6 +217,7 @@ export default compose(
   injectIntl,
   connect(
     (state) => ({
+      navItems: state.navigation.items,
       items: state.breadcrumbs.items,
       root: state.breadcrumbs.root,
     }),

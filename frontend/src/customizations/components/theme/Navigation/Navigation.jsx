@@ -132,7 +132,6 @@ class Navigation extends Component {
     const PlanContent = (
       <div>
         <div>
-          {console.log(__data)}
           <a href="https://www.zeeuwsmuseum.nl/nl/plan-je-bezoek/praktische-info">
             Praktische informatie
           </a>
