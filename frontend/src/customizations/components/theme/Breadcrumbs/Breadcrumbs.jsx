@@ -2,6 +2,7 @@
  * Breadcrumbs components.
  * @module components/theme/Breadcrumbs/Breadcrumbs
  */
+import '@plone/volto/config';
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
@@ -148,7 +149,6 @@ export class BreadcrumbsComponent extends Component {
                 icon={<FaChevronDown color="#808080" />}
               >
                 <Dropdown.Menu className="dropdownContentPage">
-
                   <Dropdown.Item id="InhoudDropdown">
                     <a
                       href={

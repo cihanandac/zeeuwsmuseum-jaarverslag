@@ -185,7 +185,7 @@ class App extends Component {
           </Segment>
         </MultilingualRedirector>
         {this.props.content != undefined ? (
-          this.props.content.['@type'] == 'Document' ? (
+          this.props.content.['@type'] == 'Folder' ? (
             this.props.content.footerinvisible === null || undefined ? (
               <Footer />
             ) : (

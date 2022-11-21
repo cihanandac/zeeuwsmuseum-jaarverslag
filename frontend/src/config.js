@@ -23,7 +23,7 @@ import {
   NutezienViewBlock,
   NutezienEditBlock,
   PhotoDescriptionViewBlock,
-  PhotoDescriptionEditBlock
+  PhotoDescriptionEditBlock,
 } from '@package/components';
 import sliderSVG from '@plone/volto/icons/slider.svg';
 import dotsSVG from '@plone/volto/icons/dots.svg';
@@ -33,6 +33,12 @@ import editingSVG from '@plone/volto/icons/editing.svg';
 // import { defineMessages } from 'react-intl';
 // All your imports required for the config here BEFORE this line
 import '@plone/volto/config';
+import { contentTypesViews } from '../omelette/src/config/Views';
+import { SliderPage } from 'components';
+import RenderBlocks from '../omelette/src/components/theme/View/RenderBlocks';
+import ListingView from 'customizations/components/theme/View/ListingView';
+import TabularView from '../omelette/src/components/theme/View/TabularView';
+import DefaultView from '../omelette/src/components/theme/View/DefaultView';
 
 // defineMessages({
 //   mainslider: {
@@ -44,20 +50,20 @@ import '@plone/volto/config';
 export default function applyConfig(config) {
   config.blocks.requiredBlocks = [];
 
-    (config.blocks.blocksConfig.socialbottom = {
-      id: 'socialbottom',
-      title: 'Socialbuttons',
-      icon: showSVG,
-      group: 'common',
-      view: SocialBottomViewBlock,
-      edit: SocialBottomEditBlock,
-      restricted: false,
-      mostUsed: false,
-      security: {
-        addPermission: [],
-        view: [],
-      },
-    }),
+  (config.blocks.blocksConfig.socialbottom = {
+    id: 'socialbottom',
+    title: 'Socialbuttons',
+    icon: showSVG,
+    group: 'common',
+    view: SocialBottomViewBlock,
+    edit: SocialBottomEditBlock,
+    restricted: false,
+    mostUsed: false,
+    security: {
+      addPermission: [],
+      view: [],
+    },
+  }),
     (config.blocks.blocksConfig.emptyline = {
       id: 'emptyline',
       title: 'Empty Line',
@@ -100,6 +106,21 @@ export default function applyConfig(config) {
         view: [],
       },
     });
+
+  // config.views = {
+  //   ...config.views,
+  //   contentTypesViews: {
+  //     ...config.views.contentTypesViews,
+  //     Folder: SliderPage
+  //   },
+
+    // ...config.views,
+    // layoutViews: {
+    //   'listing_view': ListingView,
+    //   'default_view': DefaultView,
+    // },
+  // };
+
 
   // Add here your project's configuration here by modifying `config` accordingly
   return config;

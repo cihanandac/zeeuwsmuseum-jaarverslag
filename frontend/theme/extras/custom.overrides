@@ -434,7 +434,7 @@ div#view {
     border-bottom: none;
   }
   h1.documentFirstHeading {
-    display: none !important;
+    /* display: none !important; */
   }
 }
 /*----------END OF JAARVERSLAG TYPE ----------*/

@@ -18,6 +18,7 @@ import NutezienViewBlock from './Blocks/Nutezien/View';
 import NutezienEditBlock from './Blocks/Nutezien/Edit';
 import PhotoDescriptionViewBlock from './Blocks/PhotoDescription/View';
 import PhotoDescriptionEditBlock from './Blocks/PhotoDescription/Edit';
+import SliderPage from './View/SliderPage';
 
 export {
   EmptylineViewBlock,
@@ -28,4 +29,5 @@ export {
   NutezienEditBlock,
   PhotoDescriptionViewBlock,
   PhotoDescriptionEditBlock,
+  SliderPage,
 };

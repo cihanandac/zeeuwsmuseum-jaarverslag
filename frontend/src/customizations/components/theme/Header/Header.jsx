@@ -7,6 +7,8 @@ import React, { Component, useState, useEffect } from 'react';
 import { Container, Segment } from 'semantic-ui-react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
+import { compose } from 'redux';
+import { defineMessages, injectIntl } from 'react-intl';
 import {
   Anontools,
   LanguageSelector,
@@ -79,16 +81,36 @@ const Header = (props) => {
           </div>
         </div>
       </Container>
-      <Breadcrumbs pathname={props.pathname} menuItems={props.menuItems} />
-
+      {/* <Breadcrumbs pathname={props.pathname} menuItems={props.menuItems} /> */}
+      
+      {props.content != undefined ? (
+        props.content.['@type'] == 'Folder' || 'Document' ? (
+          props.content.navigationinvisible === null || undefined ? (
+            <Breadcrumbs pathname={props.pathname} menuItems={props.menuItems}/>
+          ) : (
+            ''
+          )
+        ) : (
+          ''
+        )
+      ) : (
+        ''
+      )}
     </Segment>
   );
   
 }
 
-export default connect((state) => ({
-  token: state.userSession.token,
-}))(Header);
+export default compose(
+  injectIntl,
+  connect((state) => ({
+    navItems: state.navigation.items,
+    items: state.breadcrumbs.items,
+    root: state.breadcrumbs.root,
+    token: state.userSession.token,
+    content: state.content.data,
+  })),
+)(Header);
 
 
 // details.propTypes = {
