@@ -1,566 +1,543 @@
 {
-  "0": {
+  "20": {
     "css": [],
     "js": [
-      "http://localhost:3001/static/js/0.chunk.js",
-      "http://localhost:3001/static/js/0.chunk.js.map"
+      "/static/js/20.07e4795e.chunk.js",
+      "/static/js/20.07e4795e.chunk.js.map"
     ],
     "chunks": [
-      0
+      20
     ]
   },
-  "1": {
+  "21": {
     "css": [],
     "js": [
-      "http://localhost:3001/static/js/1.chunk.js",
-      "http://localhost:3001/static/js/1.chunk.js.map"
+      "/static/js/21.c5df0062.chunk.js",
+      "/static/js/21.c5df0062.chunk.js.map"
     ],
     "chunks": [
-      1
+      21
     ]
   },
-  "2": {
+  "22": {
     "css": [],
     "js": [
-      "http://localhost:3001/static/js/2.chunk.js",
-      "http://localhost:3001/static/js/2.chunk.js.map"
+      "/static/js/22.e0652d73.chunk.js",
+      "/static/js/22.e0652d73.chunk.js.map"
     ],
     "chunks": [
-      2
+      22
     ]
   },
-  "3": {
+  "23": {
     "css": [],
     "js": [
-      "http://localhost:3001/static/js/3.chunk.js",
-      "http://localhost:3001/static/js/3.chunk.js.map"
+      "/static/js/23.921b5669.chunk.js",
+      "/static/js/23.921b5669.chunk.js.map"
     ],
     "chunks": [
-      3
+      23
     ]
   },
-  "4": {
+  "24": {
     "css": [],
     "js": [
-      "http://localhost:3001/static/js/4.chunk.js",
-      "http://localhost:3001/static/js/4.chunk.js.map"
+      "/static/js/24.f5978dce.chunk.js",
+      "/static/js/24.f5978dce.chunk.js.map"
     ],
     "chunks": [
-      4
+      24
     ]
   },
-  "5": {
+  "25": {
     "css": [],
     "js": [
-      "http://localhost:3001/static/js/5.chunk.js",
-      "http://localhost:3001/static/js/5.chunk.js.map"
+      "/static/js/25.64038bfd.chunk.js",
+      "/static/js/25.64038bfd.chunk.js.map"
     ],
     "chunks": [
-      5
+      25
     ]
   },
-  "6": {
+  "26": {
     "css": [],
     "js": [
-      "http://localhost:3001/static/js/6.chunk.js",
-      "http://localhost:3001/static/js/6.chunk.js.map"
+      "/static/js/26.7ab10926.chunk.js",
+      "/static/js/26.7ab10926.chunk.js.map"
     ],
     "chunks": [
-      6
+      26
     ]
   },
-  "7": {
+  "27": {
     "css": [],
     "js": [
-      "http://localhost:3001/static/js/7.chunk.js",
-      "http://localhost:3001/static/js/7.chunk.js.map"
+      "/static/js/27.b10a2bcd.chunk.js",
+      "/static/js/27.b10a2bcd.chunk.js.map"
     ],
     "chunks": [
-      7
+      27
     ]
   },
-  "8": {
+  "28": {
     "css": [],
     "js": [
-      "http://localhost:3001/static/js/8.chunk.js",
-      "http://localhost:3001/static/js/8.chunk.js.map"
+      "/static/js/28.5eef6ba7.chunk.js",
+      "/static/js/28.5eef6ba7.chunk.js.map"
     ],
     "chunks": [
-      8
+      28
     ]
   },
-  "9": {
+  "29": {
     "css": [],
     "js": [
-      "http://localhost:3001/static/js/9.chunk.js",
-      "http://localhost:3001/static/js/9.chunk.js.map"
+      "/static/js/29.a126e81e.chunk.js",
+      "/static/js/29.a126e81e.chunk.js.map"
     ],
     "chunks": [
-      9
+      29
     ]
   },
-  "10": {
+  "30": {
     "css": [],
     "js": [
-      "http://localhost:3001/static/js/10.chunk.js",
-      "http://localhost:3001/static/js/10.chunk.js.map"
+      "/static/js/30.7d4dcddc.chunk.js",
+      "/static/js/30.7d4dcddc.chunk.js.map"
     ],
     "chunks": [
-      10
+      30
     ]
   },
-  "11": {
+  "35": {
     "css": [],
     "js": [
-      "http://localhost:3001/static/js/11.chunk.js",
-      "http://localhost:3001/static/js/11.chunk.js.map"
+      "/static/js/35.9cd8303b.chunk.js",
+      "/static/js/35.9cd8303b.chunk.js.map"
     ],
     "chunks": [
-      11
-    ]
-  },
-  "client": {
-    "css": [],
-    "js": [
-      "http://localhost:3001/static/js/runtime~client.js",
-      "http://localhost:3001/static/js/runtime~client.js.map",
-      "http://localhost:3001/static/js/vendors~client.chunk.js",
-      "http://localhost:3001/static/js/vendors~client.chunk.js.map",
-      "http://localhost:3001/static/js/client.chunk.js",
-      "http://localhost:3001/static/js/client.chunk.js.map"
-    ],
-    "chunks": [
-      "runtime~client",
-      "vendors~client",
-      "client"
-    ]
-  },
-  "draft-js-block-breakout-plugin": {
-    "css": [],
-    "js": [
-      "http://localhost:3001/static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js",
-      "http://localhost:3001/static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js.map",
-      "http://localhost:3001/static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js",
-      "http://localhost:3001/static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js.map",
-      "http://localhost:3001/static/js/draft-js-block-breakout-plugin.chunk.js",
-      "http://localhost:3001/static/js/draft-js-block-breakout-plugin.chunk.js.map"
-    ],
-    "chunks": [
-      "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71",
-      "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46",
-      "draft-js-block-breakout-plugin"
-    ]
-  },
-  "draft-js-buttons-lib-utils-createBlockStyleButton": {
-    "css": [],
-    "js": [
-      "http://localhost:3001/static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js",
-      "http://localhost:3001/static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js.map",
-      "http://localhost:3001/static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js",
-      "http://localhost:3001/static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js.map",
-      "http://localhost:3001/static/js/draft-js-buttons-lib-utils-createBlockStyleButton.chunk.js",
-      "http://localhost:3001/static/js/draft-js-buttons-lib-utils-createBlockStyleButton.chunk.js.map"
-    ],
-    "chunks": [
-      "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71",
-      "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46",
-      "draft-js-buttons-lib-utils-createBlockStyleButton"
-    ]
-  },
-  "draft-js-buttons-lib-utils-createInlineStyleButton": {
-    "css": [],
-    "js": [
-      "http://localhost:3001/static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js",
-      "http://localhost:3001/static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js.map",
-      "http://localhost:3001/static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js",
-      "http://localhost:3001/static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js.map",
-      "http://localhost:3001/static/js/draft-js-buttons-lib-utils-createInlineStyleButton.chunk.js",
-      "http://localhost:3001/static/js/draft-js-buttons-lib-utils-createInlineStyleButton.chunk.js.map"
-    ],
-    "chunks": [
-      "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71",
-      "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46",
-      "draft-js-buttons-lib-utils-createInlineStyleButton"
-    ]
-  },
-  "draft-js-lib-isSoftNewlineEvent": {
-    "css": [],
-    "js": [
-      "http://localhost:3001/static/js/draft-js-lib-isSoftNewlineEvent.chunk.js",
-      "http://localhost:3001/static/js/draft-js-lib-isSoftNewlineEvent.chunk.js.map"
-    ],
-    "chunks": [
-      "draft-js-lib-isSoftNewlineEvent"
-    ]
-  },
-  "draft-js-plugins-utils": {
-    "css": [],
-    "js": [
-      "http://localhost:3001/static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js",
-      "http://localhost:3001/static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js.map",
-      "http://localhost:3001/static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js",
-      "http://localhost:3001/static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js.map",
-      "http://localhost:3001/static/js/draft-js-plugins-utils.chunk.js",
-      "http://localhost:3001/static/js/draft-js-plugins-utils.chunk.js.map"
-    ],
-    "chunks": [
-      "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71",
-      "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46",
-      "draft-js-plugins-utils"
-    ]
-  },
-  "plone-volto-components-theme-View-EventView": {
-    "css": [],
-    "js": [
-      "http://localhost:3001/static/js/plone-volto-components-theme-View-EventView.chunk.js",
-      "http://localhost:3001/static/js/plone-volto-components-theme-View-EventView.chunk.js.map"
-    ],
-    "chunks": [
-      "plone-volto-components-theme-View-EventView"
-    ]
-  },
-  "react-select": {
-    "css": [],
-    "js": [
-      "http://localhost:3001/static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314.chunk.js",
-      "http://localhost:3001/static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314.chunk.js.map",
-      "http://localhost:3001/static/js/react-select.chunk.js",
-      "http://localhost:3001/static/js/react-select.chunk.js.map"
-    ],
-    "chunks": [
-      "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314",
-      "react-select"
-    ]
-  },
-  "react-select-async": {
-    "css": [],
-    "js": [
-      "http://localhost:3001/static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314.chunk.js",
-      "http://localhost:3001/static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314.chunk.js.map",
-      "http://localhost:3001/static/js/react-select-async.chunk.js",
-      "http://localhost:3001/static/js/react-select-async.chunk.js.map"
-    ],
-    "chunks": [
-      "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314",
-      "react-select-async"
-    ]
-  },
-  "react-select-creatable": {
-    "css": [],
-    "js": [
-      "http://localhost:3001/static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314.chunk.js",
-      "http://localhost:3001/static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314.chunk.js.map",
-      "http://localhost:3001/static/js/react-select-creatable.chunk.js",
-      "http://localhost:3001/static/js/react-select-creatable.chunk.js.map"
-    ],
-    "chunks": [
-      "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314",
-      "react-select-creatable"
-    ]
-  },
-  "PDFViewer": {
-    "css": [],
-    "js": [
-      "http://localhost:3001/static/js/vendors~PDFViewer.chunk.js",
-      "http://localhost:3001/static/js/vendors~PDFViewer.chunk.js.map"
-    ],
-    "chunks": [
-      "vendors~PDFViewer"
-    ]
-  },
-  "diff": {
-    "css": [],
-    "js": [
-      "http://localhost:3001/static/js/vendors~diff.chunk.js",
-      "http://localhost:3001/static/js/vendors~diff.chunk.js.map"
-    ],
-    "chunks": [
-      "vendors~diff"
-    ]
-  },
-  "draft-js-import-html": {
-    "css": [],
-    "js": [
-      "http://localhost:3001/static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js",
-      "http://localhost:3001/static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js.map",
-      "http://localhost:3001/static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js",
-      "http://localhost:3001/static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js.map",
-      "http://localhost:3001/static/js/vendors~draft-js-import-html.chunk.js",
-      "http://localhost:3001/static/js/vendors~draft-js-import-html.chunk.js.map"
-    ],
-    "chunks": [
-      "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71",
-      "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46",
-      "vendors~draft-js-import-html"
-    ]
-  },
-  "draft-js-inline-toolbar-plugin": {
-    "css": [],
-    "js": [
-      "http://localhost:3001/static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js",
-      "http://localhost:3001/static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js.map",
-      "http://localhost:3001/static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js",
-      "http://localhost:3001/static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js.map",
-      "http://localhost:3001/static/js/vendors~draft-js-inline-toolbar-plugin.chunk.js",
-      "http://localhost:3001/static/js/vendors~draft-js-inline-toolbar-plugin.chunk.js.map"
-    ],
-    "chunks": [
-      "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71",
-      "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46",
-      "vendors~draft-js-inline-toolbar-plugin"
+      35
     ]
   },
   "draft-js-plugins-editor": {
     "css": [],
     "js": [
-      "http://localhost:3001/static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js",
-      "http://localhost:3001/static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js.map",
-      "http://localhost:3001/static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js",
-      "http://localhost:3001/static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js.map",
-      "http://localhost:3001/static/js/vendors~draft-js-plugins-editor.chunk.js",
-      "http://localhost:3001/static/js/vendors~draft-js-plugins-editor.chunk.js.map"
+      "/static/js/0.6592cd5a.chunk.js",
+      "/static/js/0.6592cd5a.chunk.js.map",
+      "/static/js/1.c430f617.chunk.js",
+      "/static/js/1.c430f617.chunk.js.map"
     ],
     "chunks": [
-      "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71",
-      "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46",
-      "vendors~draft-js-plugins-editor"
+      0,
+      1
+    ]
+  },
+  "draft-js-import-html": {
+    "css": [],
+    "js": [
+      "/static/js/0.6592cd5a.chunk.js",
+      "/static/js/0.6592cd5a.chunk.js.map",
+      "/static/js/1.c430f617.chunk.js",
+      "/static/js/1.c430f617.chunk.js.map"
+    ],
+    "chunks": [
+      0,
+      1
     ]
   },
   "draft-js": {
     "css": [],
     "js": [
-      "http://localhost:3001/static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js",
-      "http://localhost:3001/static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js.map",
-      "http://localhost:3001/static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js",
-      "http://localhost:3001/static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js.map"
+      "/static/js/0.6592cd5a.chunk.js",
+      "/static/js/0.6592cd5a.chunk.js.map",
+      "/static/js/1.c430f617.chunk.js",
+      "/static/js/1.c430f617.chunk.js.map"
     ],
     "chunks": [
-      "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71",
-      "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46"
+      0,
+      1
+    ]
+  },
+  "draft-js-plugins-utils": {
+    "css": [],
+    "js": [
+      "/static/js/0.6592cd5a.chunk.js",
+      "/static/js/0.6592cd5a.chunk.js.map",
+      "/static/js/1.c430f617.chunk.js",
+      "/static/js/1.c430f617.chunk.js.map"
+    ],
+    "chunks": [
+      0,
+      1
+    ]
+  },
+  "draft-js-buttons-lib-utils-createInlineStyleButton": {
+    "css": [],
+    "js": [
+      "/static/js/0.6592cd5a.chunk.js",
+      "/static/js/0.6592cd5a.chunk.js.map",
+      "/static/js/1.c430f617.chunk.js",
+      "/static/js/1.c430f617.chunk.js.map"
+    ],
+    "chunks": [
+      0,
+      1
+    ]
+  },
+  "draft-js-block-breakout-plugin": {
+    "css": [],
+    "js": [
+      "/static/js/0.6592cd5a.chunk.js",
+      "/static/js/0.6592cd5a.chunk.js.map",
+      "/static/js/1.c430f617.chunk.js",
+      "/static/js/1.c430f617.chunk.js.map"
+    ],
+    "chunks": [
+      0,
+      1
+    ]
+  },
+  "draft-js-buttons-lib-utils-createBlockStyleButton": {
+    "css": [],
+    "js": [
+      "/static/js/0.6592cd5a.chunk.js",
+      "/static/js/0.6592cd5a.chunk.js.map",
+      "/static/js/1.c430f617.chunk.js",
+      "/static/js/1.c430f617.chunk.js.map"
+    ],
+    "chunks": [
+      0,
+      1
     ]
   },
   "draftjs-filters": {
     "css": [],
     "js": [
-      "http://localhost:3001/static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js",
-      "http://localhost:3001/static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js.map",
-      "http://localhost:3001/static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js",
-      "http://localhost:3001/static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js.map",
-      "http://localhost:3001/static/js/vendors~draftjs-filters.chunk.js",
-      "http://localhost:3001/static/js/vendors~draftjs-filters.chunk.js.map"
+      "/static/js/0.6592cd5a.chunk.js",
+      "/static/js/0.6592cd5a.chunk.js.map",
+      "/static/js/1.c430f617.chunk.js",
+      "/static/js/1.c430f617.chunk.js.map"
     ],
     "chunks": [
-      "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71",
-      "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46",
-      "vendors~draftjs-filters"
+      0,
+      1
+    ]
+  },
+  "draft-js-inline-toolbar-plugin": {
+    "css": [],
+    "js": [
+      "/static/js/0.6592cd5a.chunk.js",
+      "/static/js/0.6592cd5a.chunk.js.map",
+      "/static/js/1.c430f617.chunk.js",
+      "/static/js/1.c430f617.chunk.js.map"
+    ],
+    "chunks": [
+      0,
+      1
     ]
   },
   "immutable": {
     "css": [],
     "js": [
-      "http://localhost:3001/static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js",
-      "http://localhost:3001/static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js.map"
+      "/static/js/0.6592cd5a.chunk.js",
+      "/static/js/0.6592cd5a.chunk.js.map"
     ],
     "chunks": [
-      "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71"
-    ]
-  },
-  "plone-volto-components-manage-Widgets-DatetimeWidget": {
-    "css": [],
-    "js": [
-      "http://localhost:3001/static/js/vendors~plone-volto-components-manage-Widgets-DatetimeWidget~plone-volto-components-manage-Widgets-R~a875f490.chunk.js",
-      "http://localhost:3001/static/js/vendors~plone-volto-components-manage-Widgets-DatetimeWidget~plone-volto-components-manage-Widgets-R~a875f490.chunk.js.map"
-    ],
-    "chunks": [
-      "vendors~plone-volto-components-manage-Widgets-DatetimeWidget~plone-volto-components-manage-Widgets-R~a875f490"
+      0
     ]
   },
   "plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget": {
-    "css": [],
+    "css": [
+      "/static/css/2.60ec4c8c.chunk.css"
+    ],
     "js": [
-      "http://localhost:3001/static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314.chunk.js",
-      "http://localhost:3001/static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314.chunk.js.map",
-      "http://localhost:3001/static/js/vendors~plone-volto-components-manage-Widgets-DatetimeWidget~plone-volto-components-manage-Widgets-R~a875f490.chunk.js",
-      "http://localhost:3001/static/js/vendors~plone-volto-components-manage-Widgets-DatetimeWidget~plone-volto-components-manage-Widgets-R~a875f490.chunk.js.map",
-      "http://localhost:3001/static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget.chunk.js",
-      "http://localhost:3001/static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget.chunk.js.map"
+      "/static/js/2.60ec4c8c.chunk.js",
+      "/static/js/2.60ec4c8c.chunk.js.map"
     ],
     "chunks": [
-      "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314",
-      "vendors~plone-volto-components-manage-Widgets-DatetimeWidget~plone-volto-components-manage-Widgets-R~a875f490",
-      "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget"
+      2,
+      6
     ]
   },
-  "react-select-async-paginate": {
-    "css": [],
+  "react-select": {
+    "css": [
+      "/static/css/2.60ec4c8c.chunk.css"
+    ],
     "js": [
-      "http://localhost:3001/static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314.chunk.js",
-      "http://localhost:3001/static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314.chunk.js.map",
-      "http://localhost:3001/static/js/vendors~react-select-async-paginate.chunk.js",
-      "http://localhost:3001/static/js/vendors~react-select-async-paginate.chunk.js.map"
+      "/static/js/2.60ec4c8c.chunk.js",
+      "/static/js/2.60ec4c8c.chunk.js.map"
     ],
     "chunks": [
-      "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314",
-      "vendors~react-select-async-paginate"
+      2,
+      6
+    ]
+  },
+  "react-select-creatable": {
+    "css": [
+      "/static/css/2.60ec4c8c.chunk.css"
+    ],
+    "js": [
+      "/static/js/2.60ec4c8c.chunk.js",
+      "/static/js/2.60ec4c8c.chunk.js.map"
+    ],
+    "chunks": [
+      2,
+      6
+    ]
+  },
+  "react-select-async": {
+    "css": [
+      "/static/css/2.60ec4c8c.chunk.css"
+    ],
+    "js": [
+      "/static/js/2.60ec4c8c.chunk.js",
+      "/static/js/2.60ec4c8c.chunk.js.map"
+    ],
+    "chunks": [
+      2,
+      6
     ]
   },
   "react-select-async-creatable": {
-    "css": [],
+    "css": [
+      "/static/css/2.60ec4c8c.chunk.css"
+    ],
     "js": [
-      "http://localhost:3001/static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314.chunk.js",
-      "http://localhost:3001/static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314.chunk.js.map",
-      "http://localhost:3001/static/js/vendors~react-select-async-creatable.chunk.js",
-      "http://localhost:3001/static/js/vendors~react-select-async-creatable.chunk.js.map"
+      "/static/js/2.60ec4c8c.chunk.js",
+      "/static/js/2.60ec4c8c.chunk.js.map"
     ],
     "chunks": [
-      "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314",
-      "vendors~react-select-async-creatable"
+      2,
+      6
     ]
   },
-  "prettier-parser-html": {
-    "css": [],
+  "react-select-async-paginate": {
+    "css": [
+      "/static/css/2.60ec4c8c.chunk.css"
+    ],
     "js": [
-      "http://localhost:3001/static/js/vendors~prettier-parser-html.chunk.js",
-      "http://localhost:3001/static/js/vendors~prettier-parser-html.chunk.js.map"
+      "/static/js/2.60ec4c8c.chunk.js",
+      "/static/js/2.60ec4c8c.chunk.js.map"
     ],
     "chunks": [
-      "vendors~prettier-parser-html"
-    ]
-  },
-  "prettier-standalone": {
-    "css": [],
-    "js": [
-      "http://localhost:3001/static/js/vendors~prettier-standalone.chunk.js",
-      "http://localhost:3001/static/js/vendors~prettier-standalone.chunk.js.map"
-    ],
-    "chunks": [
-      "vendors~prettier-standalone"
-    ]
-  },
-  "prismjs-components-prism-core": {
-    "css": [],
-    "js": [
-      "http://localhost:3001/static/js/vendors~prismjs-components-prism-core.chunk.js",
-      "http://localhost:3001/static/js/vendors~prismjs-components-prism-core.chunk.js.map"
-    ],
-    "chunks": [
-      "vendors~prismjs-components-prism-core"
-    ]
-  },
-  "rc-time-picker": {
-    "css": [],
-    "js": [
-      "http://localhost:3001/static/js/vendors~rc-time-picker.chunk.js",
-      "http://localhost:3001/static/js/vendors~rc-time-picker.chunk.js.map"
-    ],
-    "chunks": [
-      "vendors~rc-time-picker"
-    ]
-  },
-  "react-beautiful-dnd": {
-    "css": [],
-    "js": [
-      "http://localhost:3001/static/js/vendors~react-beautiful-dnd.chunk.js",
-      "http://localhost:3001/static/js/vendors~react-beautiful-dnd.chunk.js.map"
-    ],
-    "chunks": [
-      "vendors~react-beautiful-dnd"
-    ]
-  },
-  "react-color": {
-    "css": [],
-    "js": [
-      "http://localhost:3001/static/js/vendors~react-color~react-color-lib-Github.chunk.js",
-      "http://localhost:3001/static/js/vendors~react-color~react-color-lib-Github.chunk.js.map",
-      "http://localhost:3001/static/js/vendors~react-color.chunk.js",
-      "http://localhost:3001/static/js/vendors~react-color.chunk.js.map"
-    ],
-    "chunks": [
-      "vendors~react-color~react-color-lib-Github",
-      "vendors~react-color"
+      2,
+      6
     ]
   },
   "react-color-lib-Github": {
     "css": [],
     "js": [
-      "http://localhost:3001/static/js/vendors~react-color~react-color-lib-Github.chunk.js",
-      "http://localhost:3001/static/js/vendors~react-color~react-color-lib-Github.chunk.js.map",
-      "http://localhost:3001/static/js/vendors~react-color-lib-Github.chunk.js",
-      "http://localhost:3001/static/js/vendors~react-color-lib-Github.chunk.js.map"
+      "/static/js/3.704c0117.chunk.js",
+      "/static/js/3.704c0117.chunk.js.map",
+      "/static/js/13.7387d019.chunk.js",
+      "/static/js/13.7387d019.chunk.js.map"
     ],
     "chunks": [
-      "vendors~react-color~react-color-lib-Github",
-      "vendors~react-color-lib-Github"
+      3,
+      13
     ]
   },
-  "react-dates": {
+  "react-color": {
     "css": [],
     "js": [
-      "http://localhost:3001/static/js/vendors~react-dates.chunk.js",
-      "http://localhost:3001/static/js/vendors~react-dates.chunk.js.map"
+      "/static/js/3.704c0117.chunk.js",
+      "/static/js/3.704c0117.chunk.js.map",
+      "/static/js/16.4d5e73f8.chunk.js",
+      "/static/js/16.4d5e73f8.chunk.js.map"
     ],
     "chunks": [
-      "vendors~react-dates"
+      3,
+      16
     ]
   },
-  "react-dnd": {
-    "css": [],
+  "client": {
+    "css": [
+      "/static/css/10.26b084b1.chunk.css"
+    ],
     "js": [
-      "http://localhost:3001/static/js/vendors~react-dnd.chunk.js",
-      "http://localhost:3001/static/js/vendors~react-dnd.chunk.js.map"
+      "/static/js/runtime~client.36f71599.js",
+      "/static/js/runtime~client.36f71599.js.map",
+      "/static/js/10.26b084b1.chunk.js",
+      "/static/js/10.26b084b1.chunk.js.map",
+      "/static/js/client.cdf6f5f0.chunk.js",
+      "/static/js/client.cdf6f5f0.chunk.js.map"
     ],
     "chunks": [
-      "vendors~react-dnd"
+      9,
+      10,
+      4
     ]
   },
-  "react-dnd-html5-backend": {
+  "draft-js-lib-isSoftNewlineEvent": {
     "css": [],
     "js": [
-      "http://localhost:3001/static/js/vendors~react-dnd-html5-backend.chunk.js",
-      "http://localhost:3001/static/js/vendors~react-dnd-html5-backend.chunk.js.map"
+      "/static/js/draft-js-lib-isSoftNewlineEvent.1d0a3597.chunk.js",
+      "/static/js/draft-js-lib-isSoftNewlineEvent.1d0a3597.chunk.js.map"
     ],
     "chunks": [
-      "vendors~react-dnd-html5-backend"
+      5
     ]
   },
-  "react-image-gallery": {
-    "css": [],
+  "plone-volto-components-manage-Widgets-DatetimeWidget": {
+    "css": [
+      "/static/css/plone-volto-components-manage-Widgets-DatetimeWidget.ae593f2f.chunk.css"
+    ],
     "js": [
-      "http://localhost:3001/static/js/vendors~react-image-gallery.chunk.js",
-      "http://localhost:3001/static/js/vendors~react-image-gallery.chunk.js.map"
+      "/static/js/plone-volto-components-manage-Widgets-DatetimeWidget.ae593f2f.chunk.js",
+      "/static/js/plone-volto-components-manage-Widgets-DatetimeWidget.ae593f2f.chunk.js.map"
     ],
     "chunks": [
-      "vendors~react-image-gallery"
+      6
+    ]
+  },
+  "plone-volto-components-theme-View-EventView": {
+    "css": [],
+    "js": [
+      "/static/js/plone-volto-components-theme-View-EventView.ee6e940d.chunk.js",
+      "/static/js/plone-volto-components-theme-View-EventView.ee6e940d.chunk.js.map"
+    ],
+    "chunks": [
+      7
     ]
   },
   "react-simple-code-editor": {
     "css": [],
     "js": [
-      "http://localhost:3001/static/js/vendors~react-simple-code-editor.chunk.js",
-      "http://localhost:3001/static/js/vendors~react-simple-code-editor.chunk.js.map"
+      "/static/js/react-simple-code-editor.59daa88c.chunk.js",
+      "/static/js/react-simple-code-editor.59daa88c.chunk.js.map"
     ],
     "chunks": [
-      "vendors~react-simple-code-editor"
+      8
+    ]
+  },
+  "react-dates": {
+    "css": [],
+    "js": [
+      "/static/js/11.d30c9f48.chunk.js",
+      "/static/js/11.d30c9f48.chunk.js.map"
+    ],
+    "chunks": [
+      11
+    ]
+  },
+  "react-dnd": {
+    "css": [],
+    "js": [
+      "/static/js/12.f8abf3de.chunk.js",
+      "/static/js/12.f8abf3de.chunk.js.map"
+    ],
+    "chunks": [
+      12
+    ]
+  },
+  "react-dnd-html5-backend": {
+    "css": [],
+    "js": [
+      "/static/js/14.5ae0cd8a.chunk.js",
+      "/static/js/14.5ae0cd8a.chunk.js.map"
+    ],
+    "chunks": [
+      14
+    ]
+  },
+  "rc-time-picker": {
+    "css": [],
+    "js": [
+      "/static/js/15.04f740b3.chunk.js",
+      "/static/js/15.04f740b3.chunk.js.map"
+    ],
+    "chunks": [
+      15
+    ]
+  },
+  "PDFViewer": {
+    "css": [],
+    "js": [
+      "/static/js/17.de96f83c.chunk.js",
+      "/static/js/17.de96f83c.chunk.js.map"
+    ],
+    "chunks": [
+      17
+    ]
+  },
+  "react-beautiful-dnd": {
+    "css": [],
+    "js": [
+      "/static/js/18.623ee7b7.chunk.js",
+      "/static/js/18.623ee7b7.chunk.js.map"
+    ],
+    "chunks": [
+      18
     ]
   },
   "react-sortable-hoc": {
     "css": [],
     "js": [
-      "http://localhost:3001/static/js/vendors~react-sortable-hoc.chunk.js",
-      "http://localhost:3001/static/js/vendors~react-sortable-hoc.chunk.js.map"
+      "/static/js/19.e6ddd357.chunk.js",
+      "/static/js/19.e6ddd357.chunk.js.map"
     ],
     "chunks": [
-      "vendors~react-sortable-hoc"
+      19
+    ]
+  },
+  "diff": {
+    "css": [],
+    "js": [
+      "/static/js/31.488f022d.chunk.js",
+      "/static/js/31.488f022d.chunk.js.map"
+    ],
+    "chunks": [
+      31
+    ]
+  },
+  "prettier-parser-html": {
+    "css": [],
+    "js": [
+      "/static/js/32.f9d86053.chunk.js",
+      "/static/js/32.f9d86053.chunk.js.map"
+    ],
+    "chunks": [
+      32
+    ]
+  },
+  "prettier-standalone": {
+    "css": [],
+    "js": [
+      "/static/js/33.ee04c492.chunk.js",
+      "/static/js/33.ee04c492.chunk.js.map"
+    ],
+    "chunks": [
+      33
+    ]
+  },
+  "prismjs-components-prism-core": {
+    "css": [],
+    "js": [
+      "/static/js/34.cd0e7ca8.chunk.js",
+      "/static/js/34.cd0e7ca8.chunk.js.map"
+    ],
+    "chunks": [
+      34
+    ]
+  },
+  "react-image-gallery": {
+    "css": [],
+    "js": [
+      "/static/js/36.6d64ad52.chunk.js",
+      "/static/js/36.6d64ad52.chunk.js.map"
+    ],
+    "chunks": [
+      36
     ]
   },
   "react-window": {
     "css": [],
     "js": [
-      "http://localhost:3001/static/js/vendors~react-window.chunk.js",
-      "http://localhost:3001/static/js/vendors~react-window.chunk.js.map"
+      "/static/js/37.7d34f297.chunk.js",
+      "/static/js/37.7d34f297.chunk.js.map"
     ],
     "chunks": [
-      "vendors~react-window"
+      37
     ]
   }
 }
