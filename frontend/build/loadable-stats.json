@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.46.0",
-  "hash": "5eb3da787a6eea02d54d",
+  "hash": "097438dc368dfcae4aba",
   "publicPath": "http://localhost:3001/",
   "outputPath": "/Users/cihanandac/Documents/Code files/zeeuwsmuseumproject/frontend/build/public",
   "assetsByChunkName": {
@@ -746,7 +746,7 @@
     },
     {
       "name": "static/js/vendors~client.chunk.js",
-      "size": 25234904,
+      "size": 25240990,
       "chunks": [
         "vendors~client"
       ],
@@ -759,7 +759,7 @@
     },
     {
       "name": "static/js/vendors~client.chunk.js.map",
-      "size": 21720996,
+      "size": 21727213,
       "chunks": [
         "vendors~client"
       ],

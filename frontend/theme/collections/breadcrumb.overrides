@@ -9,10 +9,10 @@
 #crumbcontainer {
   /* display: flex !important; */
   flex-direction: row;
-  width: 100vw !important;
+  width: 100% !important;
   position: relative;
   height: 60px;
-  width: 100vw;
+  width: 100%;
   display: flex;
   /* border-bottom: 1px solid #c3c3c3; */
 }
@@ -58,7 +58,7 @@
 .ui.secondary.vertical.segment.breadcrumbs {
   padding: 0%;
   height: 60px;
-  width: 100vw;
+  width: 100%;
   border-bottom: 1px solid #c3c3c3;
   display: none;
 }
@@ -224,7 +224,7 @@ div#InhoudDropdown {
   }
 
   #dropdownContentPage {
-    width: 100vw !important;
+    width: 100% !important;
     border-top: white !important;
     padding-top: 0px !important;
     padding-bottom: 0px !important;
@@ -233,7 +233,7 @@ div#InhoudDropdown {
     }
   }
   .menu.transition.dropdownContentPage {
-    width: 100vw !important;
+    width: 100% !important;
     border-top: white !important;
     padding-top: 10px !important;
     padding-bottom: 0px !important;

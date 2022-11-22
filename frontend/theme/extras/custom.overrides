@@ -16,12 +16,13 @@
 /* ****************************************
 ************GENERAL STUFF *************
 ***************************************** */
+
 .block-editor-slate {
   margin-right: 25px;
 }
 #toolbar {
-  z-index: 999999;
-  position: absolute;
+  z-index: 99999999;
+  /* position: absolute; */
 }
 .documentFirstHeading,
 .documentFirstHeading::before {
@@ -31,6 +32,7 @@
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scrollbar-gutter: stable both-edges;
 
   font-family: 'UniversCn', Arial, sans-serif;
   a {
@@ -42,7 +44,7 @@ body {
 }
 #sidebar,
 .sidebar-container {
-  margin-top: 60px !important;
+  /* margin-top: 60px !important; */
 }
 /* -------END OF GENERAL STUFF--------------- */
 
@@ -51,7 +53,7 @@ body {
 ***************************************** */
 .view-viewview {
   #page-document.ui.container {
-    width: 100vw !important;
+    width: 100% !important;
     margin-left: 0em !important;
     margin-right: 0em !important;
     position: relative;
@@ -67,6 +69,7 @@ body {
     }
   }
 }
+
 /* ********END OF THE WITH*********
 -------------------------------------- */
 
@@ -135,8 +138,8 @@ div#view {
     h2 {
       font-family: 'UniversLightCn' !important;
       font-size: 32px;
-      margin-top: 40px ;
-      margin-bottom: 10px ;
+      margin-top: 40px;
+      margin-bottom: 10px;
       line-height: 40px !important;
       letter-spacing: 2px !important;
     }
@@ -388,15 +391,30 @@ div#view {
 .view-editview {
   div.ui.basic.segment.header-wrapper {
     position: relative !important;
+    /* padding-right: 50px !important; */
+    width: 95%;
+  }
+  .ui.container{
+    padding-right: 30px;
+  }
+
+}
+
+
+.cms-ui {
+  .ui.basic.segment.content-area {
+    padding-left: 50px !important;
+    padding-right: 150px !important;
+    /* width: 750px !important; */
   }
 }
-#page-edit {
+/* #page-edit {
   margin-left: 95px;
   margin-right: 30px;
   p {
     width: auto !important;
   }
-}
+} */
 /*--------- END OF EDIT VIEW----------*/
 
 /* ------------------------------------
@@ -476,8 +494,7 @@ div#view {
     }
   }
 
-  h1,
-  {
+  h1 {
     padding-top: 60px;
     margin-bottom: 43px !important;
   }
@@ -503,7 +520,7 @@ div#view {
 
   .columns-view {
     margin: 0% auto;
-    /* width: 100vw; */
+    /* width: 100%; */
     padding: 0% 20px;
     a {
       border: none !important;
@@ -594,7 +611,7 @@ p.block.image.align.full {
 
   img {
     height: 56.3vw !important;
-    width: 100vw !important;
+    width: 100% !important;
     object-fit: cover;
   }
 }
@@ -629,7 +646,7 @@ p.block.image.align.center {
 }
 .teaser-item-title {
   height: 80px;
-  width: 100vw;
+  width: 100%;
   background-color: #00000099;
   color: #ffffff99;
   position: absolute;
@@ -655,7 +672,7 @@ p.block.image.align.center {
 .highlight-image-wrapper.gradient {
   img {
     /* height: 56.26vw !important; */
-    /* width: 100vw !important; */
+    /* width: 100% !important; */
     /* object-fit: cover !important; */
     object-position: inherit !important;
   }
@@ -769,7 +786,7 @@ body.view-viewview.contenttype-plone-site.siteroot {
     width: 55px;
     height: 136px !important;
     top: calc(59.9vw);
-    left: calc(100vw - 55px);
+    left: calc(100% - 55px);
     list-style-type: none;
     border: 0.5px solid #ececec;
     flex-direction: column !important;
@@ -876,11 +893,17 @@ body.view-viewview.contenttype-plone-site.siteroot {
 @media only screen and (max-width: 768px) {
   .view-viewview.contenttype-document.section-terugblik,
   .view-viewview.contenttype-jaarverslag_singlecontent,
-  .view-viewview.contenttype-document {
-    width: 100vw;
+  .view-viewview.contenttype-document,
+  .view-viewview.contenttype-folder,
+  .view-viewview.contenttype-plone-site {
+    width: 100%;
     img {
       display: inline;
       float: none;
+    }
+
+    #view h1{
+      font-size: 32px !important;
     }
 
     #page-document {
@@ -922,8 +945,8 @@ body.view-viewview.contenttype-plone-site.siteroot {
       h2 {
         font-family: 'UniversLightCn' !important;
         font-size: 28px !important;
-        margin-top: 40px ;
-        margin-bottom: 10px ;
+        margin-top: 40px;
+        margin-bottom: 10px;
         line-height: 40px !important;
         letter-spacing: 2px !important;
       }
