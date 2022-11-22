@@ -85,10 +85,10 @@ const Header = (props) => {
       
       {props.content != undefined ? (
         props.content.['@type'] == 'Folder' || 'Document' ? (
-          props.content.navigationinvisible === null || undefined ? (
-            <Breadcrumbs pathname={props.pathname} menuItems={props.menuItems}/>
-          ) : (
+          props.content.Show_Navigation === null || undefined ? (
             ''
+          ) : (
+            <Breadcrumbs pathname={props.pathname} menuItems={props.menuItems}/>
           )
         ) : (
           ''

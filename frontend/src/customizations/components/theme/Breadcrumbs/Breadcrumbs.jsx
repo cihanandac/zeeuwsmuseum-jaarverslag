@@ -148,19 +148,23 @@ export class BreadcrumbsComponent extends Component {
                 }
                 icon={<FaChevronDown color="#808080" />}
               >
+                
                 <Dropdown.Menu className="dropdownContentPage">
                   <Dropdown.Item id="InhoudDropdown">
                     <a
                       href={
                         this.props.menuItems.length > 3 ?
-                        (this.props.menuItems.['@type'] == 'Folder' ?
-                           this.props.items[this.props.items.length - 1].url
-                          : this.props.items[this.props.items.length - 2].url ) : ''
+                        (this.props.menuItems.['@type'] == 'Document' ?
+                           this.props.items[this.props.items.length - 2].url
+                          : this.props.items[this.props.items.length - 1].url ) : ''
                       }
                     >
                       Beeldimpressie
                     </a>
+                    
                   </Dropdown.Item> 
+                  {/* {console.log(this.props.items[this.props.items.length - 2].url)}
+                  {console.log(this.props.menuItems.['@type'])} */}
 
                   {(() => {
                     let steps = this.props.items;

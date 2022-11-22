@@ -12,14 +12,9 @@ const NavItem = ({ item, lang }) => {
       <NavItem>
         to={item.url === '' ? '/' : item.url}
         key={item.url}
-        className="item"
-        activeClassName="active"
-        exact={
-          settings.isMultilingual ? item.url === `/${lang}` : item.url === ''
-        }
-      >
+        className="item" activeClassName="active" exact=
+        {settings.isMultilingual ? item.url === `/${lang}` : item.url === ''}>
         {item.title}
-        
       </NavItem>
     );
   } else {

@@ -149,17 +149,28 @@ class App extends Component {
         <BodyClass
           className={
             this.props.content != null
-              ? this.props.content['@type'] == 'Document'
-                ? this.props.content.footerinvisible != undefined
-                  ? this.props.content.footerinvisible.title
+              ? this.props.content['@type'] == 'Folder'
+                ? this.props.content.Hide_Footer != undefined
+                  ? 'invisible'
                   : ''
                 : ''
               : ''
           }
         />
+        {console.log(this.props.content)}
 
         <SkipLinks />
         <Header pathname={path} menuItems={menuItems} />
+        
+        {/* {(() => {
+          let blocks=this.props.content.blocks;
+                  for(let block in blocks){
+                    if(blocks[block]['@type']=='slider'){
+                      console.log(blocks[block]['slides'][0]['href'][0]['@id'])
+                    }
+                  }            
+        })()} */}
+
 
         {/* <Breadcrumbs pathname={path} /> */}
         <MultilingualRedirector
@@ -184,15 +195,16 @@ class App extends Component {
             </main>
           </Segment>
         </MultilingualRedirector>
+        {console.log(this.props.content)}
         {this.props.content != undefined ? (
           this.props.content.['@type'] == 'Folder' ? (
-            this.props.content.footerinvisible === null || undefined ? (
+            this.props.content.Hide_Footer === null || undefined ? (
               <Footer />
             ) : (
               ''
             )
           ) : (
-            ''
+            <Footer />
           )
         ) : (
           ''

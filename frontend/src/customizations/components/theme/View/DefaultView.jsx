@@ -10,6 +10,8 @@ import { defineMessages, injectIntl } from 'react-intl';
 import { Container, Image } from 'semantic-ui-react';
 import { map } from 'lodash';
 import config from '@plone/volto/registry';
+import { FormattedDate } from '@plone/volto/components';
+import moment from 'moment';
 
 import {
   getBlocksFieldname,
@@ -31,15 +33,17 @@ const messages = defineMessages({
  * @param {Object} content Content object.
  * @returns {string} Markup of the component.
  */
-
 const DefaultView = ({ content, intl, location }) => {
   const blocksFieldname = getBlocksFieldname(content);
   const blocksLayoutFieldname = getBlocksLayoutFieldname(content);
 
-
-
   return hasBlocksData(content) ? (
     <div id="page-document" className="ui container">
+      {/* {content.review_state === 'published' && content.effective && (
+        <p>
+          {moment(content.effective).format('DD/MM/YYYY')}
+        </p>
+      )} */}
       {map(content[blocksLayoutFieldname].items, (block) => {
         const Block =
           config.blocks.blocksConfig[
@@ -91,6 +95,7 @@ const DefaultView = ({ content, intl, location }) => {
     </Container>
   );
 };
+
 
 /**
  * Property types.
