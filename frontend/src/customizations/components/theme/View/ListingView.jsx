@@ -54,7 +54,7 @@ const ListingView = ({ content }) => (
           <div id="jaarverslag-title">
             <h2>
               <UniversalLink item={item}>
-                JAARVERSLAG {item.title}
+                {item.title}
               </UniversalLink>
             </h2>
             {item.description && <p>{item.description}</p>}

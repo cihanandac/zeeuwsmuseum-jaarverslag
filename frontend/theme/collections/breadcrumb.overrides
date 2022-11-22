@@ -166,15 +166,13 @@ div#InhoudDropdown {
   }
 }
 
-.breadtitle {
+.breadtitle,
+.parenttitle {
   display: flex;
   align-items: center;
-  padding-left: 3px;
-  padding-right: 23px !important;
-  /* height: 30px; */
-  span {
-    /* height: 12px; */
-  }
+  padding-left: 10px !important;
+  padding-right: 15px !important;
+  height: 30px !important;
 }
 .breaddivider {
   padding-right: 9px;
@@ -184,7 +182,10 @@ div#InhoudDropdown {
 
 .crumbcontainer {
   display: flex !important;
-  /* flex-direction: row !important; */
+    a {
+    text-decoration: none !important;
+    color: #000000 !important;
+  }
 }
 
 /* END OF SECONDARY HEADER */

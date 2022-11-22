@@ -157,7 +157,6 @@ class App extends Component {
               : ''
           }
         />
-        {console.log(this.props.content)}
 
         <SkipLinks />
         <Header pathname={path} menuItems={menuItems} />
@@ -195,7 +194,7 @@ class App extends Component {
             </main>
           </Segment>
         </MultilingualRedirector>
-        {console.log(this.props.content)}
+
         {this.props.content != undefined ? (
           this.props.content.['@type'] == 'Folder' ? (
             this.props.content.Hide_Footer === null || undefined ? (

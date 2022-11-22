@@ -35,6 +35,7 @@ const messages = defineMessages({
 
 let menuArray=[];
 
+
 /**
  * Breadcrumbs container class.
  */
@@ -43,6 +44,7 @@ export class BreadcrumbsComponent extends Component {
    * Property types.
    * @property {Object} propTypes Property types.
    * @static
+   * 
    */
 
   static propTypes = {
@@ -62,6 +64,8 @@ export class BreadcrumbsComponent extends Component {
       }),
     ).isRequired,
   };
+
+  
 
   componentDidMount() {
     if (!hasApiExpander('breadcrumbs', getBaseUrl(this.props.pathname))) {
@@ -99,18 +103,21 @@ export class BreadcrumbsComponent extends Component {
       >
         <Container id="crumbcontainer">
           <Breadcrumb id="folderMap">
-            <Link
+            {/* <Link
               to={this.props.root || '/'}
               className="section"
               title={this.props.intl.formatMessage(messages.home)}
             >
-              {/* <Icon name={homeSVG} size="25px" /> */}
-            </Link>
-            {this.props.items.map((item, index, items) => [
+              <Icon name={homeSVG} size="25px" />
+            </Link> */}
+
+
+            {/* {this.props.items.map((item, index, items) => [
               index != 0 ? (
                 index <= 2 ? (
                   <Link key={item.url} to={item.url} className="section">
                     {item.title}
+                    {console.log(items)}
                     <span>&nbsp;</span>
                   </Link>
                 ) : index > 2 ? (
@@ -134,7 +141,35 @@ export class BreadcrumbsComponent extends Component {
               ) : (
                 ''
               ),
-            ])}
+            ])} */}
+
+                {this.props.menuItems['@type'] == 'Document' ?
+                  <Breadcrumb.Section
+                    className="crumbcontainer"
+                    key={this.props.menuItems.parent['@url']}
+                    active
+                    >
+                    <a href={this.props.menuItems.parent['@id']} className="parenttitle">
+                      {this.props.menuItems.parent.title}
+                    </a>
+                    <Breadcrumb.Divider className="breaddivider">
+                      <BsChevronCompactRight
+                        stroke="white"
+                        fill="currentColor"
+                        strokeWidth="0.5"
+                      />
+                    </Breadcrumb.Divider>
+                  </Breadcrumb.Section>
+                  : ''}
+
+                  <Breadcrumb.Section
+                    className="crumbcontainer"
+                    key={this.props.menuItems['@url']}
+                    active
+                  >
+                    
+                    <div className="breadtitle"><span>{this.props.menuItems.title}</span></div>
+                  </Breadcrumb.Section>
           </Breadcrumb>
           <Container id="dropdowncontainer">
             <div id="inhoud">
@@ -153,7 +188,7 @@ export class BreadcrumbsComponent extends Component {
                   <Dropdown.Item id="InhoudDropdown">
                     <a
                       href={
-                        this.props.menuItems.length > 3 ?
+                        this.props.items.length != undefined && this.props.items.length > 2 ?
                         (this.props.menuItems.['@type'] == 'Document' ?
                            this.props.items[this.props.items.length - 2].url
                           : this.props.items[this.props.items.length - 1].url ) : ''
@@ -163,37 +198,46 @@ export class BreadcrumbsComponent extends Component {
                     </a>
                     
                   </Dropdown.Item> 
-                  {/* {console.log(this.props.items[this.props.items.length - 2].url)}
-                  {console.log(this.props.menuItems.['@type'])} */}
 
                   {(() => {
-                    let steps = this.props.items;
-                    let nav = this.props.navItems;
-                    let depth = 0;
-                    let parentTitle = this.props.menuItems.parent.title;
                     
+                    if(this.props.menuItems.['@type'] == "Document"){
+                      let steps = this.props.items;
+                      let nav = this.props.navItems;
+                      let depth = 0;
+                      let parentTitle = this.props.menuItems.parent.title;
+                      
 
-                    for (let item1 of nav) {
-                      if (item1.title == parentTitle) {
-                        menuArray=item1.items;
-                        break;
-                      }
-                      for (let item2 of item1.items) {
-                        if (item2.title == parentTitle) {
-                          menuArray = item2.items;
+                      for (let item1 of nav) {
+                        if (item1.title == parentTitle) {
+                          menuArray=item1.items;
                           break;
                         }
-                        for (let item3 of item2.items) {
-                          if (item3.title == parentTitle) {
-                            menuArray=item3.items;
+                        for (let item2 of item1.items) {
+                          if (item2.title == parentTitle) {
+                            menuArray = item2.items;
                             break;
                           }
-                          for (let item4 of item3.items) {
-                            if (item4.title == parentTitle) {
-                              menuArray=item4.items;
+                          for (let item3 of item2.items) {
+                            if (item3.title == parentTitle) {
+                              menuArray=item3.items;
                               break;
                             }
+                            for (let item4 of item3.items) {
+                              if (item4.title == parentTitle) {
+                                menuArray=item4.items;
+                                break;
+                              }
+                            }
                           }
+                        }
+                      }
+                    }else{
+                      menuArray=[]
+                      for(let item of this.props.menuItems.items){
+                        if(menuArray.includes(item) == false){
+                          menuArray.push(item)
+                          // console.log(menuArray)
                         }
                       }
                     }
