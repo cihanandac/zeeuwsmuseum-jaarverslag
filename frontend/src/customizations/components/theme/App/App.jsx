@@ -149,7 +149,7 @@ class App extends Component {
         <BodyClass
           className={
             this.props.content != null
-              ? this.props.content['@type'] == 'Folder'
+              ? this.props.content['@type'] == 'Folder' || this.props.content['@type'] == 'jaarverslag'
                 ? this.props.content.Hide_Footer != undefined
                   ? 'invisible'
                   : ''
