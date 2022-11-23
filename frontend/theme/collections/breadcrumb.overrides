@@ -73,7 +73,7 @@ div.ui.breadcrumb {
   padding-bottom: 0%;
   height: 54px;
 
-  .section:hover {
+  .parenttitle:hover {
     color: #7bb0e7 !important;
   }
   .divider {
@@ -182,7 +182,7 @@ div#InhoudDropdown {
 
 .crumbcontainer {
   display: flex !important;
-    a {
+  a{
     text-decoration: none !important;
     color: #000000 !important;
   }

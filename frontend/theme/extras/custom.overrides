@@ -32,7 +32,7 @@
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  scrollbar-gutter: stable both-edges;
+  /* scrollbar-gutter: stable both-edges; */
 
   font-family: 'UniversCn', Arial, sans-serif;
   a {
@@ -388,7 +388,7 @@ div#view {
 
 /* ------------------------
 -------EDIT VIEW ---------*/
-.view-editview {
+.view-editview,.view-addview {
   div.ui.basic.segment.header-wrapper {
     position: relative !important;
     /* padding-right: 50px !important; */
@@ -421,7 +421,7 @@ div#view {
 -------INVISIBLE FOOTER PAGE TYPE ---------*/
 .view-viewview.invisible {
   #main {
-    height: 100vh !important;
+    height: 100% !important;
   }
   #header-wrapper {
     position: relative !important;
