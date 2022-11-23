@@ -218,13 +218,23 @@ export class BreadcrumbsComponent extends Component {
                             break;
                           }
                           for (let item3 of item2.items) {
+                            console.log(item3)
                             if (item3.title == parentTitle) {
+                              // console.log(item3.title)
+                              // console.log(parentTitle)
                               menuArray=item3.items;
+                              // console.log(menuArray)
+                              for(let item of menuArray){
+                                if(item.title == 'IMAGES' || item.title=='images'){
+                                  menuArray.pop(item.title)
+                                }
+                              }
                               break;
                             }
                             for (let item4 of item3.items) {
                               if (item4.title == parentTitle) {
                                 menuArray=item4.items;
+                                // console.log(menuArray)
                                 break;
                               }
                             }
@@ -235,7 +245,6 @@ export class BreadcrumbsComponent extends Component {
                       menuArray=[]
                       if(this.props.menuItems.items != undefined){
                       for(let item of this.props.menuItems.items){
-                        console.log(item)
                         if(menuArray.includes(item) == false && item['@type']=='Document'){
                           menuArray.push(item)
                         }
