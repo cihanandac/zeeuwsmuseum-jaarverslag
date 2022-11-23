@@ -210,23 +210,43 @@ export class BreadcrumbsComponent extends Component {
                       for (let item1 of nav) {
                         if (item1.title == parentTitle) {
                           menuArray=item1.items;
+                          for(let item of menuArray){
+                                if(item.title == 'IMAGES' || item.title=='images'){
+                                  // console.log(menuArray)
+                                  let placeofItem = menuArray.indexOf(item);
+                                  if(placeofItem>-1) {
+                                    menuArray.splice(placeofItem, 1);
+                                  }
+                                }
+                              }
                           break;
                         }
                         for (let item2 of item1.items) {
                           if (item2.title == parentTitle) {
                             menuArray = item2.items;
+                            for(let item of menuArray){
+                                if(item.title == 'IMAGES' || item.title=='images'){
+                                  // console.log(menuArray)
+                                  let placeofItem = menuArray.indexOf(item);
+                                  if(placeofItem>-1) {
+                                    menuArray.splice(placeofItem, 1);
+                                  }
+                                }
+                              }
                             break;
                           }
                           for (let item3 of item2.items) {
-                            console.log(item3)
+                            // console.log(item3)
                             if (item3.title == parentTitle) {
-                              // console.log(item3.title)
-                              // console.log(parentTitle)
                               menuArray=item3.items;
                               // console.log(menuArray)
                               for(let item of menuArray){
                                 if(item.title == 'IMAGES' || item.title=='images'){
-                                  menuArray.pop(item.title)
+                                  // console.log(menuArray)
+                                  let placeofItem = menuArray.indexOf(item);
+                                  if(placeofItem>-1) {
+                                    menuArray.splice(placeofItem, 1);
+                                  }
                                 }
                               }
                               break;
@@ -234,7 +254,15 @@ export class BreadcrumbsComponent extends Component {
                             for (let item4 of item3.items) {
                               if (item4.title == parentTitle) {
                                 menuArray=item4.items;
-                                // console.log(menuArray)
+                                for(let item of menuArray){
+                                if(item.title == 'IMAGES' || item.title=='images'){
+                                  // console.log(menuArray)
+                                  let placeofItem = menuArray.indexOf(item);
+                                  if(placeofItem>-1) {
+                                    menuArray.splice(placeofItem, 1);
+                                  }
+                                }
+                              }
                                 break;
                               }
                             }
