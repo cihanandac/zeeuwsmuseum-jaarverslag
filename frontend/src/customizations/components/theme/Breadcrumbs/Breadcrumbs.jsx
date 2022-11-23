@@ -234,12 +234,13 @@ export class BreadcrumbsComponent extends Component {
                       }
                     }else{
                       menuArray=[]
+                      if(this.props.menuItems.items != undefined){
                       for(let item of this.props.menuItems.items){
                         if(menuArray.includes(item) == false){
                           menuArray.push(item)
                           // console.log(menuArray)
                         }
-                      }
+                      }}
                     }
                   })()}
 
