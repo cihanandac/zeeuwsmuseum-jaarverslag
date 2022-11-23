@@ -26,8 +26,6 @@ import {
  * @returns {string} Markup of the component.
  */
 
-
-
 class AlbumView extends Component {
   constructor(props) {
     super(props);
@@ -63,8 +61,6 @@ class AlbumView extends Component {
     });
   }
 
-  
-
   render() {
     // const { content } = this.props;
     const { location, intl, content, metadata } = this.props;
@@ -73,27 +69,19 @@ class AlbumView extends Component {
     const blocksConfig = this.props.blocksConfig || config.blocks.blocksConfig;
     const CustomTag = `${this.props.as || 'div'}`;
     return hasBlocksData(content) ? (
-      <CustomTag>
+      <div id="page-document" className="ui container">
         {map(content[blocksLayoutFieldname].items, (block) => {
           const Block =
-            blocksConfig[content[blocksFieldname]?.[block]?.['@type']]?.view;
-
-          const blockData = applyBlockDefaults({
-            data: content[blocksFieldname][block],
-            intl,
-            metadata,
-            properties: content,
-          });
-
-          return Block ? (
+            config.blocks.blocksConfig[
+              content[blocksFieldname]?.[block]?.['@type']
+            ]?.['view'] || null;
+          return Block !== null ? (
             <Block
               key={block}
               id={block}
-              metadata={metadata}
               properties={content}
-              data={blockData}
+              data={content[blocksFieldname][block]}
               path={getBaseUrl(location?.pathname || '')}
-              blocksConfig={blocksConfig}
             />
           ) : (
             <div key={block}>
@@ -103,9 +91,34 @@ class AlbumView extends Component {
             </div>
           );
         })}
-      </CustomTag>
+      </div>
     ) : (
-      ''
+      <Container id="page-document">
+        <h1 className="documentFirstHeading">{content.title}</h1>
+        {content.description && (
+          <p className="documentDescription">{content.description}</p>
+        )}
+        {content.image && (
+          <Image
+            className="document-image"
+            src={content.image.scales.thumb.download}
+            floated="right"
+          />
+        )}
+        {content.remoteUrl && (
+          <span>
+            The link address is:
+            <a href={content.remoteUrl}>{content.remoteUrl}</a>
+          </span>
+        )}
+        {content.text && (
+          <div
+            dangerouslySetInnerHTML={{
+              __html: content.text.data,
+            }}
+          />
+        )}
+      </Container>
     );
   }
 }

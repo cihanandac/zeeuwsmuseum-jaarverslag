@@ -39,11 +39,6 @@ const DefaultView = ({ content, intl, location }) => {
 
   return hasBlocksData(content) ? (
     <div id="page-document" className="ui container">
-      {/* {content.review_state === 'published' && content.effective && (
-        <p>
-          {moment(content.effective).format('DD/MM/YYYY')}
-        </p>
-      )} */}
       {map(content[blocksLayoutFieldname].items, (block) => {
         const Block =
           config.blocks.blocksConfig[

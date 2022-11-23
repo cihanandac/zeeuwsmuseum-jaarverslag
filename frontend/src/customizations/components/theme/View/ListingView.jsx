@@ -27,7 +27,6 @@ const ListingView = ({ content }) => (
     <section id="content-core">
       {content.items.map((item) => (
         <div key={item.url} className="listing-items">
-          {console.log(content)}
 
           {/* {(() => {
             let blocks = content.blocks;

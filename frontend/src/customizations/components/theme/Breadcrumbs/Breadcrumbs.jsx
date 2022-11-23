@@ -207,7 +207,6 @@ export class BreadcrumbsComponent extends Component {
                       let depth = 0;
                       let parentTitle = this.props.menuItems.parent.title;
                       
-
                       for (let item1 of nav) {
                         if (item1.title == parentTitle) {
                           menuArray=item1.items;
@@ -236,9 +235,9 @@ export class BreadcrumbsComponent extends Component {
                       menuArray=[]
                       if(this.props.menuItems.items != undefined){
                       for(let item of this.props.menuItems.items){
-                        if(menuArray.includes(item) == false){
+                        console.log(item)
+                        if(menuArray.includes(item) == false && item['@type']=='Document'){
                           menuArray.push(item)
-                          // console.log(menuArray)
                         }
                       }}
                     }
