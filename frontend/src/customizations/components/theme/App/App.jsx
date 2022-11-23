@@ -196,7 +196,7 @@ class App extends Component {
         </MultilingualRedirector>
 
         {this.props.content != undefined ? (
-          this.props.content.['@type'] == 'Folder' ? (
+          this.props.content.['@type'] == 'Folder' || this.props.content['@type'] == 'jaarverslag' ? (
             this.props.content.Hide_Footer === null || undefined ? (
               <Footer />
             ) : (
