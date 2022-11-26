@@ -352,15 +352,15 @@
   },
   "client": {
     "css": [
-      "/static/css/10.5b1c840c.chunk.css"
+      "/static/css/10.dbfc3c6e.chunk.css"
     ],
     "js": [
       "/static/js/runtime~client.36f71599.js",
       "/static/js/runtime~client.36f71599.js.map",
-      "/static/js/10.5b1c840c.chunk.js",
-      "/static/js/10.5b1c840c.chunk.js.map",
-      "/static/js/client.aba78044.chunk.js",
-      "/static/js/client.aba78044.chunk.js.map"
+      "/static/js/10.dbfc3c6e.chunk.js",
+      "/static/js/10.dbfc3c6e.chunk.js.map",
+      "/static/js/client.2fcd006e.chunk.js",
+      "/static/js/client.2fcd006e.chunk.js.map"
     ],
     "chunks": [
       9,
