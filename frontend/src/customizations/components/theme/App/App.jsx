@@ -232,6 +232,9 @@ class App extends Component {
   }
 }
 
+{document.getElementById('main').style.width = `calc(100vw - ${window.innerWidth - document.body.clientWidth}px)`}
+  
+
 export const __test__ = connect(
   (state, props) => ({
     pathname: props.location.pathname,
