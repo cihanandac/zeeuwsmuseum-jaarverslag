@@ -13,11 +13,6 @@
   flex-basis: 300px;
 }
 
-.highlight-image-wrapper img {
-  /* width: 100vw; */
-  /* height: 100% !important; */
-}
-
 /* ****************************************
 ************GENERAL STUFF *************
 ***************************************** */
@@ -437,19 +432,19 @@ div#view {
     display: block !important;
     /* height: 120px !important; */
   }
-  #page-document {
-    .block.slider,
-    .slick-slider,
-    .slick-list,
-    .slick-track {
-      margin-bottom: 0px !important;
-      padding-bottom: 0px !important;
-      height: calc(100vh - 120px);
-      img {
-        height: calc(100vh - 120px);
-      }
+
+  .block.slider,
+  .slick-slider,
+  .slick-list,
+  .slick-track {
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+    height: calc(100vh - 115px) !important;
+    img {
+      height: calc(100vh - 115px) !important;
     }
   }
+
   .ui.basic.segment.content-area {
     margin-top: 0px !important;
     height: calc(100vh - 120px) !important;
@@ -474,8 +469,7 @@ div#view {
 .view-viewview.contenttype-jaarverslag,
 .view-viewview.contenttype-document.section-terugblik,
 .view-viewview.contenttype-document,
-.view-viewview.contenttype-slideshow,
- {
+.view-viewview.contenttype-slideshow {
   img {
     display: inline;
     /* float: none; */
