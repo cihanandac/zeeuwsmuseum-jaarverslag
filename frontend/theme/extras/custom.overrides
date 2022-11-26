@@ -13,7 +13,7 @@
   flex-basis: 300px;
 }
 
-.highlight-image-wrapper img{
+.highlight-image-wrapper img {
   /* width: 100vw; */
   /* height: 100% !important; */
 }
@@ -402,6 +402,11 @@ div#view {
   }
   .ui.container {
     padding-right: 30px;
+  }
+  .SocialbuttonsBottom {
+    position: relative !important;
+    top: 0px;
+    left: 0px;
   }
 }
 
