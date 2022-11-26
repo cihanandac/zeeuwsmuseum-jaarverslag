@@ -16,8 +16,11 @@
 /* ****************************************
 ************GENERAL STUFF *************
 ***************************************** */
-.menu.transition{
-  z-index: 999999;
+#content {
+  .menu.transition.visible {
+    z-index: 999999999999 !important;
+    left: 0px !important;
+  }
 }
 
 .block-editor-slate {
