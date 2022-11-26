@@ -110,16 +110,13 @@ class App extends Component {
     const action = getView(this.props.pathname);
     const isCmsUI = isCmsUi(this.props.pathname);
     const ConnectionRefusedView = views.errorViews.ECONNREFUSED;
-    const menuItems =  this.props.content;
- 
-
+    const menuItems = this.props.content;
 
     // const language =
     //   this.props.content?.language?.token ?? this.props.intl?.locale;
 
     return (
       <PluggablesProvider>
-
         {/* {language && (
           <Helmet>
             <html lang={language} />
@@ -149,10 +146,8 @@ class App extends Component {
         <BodyClass
           className={
             this.props.content != null
-              ? this.props.content['@type'] == 'Folder' || this.props.content['@type'] == 'jaarverslag'
-                ? this.props.content.Hide_Footer != undefined
-                  ? 'invisible'
-                  : ''
+              ? this.props.content['@type'] == 'slideshow'
+                ? 'invisible'
                 : ''
               : ''
           }
@@ -160,7 +155,7 @@ class App extends Component {
 
         <SkipLinks />
         <Header pathname={path} menuItems={menuItems} />
-        
+
         {/* {(() => {
           let blocks=this.props.content.blocks;
                   for(let block in blocks){
@@ -169,7 +164,6 @@ class App extends Component {
                     }
                   }            
         })()} */}
-
 
         {/* <Breadcrumbs pathname={path} /> */}
         <MultilingualRedirector
@@ -196,18 +190,15 @@ class App extends Component {
         </MultilingualRedirector>
 
         {this.props.content != undefined ? (
-          this.props.content.['@type'] == 'Folder' || this.props.content['@type'] == 'jaarverslag' ? (
-            this.props.content.Hide_Footer === null || undefined ? (
-              <Footer />
-            ) : (
-              ''
-            )
+          this.props.content['@type'] == 'slideshow' ? (
+            ''
           ) : (
             <Footer />
           )
         ) : (
-          ''
+          <Footer />
         )}
+
         <LockingToastsFactory
           content={this.props.content}
           user={this.props.userId}
@@ -232,8 +223,13 @@ class App extends Component {
   }
 }
 
-{if(typeof window !== 'undefined'){document.getElementById('main').style.width = `calc(100vw - ${window.innerWidth - document.body.clientWidth}px)`}}
-  
+{
+  if (typeof window !== 'undefined') {
+    document.getElementById('main').style.width = `calc(100vw - ${
+      window.innerWidth - document.body.clientWidth
+    }px)`;
+  }
+}
 
 export const __test__ = connect(
   (state, props) => ({
