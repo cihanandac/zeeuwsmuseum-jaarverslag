@@ -488,6 +488,7 @@ div#view {
   p,
   ul,
   blockquote,
+  .block-editor-video,
   .accordion-block,
   .custom-style-ebebeb,
   .align.center,

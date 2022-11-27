@@ -233,7 +233,7 @@ div#InhoudDropdown {
     }
   }
   .menu.transition.dropdownContentPage {
-    width: 100% !important;
+    width: 100vw !important;
     border-top: white !important;
     padding-top: 10px !important;
     padding-bottom: 0px !important;

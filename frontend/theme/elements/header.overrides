@@ -71,6 +71,7 @@ div.menu.transition {
   left: auto !important;
   padding: 22px 0px 18px !important;
   min-width: 238px !important;
+  
 
   div.item {
     padding-bottom: 0% !important;

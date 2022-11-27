@@ -152,10 +152,8 @@ class App extends Component {
               : ''
           }
         />
-
         <SkipLinks />
         <Header pathname={path} menuItems={menuItems} />
-
         {/* {(() => {
           let blocks=this.props.content.blocks;
                   for(let block in blocks){
@@ -164,7 +162,6 @@ class App extends Component {
                     }
                   }            
         })()} */}
-
         {/* <Breadcrumbs pathname={path} /> */}
         <MultilingualRedirector
           pathname={this.props.pathname}
@@ -188,7 +185,6 @@ class App extends Component {
             </main>
           </Segment>
         </MultilingualRedirector>
-
         {this.props.content != undefined ? (
           this.props.content['@type'] == 'slideshow' ? (
             ''
@@ -198,7 +194,6 @@ class App extends Component {
         ) : (
           <Footer />
         )}
-
         <LockingToastsFactory
           content={this.props.content}
           user={this.props.userId}
