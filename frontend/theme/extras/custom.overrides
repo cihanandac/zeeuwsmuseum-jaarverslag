@@ -16,6 +16,20 @@
 /* ****************************************
 ************GENERAL STUFF *************
 ***************************************** */
+table.ui.celled {
+  p{
+    margin: 0px !important;
+  }
+  thead{
+    height: 70px !important;
+  }
+  td.center.aligned.middle.aligned{
+    height: 48px !important;
+    padding: 0px !important;
+  }
+}
+
+
 #content {
   .menu.transition.visible {
     z-index: 999999999999 !important;
@@ -634,7 +648,8 @@ p.block.image.align.right {
 }
 
 .view-viewview #page-document p.block.image.align.center,
-.view-viewview #page-document div.block.video.align.center {
+.view-viewview #page-document div.block.video.align.center,
+.view-viewview #page-document table.ui.celled {
   width: 930px !important;
   margin-left: auto !important;
   margin-right: auto !important;
@@ -790,7 +805,8 @@ body.view-viewview.contenttype-plone-site.siteroot {
 ************************************************************/
 @media only screen and (max-width: 1025px) {
   .view-viewview #page-document p.block.image.align.center,
-  .view-viewview #page-document div.block.video.align.center {
+  .view-viewview #page-document div.block.video.align.center,
+  .view-viewview #page-document table.ui.celled {
     width: 730px !important;
   }
 }
