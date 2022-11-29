@@ -50,6 +50,15 @@ table.ui.celled {
   }
 }
 
+li{
+    font-size: 18px !important;
+    font-family: 'UniversLight';
+    overflow-wrap: break-word;
+    line-height: 37px;
+    letter-spacing: 0.9px;
+    padding-left: 8px;
+  }
+
 #page-document .column-blocks-wrapper a {
   border-bottom: 1px solid #7bb0e7 !important;
   padding-bottom: 3px;
