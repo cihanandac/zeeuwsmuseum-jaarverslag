@@ -489,10 +489,8 @@ div#view {
   ul,
   blockquote,
   .block-editor-video,
-  .block.vide.align.center,
   .accordion-block,
   .custom-style-ebebeb,
-  .align.center,
   .celled.fixed.table {
     width: 730px !important;
     margin-left: auto !important;
@@ -635,10 +633,12 @@ p.block.image.align.left {
 p.block.image.align.right {
 }
 
-/* #page-document p.block.image.align.center,
-.block.video.align.center {
+.view-viewview #page-document p.block.image.align.center,
+.view-viewview #page-document div.block.video.align.center {
   width: 930px !important;
-} */
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
 p.block.image.align.center {
   /* width: 930px !important; */
   float: none;
@@ -788,12 +788,12 @@ body.view-viewview.contenttype-plone-site.siteroot {
 /* ***********************************************************
 **********RESPONSIVE AREA ACCORDING TO PAGE WIDTH*********** 
 ************************************************************/
-/* @media only screen and (max-width: 1025px) {
-  #page-document p.block.image.align.center,
-  .block.video.align.center {
+@media only screen and (max-width: 1025px) {
+  .view-viewview #page-document p.block.image.align.center,
+  .view-viewview #page-document div.block.video.align.center {
     width: 730px !important;
   }
-} */
+}
 @media only screen and (min-width: 993px) {
   .SocialbuttonsBottom {
     position: absolute;
