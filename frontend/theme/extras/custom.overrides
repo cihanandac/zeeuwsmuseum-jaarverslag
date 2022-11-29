@@ -29,7 +29,7 @@ table.ui.celled {
   }
 }
 
-#page-document .column-blocks-wrapper {
+#page-document  .column-blocks-wrapper {
   ol,
   li,
   a {
@@ -62,7 +62,7 @@ table.ui.celled {
   padding-left: 19px !important;
 }
 
-#page-document .column-blocks-wrapper a {
+.contenttype-document #page-document .column-blocks-wrapper a {
   border-bottom: 1px solid #7bb0e7 !important;
   padding-bottom: 3px;
 }
