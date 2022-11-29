@@ -17,18 +17,48 @@
 ************GENERAL STUFF *************
 ***************************************** */
 table.ui.celled {
-  p{
+  p {
     margin: 0px !important;
   }
-  thead{
+  thead {
     height: 70px !important;
   }
-  td.center.aligned.middle.aligned{
+  td.center.aligned.middle.aligned {
     height: 48px !important;
     padding: 0px !important;
   }
 }
 
+#page-document .column-blocks-wrapper {
+  ol,
+  li,
+  a {
+    font-size: 18px !important;
+    font-family: 'UniversLight';
+    overflow-wrap: break-word;
+    width: 300px;
+
+    line-height: 37px;
+    letter-spacing: 0.9px;
+  }
+}
+
+#page-document .column-blocks-wrapper a {
+  border-bottom: 1px solid #7bb0e7 !important;
+  padding-bottom: 3px;
+}
+#page-document .column-blocks-wrapper a:hover {
+  border-bottom: none !important;
+}
+
+.ui.twelve,
+.columns-view {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.six.wide {
+  /* margin-left: 40px !important; */
+}
 
 #content {
   .menu.transition.visible {
@@ -186,11 +216,11 @@ div#view {
       letter-spacing: 1.65px;
       text-transform: uppercase;
     }
-    li,
+    /* li,
     ol {
       font-size: 17px;
       font-family: 'UniversLightCn', Arial, sans-serif;
-    }
+    } */
     blockquote {
       font-size: 17px;
       font-family: 'UniversLightCn', Arial, sans-serif;
@@ -945,7 +975,7 @@ body.view-viewview.contenttype-plone-site.siteroot {
       h4,
       p,
       .block-editor-video,
-      .block.vide.align.center{
+      .block.vide.align.center {
         width: 100% !important;
         word-wrap: break-word;
         padding: 0px 25px !important;
