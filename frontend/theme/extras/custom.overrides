@@ -653,6 +653,8 @@ p.block.image.align.right {
   width: 930px !important;
   margin-left: auto !important;
   margin-right: auto !important;
+  margin-top: 45px !important;
+  padding-top: 0px !important;
 }
 p.block.image.align.center {
   /* width: 930px !important; */
@@ -808,6 +810,7 @@ body.view-viewview.contenttype-plone-site.siteroot {
   .view-viewview #page-document div.block.video.align.center,
   .view-viewview #page-document table.ui.celled {
     width: 730px !important;
+    margin-top: 45px;
   }
 }
 @media only screen and (min-width: 993px) {
