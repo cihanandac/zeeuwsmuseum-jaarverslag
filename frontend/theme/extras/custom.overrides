@@ -41,6 +41,13 @@ table.ui.celled {
     line-height: 37px;
     letter-spacing: 0.9px;
   }
+  h3{
+    margin-top: 45px !important;
+    margin-bottom: 10px !important;
+  }
+  ul{
+    padding-left: 19px !important;
+  }
 }
 
 #page-document .column-blocks-wrapper a {
@@ -53,11 +60,11 @@ table.ui.celled {
 
 .ui.twelve,
 .columns-view {
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
 .six.wide {
-  /* margin-left: 40px !important; */
+  padding-right: 10px !important;
 }
 
 #content {
