@@ -23,7 +23,7 @@ const FormattedDate = ({
     <time
       className={className}
       dateTime={date}
-      title={new Intl.DateTimeFormat(language, short_date_format).format(
+      title={new Intl.DateTimeFormat(locale, short_date_format).format(
         new Date(toDate(date)),
       )}
     >
