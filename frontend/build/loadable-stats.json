@@ -2,13 +2,13 @@
   "errors": [],
   "warnings": [],
   "version": "4.46.0",
-  "hash": "b43d5a544b0c2950d1c0",
+  "hash": "ef31afe94fb1e7e86e39",
   "publicPath": "/",
   "outputPath": "/Users/cihanandac/Documents/Code files/zeeuwsmuseumproject/frontend/build/public",
   "assetsByChunkName": {
     "client": [
-      "static/js/client.caa036ec.chunk.js",
-      "static/js/client.caa036ec.chunk.js.map"
+      "static/js/client.4b1aad36.chunk.js",
+      "static/js/client.4b1aad36.chunk.js.map"
     ],
     "draft-js-lib-isSoftNewlineEvent": [
       "static/js/draft-js-lib-isSoftNewlineEvent.1d0a3597.chunk.js",
@@ -114,7 +114,7 @@
       "emitted": false
     },
     {
-      "name": "static/css/10.1d89404d.chunk.css",
+      "name": "static/css/10.731a24e8.chunk.css",
       "size": 854183,
       "chunks": [
         10
@@ -126,8 +126,8 @@
       "emitted": false
     },
     {
-      "name": "static/css/10.1d89404d.chunk.css.map",
-      "size": 4454100,
+      "name": "static/css/10.731a24e8.chunk.css.map",
+      "size": 4477524,
       "chunks": [],
       "chunkNames": [],
       "info": {},
@@ -233,7 +233,7 @@
       "emitted": false
     },
     {
-      "name": "static/js/10.1d89404d.chunk.js",
+      "name": "static/js/10.731a24e8.chunk.js",
       "size": 2809235,
       "chunks": [
         10
@@ -245,7 +245,7 @@
       "emitted": false
     },
     {
-      "name": "static/js/10.1d89404d.chunk.js.LICENSE.txt",
+      "name": "static/js/10.731a24e8.chunk.js.LICENSE.txt",
       "size": 4164,
       "chunks": [],
       "chunkNames": [],
@@ -253,7 +253,7 @@
       "emitted": false
     },
     {
-      "name": "static/js/10.1d89404d.chunk.js.map",
+      "name": "static/js/10.731a24e8.chunk.js.map",
       "size": 13441185,
       "chunks": [
         10
@@ -1003,7 +1003,7 @@
       "emitted": false
     },
     {
-      "name": "static/js/client.caa036ec.chunk.js",
+      "name": "static/js/client.4b1aad36.chunk.js",
       "size": 46822,
       "chunks": [
         4
@@ -1017,8 +1017,8 @@
       "emitted": false
     },
     {
-      "name": "static/js/client.caa036ec.chunk.js.map",
-      "size": 115808,
+      "name": "static/js/client.4b1aad36.chunk.js.map",
+      "size": 115809,
       "chunks": [
         4
       ],
@@ -1550,11 +1550,11 @@
       "assets": [
         "static/js/runtime~client.36f71599.js",
         "static/js/runtime~client.36f71599.js.map",
-        "static/css/10.1d89404d.chunk.css",
-        "static/js/10.1d89404d.chunk.js",
-        "static/js/10.1d89404d.chunk.js.map",
-        "static/js/client.caa036ec.chunk.js",
-        "static/js/client.caa036ec.chunk.js.map"
+        "static/css/10.731a24e8.chunk.css",
+        "static/js/10.731a24e8.chunk.js",
+        "static/js/10.731a24e8.chunk.js.map",
+        "static/js/client.4b1aad36.chunk.js",
+        "static/js/client.4b1aad36.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
@@ -1570,11 +1570,11 @@
       "assets": [
         "static/js/runtime~client.36f71599.js",
         "static/js/runtime~client.36f71599.js.map",
-        "static/css/10.1d89404d.chunk.css",
-        "static/js/10.1d89404d.chunk.js",
-        "static/js/10.1d89404d.chunk.js.map",
-        "static/js/client.caa036ec.chunk.js",
-        "static/js/client.caa036ec.chunk.js.map"
+        "static/css/10.731a24e8.chunk.css",
+        "static/js/10.731a24e8.chunk.js",
+        "static/js/10.731a24e8.chunk.js.map",
+        "static/js/client.4b1aad36.chunk.js",
+        "static/js/client.4b1aad36.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
