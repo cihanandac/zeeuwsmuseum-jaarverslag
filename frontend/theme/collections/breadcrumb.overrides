@@ -95,10 +95,7 @@ div.ui.breadcrumb {
   margin-bottom: 10px;
 }
 
-.view-viewview.contenttype-jaarverslag,
-.view-viewview.contenttype-document,
-.view-viewview.contenttype-folder,
-.view-viewview.contenttype-slideshow {
+.view-viewview:not(.contenttype-plone-site) {
   .ui.secondary.vertical.segment.breadcrumbs {
     display: block !important;
   }

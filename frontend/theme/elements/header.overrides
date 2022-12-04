@@ -1,4 +1,3 @@
-/* HEADER BEGIN */
 div.logo {
   height: 100%;
   align-items: center;
@@ -18,11 +17,9 @@ a.logo-written {
 .ui.basic.segment .header .logo-nav-wrapper {
   justify-content: space-between;
   height: 30px;
-  /* padding-top: 14px;
-  padding-bottom: 14px; */
 }
 
-div.ui.basic.segment.header-wrapper {
+.view-viewview div.ui.basic.segment.header-wrapper {
   margin-bottom: 0px;
   background-color: #ffffff;
   position: fixed !important;
@@ -33,8 +30,6 @@ div.ui.basic.segment.header-wrapper {
   transition-duration: 300ms;
   padding: 0px !important;
   z-index: 99998 !important;
-
-  /* height: 60px; */
 
   .ui.container.header-container {
     border-bottom: 1px solid #c3c3c3;
@@ -50,7 +45,6 @@ div.ui.basic.segment.header-wrapper {
   }
   .logo {
     height: 25px !important;
-    /* padding-bottom: 5px !important; */
   }
 }
 
@@ -64,9 +58,8 @@ div.ui.pointing.secondary.stackable {
   letter-spacing: 0.1em;
 }
 
-div.menu.transition {
+.view-viewview div.menu.transition {
   font-family: 'UniversLight', Arial, sans-serif;
-  /* line-height: 0.01em !important; */
   right: 0% !important;
   left: auto !important;
   padding: 22px 0px 18px !important;
@@ -79,7 +72,7 @@ div.menu.transition {
   }
 }
 
-div.menu.transition {
+.view-viewview div.menu.transition {
   border-top: 1px solid #7bb0e7 !important;
 }
 
@@ -96,12 +89,7 @@ nav#navigation.navigation {
 div#inhoudDropdown {
   padding: 6px 35px !important;
 }
-.ui.pointing.secondary > * {
-  /* height: 58px;
-  padding-top: 10px !important;
-  padding-bottom: 0px !important;
-  border-bottom: 0px !important; */
-}
+
 .item.simple {
   width: auto;
   outline-offset: -2px;
@@ -148,13 +136,9 @@ div#dropdownItemA {
   background-color: #ffffff !important;
 }
 
-.menu.transition {
-}
 
-.ui.menu .ui.dropdown .menu > .item {
-  /* padding-top: 5px !important; */
-  /* padding-bottom: 0% !important; */
-}
+
+
 
 .mobile-menu {
   top: 59px !important;
@@ -256,28 +240,6 @@ i.dropdown.icon::before {
   display: none;
 }
 
-/* .has-mobile-menu-open .ui.container.header-container {
-  animation: expandAnimation 0.2s linear 1 forwards;
-} */
-
-@media only screen and (max-width: 767px) {
-  #writtenlogo {
-    padding: 22px 15px 35px 6px !important;
-  }
-}
-
-/* HEADER END */
-
-/* Animation for the header menu */
-/* @keyframes expandAnimation {
-  0% {
-    height: 60px;
-  }
-  100% {
-    height: 270px;
-  }
-} */
-
 .mobile-menu-enter {
   transform: translate(0%, -100%);
 }
@@ -306,4 +268,12 @@ body.has-toolbar .mobile-menu {
 
 body.has-toolbar-collapsed .mobile-menu {
   padding-top: 20px;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+  #writtenlogo {
+    padding: 22px 15px 35px 6px !important;
+  }
 }
