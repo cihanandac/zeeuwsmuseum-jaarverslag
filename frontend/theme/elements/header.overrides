@@ -19,12 +19,15 @@ a.logo-written {
   height: 30px;
 }
 
+#header-wrapper{
+    width: 100%;
+}
+
 .view-viewview div.ui.basic.segment.header-wrapper {
   margin-bottom: 0px;
   background-color: #ffffff;
   position: fixed !important;
   top: 0;
-  width: 100%;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 300ms;

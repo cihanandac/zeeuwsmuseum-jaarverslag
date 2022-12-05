@@ -226,6 +226,13 @@ class App extends Component {
   }
 }
 
+// {
+//   document.getElementById('main').style.maxWidth = `calc(100vw - 80px)`;
+// }
+// {
+//   console.log(window.innerWidth)
+// }
+
 export const __test__ = connect(
   (state, props) => ({
     pathname: props.location.pathname,
