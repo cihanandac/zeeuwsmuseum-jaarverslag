@@ -61,10 +61,10 @@ const SliderBody = ({
   return (
     <div
       className={cx('grid-teaser-item top', {
-        'empty-slide': !href && isEditMode,
+        'empty-slide': !image && isEditMode,
       })}
     >
-      {!href && isEditMode && (
+      {!image && isEditMode && (
         <Message>
           <div className="grid-teaser-item default">
             <img src={imageBlockSVG} alt="" />
@@ -84,7 +84,7 @@ const SliderBody = ({
           </div>
         </Message>
       )}
-      {href && (
+      {image && (
         <div className="teaser-item top">
           <MaybeWrap
             condition={!isEditMode}
