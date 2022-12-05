@@ -81,21 +81,13 @@ const Header = (props) => {
           </div>
         </div>
       </Container>
-      {/* <Breadcrumbs pathname={props.pathname} menuItems={props.menuItems} /> */}
-      
-      {props.content != undefined ? (
-        props.content.['@type'] == 'Folder' || 'Document' ? (
-          props.content.Show_Navigation === null || undefined ? (
-            ''
-          ) : (
-            <Breadcrumbs pathname={props.pathname} menuItems={props.menuItems}/>
-          )
-        ) : (
-          ''
-        )
-      ) : (
-        ''
-      )}
+
+      {console.log(props.content)}
+
+      {props.content != undefined ? 
+        (props.content.['@type'] == 'Document' || props.content.['@type'] == 'slideshow' ?  <Breadcrumbs pathname={props.pathname} menuItems={props.menuItems}/> : '' )
+            : ''}
+
     </Segment>
   );
   

@@ -69,7 +69,6 @@ div.ui.pointing.secondary.stackable {
 
 .view-viewview div.menu.transition {
   font-family: 'UniversLight', Arial, sans-serif;
-  /* line-height: 0.01em !important; */
   right: 0% !important;
   left: auto !important;
   padding: 22px 0px 18px !important;
@@ -149,14 +148,6 @@ div#dropdownItemA {
 #dropdownItemA:hover {
   color: #7bb0e7;
   background-color: #ffffff !important;
-}
-
-.menu.transition {
-}
-
-.ui.menu .ui.dropdown .menu > .item {
-  /* padding-top: 5px !important; */
-  /* padding-bottom: 0% !important; */
 }
 
 .mobile-menu {
