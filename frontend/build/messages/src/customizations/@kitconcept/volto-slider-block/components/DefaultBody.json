@@ -1,0 +1,14 @@
+[
+  {
+    "id": "Please choose an existing content as source for this element",
+    "defaultMessage": "Please choose an existing content as source for this element"
+  },
+  {
+    "id": "moreInfo",
+    "defaultMessage": "More info"
+  },
+  {
+    "id": "Source",
+    "defaultMessage": "Source"
+  }
+]
