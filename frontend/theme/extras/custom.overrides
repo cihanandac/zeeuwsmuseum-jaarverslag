@@ -89,9 +89,14 @@ body {
 .ui.basic.segment.content-area {
   margin-top: 115px !important;
 }
-#sidebar,
-.sidebar-container {
-  /* margin-top: 60px !important; */
+
+#toolbar {
+  .header h2 {
+    width: 230px !important;
+  }
+  .pastanaga-menu-list ul {
+    max-width: 320px !important;
+  }
 }
 /* -------END OF GENERAL STUFF--------------- */
 
@@ -1066,7 +1071,9 @@ body.view-viewview.contenttype-plone-site.siteroot {
   }
 }
 @media only screen and (max-width: 1145px) {
-  #page-contents .ui.active.visible.item.dropdown.right.floating.selectIndex .left.menu {
+  #page-contents
+    .ui.active.visible.item.dropdown.right.floating.selectIndex
+    .left.menu {
     right: auto !important;
   }
 }

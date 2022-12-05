@@ -82,8 +82,6 @@ const Header = (props) => {
         </div>
       </Container>
 
-      {console.log(props.content)}
-
       {props.content != undefined ? 
         (props.content.['@type'] == 'Document' || props.content.['@type'] == 'slideshow' ?  <Breadcrumbs pathname={props.pathname} menuItems={props.menuItems}/> : '' )
             : ''}
