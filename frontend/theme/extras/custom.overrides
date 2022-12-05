@@ -1,6 +1,3 @@
-/* #header-wrapper{
-  max-width: inherit;
-} */
 /* ****************************************
 ************GENERAL STUFF *************
 ***************************************** */
@@ -71,8 +68,8 @@ table.ui.celled {
   margin-right: 25px;
 }
 #toolbar {
-  z-index: 100000;
-  /* position: absolute; */
+  z-index: 999;
+  position: absolute;
 }
 .documentFirstHeading,
 .documentFirstHeading::before {
@@ -1068,6 +1065,11 @@ body.view-viewview.contenttype-plone-site.siteroot {
     display: none;
   }
 }
+@media only screen and (max-width: 1145px) {
+  .ui.dropdown > .left.menu {
+    right: auto !important;
+  }
+}
 
 @media only screen and (max-width: 1584px) {
   dd.portletItem.odd {
@@ -1097,6 +1099,21 @@ body.view-viewview.contenttype-plone-site.siteroot {
       margin-right: 10px !important;
       margin-left: 10px !important;
     }
+  }
+}
+@media only screen and (min-width: 767px) {
+  .has-toolbar #view,
+  .has-toolbar #page-edit,
+  .has-toolbar #footer {
+    box-sizing: border-box;
+    padding-left: 80px;
+  }
+
+  .has-toolbar-collapsed #view,
+  .has-toolbar-collapsed #page-edit,
+  .has-toolbar-collapsed #footer {
+    box-sizing: border-box;
+    padding-left: 20px;
   }
 }
 

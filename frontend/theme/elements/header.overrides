@@ -32,8 +32,9 @@ a.logo-written {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 300ms;
   padding: 0px !important;
-  z-index: 99998 !important;
+  z-index: 998 !important;
 
+  
   /* height: 60px; */
 
   .ui.container.header-container {
@@ -52,6 +53,9 @@ a.logo-written {
     height: 25px !important;
   }
 }
+#header-wrapper .mobile-menu.mobile-menu-enter-done{
+    z-index: 9999;
+  }
 
 div.ui.basic.segment.header-wrapper.hide {
   top: -560px;
@@ -278,12 +282,12 @@ i.dropdown.icon::before {
 }
 
 body.has-toolbar .mobile-menu {
-  padding-top: 160px !important;
+  padding-top: 20px !important;
 }
 
-body.has-toolbar-collapsed .mobile-menu {
+/* body.has-toolbar-collapsed .mobile-menu {
   padding-top: 20px;
-}
+} */
 
 @media only screen and (max-width: 767px) {
   #writtenlogo {
