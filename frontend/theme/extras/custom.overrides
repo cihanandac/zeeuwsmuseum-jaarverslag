@@ -810,7 +810,7 @@ body.view-viewview.contenttype-plone-site.siteroot {
   font-family: 'UniversCn', Arial, sans-serif;
 }
 
-/* #content-core {
+#content-core {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row !important;
@@ -844,7 +844,7 @@ body.view-viewview.contenttype-plone-site.siteroot {
       width: 100%;
     }
   }
-} */
+}
 
 /* ********************************************************
 *********************END OF LIST VIEW*********** */

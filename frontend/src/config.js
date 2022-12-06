@@ -24,6 +24,8 @@ import {
   NutezienEditBlock,
   PhotoDescriptionViewBlock,
   PhotoDescriptionEditBlock,
+  StoryBlockViewBlock,
+  StoryBlockEditBlock,
 } from '@package/components';
 import sliderSVG from '@plone/volto/icons/slider.svg';
 import dotsSVG from '@plone/volto/icons/dots.svg';
@@ -105,6 +107,20 @@ export default function applyConfig(config) {
         addPermission: [],
         view: [],
       },
+    }),
+    (config.blocks.blocksConfig.storyblock = {
+      id: 'storyblock',
+      title: 'Story Block',
+      icon: editingSVG,
+      group: 'media',
+      view: StoryBlockViewBlock,
+      edit: StoryBlockEditBlock,
+      restricted: false,
+      mostUsed: false,
+      security: {
+        addPermission: [],
+        view: [],
+      },
     });
 
   // config.views = {
@@ -114,13 +130,12 @@ export default function applyConfig(config) {
   //     Folder: SliderPage
   //   },
 
-    // ...config.views,
-    // layoutViews: {
-    //   'listing_view': ListingView,
-    //   'default_view': DefaultView,
-    // },
+  // ...config.views,
+  // layoutViews: {
+  //   'listing_view': ListingView,
+  //   'default_view': DefaultView,
+  // },
   // };
-
 
   // Add here your project's configuration here by modifying `config` accordingly
   return config;

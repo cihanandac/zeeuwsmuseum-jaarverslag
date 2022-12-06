@@ -18,6 +18,8 @@ import NutezienViewBlock from './Blocks/Nutezien/View';
 import NutezienEditBlock from './Blocks/Nutezien/Edit';
 import PhotoDescriptionViewBlock from './Blocks/PhotoDescription/View';
 import PhotoDescriptionEditBlock from './Blocks/PhotoDescription/Edit';
+import StoryBlockViewBlock from './Blocks/StoryBlock/View'
+import StoryBlockEditBlock from './Blocks/StoryBlock/Edit';
 import SliderPage from './View/SliderPage';
 
 export {
@@ -29,5 +31,7 @@ export {
   NutezienEditBlock,
   PhotoDescriptionViewBlock,
   PhotoDescriptionEditBlock,
+  StoryBlockViewBlock,
+  StoryBlockEditBlock,
   SliderPage,
 };
