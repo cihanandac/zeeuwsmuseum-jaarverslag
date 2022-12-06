@@ -473,6 +473,9 @@ div#view {
     padding-right: 25px;
     padding-left: 25px;
   }
+  #page-contents{
+    padding-left: 50px !important;
+  }
   #page-contents .contents-table-wrapper {
     min-height: 500px;
   }
@@ -1114,14 +1117,16 @@ body.view-viewview.contenttype-plone-site.siteroot {
 @media only screen and (min-width: 767px) {
   .has-toolbar #view,
   .has-toolbar #page-edit,
-  .has-toolbar #footer {
+  .has-toolbar #footer,
+  .has-toolbar #page-add  {
     box-sizing: border-box;
     padding-left: 80px;
   }
 
   .has-toolbar-collapsed #view,
   .has-toolbar-collapsed #page-edit,
-  .has-toolbar-collapsed #footer {
+  .has-toolbar-collapsed #footer,
+  .has-toolbar-collapsed #page-add  {
     box-sizing: border-box;
     padding-left: 20px;
   }
