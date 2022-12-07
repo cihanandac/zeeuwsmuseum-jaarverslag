@@ -1134,9 +1134,14 @@ body.view-viewview.contenttype-plone-site.siteroot {
   .has-toolbar-collapsed #footer,
   .has-toolbar-collapsed #page-add,
   .has-toolbar-collapsed #header-wrapper,
+  .has-toolbar-collapsed #page-contents,
   .has-toolbar-collapsed #navigation .mobile-menu {
     box-sizing: border-box;
     padding-left: 20px !important;
+  }
+
+  #page-add div {
+    max-width: 1000px !important;
   }
 
   /* ------------------------
