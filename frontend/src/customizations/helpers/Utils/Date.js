@@ -83,7 +83,7 @@ export function formatRelativeDate({
   const pos = deltas.map(Math.round).findIndex((d) => d > 0);
   const tag = ['years', 'months', 'days', 'hours', 'minutes', 'seconds'][pos];
 
-  const formatter = new Intl.RelativeTimeFormat(locale, {
+  const formatter = new Intl.RelativeTimeFormat('en-nl', {
     numeric: 'auto',
     style,
   });
