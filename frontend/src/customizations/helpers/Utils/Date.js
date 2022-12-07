@@ -47,6 +47,8 @@ export function formatDate({
     ? short_date_and_time_format
     : short_date_format;
 
+    // 'en-nl'
+
   const formatter = new Intl.DateTimeFormat('en-nl', format);
   return formatToParts ? formatter.formatToParts(date) : formatter.format(date);
 }
