@@ -67,7 +67,7 @@ div.ui.pointing.secondary.stackable {
   letter-spacing: 0.1em;
 }
 
-.view-viewview div.menu.transition {
+div.menu.transition {
   font-family: 'UniversLight', Arial, sans-serif;
   right: 0% !important;
   left: auto !important;
