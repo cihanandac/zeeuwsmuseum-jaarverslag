@@ -2,229 +2,259 @@
   "errors": [],
   "warnings": [],
   "version": "4.46.0",
-  "hash": "9648daa0c3cc15a6005e",
-  "publicPath": "http://localhost:3001/",
+  "hash": "739c4c827b2d826dfd82",
+  "publicPath": "/",
   "outputPath": "/Users/cihanandac/Documents/Code files/zeeuwsmuseumproject/frontend/build/public",
   "assetsByChunkName": {
     "client": [
-      "static/js/client.chunk.js",
-      "static/js/client.chunk.js.map"
-    ],
-    "draft-js-block-breakout-plugin": [
-      "static/js/draft-js-block-breakout-plugin.chunk.js",
-      "static/js/draft-js-block-breakout-plugin.chunk.js.map"
-    ],
-    "draft-js-buttons-lib-utils-createBlockStyleButton": [
-      "static/js/draft-js-buttons-lib-utils-createBlockStyleButton.chunk.js",
-      "static/js/draft-js-buttons-lib-utils-createBlockStyleButton.chunk.js.map"
-    ],
-    "draft-js-buttons-lib-utils-createInlineStyleButton": [
-      "static/js/draft-js-buttons-lib-utils-createInlineStyleButton.chunk.js",
-      "static/js/draft-js-buttons-lib-utils-createInlineStyleButton.chunk.js.map"
+      "static/js/client.2c9dbb4b.chunk.js",
+      "static/js/client.2c9dbb4b.chunk.js.map"
     ],
     "draft-js-lib-isSoftNewlineEvent": [
-      "static/js/draft-js-lib-isSoftNewlineEvent.chunk.js",
-      "static/js/draft-js-lib-isSoftNewlineEvent.chunk.js.map"
+      "static/js/draft-js-lib-isSoftNewlineEvent.1d0a3597.chunk.js",
+      "static/js/draft-js-lib-isSoftNewlineEvent.1d0a3597.chunk.js.map"
     ],
-    "draft-js-plugins-utils": [
-      "static/js/draft-js-plugins-utils.chunk.js",
-      "static/js/draft-js-plugins-utils.chunk.js.map"
+    "plone-volto-components-manage-Widgets-DatetimeWidget": [
+      "static/css/plone-volto-components-manage-Widgets-DatetimeWidget.ae593f2f.chunk.css",
+      "static/js/plone-volto-components-manage-Widgets-DatetimeWidget.ae593f2f.chunk.js",
+      "static/js/plone-volto-components-manage-Widgets-DatetimeWidget.ae593f2f.chunk.js.map"
     ],
     "plone-volto-components-theme-View-EventView": [
-      "static/js/plone-volto-components-theme-View-EventView.chunk.js",
-      "static/js/plone-volto-components-theme-View-EventView.chunk.js.map"
+      "static/js/plone-volto-components-theme-View-EventView.ee6e940d.chunk.js",
+      "static/js/plone-volto-components-theme-View-EventView.ee6e940d.chunk.js.map"
     ],
-    "react-select": [
-      "static/js/react-select.chunk.js",
-      "static/js/react-select.chunk.js.map"
-    ],
-    "react-select-async": [
-      "static/js/react-select-async.chunk.js",
-      "static/js/react-select-async.chunk.js.map"
-    ],
-    "react-select-creatable": [
-      "static/js/react-select-creatable.chunk.js",
-      "static/js/react-select-creatable.chunk.js.map"
+    "react-simple-code-editor": [
+      "static/js/react-simple-code-editor.59daa88c.chunk.js",
+      "static/js/react-simple-code-editor.59daa88c.chunk.js.map"
     ],
     "runtime~client": [
-      "static/js/runtime~client.js",
-      "static/js/runtime~client.js.map"
-    ],
-    "vendors~PDFViewer": [
-      "static/js/vendors~PDFViewer.chunk.js",
-      "static/js/vendors~PDFViewer.chunk.js.map"
-    ],
-    "vendors~client": [
-      "static/js/vendors~client.chunk.js",
-      "static/js/vendors~client.chunk.js.map"
-    ],
-    "vendors~diff": [
-      "static/js/vendors~diff.chunk.js",
-      "static/js/vendors~diff.chunk.js.map"
-    ],
-    "vendors~draft-js-import-html": [
-      "static/js/vendors~draft-js-import-html.chunk.js",
-      "static/js/vendors~draft-js-import-html.chunk.js.map"
-    ],
-    "vendors~draft-js-inline-toolbar-plugin": [
-      "static/js/vendors~draft-js-inline-toolbar-plugin.chunk.js",
-      "static/js/vendors~draft-js-inline-toolbar-plugin.chunk.js.map"
-    ],
-    "vendors~draft-js-plugins-editor": [
-      "static/js/vendors~draft-js-plugins-editor.chunk.js",
-      "static/js/vendors~draft-js-plugins-editor.chunk.js.map"
-    ],
-    "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46": [
-      "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js",
-      "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js.map"
-    ],
-    "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71": [
-      "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js",
-      "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js.map"
-    ],
-    "vendors~draftjs-filters": [
-      "static/js/vendors~draftjs-filters.chunk.js",
-      "static/js/vendors~draftjs-filters.chunk.js.map"
-    ],
-    "vendors~plone-volto-components-manage-Widgets-DatetimeWidget~plone-volto-components-manage-Widgets-R~a875f490": [
-      "static/js/vendors~plone-volto-components-manage-Widgets-DatetimeWidget~plone-volto-components-manage-Widgets-R~a875f490.chunk.js",
-      "static/js/vendors~plone-volto-components-manage-Widgets-DatetimeWidget~plone-volto-components-manage-Widgets-R~a875f490.chunk.js.map"
-    ],
-    "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget": [
-      "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget.chunk.js",
-      "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget.chunk.js.map"
-    ],
-    "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314": [
-      "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314.chunk.js",
-      "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314.chunk.js.map"
-    ],
-    "vendors~prettier-parser-html": [
-      "static/js/vendors~prettier-parser-html.chunk.js",
-      "static/js/vendors~prettier-parser-html.chunk.js.map"
-    ],
-    "vendors~prettier-standalone": [
-      "static/js/vendors~prettier-standalone.chunk.js",
-      "static/js/vendors~prettier-standalone.chunk.js.map"
-    ],
-    "vendors~prismjs-components-prism-core": [
-      "static/js/vendors~prismjs-components-prism-core.chunk.js",
-      "static/js/vendors~prismjs-components-prism-core.chunk.js.map"
-    ],
-    "vendors~rc-time-picker": [
-      "static/js/vendors~rc-time-picker.chunk.js",
-      "static/js/vendors~rc-time-picker.chunk.js.map"
-    ],
-    "vendors~react-beautiful-dnd": [
-      "static/js/vendors~react-beautiful-dnd.chunk.js",
-      "static/js/vendors~react-beautiful-dnd.chunk.js.map"
-    ],
-    "vendors~react-color": [
-      "static/js/vendors~react-color.chunk.js",
-      "static/js/vendors~react-color.chunk.js.map"
-    ],
-    "vendors~react-color-lib-Github": [
-      "static/js/vendors~react-color-lib-Github.chunk.js",
-      "static/js/vendors~react-color-lib-Github.chunk.js.map"
-    ],
-    "vendors~react-color~react-color-lib-Github": [
-      "static/js/vendors~react-color~react-color-lib-Github.chunk.js",
-      "static/js/vendors~react-color~react-color-lib-Github.chunk.js.map"
-    ],
-    "vendors~react-dates": [
-      "static/js/vendors~react-dates.chunk.js",
-      "static/js/vendors~react-dates.chunk.js.map"
-    ],
-    "vendors~react-dnd": [
-      "static/js/vendors~react-dnd.chunk.js",
-      "static/js/vendors~react-dnd.chunk.js.map"
-    ],
-    "vendors~react-dnd-html5-backend": [
-      "static/js/vendors~react-dnd-html5-backend.chunk.js",
-      "static/js/vendors~react-dnd-html5-backend.chunk.js.map"
-    ],
-    "vendors~react-image-gallery": [
-      "static/js/vendors~react-image-gallery.chunk.js",
-      "static/js/vendors~react-image-gallery.chunk.js.map"
-    ],
-    "vendors~react-select-async-creatable": [
-      "static/js/vendors~react-select-async-creatable.chunk.js",
-      "static/js/vendors~react-select-async-creatable.chunk.js.map"
-    ],
-    "vendors~react-select-async-paginate": [
-      "static/js/vendors~react-select-async-paginate.chunk.js",
-      "static/js/vendors~react-select-async-paginate.chunk.js.map"
-    ],
-    "vendors~react-simple-code-editor": [
-      "static/js/vendors~react-simple-code-editor.chunk.js",
-      "static/js/vendors~react-simple-code-editor.chunk.js.map"
-    ],
-    "vendors~react-sortable-hoc": [
-      "static/js/vendors~react-sortable-hoc.chunk.js",
-      "static/js/vendors~react-sortable-hoc.chunk.js.map"
-    ],
-    "vendors~react-window": [
-      "static/js/vendors~react-window.chunk.js",
-      "static/js/vendors~react-window.chunk.js.map"
+      "static/js/runtime~client.36f71599.js",
+      "static/js/runtime~client.36f71599.js.map"
     ]
   },
   "assets": [
     {
-      "name": "static/js/0.chunk.js",
-      "size": 59213,
-      "chunks": [
-        0
-      ],
+      "name": "android-chrome-192x192.png",
+      "size": 8295,
+      "chunks": [],
       "chunkNames": [],
       "info": {},
       "emitted": false
     },
     {
-      "name": "static/js/0.chunk.js.map",
-      "size": 100,
-      "chunks": [
-        0
-      ],
-      "chunkNames": [],
-      "info": {
-        "development": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "static/js/1.chunk.js",
-      "size": 56128,
-      "chunks": [
-        1
-      ],
+      "name": "android-chrome-512x512.png",
+      "size": 23153,
+      "chunks": [],
       "chunkNames": [],
       "info": {},
       "emitted": false
     },
     {
-      "name": "static/js/1.chunk.js.map",
-      "size": 100,
-      "chunks": [
-        1
-      ],
+      "name": "apple-touch-icon.png",
+      "size": 7973,
+      "chunks": [],
       "chunkNames": [],
-      "info": {
-        "development": true
-      },
+      "info": {},
       "emitted": false
     },
     {
-      "name": "static/js/10.chunk.js",
-      "size": 54858,
+      "name": "favicon-16x16.png",
+      "size": 1012,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "favicon-32x32.png",
+      "size": 1618,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "favicon.ico",
+      "size": 15086,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "icon.svg",
+      "size": 1401,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "index.html.spa",
+      "size": 1316,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "robots.txt",
+      "size": 15,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "site.webmanifest",
+      "size": 426,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/css/10.97b2204c.chunk.css",
+      "size": 855748,
       "chunks": [
         10
       ],
       "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/css/10.97b2204c.chunk.css.map",
+      "size": 4457360,
+      "chunks": [],
+      "chunkNames": [],
       "info": {},
       "emitted": false
     },
     {
-      "name": "static/js/10.chunk.js.map",
-      "size": 101,
+      "name": "static/css/2.60ec4c8c.chunk.css",
+      "size": 2717,
+      "chunks": [
+        2,
+        6
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/css/2.60ec4c8c.chunk.css.map",
+      "size": 4909,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/css/plone-volto-components-manage-Widgets-DatetimeWidget.ae593f2f.chunk.css",
+      "size": 2768,
+      "chunks": [
+        6
+      ],
+      "chunkNames": [
+        "plone-volto-components-manage-Widgets-DatetimeWidget"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/css/plone-volto-components-manage-Widgets-DatetimeWidget.ae593f2f.chunk.css.map",
+      "size": 4960,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/js/0.6592cd5a.chunk.js",
+      "size": 56966,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/0.6592cd5a.chunk.js.map",
+      "size": 236222,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/1.c430f617.chunk.js",
+      "size": 202270,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/1.c430f617.chunk.js.LICENSE.txt",
+      "size": 232,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/js/1.c430f617.chunk.js.map",
+      "size": 916632,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/10.97b2204c.chunk.js",
+      "size": 2807056,
+      "chunks": [
+        10
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/10.97b2204c.chunk.js.LICENSE.txt",
+      "size": 4164,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/js/10.97b2204c.chunk.js.map",
+      "size": 13435542,
       "chunks": [
         10
       ],
@@ -235,42 +265,22 @@
       "emitted": false
     },
     {
-      "name": "static/js/11.chunk.js",
-      "size": 5152,
-      "chunks": [
-        11
-      ],
-      "chunkNames": [],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/11.chunk.js.map",
-      "size": 6606,
+      "name": "static/js/11.d30c9f48.chunk.js",
+      "size": 210809,
       "chunks": [
         11
       ],
       "chunkNames": [],
       "info": {
-        "development": true
+        "immutable": true
       },
       "emitted": false
     },
     {
-      "name": "static/js/2.chunk.js",
-      "size": 54756,
+      "name": "static/js/11.d30c9f48.chunk.js.map",
+      "size": 765357,
       "chunks": [
-        2
-      ],
-      "chunkNames": [],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/2.chunk.js.map",
-      "size": 100,
-      "chunks": [
-        2
+        11
       ],
       "chunkNames": [],
       "info": {
@@ -279,18 +289,486 @@
       "emitted": false
     },
     {
-      "name": "static/js/3.chunk.js",
-      "size": 53308,
+      "name": "static/js/12.f8abf3de.chunk.js",
+      "size": 42921,
+      "chunks": [
+        12
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/12.f8abf3de.chunk.js.map",
+      "size": 157030,
+      "chunks": [
+        12
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/13.7387d019.chunk.js",
+      "size": 62443,
+      "chunks": [
+        13
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/13.7387d019.chunk.js.map",
+      "size": 191437,
+      "chunks": [
+        13
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/14.5ae0cd8a.chunk.js",
+      "size": 18539,
+      "chunks": [
+        14
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/14.5ae0cd8a.chunk.js.map",
+      "size": 66513,
+      "chunks": [
+        14
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/15.04f740b3.chunk.js",
+      "size": 83196,
+      "chunks": [
+        15
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/15.04f740b3.chunk.js.map",
+      "size": 313169,
+      "chunks": [
+        15
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/16.4d5e73f8.chunk.js",
+      "size": 77287,
+      "chunks": [
+        16
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/16.4d5e73f8.chunk.js.map",
+      "size": 249160,
+      "chunks": [
+        16
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/17.de96f83c.chunk.js",
+      "size": 372481,
+      "chunks": [
+        17
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/17.de96f83c.chunk.js.LICENSE.txt",
+      "size": 795,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/js/17.de96f83c.chunk.js.map",
+      "size": 1382085,
+      "chunks": [
+        17
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/18.623ee7b7.chunk.js",
+      "size": 90454,
+      "chunks": [
+        18
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/18.623ee7b7.chunk.js.map",
+      "size": 388740,
+      "chunks": [
+        18
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/19.e6ddd357.chunk.js",
+      "size": 27953,
+      "chunks": [
+        19
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/19.e6ddd357.chunk.js.map",
+      "size": 106037,
+      "chunks": [
+        19
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/2.60ec4c8c.chunk.js",
+      "size": 147438,
+      "chunks": [
+        2,
+        6
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/2.60ec4c8c.chunk.js.map",
+      "size": 567190,
+      "chunks": [
+        2,
+        6
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/20.07e4795e.chunk.js",
+      "size": 39444,
+      "chunks": [
+        20
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/20.07e4795e.chunk.js.map",
+      "size": 107,
+      "chunks": [
+        20
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/21.c5df0062.chunk.js",
+      "size": 36074,
+      "chunks": [
+        21
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/21.c5df0062.chunk.js.map",
+      "size": 107,
+      "chunks": [
+        21
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/22.e0652d73.chunk.js",
+      "size": 36761,
+      "chunks": [
+        22
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/22.e0652d73.chunk.js.map",
+      "size": 107,
+      "chunks": [
+        22
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/23.921b5669.chunk.js",
+      "size": 34616,
+      "chunks": [
+        23
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/23.921b5669.chunk.js.map",
+      "size": 107,
+      "chunks": [
+        23
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/24.f5978dce.chunk.js",
+      "size": 30365,
+      "chunks": [
+        24
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/24.f5978dce.chunk.js.map",
+      "size": 107,
+      "chunks": [
+        24
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/25.64038bfd.chunk.js",
+      "size": 36461,
+      "chunks": [
+        25
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/25.64038bfd.chunk.js.map",
+      "size": 107,
+      "chunks": [
+        25
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/26.7ab10926.chunk.js",
+      "size": 49581,
+      "chunks": [
+        26
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/26.7ab10926.chunk.js.map",
+      "size": 107,
+      "chunks": [
+        26
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/27.b10a2bcd.chunk.js",
+      "size": 23270,
+      "chunks": [
+        27
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/27.b10a2bcd.chunk.js.map",
+      "size": 107,
+      "chunks": [
+        27
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/28.5eef6ba7.chunk.js",
+      "size": 26298,
+      "chunks": [
+        28
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/28.5eef6ba7.chunk.js.map",
+      "size": 107,
+      "chunks": [
+        28
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/29.a126e81e.chunk.js",
+      "size": 34722,
+      "chunks": [
+        29
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/29.a126e81e.chunk.js.map",
+      "size": 107,
+      "chunks": [
+        29
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/3.704c0117.chunk.js",
+      "size": 21525,
       "chunks": [
         3
       ],
       "chunkNames": [],
-      "info": {},
+      "info": {
+        "immutable": true
+      },
       "emitted": false
     },
     {
-      "name": "static/js/3.chunk.js.map",
-      "size": 100,
+      "name": "static/js/3.704c0117.chunk.js.map",
+      "size": 86601,
       "chunks": [
         3
       ],
@@ -301,1171 +779,391 @@
       "emitted": false
     },
     {
-      "name": "static/js/4.chunk.js",
-      "size": 48372,
+      "name": "static/js/30.7d4dcddc.chunk.js",
+      "size": 39554,
+      "chunks": [
+        30
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/30.7d4dcddc.chunk.js.map",
+      "size": 107,
+      "chunks": [
+        30
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/31.488f022d.chunk.js",
+      "size": 18507,
+      "chunks": [
+        31
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/31.488f022d.chunk.js.LICENSE.txt",
+      "size": 1604,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/js/31.488f022d.chunk.js.map",
+      "size": 217793,
+      "chunks": [
+        31
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/32.f9d86053.chunk.js",
+      "size": 109416,
+      "chunks": [
+        32
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/32.f9d86053.chunk.js.LICENSE.txt",
+      "size": 221,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/js/32.f9d86053.chunk.js.map",
+      "size": 243987,
+      "chunks": [
+        32
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/33.ee04c492.chunk.js",
+      "size": 459985,
+      "chunks": [
+        33
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/33.ee04c492.chunk.js.LICENSE.txt",
+      "size": 833,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/js/33.ee04c492.chunk.js.map",
+      "size": 1718934,
+      "chunks": [
+        33
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/34.cd0e7ca8.chunk.js",
+      "size": 7633,
+      "chunks": [
+        34
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/34.cd0e7ca8.chunk.js.LICENSE.txt",
+      "size": 193,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/js/34.cd0e7ca8.chunk.js.map",
+      "size": 54989,
+      "chunks": [
+        34
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/35.9cd8303b.chunk.js",
+      "size": 2980,
+      "chunks": [
+        35
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/35.9cd8303b.chunk.js.map",
+      "size": 7908,
+      "chunks": [
+        35
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/36.6d64ad52.chunk.js",
+      "size": 49215,
+      "chunks": [
+        36
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/36.6d64ad52.chunk.js.map",
+      "size": 107975,
+      "chunks": [
+        36
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/37.7d34f297.chunk.js",
+      "size": 24536,
+      "chunks": [
+        37
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/37.7d34f297.chunk.js.map",
+      "size": 120888,
+      "chunks": [
+        37
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/client.2c9dbb4b.chunk.js",
+      "size": 51611,
       "chunks": [
         4
       ],
-      "chunkNames": [],
-      "info": {},
+      "chunkNames": [
+        "client"
+      ],
+      "info": {
+        "immutable": true
+      },
       "emitted": false
     },
     {
-      "name": "static/js/4.chunk.js.map",
-      "size": 100,
+      "name": "static/js/client.2c9dbb4b.chunk.js.map",
+      "size": 125093,
       "chunks": [
         4
       ],
-      "chunkNames": [],
+      "chunkNames": [
+        "client"
+      ],
       "info": {
         "development": true
       },
       "emitted": false
     },
     {
-      "name": "static/js/5.chunk.js",
-      "size": 55101,
+      "name": "static/js/draft-js-lib-isSoftNewlineEvent.1d0a3597.chunk.js",
+      "size": 596,
       "chunks": [
         5
       ],
-      "chunkNames": [],
-      "info": {},
+      "chunkNames": [
+        "draft-js-lib-isSoftNewlineEvent"
+      ],
+      "info": {
+        "immutable": true
+      },
       "emitted": false
     },
     {
-      "name": "static/js/5.chunk.js.map",
-      "size": 100,
+      "name": "static/js/draft-js-lib-isSoftNewlineEvent.1d0a3597.chunk.js.map",
+      "size": 2077,
       "chunks": [
         5
       ],
-      "chunkNames": [],
+      "chunkNames": [
+        "draft-js-lib-isSoftNewlineEvent"
+      ],
       "info": {
         "development": true
       },
       "emitted": false
     },
     {
-      "name": "static/js/6.chunk.js",
-      "size": 54168,
+      "name": "static/js/plone-volto-components-manage-Widgets-DatetimeWidget.ae593f2f.chunk.js",
+      "size": 5053,
       "chunks": [
         6
       ],
-      "chunkNames": [],
-      "info": {},
+      "chunkNames": [
+        "plone-volto-components-manage-Widgets-DatetimeWidget"
+      ],
+      "info": {
+        "immutable": true
+      },
       "emitted": false
     },
     {
-      "name": "static/js/6.chunk.js.map",
-      "size": 100,
+      "name": "static/js/plone-volto-components-manage-Widgets-DatetimeWidget.ae593f2f.chunk.js.map",
+      "size": 12455,
       "chunks": [
         6
       ],
-      "chunkNames": [],
+      "chunkNames": [
+        "plone-volto-components-manage-Widgets-DatetimeWidget"
+      ],
       "info": {
         "development": true
       },
       "emitted": false
     },
     {
-      "name": "static/js/7.chunk.js",
-      "size": 42273,
+      "name": "static/js/plone-volto-components-theme-View-EventView.ee6e940d.chunk.js",
+      "size": 2200,
       "chunks": [
         7
       ],
-      "chunkNames": [],
-      "info": {},
+      "chunkNames": [
+        "plone-volto-components-theme-View-EventView"
+      ],
+      "info": {
+        "immutable": true
+      },
       "emitted": false
     },
     {
-      "name": "static/js/7.chunk.js.map",
-      "size": 100,
+      "name": "static/js/plone-volto-components-theme-View-EventView.ee6e940d.chunk.js.map",
+      "size": 4955,
       "chunks": [
         7
       ],
-      "chunkNames": [],
+      "chunkNames": [
+        "plone-volto-components-theme-View-EventView"
+      ],
       "info": {
         "development": true
       },
       "emitted": false
     },
     {
-      "name": "static/js/8.chunk.js",
-      "size": 44541,
+      "name": "static/js/react-simple-code-editor.59daa88c.chunk.js",
+      "size": 8911,
       "chunks": [
         8
       ],
-      "chunkNames": [],
-      "info": {},
+      "chunkNames": [
+        "react-simple-code-editor"
+      ],
+      "info": {
+        "immutable": true
+      },
       "emitted": false
     },
     {
-      "name": "static/js/8.chunk.js.map",
-      "size": 100,
+      "name": "static/js/react-simple-code-editor.59daa88c.chunk.js.map",
+      "size": 32982,
       "chunks": [
         8
       ],
-      "chunkNames": [],
+      "chunkNames": [
+        "react-simple-code-editor"
+      ],
       "info": {
         "development": true
       },
       "emitted": false
     },
     {
-      "name": "static/js/9.chunk.js",
-      "size": 52419,
+      "name": "static/js/runtime~client.36f71599.js",
+      "size": 4521,
       "chunks": [
         9
       ],
-      "chunkNames": [],
-      "info": {},
+      "chunkNames": [
+        "runtime~client"
+      ],
+      "info": {
+        "immutable": true
+      },
       "emitted": false
     },
     {
-      "name": "static/js/9.chunk.js.map",
-      "size": 100,
+      "name": "static/js/runtime~client.36f71599.js.map",
+      "size": 18439,
       "chunks": [
         9
       ],
-      "chunkNames": [],
-      "info": {
-        "development": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "static/js/client.chunk.js",
-      "size": 276239,
-      "chunks": [
-        "client"
-      ],
-      "chunkNames": [
-        "client"
-      ],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/client.chunk.js.map",
-      "size": 127471,
-      "chunks": [
-        "client"
-      ],
-      "chunkNames": [
-        "client"
-      ],
-      "info": {
-        "development": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "static/js/draft-js-block-breakout-plugin.chunk.js",
-      "size": 5663,
-      "chunks": [
-        "draft-js-block-breakout-plugin"
-      ],
-      "chunkNames": [
-        "draft-js-block-breakout-plugin"
-      ],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/draft-js-block-breakout-plugin.chunk.js.map",
-      "size": 5984,
-      "chunks": [
-        "draft-js-block-breakout-plugin"
-      ],
-      "chunkNames": [
-        "draft-js-block-breakout-plugin"
-      ],
-      "info": {
-        "development": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "static/js/draft-js-buttons-lib-utils-createBlockStyleButton.chunk.js",
-      "size": 5996,
-      "chunks": [
-        "draft-js-buttons-lib-utils-createBlockStyleButton"
-      ],
-      "chunkNames": [
-        "draft-js-buttons-lib-utils-createBlockStyleButton"
-      ],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/draft-js-buttons-lib-utils-createBlockStyleButton.chunk.js.map",
-      "size": 5933,
-      "chunks": [
-        "draft-js-buttons-lib-utils-createBlockStyleButton"
-      ],
-      "chunkNames": [
-        "draft-js-buttons-lib-utils-createBlockStyleButton"
-      ],
-      "info": {
-        "development": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "static/js/draft-js-buttons-lib-utils-createInlineStyleButton.chunk.js",
-      "size": 5873,
-      "chunks": [
-        "draft-js-buttons-lib-utils-createInlineStyleButton"
-      ],
-      "chunkNames": [
-        "draft-js-buttons-lib-utils-createInlineStyleButton"
-      ],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/draft-js-buttons-lib-utils-createInlineStyleButton.chunk.js.map",
-      "size": 5782,
-      "chunks": [
-        "draft-js-buttons-lib-utils-createInlineStyleButton"
-      ],
-      "chunkNames": [
-        "draft-js-buttons-lib-utils-createInlineStyleButton"
-      ],
-      "info": {
-        "development": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "static/js/draft-js-lib-isSoftNewlineEvent.chunk.js",
-      "size": 2000,
-      "chunks": [
-        "draft-js-lib-isSoftNewlineEvent"
-      ],
-      "chunkNames": [
-        "draft-js-lib-isSoftNewlineEvent"
-      ],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/draft-js-lib-isSoftNewlineEvent.chunk.js.map",
-      "size": 1845,
-      "chunks": [
-        "draft-js-lib-isSoftNewlineEvent"
-      ],
-      "chunkNames": [
-        "draft-js-lib-isSoftNewlineEvent"
-      ],
-      "info": {
-        "development": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "static/js/draft-js-plugins-utils.chunk.js",
-      "size": 2565,
-      "chunks": [
-        "draft-js-plugins-utils"
-      ],
-      "chunkNames": [
-        "draft-js-plugins-utils"
-      ],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/draft-js-plugins-utils.chunk.js.map",
-      "size": 2526,
-      "chunks": [
-        "draft-js-plugins-utils"
-      ],
-      "chunkNames": [
-        "draft-js-plugins-utils"
-      ],
-      "info": {
-        "development": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "static/js/plone-volto-components-theme-View-EventView.chunk.js",
-      "size": 10105,
-      "chunks": [
-        "plone-volto-components-theme-View-EventView"
-      ],
-      "chunkNames": [
-        "plone-volto-components-theme-View-EventView"
-      ],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/plone-volto-components-theme-View-EventView.chunk.js.map",
-      "size": 4359,
-      "chunks": [
-        "plone-volto-components-theme-View-EventView"
-      ],
-      "chunkNames": [
-        "plone-volto-components-theme-View-EventView"
-      ],
-      "info": {
-        "development": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "static/js/react-select-async.chunk.js",
-      "size": 17774,
-      "chunks": [
-        "react-select-async"
-      ],
-      "chunkNames": [
-        "react-select-async"
-      ],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/react-select-async.chunk.js.map",
-      "size": 12417,
-      "chunks": [
-        "react-select-async"
-      ],
-      "chunkNames": [
-        "react-select-async"
-      ],
-      "info": {
-        "development": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "static/js/react-select-creatable.chunk.js",
-      "size": 12305,
-      "chunks": [
-        "react-select-creatable"
-      ],
-      "chunkNames": [
-        "react-select-creatable"
-      ],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/react-select-creatable.chunk.js.map",
-      "size": 7963,
-      "chunks": [
-        "react-select-creatable"
-      ],
-      "chunkNames": [
-        "react-select-creatable"
-      ],
-      "info": {
-        "development": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "static/js/react-select.chunk.js",
-      "size": 13442,
-      "chunks": [
-        "react-select"
-      ],
-      "chunkNames": [
-        "react-select"
-      ],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/react-select.chunk.js.map",
-      "size": 6324,
-      "chunks": [
-        "react-select"
-      ],
-      "chunkNames": [
-        "react-select"
-      ],
-      "info": {
-        "development": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "static/js/runtime~client.js",
-      "size": 40987,
-      "chunks": [
-        "runtime~client"
-      ],
       "chunkNames": [
         "runtime~client"
-      ],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/runtime~client.js.map",
-      "size": 42559,
-      "chunks": [
-        "runtime~client"
-      ],
-      "chunkNames": [
-        "runtime~client"
-      ],
-      "info": {
-        "development": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~PDFViewer.chunk.js",
-      "size": 849800,
-      "chunks": [
-        "vendors~PDFViewer"
-      ],
-      "chunkNames": [
-        "vendors~PDFViewer"
-      ],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~PDFViewer.chunk.js.map",
-      "size": 1007968,
-      "chunks": [
-        "vendors~PDFViewer"
-      ],
-      "chunkNames": [
-        "vendors~PDFViewer"
-      ],
-      "info": {
-        "development": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~client.chunk.js",
-      "size": 25242021,
-      "chunks": [
-        "vendors~client"
-      ],
-      "chunkNames": [
-        "vendors~client"
-      ],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~client.chunk.js.map",
-      "size": 21731536,
-      "chunks": [
-        "vendors~client"
-      ],
-      "chunkNames": [
-        "vendors~client"
-      ],
-      "info": {
-        "development": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~diff.chunk.js",
-      "size": 184435,
-      "chunks": [
-        "vendors~diff"
-      ],
-      "chunkNames": [
-        "vendors~diff"
-      ],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~diff.chunk.js.map",
-      "size": 197053,
-      "chunks": [
-        "vendors~diff"
-      ],
-      "chunkNames": [
-        "vendors~diff"
-      ],
-      "info": {
-        "development": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~draft-js-import-html.chunk.js",
-      "size": 58279,
-      "chunks": [
-        "vendors~draft-js-import-html"
-      ],
-      "chunkNames": [
-        "vendors~draft-js-import-html"
-      ],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~draft-js-import-html.chunk.js.map",
-      "size": 50709,
-      "chunks": [
-        "vendors~draft-js-import-html"
-      ],
-      "chunkNames": [
-        "vendors~draft-js-import-html"
-      ],
-      "info": {
-        "development": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~draft-js-inline-toolbar-plugin.chunk.js",
-      "size": 58888,
-      "chunks": [
-        "vendors~draft-js-inline-toolbar-plugin"
-      ],
-      "chunkNames": [
-        "vendors~draft-js-inline-toolbar-plugin"
-      ],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~draft-js-inline-toolbar-plugin.chunk.js.map",
-      "size": 53283,
-      "chunks": [
-        "vendors~draft-js-inline-toolbar-plugin"
-      ],
-      "chunkNames": [
-        "vendors~draft-js-inline-toolbar-plugin"
-      ],
-      "info": {
-        "development": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~draft-js-plugins-editor.chunk.js",
-      "size": 33973,
-      "chunks": [
-        "vendors~draft-js-plugins-editor"
-      ],
-      "chunkNames": [
-        "vendors~draft-js-plugins-editor"
-      ],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~draft-js-plugins-editor.chunk.js.map",
-      "size": 34080,
-      "chunks": [
-        "vendors~draft-js-plugins-editor"
-      ],
-      "chunkNames": [
-        "vendors~draft-js-plugins-editor"
-      ],
-      "info": {
-        "development": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js",
-      "size": 571658,
-      "chunks": [
-        "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46"
-      ],
-      "chunkNames": [
-        "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46"
-      ],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js.map",
-      "size": 602248,
-      "chunks": [
-        "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46"
-      ],
-      "chunkNames": [
-        "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46"
-      ],
-      "info": {
-        "development": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js",
-      "size": 143068,
-      "chunks": [
-        "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71"
-      ],
-      "chunkNames": [
-        "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71"
-      ],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js.map",
-      "size": 172770,
-      "chunks": [
-        "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71"
-      ],
-      "chunkNames": [
-        "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71"
-      ],
-      "info": {
-        "development": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~draftjs-filters.chunk.js",
-      "size": 26796,
-      "chunks": [
-        "vendors~draftjs-filters"
-      ],
-      "chunkNames": [
-        "vendors~draftjs-filters"
-      ],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~draftjs-filters.chunk.js.map",
-      "size": 27892,
-      "chunks": [
-        "vendors~draftjs-filters"
-      ],
-      "chunkNames": [
-        "vendors~draftjs-filters"
-      ],
-      "info": {
-        "development": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~plone-volto-components-manage-Widgets-DatetimeWidget~plone-volto-components-manage-Widgets-R~a875f490.chunk.js",
-      "size": 26081,
-      "chunks": [
-        "vendors~plone-volto-components-manage-Widgets-DatetimeWidget~plone-volto-components-manage-Widgets-R~a875f490"
-      ],
-      "chunkNames": [
-        "vendors~plone-volto-components-manage-Widgets-DatetimeWidget~plone-volto-components-manage-Widgets-R~a875f490"
-      ],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~plone-volto-components-manage-Widgets-DatetimeWidget~plone-volto-components-manage-Widgets-R~a875f490.chunk.js.map",
-      "size": 16730,
-      "chunks": [
-        "vendors~plone-volto-components-manage-Widgets-DatetimeWidget~plone-volto-components-manage-Widgets-R~a875f490"
-      ],
-      "chunkNames": [
-        "vendors~plone-volto-components-manage-Widgets-DatetimeWidget~plone-volto-components-manage-Widgets-R~a875f490"
-      ],
-      "info": {
-        "development": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget.chunk.js",
-      "size": 144335,
-      "chunks": [
-        "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget"
-      ],
-      "chunkNames": [
-        "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget"
-      ],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget.chunk.js.map",
-      "size": 85095,
-      "chunks": [
-        "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget"
-      ],
-      "chunkNames": [
-        "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget"
-      ],
-      "info": {
-        "development": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314.chunk.js",
-      "size": 290483,
-      "chunks": [
-        "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314"
-      ],
-      "chunkNames": [
-        "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314"
-      ],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314.chunk.js.map",
-      "size": 278429,
-      "chunks": [
-        "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314"
-      ],
-      "chunkNames": [
-        "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314"
-      ],
-      "info": {
-        "development": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~prettier-parser-html.chunk.js",
-      "size": 105706,
-      "chunks": [
-        "vendors~prettier-parser-html"
-      ],
-      "chunkNames": [
-        "vendors~prettier-parser-html"
-      ],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~prettier-parser-html.chunk.js.map",
-      "size": 112788,
-      "chunks": [
-        "vendors~prettier-parser-html"
-      ],
-      "chunkNames": [
-        "vendors~prettier-parser-html"
-      ],
-      "info": {
-        "development": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~prettier-standalone.chunk.js",
-      "size": 1068976,
-      "chunks": [
-        "vendors~prettier-standalone"
-      ],
-      "chunkNames": [
-        "vendors~prettier-standalone"
-      ],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~prettier-standalone.chunk.js.map",
-      "size": 1290280,
-      "chunks": [
-        "vendors~prettier-standalone"
-      ],
-      "chunkNames": [
-        "vendors~prettier-standalone"
-      ],
-      "info": {
-        "development": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~prismjs-components-prism-core.chunk.js",
-      "size": 39128,
-      "chunks": [
-        "vendors~prismjs-components-prism-core"
-      ],
-      "chunkNames": [
-        "vendors~prismjs-components-prism-core"
-      ],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~prismjs-components-prism-core.chunk.js.map",
-      "size": 49576,
-      "chunks": [
-        "vendors~prismjs-components-prism-core"
-      ],
-      "chunkNames": [
-        "vendors~prismjs-components-prism-core"
-      ],
-      "info": {
-        "development": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~rc-time-picker.chunk.js",
-      "size": 260453,
-      "chunks": [
-        "vendors~rc-time-picker"
-      ],
-      "chunkNames": [
-        "vendors~rc-time-picker"
-      ],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~rc-time-picker.chunk.js.map",
-      "size": 239578,
-      "chunks": [
-        "vendors~rc-time-picker"
-      ],
-      "chunkNames": [
-        "vendors~rc-time-picker"
-      ],
-      "info": {
-        "development": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~react-beautiful-dnd.chunk.js",
-      "size": 261633,
-      "chunks": [
-        "vendors~react-beautiful-dnd"
-      ],
-      "chunkNames": [
-        "vendors~react-beautiful-dnd"
-      ],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~react-beautiful-dnd.chunk.js.map",
-      "size": 301942,
-      "chunks": [
-        "vendors~react-beautiful-dnd"
-      ],
-      "chunkNames": [
-        "vendors~react-beautiful-dnd"
-      ],
-      "info": {
-        "development": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~react-color-lib-Github.chunk.js",
-      "size": 141636,
-      "chunks": [
-        "vendors~react-color-lib-Github"
-      ],
-      "chunkNames": [
-        "vendors~react-color-lib-Github"
-      ],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~react-color-lib-Github.chunk.js.map",
-      "size": 142817,
-      "chunks": [
-        "vendors~react-color-lib-Github"
-      ],
-      "chunkNames": [
-        "vendors~react-color-lib-Github"
-      ],
-      "info": {
-        "development": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~react-color.chunk.js",
-      "size": 286535,
-      "chunks": [
-        "vendors~react-color"
-      ],
-      "chunkNames": [
-        "vendors~react-color"
-      ],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~react-color.chunk.js.map",
-      "size": 199798,
-      "chunks": [
-        "vendors~react-color"
-      ],
-      "chunkNames": [
-        "vendors~react-color"
-      ],
-      "info": {
-        "development": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~react-color~react-color-lib-Github.chunk.js",
-      "size": 54940,
-      "chunks": [
-        "vendors~react-color~react-color-lib-Github"
-      ],
-      "chunkNames": [
-        "vendors~react-color~react-color-lib-Github"
-      ],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~react-color~react-color-lib-Github.chunk.js.map",
-      "size": 62605,
-      "chunks": [
-        "vendors~react-color~react-color-lib-Github"
-      ],
-      "chunkNames": [
-        "vendors~react-color~react-color-lib-Github"
-      ],
-      "info": {
-        "development": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~react-dates.chunk.js",
-      "size": 878606,
-      "chunks": [
-        "vendors~react-dates"
-      ],
-      "chunkNames": [
-        "vendors~react-dates"
-      ],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~react-dates.chunk.js.map",
-      "size": 846061,
-      "chunks": [
-        "vendors~react-dates"
-      ],
-      "chunkNames": [
-        "vendors~react-dates"
-      ],
-      "info": {
-        "development": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~react-dnd-html5-backend.chunk.js",
-      "size": 48794,
-      "chunks": [
-        "vendors~react-dnd-html5-backend"
-      ],
-      "chunkNames": [
-        "vendors~react-dnd-html5-backend"
-      ],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~react-dnd-html5-backend.chunk.js.map",
-      "size": 50515,
-      "chunks": [
-        "vendors~react-dnd-html5-backend"
-      ],
-      "chunkNames": [
-        "vendors~react-dnd-html5-backend"
-      ],
-      "info": {
-        "development": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~react-dnd.chunk.js",
-      "size": 128458,
-      "chunks": [
-        "vendors~react-dnd"
-      ],
-      "chunkNames": [
-        "vendors~react-dnd"
-      ],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~react-dnd.chunk.js.map",
-      "size": 126473,
-      "chunks": [
-        "vendors~react-dnd"
-      ],
-      "chunkNames": [
-        "vendors~react-dnd"
-      ],
-      "info": {
-        "development": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~react-image-gallery.chunk.js",
-      "size": 50095,
-      "chunks": [
-        "vendors~react-image-gallery"
-      ],
-      "chunkNames": [
-        "vendors~react-image-gallery"
-      ],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~react-image-gallery.chunk.js.map",
-      "size": 50639,
-      "chunks": [
-        "vendors~react-image-gallery"
-      ],
-      "chunkNames": [
-        "vendors~react-image-gallery"
-      ],
-      "info": {
-        "development": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~react-select-async-creatable.chunk.js",
-      "size": 40551,
-      "chunks": [
-        "vendors~react-select-async-creatable"
-      ],
-      "chunkNames": [
-        "vendors~react-select-async-creatable"
-      ],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~react-select-async-creatable.chunk.js.map",
-      "size": 24640,
-      "chunks": [
-        "vendors~react-select-async-creatable"
-      ],
-      "chunkNames": [
-        "vendors~react-select-async-creatable"
-      ],
-      "info": {
-        "development": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~react-select-async-paginate.chunk.js",
-      "size": 91103,
-      "chunks": [
-        "vendors~react-select-async-paginate"
-      ],
-      "chunkNames": [
-        "vendors~react-select-async-paginate"
-      ],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~react-select-async-paginate.chunk.js.map",
-      "size": 69731,
-      "chunks": [
-        "vendors~react-select-async-paginate"
-      ],
-      "chunkNames": [
-        "vendors~react-select-async-paginate"
-      ],
-      "info": {
-        "development": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~react-simple-code-editor.chunk.js",
-      "size": 21048,
-      "chunks": [
-        "vendors~react-simple-code-editor"
-      ],
-      "chunkNames": [
-        "vendors~react-simple-code-editor"
-      ],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~react-simple-code-editor.chunk.js.map",
-      "size": 23803,
-      "chunks": [
-        "vendors~react-simple-code-editor"
-      ],
-      "chunkNames": [
-        "vendors~react-simple-code-editor"
-      ],
-      "info": {
-        "development": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~react-sortable-hoc.chunk.js",
-      "size": 95917,
-      "chunks": [
-        "vendors~react-sortable-hoc"
-      ],
-      "chunkNames": [
-        "vendors~react-sortable-hoc"
-      ],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~react-sortable-hoc.chunk.js.map",
-      "size": 79005,
-      "chunks": [
-        "vendors~react-sortable-hoc"
-      ],
-      "chunkNames": [
-        "vendors~react-sortable-hoc"
-      ],
-      "info": {
-        "development": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~react-window.chunk.js",
-      "size": 87518,
-      "chunks": [
-        "vendors~react-window"
-      ],
-      "chunkNames": [
-        "vendors~react-window"
-      ],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "static/js/vendors~react-window.chunk.js.map",
-      "size": 96612,
-      "chunks": [
-        "vendors~react-window"
-      ],
-      "chunkNames": [
-        "vendors~react-window"
       ],
       "info": {
         "development": true
@@ -1845,17 +1543,18 @@
   "entrypoints": {
     "client": {
       "chunks": [
-        "runtime~client",
-        "vendors~client",
-        "client"
+        9,
+        10,
+        4
       ],
       "assets": [
-        "static/js/runtime~client.js",
-        "static/js/runtime~client.js.map",
-        "static/js/vendors~client.chunk.js",
-        "static/js/vendors~client.chunk.js.map",
-        "static/js/client.chunk.js",
-        "static/js/client.chunk.js.map"
+        "static/js/runtime~client.36f71599.js",
+        "static/js/runtime~client.36f71599.js.map",
+        "static/css/10.97b2204c.chunk.css",
+        "static/js/10.97b2204c.chunk.js",
+        "static/js/10.97b2204c.chunk.js.map",
+        "static/js/client.2c9dbb4b.chunk.js",
+        "static/js/client.2c9dbb4b.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
@@ -1864,56 +1563,53 @@
   "namedChunkGroups": {
     "client": {
       "chunks": [
-        "runtime~client",
-        "vendors~client",
-        "client"
+        9,
+        10,
+        4
       ],
       "assets": [
-        "static/js/runtime~client.js",
-        "static/js/runtime~client.js.map",
-        "static/js/vendors~client.chunk.js",
-        "static/js/vendors~client.chunk.js.map",
-        "static/js/client.chunk.js",
-        "static/js/client.chunk.js.map"
+        "static/js/runtime~client.36f71599.js",
+        "static/js/runtime~client.36f71599.js.map",
+        "static/css/10.97b2204c.chunk.css",
+        "static/js/10.97b2204c.chunk.js",
+        "static/js/10.97b2204c.chunk.js.map",
+        "static/js/client.2c9dbb4b.chunk.js",
+        "static/js/client.2c9dbb4b.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
     },
     "plone-volto-components-manage-Widgets-DatetimeWidget": {
       "chunks": [
-        "vendors~plone-volto-components-manage-Widgets-DatetimeWidget~plone-volto-components-manage-Widgets-R~a875f490"
+        6
       ],
       "assets": [
-        "static/js/vendors~plone-volto-components-manage-Widgets-DatetimeWidget~plone-volto-components-manage-Widgets-R~a875f490.chunk.js",
-        "static/js/vendors~plone-volto-components-manage-Widgets-DatetimeWidget~plone-volto-components-manage-Widgets-R~a875f490.chunk.js.map"
+        "static/css/plone-volto-components-manage-Widgets-DatetimeWidget.ae593f2f.chunk.css",
+        "static/js/plone-volto-components-manage-Widgets-DatetimeWidget.ae593f2f.chunk.js",
+        "static/js/plone-volto-components-manage-Widgets-DatetimeWidget.ae593f2f.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
     },
     "plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget": {
       "chunks": [
-        "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314",
-        "vendors~plone-volto-components-manage-Widgets-DatetimeWidget~plone-volto-components-manage-Widgets-R~a875f490",
-        "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget"
+        2
       ],
       "assets": [
-        "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314.chunk.js",
-        "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314.chunk.js.map",
-        "static/js/vendors~plone-volto-components-manage-Widgets-DatetimeWidget~plone-volto-components-manage-Widgets-R~a875f490.chunk.js",
-        "static/js/vendors~plone-volto-components-manage-Widgets-DatetimeWidget~plone-volto-components-manage-Widgets-R~a875f490.chunk.js.map",
-        "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget.chunk.js",
-        "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget.chunk.js.map"
+        "static/css/2.60ec4c8c.chunk.css",
+        "static/js/2.60ec4c8c.chunk.js",
+        "static/js/2.60ec4c8c.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
     },
     "plone-volto-components-theme-View-EventView": {
       "chunks": [
-        "plone-volto-components-theme-View-EventView"
+        7
       ],
       "assets": [
-        "static/js/plone-volto-components-theme-View-EventView.chunk.js",
-        "static/js/plone-volto-components-theme-View-EventView.chunk.js.map"
+        "static/js/plone-volto-components-theme-View-EventView.ee6e940d.chunk.js",
+        "static/js/plone-volto-components-theme-View-EventView.ee6e940d.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
@@ -1926,72 +1622,69 @@
     },
     "draft-js-plugins-editor": {
       "chunks": [
-        "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71",
-        "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46",
-        "vendors~draft-js-plugins-editor"
+        0,
+        1
       ],
       "assets": [
-        "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js",
-        "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js.map",
-        "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js",
-        "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js.map",
-        "static/js/vendors~draft-js-plugins-editor.chunk.js",
-        "static/js/vendors~draft-js-plugins-editor.chunk.js.map"
+        "static/js/0.6592cd5a.chunk.js",
+        "static/js/0.6592cd5a.chunk.js.map",
+        "static/js/1.c430f617.chunk.js",
+        "static/js/1.c430f617.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
     },
     "react-simple-code-editor": {
       "chunks": [
-        "vendors~react-simple-code-editor"
+        8
       ],
       "assets": [
-        "static/js/vendors~react-simple-code-editor.chunk.js",
-        "static/js/vendors~react-simple-code-editor.chunk.js.map"
+        "static/js/react-simple-code-editor.59daa88c.chunk.js",
+        "static/js/react-simple-code-editor.59daa88c.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
     },
     "react-image-gallery": {
       "chunks": [
-        "vendors~react-image-gallery"
+        36
       ],
       "assets": [
-        "static/js/vendors~react-image-gallery.chunk.js",
-        "static/js/vendors~react-image-gallery.chunk.js.map"
+        "static/js/36.6d64ad52.chunk.js",
+        "static/js/36.6d64ad52.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
     },
     "prettier-standalone": {
       "chunks": [
-        "vendors~prettier-standalone"
+        33
       ],
       "assets": [
-        "static/js/vendors~prettier-standalone.chunk.js",
-        "static/js/vendors~prettier-standalone.chunk.js.map"
+        "static/js/33.ee04c492.chunk.js",
+        "static/js/33.ee04c492.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
     },
     "prettier-parser-html": {
       "chunks": [
-        "vendors~prettier-parser-html"
+        32
       ],
       "assets": [
-        "static/js/vendors~prettier-parser-html.chunk.js",
-        "static/js/vendors~prettier-parser-html.chunk.js.map"
+        "static/js/32.f9d86053.chunk.js",
+        "static/js/32.f9d86053.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
     },
     "prismjs-components-prism-core": {
       "chunks": [
-        "vendors~prismjs-components-prism-core"
+        34
       ],
       "assets": [
-        "static/js/vendors~prismjs-components-prism-core.chunk.js",
-        "static/js/vendors~prismjs-components-prism-core.chunk.js.map"
+        "static/js/34.cd0e7ca8.chunk.js",
+        "static/js/34.cd0e7ca8.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
@@ -2004,103 +1697,93 @@
     },
     "react-select": {
       "chunks": [
-        "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314",
-        "react-select"
+        2
       ],
       "assets": [
-        "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314.chunk.js",
-        "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314.chunk.js.map",
-        "static/js/react-select.chunk.js",
-        "static/js/react-select.chunk.js.map"
+        "static/css/2.60ec4c8c.chunk.css",
+        "static/js/2.60ec4c8c.chunk.js",
+        "static/js/2.60ec4c8c.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
     },
     "react-window": {
       "chunks": [
-        "vendors~react-window"
+        37
       ],
       "assets": [
-        "static/js/vendors~react-window.chunk.js",
-        "static/js/vendors~react-window.chunk.js.map"
+        "static/js/37.7d34f297.chunk.js",
+        "static/js/37.7d34f297.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
     },
     "react-sortable-hoc": {
       "chunks": [
-        "vendors~react-sortable-hoc"
+        19
       ],
       "assets": [
-        "static/js/vendors~react-sortable-hoc.chunk.js",
-        "static/js/vendors~react-sortable-hoc.chunk.js.map"
+        "static/js/19.e6ddd357.chunk.js",
+        "static/js/19.e6ddd357.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
     },
     "react-select-async-paginate": {
       "chunks": [
-        "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314",
-        "vendors~react-select-async-paginate"
+        2
       ],
       "assets": [
-        "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314.chunk.js",
-        "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314.chunk.js.map",
-        "static/js/vendors~react-select-async-paginate.chunk.js",
-        "static/js/vendors~react-select-async-paginate.chunk.js.map"
+        "static/css/2.60ec4c8c.chunk.css",
+        "static/js/2.60ec4c8c.chunk.js",
+        "static/js/2.60ec4c8c.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
     },
     "react-select-async": {
       "chunks": [
-        "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314",
-        "react-select-async"
+        2
       ],
       "assets": [
-        "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314.chunk.js",
-        "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314.chunk.js.map",
-        "static/js/react-select-async.chunk.js",
-        "static/js/react-select-async.chunk.js.map"
+        "static/css/2.60ec4c8c.chunk.css",
+        "static/js/2.60ec4c8c.chunk.js",
+        "static/js/2.60ec4c8c.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
     },
     "react-select-creatable": {
       "chunks": [
-        "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314",
-        "react-select-creatable"
+        2
       ],
       "assets": [
-        "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314.chunk.js",
-        "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314.chunk.js.map",
-        "static/js/react-select-creatable.chunk.js",
-        "static/js/react-select-creatable.chunk.js.map"
+        "static/css/2.60ec4c8c.chunk.css",
+        "static/js/2.60ec4c8c.chunk.js",
+        "static/js/2.60ec4c8c.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
     },
     "react-select-async-creatable": {
       "chunks": [
-        "vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314",
-        "vendors~react-select-async-creatable"
+        2
       ],
       "assets": [
-        "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314.chunk.js",
-        "static/js/vendors~plone-volto-components-manage-Widgets-RecurrenceWidget-RecurrenceWidget~react-select~react-s~40473314.chunk.js.map",
-        "static/js/vendors~react-select-async-creatable.chunk.js",
-        "static/js/vendors~react-select-async-creatable.chunk.js.map"
+        "static/css/2.60ec4c8c.chunk.css",
+        "static/js/2.60ec4c8c.chunk.js",
+        "static/js/2.60ec4c8c.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
     },
     "diff": {
       "chunks": [
-        "vendors~diff"
+        31
       ],
       "assets": [
-        "static/js/vendors~diff.chunk.js",
-        "static/js/vendors~diff.chunk.js.map"
+        "static/js/31.488f022d.chunk.js",
+        "static/js/31.488f022d.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
@@ -2113,249 +1796,228 @@
     },
     "react-dates": {
       "chunks": [
-        "vendors~react-dates"
+        11
       ],
       "assets": [
-        "static/js/vendors~react-dates.chunk.js",
-        "static/js/vendors~react-dates.chunk.js.map"
+        "static/js/11.d30c9f48.chunk.js",
+        "static/js/11.d30c9f48.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
     },
     "react-dnd": {
       "chunks": [
-        "vendors~react-dnd"
+        12
       ],
       "assets": [
-        "static/js/vendors~react-dnd.chunk.js",
-        "static/js/vendors~react-dnd.chunk.js.map"
+        "static/js/12.f8abf3de.chunk.js",
+        "static/js/12.f8abf3de.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
     },
     "react-dnd-html5-backend": {
       "chunks": [
-        "vendors~react-dnd-html5-backend"
+        14
       ],
       "assets": [
-        "static/js/vendors~react-dnd-html5-backend.chunk.js",
-        "static/js/vendors~react-dnd-html5-backend.chunk.js.map"
+        "static/js/14.5ae0cd8a.chunk.js",
+        "static/js/14.5ae0cd8a.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
     },
     "react-beautiful-dnd": {
       "chunks": [
-        "vendors~react-beautiful-dnd"
+        18
       ],
       "assets": [
-        "static/js/vendors~react-beautiful-dnd.chunk.js",
-        "static/js/vendors~react-beautiful-dnd.chunk.js.map"
+        "static/js/18.623ee7b7.chunk.js",
+        "static/js/18.623ee7b7.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
     },
     "immutable": {
       "chunks": [
-        "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71"
+        0
       ],
       "assets": [
-        "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js",
-        "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js.map"
+        "static/js/0.6592cd5a.chunk.js",
+        "static/js/0.6592cd5a.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
     },
     "draft-js": {
       "chunks": [
-        "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71",
-        "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46"
+        0,
+        1
       ],
       "assets": [
-        "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js",
-        "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js.map",
-        "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js",
-        "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js.map"
+        "static/js/0.6592cd5a.chunk.js",
+        "static/js/0.6592cd5a.chunk.js.map",
+        "static/js/1.c430f617.chunk.js",
+        "static/js/1.c430f617.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
     },
     "draft-js-lib-isSoftNewlineEvent": {
       "chunks": [
-        "draft-js-lib-isSoftNewlineEvent"
+        5
       ],
       "assets": [
-        "static/js/draft-js-lib-isSoftNewlineEvent.chunk.js",
-        "static/js/draft-js-lib-isSoftNewlineEvent.chunk.js.map"
+        "static/js/draft-js-lib-isSoftNewlineEvent.1d0a3597.chunk.js",
+        "static/js/draft-js-lib-isSoftNewlineEvent.1d0a3597.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
     },
     "draftjs-filters": {
       "chunks": [
-        "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71",
-        "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46",
-        "vendors~draftjs-filters"
+        0,
+        1
       ],
       "assets": [
-        "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js",
-        "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js.map",
-        "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js",
-        "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js.map",
-        "static/js/vendors~draftjs-filters.chunk.js",
-        "static/js/vendors~draftjs-filters.chunk.js.map"
+        "static/js/0.6592cd5a.chunk.js",
+        "static/js/0.6592cd5a.chunk.js.map",
+        "static/js/1.c430f617.chunk.js",
+        "static/js/1.c430f617.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
     },
     "draft-js-inline-toolbar-plugin": {
       "chunks": [
-        "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71",
-        "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46",
-        "vendors~draft-js-inline-toolbar-plugin"
+        0,
+        1
       ],
       "assets": [
-        "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js",
-        "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js.map",
-        "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js",
-        "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js.map",
-        "static/js/vendors~draft-js-inline-toolbar-plugin.chunk.js",
-        "static/js/vendors~draft-js-inline-toolbar-plugin.chunk.js.map"
+        "static/js/0.6592cd5a.chunk.js",
+        "static/js/0.6592cd5a.chunk.js.map",
+        "static/js/1.c430f617.chunk.js",
+        "static/js/1.c430f617.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
     },
     "draft-js-import-html": {
       "chunks": [
-        "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71",
-        "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46",
-        "vendors~draft-js-import-html"
+        0,
+        1
       ],
       "assets": [
-        "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js",
-        "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js.map",
-        "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js",
-        "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js.map",
-        "static/js/vendors~draft-js-import-html.chunk.js",
-        "static/js/vendors~draft-js-import-html.chunk.js.map"
+        "static/js/0.6592cd5a.chunk.js",
+        "static/js/0.6592cd5a.chunk.js.map",
+        "static/js/1.c430f617.chunk.js",
+        "static/js/1.c430f617.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
     },
     "draft-js-block-breakout-plugin": {
       "chunks": [
-        "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71",
-        "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46",
-        "draft-js-block-breakout-plugin"
+        0,
+        1
       ],
       "assets": [
-        "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js",
-        "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js.map",
-        "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js",
-        "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js.map",
-        "static/js/draft-js-block-breakout-plugin.chunk.js",
-        "static/js/draft-js-block-breakout-plugin.chunk.js.map"
+        "static/js/0.6592cd5a.chunk.js",
+        "static/js/0.6592cd5a.chunk.js.map",
+        "static/js/1.c430f617.chunk.js",
+        "static/js/1.c430f617.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
     },
     "draft-js-buttons-lib-utils-createInlineStyleButton": {
       "chunks": [
-        "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71",
-        "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46",
-        "draft-js-buttons-lib-utils-createInlineStyleButton"
+        0,
+        1
       ],
       "assets": [
-        "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js",
-        "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js.map",
-        "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js",
-        "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js.map",
-        "static/js/draft-js-buttons-lib-utils-createInlineStyleButton.chunk.js",
-        "static/js/draft-js-buttons-lib-utils-createInlineStyleButton.chunk.js.map"
+        "static/js/0.6592cd5a.chunk.js",
+        "static/js/0.6592cd5a.chunk.js.map",
+        "static/js/1.c430f617.chunk.js",
+        "static/js/1.c430f617.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
     },
     "draft-js-buttons-lib-utils-createBlockStyleButton": {
       "chunks": [
-        "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71",
-        "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46",
-        "draft-js-buttons-lib-utils-createBlockStyleButton"
+        0,
+        1
       ],
       "assets": [
-        "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js",
-        "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js.map",
-        "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js",
-        "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js.map",
-        "static/js/draft-js-buttons-lib-utils-createBlockStyleButton.chunk.js",
-        "static/js/draft-js-buttons-lib-utils-createBlockStyleButton.chunk.js.map"
+        "static/js/0.6592cd5a.chunk.js",
+        "static/js/0.6592cd5a.chunk.js.map",
+        "static/js/1.c430f617.chunk.js",
+        "static/js/1.c430f617.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
     },
     "draft-js-plugins-utils": {
       "chunks": [
-        "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71",
-        "vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46",
-        "draft-js-plugins-utils"
+        0,
+        1
       ],
       "assets": [
-        "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js",
-        "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f8a1bb71.chunk.js.map",
-        "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js",
-        "static/js/vendors~draft-js~draft-js-block-breakout-plugin~draft-js-buttons-lib-utils-createBlockStyleButton~dr~f5988f46.chunk.js.map",
-        "static/js/draft-js-plugins-utils.chunk.js",
-        "static/js/draft-js-plugins-utils.chunk.js.map"
+        "static/js/0.6592cd5a.chunk.js",
+        "static/js/0.6592cd5a.chunk.js.map",
+        "static/js/1.c430f617.chunk.js",
+        "static/js/1.c430f617.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
     },
     "react-color-lib-Github": {
       "chunks": [
-        "vendors~react-color~react-color-lib-Github",
-        "vendors~react-color-lib-Github"
+        3,
+        13
       ],
       "assets": [
-        "static/js/vendors~react-color~react-color-lib-Github.chunk.js",
-        "static/js/vendors~react-color~react-color-lib-Github.chunk.js.map",
-        "static/js/vendors~react-color-lib-Github.chunk.js",
-        "static/js/vendors~react-color-lib-Github.chunk.js.map"
+        "static/js/3.704c0117.chunk.js",
+        "static/js/3.704c0117.chunk.js.map",
+        "static/js/13.7387d019.chunk.js",
+        "static/js/13.7387d019.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
     },
     "react-color": {
       "chunks": [
-        "vendors~react-color~react-color-lib-Github",
-        "vendors~react-color"
+        3,
+        16
       ],
       "assets": [
-        "static/js/vendors~react-color~react-color-lib-Github.chunk.js",
-        "static/js/vendors~react-color~react-color-lib-Github.chunk.js.map",
-        "static/js/vendors~react-color.chunk.js",
-        "static/js/vendors~react-color.chunk.js.map"
+        "static/js/3.704c0117.chunk.js",
+        "static/js/3.704c0117.chunk.js.map",
+        "static/js/16.4d5e73f8.chunk.js",
+        "static/js/16.4d5e73f8.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
     },
     "PDFViewer": {
       "chunks": [
-        "vendors~PDFViewer"
+        17
       ],
       "assets": [
-        "static/js/vendors~PDFViewer.chunk.js",
-        "static/js/vendors~PDFViewer.chunk.js.map"
+        "static/js/17.de96f83c.chunk.js",
+        "static/js/17.de96f83c.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
     },
     "rc-time-picker": {
       "chunks": [
-        "vendors~rc-time-picker"
+        15
       ],
       "assets": [
-        "static/js/vendors~rc-time-picker.chunk.js",
-        "static/js/vendors~rc-time-picker.chunk.js.map"
+        "static/js/15.04f740b3.chunk.js",
+        "static/js/15.04f740b3.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
@@ -2368,5 +2030,972 @@
       "debug": false
     }
   },
-  "children": []
+  "children": [
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/",
+      "outputPath": "/Users/cihanandac/Documents/Code files/zeeuwsmuseumproject/frontend/build/public",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../../../Code files/zeeuwsmuseumproject/frontend/node_modules/css-loader/dist/cjs.js??ref--8-1!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/postcss-loader/src/index.js??postcss!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/less-loader/dist/cjs.js??ref--8-3!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/@eeacms/volto-accordion-block/src/components/manage/Blocks/Accordion/editor.less"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/",
+      "outputPath": "/Users/cihanandac/Documents/Code files/zeeuwsmuseumproject/frontend/build/public",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../../../Code files/zeeuwsmuseumproject/frontend/node_modules/css-loader/dist/cjs.js??ref--8-1!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/postcss-loader/src/index.js??postcss!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/less-loader/dist/cjs.js??ref--8-3!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/@eeacms/volto-accordion-block/src/components/manage/Widgets/editor.less"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/",
+      "outputPath": "/Users/cihanandac/Documents/Code files/zeeuwsmuseumproject/frontend/build/public",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../../../Code files/zeeuwsmuseumproject/frontend/node_modules/css-loader/dist/cjs.js??ref--8-1!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/postcss-loader/src/index.js??postcss!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/less-loader/dist/cjs.js??ref--8-3!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/@eeacms/volto-block-divider/src/styles.less"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/",
+      "outputPath": "/Users/cihanandac/Documents/Code files/zeeuwsmuseumproject/frontend/build/public",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../../../Code files/zeeuwsmuseumproject/frontend/node_modules/css-loader/dist/cjs.js??ref--8-1!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/postcss-loader/src/index.js??postcss!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/less-loader/dist/cjs.js??ref--8-3!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/@eeacms/volto-columns-block/src/less/columns.less"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/",
+      "outputPath": "/Users/cihanandac/Documents/Code files/zeeuwsmuseumproject/frontend/build/public",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../../../Code files/zeeuwsmuseumproject/frontend/node_modules/css-loader/dist/cjs.js??ref--8-1!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/postcss-loader/src/index.js??postcss!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/less-loader/dist/cjs.js??ref--8-3!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/@kitconcept/volto-button-block/src/theme/main.less"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/",
+      "outputPath": "/Users/cihanandac/Documents/Code files/zeeuwsmuseumproject/frontend/build/public",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../../../Code files/zeeuwsmuseumproject/frontend/node_modules/css-loader/dist/cjs.js??ref--8-1!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/postcss-loader/src/index.js??postcss!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/less-loader/dist/cjs.js??ref--8-3!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/@kitconcept/volto-slider-block/src/theme/main.less"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/",
+      "outputPath": "/Users/cihanandac/Documents/Code files/zeeuwsmuseumproject/frontend/build/public",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../../../Code files/zeeuwsmuseumproject/frontend/node_modules/css-loader/dist/cjs.js??ref--8-1!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/postcss-loader/src/index.js??postcss!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/less-loader/dist/cjs.js??ref--8-3!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/@kitconcept/volto-text-with-background-color-block/src/theme/main.less"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/",
+      "outputPath": "/Users/cihanandac/Documents/Code files/zeeuwsmuseumproject/frontend/build/public",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../../../Code files/zeeuwsmuseumproject/frontend/node_modules/css-loader/dist/cjs.js??ref--8-1!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/postcss-loader/src/index.js??postcss!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/less-loader/dist/cjs.js??ref--8-3!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/@plone/volto/theme/themes/pastanaga/extras/extras.less"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/",
+      "outputPath": "/Users/cihanandac/Documents/Code files/zeeuwsmuseumproject/frontend/build/public",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../../../Code files/zeeuwsmuseumproject/frontend/node_modules/css-loader/dist/cjs.js??ref--8-1!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/postcss-loader/src/index.js??postcss!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/less-loader/dist/cjs.js??ref--8-3!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/semantic-ui-less/semantic.less"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/",
+      "outputPath": "/Users/cihanandac/Documents/Code files/zeeuwsmuseumproject/frontend/build/public",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../../../Code files/zeeuwsmuseumproject/frontend/node_modules/css-loader/dist/cjs.js??ref--8-1!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/postcss-loader/src/index.js??postcss!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/less-loader/dist/cjs.js??ref--8-3!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/volto-slate/src/editor/less/editor.less"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/",
+      "outputPath": "/Users/cihanandac/Documents/Code files/zeeuwsmuseumproject/frontend/build/public",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../../../Code files/zeeuwsmuseumproject/frontend/node_modules/css-loader/dist/cjs.js??ref--8-1!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/postcss-loader/src/index.js??postcss!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/less-loader/dist/cjs.js??ref--8-3!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/volto-slate/src/editor/plugins/Link/styles.less"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/",
+      "outputPath": "/Users/cihanandac/Documents/Code files/zeeuwsmuseumproject/frontend/build/public",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../../../Code files/zeeuwsmuseumproject/frontend/node_modules/css-loader/dist/cjs.js??ref--8-1!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/postcss-loader/src/index.js??postcss!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/less-loader/dist/cjs.js??ref--8-3!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/volto-slate/src/editor/plugins/StyleMenu/style.less"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/",
+      "outputPath": "/Users/cihanandac/Documents/Code files/zeeuwsmuseumproject/frontend/build/public",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../../../Code files/zeeuwsmuseumproject/frontend/node_modules/css-loader/dist/cjs.js??ref--8-1!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/postcss-loader/src/index.js??postcss!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/less-loader/dist/cjs.js??ref--8-3!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/volto-slate/src/editor/plugins/Table/less/public.less"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/",
+      "outputPath": "/Users/cihanandac/Documents/Code files/zeeuwsmuseumproject/frontend/build/public",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../../../Code files/zeeuwsmuseumproject/frontend/node_modules/css-loader/dist/cjs.js??ref--8-1!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/postcss-loader/src/index.js??postcss!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/less-loader/dist/cjs.js??ref--8-3!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/volto-slate/src/editor/plugins/Table/less/table.less"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/",
+      "outputPath": "/Users/cihanandac/Documents/Code files/zeeuwsmuseumproject/frontend/build/public",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../../../Code files/zeeuwsmuseumproject/frontend/node_modules/css-loader/dist/cjs.js??ref--8-1!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/postcss-loader/src/index.js??postcss!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/less-loader/dist/cjs.js??ref--8-3!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/volto-slate/src/widgets/BlocksBrowser/style.less"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/",
+      "outputPath": "/Users/cihanandac/Documents/Code files/zeeuwsmuseumproject/frontend/build/public",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../../../Code files/zeeuwsmuseumproject/frontend/node_modules/razzle/node_modules/css-loader/dist/cjs.js??ref--7-1!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/postcss-loader/src/index.js??postcss!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/@eeacms/volto-columns-block/src/Widgets/range.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/",
+      "outputPath": "/Users/cihanandac/Documents/Code files/zeeuwsmuseumproject/frontend/build/public",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../../../Code files/zeeuwsmuseumproject/frontend/node_modules/razzle/node_modules/css-loader/dist/cjs.js??ref--7-1!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/postcss-loader/src/index.js??postcss!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/@eeacms/volto-object-widget/src/Widget/style.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/",
+      "outputPath": "/Users/cihanandac/Documents/Code files/zeeuwsmuseumproject/frontend/build/public",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../../../Code files/zeeuwsmuseumproject/frontend/node_modules/razzle/node_modules/css-loader/dist/cjs.js??ref--7-1!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/postcss-loader/src/index.js??postcss!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/@eeacms/volto-pdf-block/src/components/manage/PDFViewer/pdf-styling.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/",
+      "outputPath": "/Users/cihanandac/Documents/Code files/zeeuwsmuseumproject/frontend/build/public",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../../../Code files/zeeuwsmuseumproject/frontend/node_modules/razzle/node_modules/css-loader/dist/cjs.js??ref--7-1!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/postcss-loader/src/index.js??postcss!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/rc-time-picker/assets/index.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/",
+      "outputPath": "/Users/cihanandac/Documents/Code files/zeeuwsmuseumproject/frontend/build/public",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../../../Code files/zeeuwsmuseumproject/frontend/node_modules/razzle/node_modules/css-loader/dist/cjs.js??ref--7-1!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/postcss-loader/src/index.js??postcss!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/react-dates/lib/css/_datepicker.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/",
+      "outputPath": "/Users/cihanandac/Documents/Code files/zeeuwsmuseumproject/frontend/build/public",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../../../Code files/zeeuwsmuseumproject/frontend/node_modules/razzle/node_modules/css-loader/dist/cjs.js??ref--7-1!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/postcss-loader/src/index.js??postcss!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/react-image-gallery/styles/css/image-gallery.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/",
+      "outputPath": "/Users/cihanandac/Documents/Code files/zeeuwsmuseumproject/frontend/build/public",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../../../Code files/zeeuwsmuseumproject/frontend/node_modules/razzle/node_modules/css-loader/dist/cjs.js??ref--7-1!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/postcss-loader/src/index.js??postcss!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/volto-slate/src/blocks/Text/css/editor.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/",
+      "outputPath": "/Users/cihanandac/Documents/Code files/zeeuwsmuseumproject/frontend/build/public",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../../../Code files/zeeuwsmuseumproject/frontend/node_modules/razzle/node_modules/css-loader/dist/cjs.js??ref--7-1!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/postcss-loader/src/index.js??postcss!../../../Code files/zeeuwsmuseumproject/frontend/node_modules/volto-slate/src/widgets/style.css"
+    }
+  ]
 }
